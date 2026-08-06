@@ -1,0 +1,22 @@
+;----------------------------------------
+; 019 Screen - Exit message
+;----------------------------------------
+
+[Screen]
+ID=019
+Back=10000
+
+[TextBox]
+ControlID=01901
+Font=FONT_ARIAL_28
+Pos=0,192,1024,228
+TextID=01901
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+[TextBox]
+Picture=IMAGE_CLIENT_THANKYOU
+Pos=337,445,350,225
+[/TextBox]
+
+[/Screen]

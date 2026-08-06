@@ -1,0 +1,56 @@
+;----------------------------------------
+; 008 Screen - Select account
+;----------------------------------------
+
+[Screen]
+ID=008
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_28
+Pos=30,192,994,228
+TextID=00801
+TextSet=LEFT,COLOR_WHITE
+[/TextBox]
+
+; RIGHT 1
+[Button]
+ControlID=00801
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,494,394,54
+TextID=008R1
+TextSet=LEFT,COLOR_DARKBLUE
+[/Button]
+
+; RIGHT 2
+[Button]
+ControlID=00802
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,564,394,54
+TextID=008R2
+TextSet=LEFT,COLOR_DARKBLUE
+[/Button]
+
+; RIGHT 3
+[Button]
+ControlID=00803
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,634,394,54
+TextID=008R3
+TextSet=LEFT,COLOR_DARKBLUE
+[/Button]
+
+; Cancel
+[Button]
+ControlID=00804
+[/Button]
+
+; Timeover
+[Button]
+ControlID=00805
+[/Button]
+
+[/Screen]

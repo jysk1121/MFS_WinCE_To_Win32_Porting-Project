@@ -1,0 +1,21 @@
+;----------------------------------------
+; 015 Screen - Dispensing cash
+;----------------------------------------
+
+[Screen]
+ID=015
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_40
+Pos=0,192,1024,228
+TextID=01501
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+[GifBox]
+Pos=237,498,550,28
+Picture=IMAGE_CLIENT_PROCESSING
+[/GifBox]
+
+[/Screen]

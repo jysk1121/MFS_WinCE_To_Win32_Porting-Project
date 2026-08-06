@@ -1,0 +1,136 @@
+; Device Simulator configuration (Win32 desktop builds only).
+;
+; Copy this file to "DeviceSim.ini" next to the built .exe.
+;
+;   - Inquiry/status commands read their answers from this file automatically.
+;   - Control/action commands are NOT configured here: they always raise an
+;     OK/NG dialog at runtime so the operator drives success/failure by hand.
+;
+; Values are decimal unless the comment says otherwise. Byte fields clamp to 0-255.
+
+; ---------------------------------------------------------------- Screen (simulated ATM resolution)
+; GetSystemMetrics(SM_CXSCREEN/CYSCREEN) reports the real monitor resolution on
+; Win32, which never matches a "Screen\<W>_<H>" asset folder. Set these to pick
+; which asset set to display: 1024x768 (MF200) or 1280x800 (CS130).
+[Screen]
+Width=1024
+Height=768
+
+; ---------------------------------------------------------------- CDM (dispenser)
+[CDM]
+StatusErrorCode=0
+StatusRejectCode=0
+; 0x21 = CST1 + CST2 in the normal position
+StatusSensor1=33
+DispenseErrorCode=144
+MaxRejectCount=50
+FWMajor=1
+FWMinor=0
+DllVersionMajor=1
+DllVersionMinor=0
+NoteLogAvailable=1
+ThickLogAvailable=1
+DispenseLogAvailable=1
+DiagnosticErrorCode=0
+BillSize=66
+BillSizeMargin=5
+BillThickness=10
+BillThicknessMargin=3
+LearnBillErrorCode=144
+; Cassette status: 0=OK 3=LOW 4=EMPTY 6=MISSING
+; Default applied to any cassette without its own Cbx<n>Status key.
+CbxStatus=0
+RejectBinStatus=0
+
+; Number of cassettes fitted (1-6). Slots beyond this report MISSING.
+CbxCount=4
+
+; Per-cassette note count, status and denomination. These drive the
+; aggregates below, and seed CBXINFO.CFG at startup for any cassette whose
+; note count / denomination is still 0 there (cash loaded through the
+; operator menu is never overwritten).
+Cbx1NoteCount=500
+Cbx1Status=0
+Cbx1Denomination=20
+Cbx2NoteCount=500
+Cbx2Status=0
+Cbx2Denomination=20
+Cbx3NoteCount=500
+Cbx3Status=0
+Cbx3Denomination=50
+Cbx4NoteCount=500
+Cbx4Status=0
+Cbx4Denomination=100
+
+; Aggregates. Leave at -1 to derive them from the per-cassette keys above,
+; or set a concrete value to force it regardless of the individual cassettes.
+CbxAllStatus=-1
+CbxAllNoteCount=-1
+; Leave 0 so a simulated dispense failure never claims notes were already paid out
+IsSendDispense=0
+ExistCEInfo=1
+
+; ---------------------------------------------------------------- CDR (card reader)
+[CDR]
+; No longer read - InsertCard() shows the "Device Simulator - Card Reader"
+; panel instead; press ACCEPT there to simulate a card being inserted.
+CardInserted=0
+TrackISO1=TEST ISO1 TRACK
+; Default Track2 text the "Device Simulator - Track2" panel's edit box starts with.
+TrackISO2=111111111111111111=222222222222
+TrackISO3=SAMPLE ISO3 TRACK
+; Hex string, no 0x prefix
+ICCAtr=3B6800000073C84013009000
+LatchMode=48
+MediaStatus=48
+
+; ---------------------------------------------------------------- EPP (pinpad)
+[EPP]
+StatusErrorCode=0
+VersionErrorCode=0
+StatusBpk=1
+StatusFwDownload=0
+StatusPwChange=0
+StatusInitKey=1
+StatusPekLoad=1
+StatusRSwitch=0
+StatusRSwitchActive=0
+StatusHostBound=1
+
+; ---------------------------------------------------------------- CREPP (Cryptera EPP)
+[CREPP]
+OpenDeviceErrorCode=-1
+CloseDeviceErrorCode=-1
+
+; ---------------------------------------------------------------- PRT (printer)
+[PRT]
+; 4 characters, '0' = normal
+PrintStatus=0000
+; EAGLE_PRT_PAPER_NORMAL(1) / NEAR(2) / EMPTY(3) - see DEV_PRT_Define.h
+PaperStatus=1
+; EAGLE_PRT_NORMAL(1) / EAGLE_PRT_ERROR(2)
+DeviceStatus=1
+
+; ---------------------------------------------------------------- DIO / SIU (sensors, LEDs)
+[DIO]
+Version=01.00
+; Initial state of the sensor panel. Bit set = that sensor has tripped:
+;   1 = front door open, 2 = safe door open, 4 = upper frame open,
+;   16 = ear jack inserted. 0 = everything idle (doors closed).
+SensorStatus=0
+
+; ---------------------------------------------------------------- MUB (multi-UART board)
+[MUB]
+Version=0000
+
+; ---------------------------------------------------------------- EJL (electronic journal)
+; MFS_EJL_WEC7.dll is WinCE/ARM only, so the journal is simulated: record
+; writes always succeed and list queries report an empty journal.
+; LastJournalNo must stay below 999999, otherwise the terminal reports
+; "journal full" and goes out of service.
+[EJL]
+Version=1.0
+LastJournalNo=0
+PrintedJnlNo=0
+UploadedAMSJnlNo=0
+UploadedHOSTJnlNo=0

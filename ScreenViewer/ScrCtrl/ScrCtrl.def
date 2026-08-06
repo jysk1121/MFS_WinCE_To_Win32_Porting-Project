@@ -1,0 +1,7 @@
+; ScrCtrl.def : Declares the module parameters for the DLL.
+
+LIBRARY      "SCRCTRL"
+;DESCRIPTION  'ScrCtrl Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

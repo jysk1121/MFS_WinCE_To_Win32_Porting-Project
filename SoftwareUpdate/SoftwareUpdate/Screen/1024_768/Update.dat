@@ -1,0 +1,65 @@
+[Resource]
+
+Font=FONT29,Arial,29,1		; text 1
+Font=FONT34,Arial,34,1		; text 2
+Font=FONT41,Arial,41,1		; text 2
+
+Brush=BRUSH_WHITE,255,255,255		; button background
+Brush=BRUSH_BLACK,0,0,0					; button background
+
+Pen=PEN_BLACK,2,0,0,0
+
+Color=COLOR_WHITE,255,255,255	; Text Color
+Color=COLOR_RED,255,0,0		; Accent Color
+Color=COLOR_BLACK,0,0,0		; Button Color
+
+[/Resource]
+
+;////////////////////////////
+;        Back Screen
+;////////////////////////////
+
+[Screen]
+ID=990000
+
+[TextBox]
+Brush=BRUSH_BLACK
+Pos=0,0,1024,768
+[/TextBox]
+
+[/Screen]
+
+
+;////////////////////////////
+;        100 Screen
+;////////////////////////////
+
+[Screen]
+ID=100
+Back=990000
+
+; Title
+[TextBox]
+Font=FONT41
+Pos=0,0,1024,160
+Text="Software installation"
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+[TextBox]
+;Blink=1
+Font=FONT29
+Pos=0,0,1024,768
+Name=APValue1
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+; Info
+[TextBox]
+Font=FONT34
+Pos=0,648,1024,120
+Text="Never turn off the terminal during installation."
+TextSet=CENTER,COLOR_RED
+[/TextBox]
+
+[/Screen]

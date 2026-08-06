@@ -1,0 +1,43 @@
+;----------------------------------------
+; 021 Screen - Enter transfer amount
+;----------------------------------------
+
+[Screen]
+ID=021
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_48
+Pos=26,177,998,100
+TextID=02102
+TextSet=LEFT,COLOR_SKY
+[/TextBox]
+
+[TextBox]
+Font=FONT_ARIAL_28
+Pos=0,329,1024,136
+TextID=02101
+TextSet=CENTER,COLOR_SKY
+[/TextBox]
+
+
+; Cancel
+[Button]
+ControlID=02101
+[/Button]
+
+; Timeover
+[Button]
+ControlID=02102
+[/Button]
+
+; transfer amount box
+[CentClearBox]
+ControlID=02103
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_ENTER_AMOUNT_EDITBOX
+Pos=304,465,416,95
+TextSet=CENTER,COLOR_SKY
+[/CentClearBox]
+
+[/Screen]

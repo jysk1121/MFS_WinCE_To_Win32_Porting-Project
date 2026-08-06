@@ -1,0 +1,46 @@
+;----------------------------------------
+; 013 Screen - Select receipt
+;----------------------------------------
+
+[Screen]
+ID=013
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_28
+Pos=30,192,994,228
+TextID=01301
+TextSet=LEFT,COLOR_WHITE
+[/TextBox]
+
+; RIGHT 2
+[Button]
+ControlID=01301
+Font=FONT_ARIAL_24
+TextID=B_LEFT_YES
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,564,394,54
+TextSet=CENTER,COLOR_DARKBLUE
+[/Button]
+
+; RIGHT 3
+[Button]
+ControlID=01302
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,634,394,54
+TextID=B_LEFT_NO
+TextSet=CENTER,COLOR_DARKBLUE
+[/Button]
+
+; Cancel
+[Button]
+ControlID=01303
+[/Button]
+
+; Timeover
+[Button]
+ControlID=01304
+[/Button]
+
+[/Screen]

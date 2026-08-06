@@ -1,0 +1,131 @@
+;----------------------------------------
+; 018 Screen - Screen receipt
+;----------------------------------------
+
+[Screen]
+ID=018
+Back=10000
+
+; Item 1 case
+; Balance information
+[Button]
+ControlID=01801
+Font=FONT_ARIAL_42
+Pos=0,220,1280,67
+TextID=01801
+TextSet=CENTER,COLOR_WHITE
+[/Button]
+
+; Gray box
+[Button]
+ControlID=01802
+Font=FONT_ARIAL_36
+Picture=IMAGE_SCREENRECEIPT_GRAY
+Pos=51,313,1176,167
+TextSet=CENTER,COLOR_BLACK
+[/Button]
+
+; press 'enter'
+[Button]
+ControlID=01803
+Font=FONT_ARIAL_42
+Pos=0,500,1280,67
+TextID=01802
+TextSet=CENTER,COLOR_WHITE
+[/Button]
+
+; Item 2 case
+; Balance information
+[Button]
+ControlID=01804
+Font=FONT_ARIAL_42
+Pos=0,127,1280,67
+TextID=01801
+TextSet=CENTER,COLOR_WHITE
+[/Button]
+
+; Gray box
+[Button]
+ControlID=01805
+Font=FONT_ARIAL_36
+Picture=IMAGE_SCREENRECEIPT_GRAY
+Pos=51,230,1176,167
+TextSet=CENTER,COLOR_BLACK
+[/Button]
+
+; white box
+[Button]
+ControlID=01806
+Font=FONT_ARIAL_36
+Picture=IMAGE_SCREENRECEIPT_WHITE
+Pos=51,395,1176,167
+TextSet=CENTER,COLOR_BLACK
+[/Button]
+
+; press 'enter'
+[Button]
+ControlID=01807
+Font=FONT_ARIAL_42
+Pos=0,583,1280,67
+TextID=01802
+TextSet=CENTER,COLOR_WHITE
+[/Button]
+
+; Item 3 case
+; Balance information
+[Button]
+ControlID=01808
+Font=FONT_ARIAL_42
+Pos=0,57,1280,67
+TextID=01801
+TextSet=CENTER,COLOR_WHITE
+[/Button]
+
+; Gray box
+[Button]
+ControlID=01809
+Font=FONT_ARIAL_36
+Picture=IMAGE_SCREENRECEIPT_GRAY
+Pos=51,147,1176,167
+TextSet=CENTER,COLOR_BLACK
+[/Button]
+
+; white box
+[Button]
+ControlID=01810
+Font=FONT_ARIAL_36
+Picture=IMAGE_SCREENRECEIPT_WHITE
+Pos=51,312,1176,167
+TextSet=CENTER,COLOR_BLACK
+[/Button]
+
+; Gray box
+[Button]
+ControlID=01811
+Font=FONT_ARIAL_36
+Picture=IMAGE_SCREENRECEIPT_GRAY
+Pos=51,477,1176,167
+TextSet=CENTER,COLOR_BLACK
+[/Button]
+
+; press 'enter'
+[Button]
+ControlID=01812
+Font=FONT_ARIAL_42
+Pos=0,667,1280,67
+TextID=01802
+TextSet=CENTER,COLOR_WHITE
+[/Button]
+
+; Enter
+[Button]
+ControlID=01813
+[/Button]
+
+; Timeover
+[Button]
+ControlID=01814
+[/Button]
+
+
+[/Screen]

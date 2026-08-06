@@ -1,0 +1,30 @@
+;----------------------------------------
+; 004 Screen - Card error
+;----------------------------------------
+
+[Screen]
+ID=004
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_48
+Pos=26,177,998,100
+TextID=00402
+TextSet=LEFT,COLOR_SKY
+[/TextBox]
+
+[TextBox]
+Font=FONT_ARIAL_28
+Pos=0,329,1024,171
+TextID=00401
+TextSet=CENTER,COLOR_SKY
+[/TextBox]
+
+
+; Image card error
+[TextBox]
+Picture=IMAGE_CARD_ERROR
+Pos=416,500,213,148
+[/TextBox]
+
+[/Screen]

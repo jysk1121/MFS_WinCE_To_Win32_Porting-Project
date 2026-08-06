@@ -1,0 +1,53 @@
+;----------------------------------------
+; 020 Screen - Confirm screen receipt
+;----------------------------------------
+
+[Screen]
+ID=020
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_39
+Pos=64,167,1216,133
+TextID=02001
+TextSet=LEFT,COLOR_WHITE
+[/TextBox]
+
+; Receipt error
+[Button]
+ControlID=02001
+Picture=IMAGE_RECEIPT_ERROR
+Pos=320,440,203,167
+[/Button]
+
+; RIGHT 2
+[Button]
+ControlID=02002
+Font=FONT_ARIAL_29
+TextID=B_LEFT_YES
+Picture=IMAGE_COMMON_RIGHT_BUTTON
+Pos=864,413,416,90
+TextSet=LEFT,COLOR_WHITE
+[/Button]
+
+; RIGHT 3
+[Button]
+ControlID=02003
+Font=FONT_ARIAL_29
+Picture=IMAGE_COMMON_RIGHT_BUTTON
+Pos=864,537,416,90
+TextID=B_LEFT_NO
+TextSet=LEFT,COLOR_WHITE
+[/Button]
+
+; Cancel
+[Button]
+ControlID=02004
+[/Button]
+
+; Timeover
+[Button]
+ControlID=02005
+[/Button]
+
+[/Screen]

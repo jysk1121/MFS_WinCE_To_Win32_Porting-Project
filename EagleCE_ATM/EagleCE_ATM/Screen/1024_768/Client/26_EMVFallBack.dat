@@ -1,0 +1,32 @@
+;----------------------------------------
+; 026 Screen - EMV - FallBack
+;----------------------------------------
+
+[Screen]
+ID=026
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_28
+Pos=0,192,1024,228
+TextID=02601
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+; Remove Your Card
+[TextBox]
+Picture=IMAGE_REMOVECARD
+Pos=337,445,350,280
+[/TextBox]
+
+; Cancel
+[Button]
+ControlID=02601
+[/Button]
+
+; Timeover
+[Button]
+ControlID=02602
+[/Button]
+
+[/Screen]

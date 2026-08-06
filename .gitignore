@@ -1,0 +1,33 @@
+# ---------------------------------------------------------------- tooling
+.claude/
+
+# ---------------------------------------------------------------- build output
+# Visual Studio 2008 drops intermediates and binaries into these per-platform
+# folders. Prebuilt runtime DLLs are tracked separately in DLL_CE / DLL_Win32.
+[Dd]ebug/
+[Rr]elease/
+obj/
+ICM_3011 (ARMv4I)/
+
+# ---------------------------------------------------------------- IDE state
+.vs/
+*.ncb
+*.suo
+*.user
+*.aps
+*.opt
+*.plg
+*.sdf
+*.opensdf
+
+# ---------------------------------------------------------------- build junk
+BuildLog.htm
+*.pch
+*.ilk
+*.idb
+*.obj
+*.exp
+*.tlog
+*.log
+*.bak
+Thumbs.db

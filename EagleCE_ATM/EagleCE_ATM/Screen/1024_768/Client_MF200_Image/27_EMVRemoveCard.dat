@@ -1,0 +1,27 @@
+;----------------------------------------
+; 027 Screen - EMV - RemoveCard
+;----------------------------------------
+
+[Screen]
+ID=027
+Back=10000
+
+[TextBox]
+ControlID=02701
+Font=FONT_ARIAL_28
+Pos=0,192,1024,228
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+; Remove Your Card
+[TextBox]
+Picture=IMAGE_REMOVECARD
+Pos=340,448,342,268
+[/TextBox]
+
+; Timeover
+[Button]
+ControlID=02702
+[/Button]
+
+[/Screen]

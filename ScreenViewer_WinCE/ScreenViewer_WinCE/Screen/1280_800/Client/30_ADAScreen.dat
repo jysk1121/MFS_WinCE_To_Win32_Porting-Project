@@ -1,0 +1,102 @@
+;----------------------------------------
+; 100 Screen - ADA Screen
+;----------------------------------------
+
+[Screen]
+ID=100
+Back=10000
+
+[TextBox]
+;ControlID=10001
+Font=FONT_ARIAL_39
+Pos=0,277,1280,80
+Text="Voice guidance mode"
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+[TextBox]
+Picture=IMAGE_ADA
+Pos=568,380,205,180
+[/TextBox]
+
+; 1
+[Button]
+ControlID=10002
+[/Button]
+
+; 2
+[Button]
+ControlID=10003
+[/Button]
+
+; 3
+[Button]
+ControlID=10004
+[/Button]
+
+; 4
+[Button]
+ControlID=10005
+[/Button]
+
+; 5
+[Button]
+ControlID=10006
+[/Button]
+
+; 6
+[Button]
+ControlID=10007
+[/Button]
+
+; 7
+[Button]
+ControlID=10008
+[/Button]
+
+; 8
+[Button]
+ControlID=10009
+[/Button]
+
+; 9
+[Button]
+ControlID=10010
+[/Button]
+
+; 0
+[Button]
+ControlID=10011
+[/Button]
+
+; -
+[Button]
+ControlID=10012
+[/Button]
+
+; +
+[Button]
+ControlID=10013
+[/Button]
+
+; Blank
+[Button]
+ControlID=10014
+[/Button]
+
+; Enter
+[Button]
+ControlID=10015
+[/Button]
+
+; Clear
+[Button]
+ControlID=10016
+[/Button]
+
+; Cancel
+[Button]
+ControlID=10017
+[/Button]
+
+[/Screen]

@@ -1,0 +1,30 @@
+;----------------------------------------
+; 003 Screen - Insert card
+;----------------------------------------
+
+[Screen]
+ID=003
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_48
+Pos=26,177,998,100
+TextID=00301
+TextSet=LEFT,COLOR_SKY
+[/TextBox]
+
+[TextBox]
+ControlID=00301
+Font=FONT_ARIAL_28
+Pos=0,329,1024,197
+TextSet=CENTER,COLOR_SKY
+[/TextBox]
+
+; Image insert card
+[TextBox]
+Picture=IMAGE_INSERT_CARD
+Pos=386,523,250,197
+[/TextBox]
+
+
+[/Screen]

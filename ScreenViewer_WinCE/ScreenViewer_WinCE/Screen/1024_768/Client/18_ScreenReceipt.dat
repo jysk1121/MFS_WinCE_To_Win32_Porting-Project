@@ -1,0 +1,111 @@
+;----------------------------------------
+; 018 Screen - Screen receipt
+;----------------------------------------
+
+[Screen]
+ID=018
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_48
+Pos=26,177,998,100
+TextID=01801
+TextSet=LEFT,COLOR_SKY
+[/TextBox]
+
+; Item 1 case
+; Gray box
+[Button]
+ControlID=01802
+Font=FONT_ARIAL_28
+Picture=IMAGE_CLIENT_SCREENRECEIPT_WHITEBOX
+Pos=0,476,1024,110
+TextSet=CENTER,COLOR_SKY
+[/Button]
+
+; press 'enter'
+[Button]
+ControlID=01803
+Font=FONT_ARIAL_28
+Pos=0,586,1024,80
+TextID=01802
+TextSet=CENTER,COLOR_SKY
+[/Button]
+
+; Item 2 case
+; Gray box
+[Button]
+ControlID=01805
+Font=FONT_ARIAL_28
+Picture=IMAGE_CLIENT_SCREENRECEIPT_BLUEBOX
+Pos=0,434,1024,110
+TextSet=CENTER,COLOR_SKY
+[/Button]
+
+; white box
+[Button]
+ControlID=01806
+Font=FONT_ARIAL_28
+Picture=IMAGE_CLIENT_SCREENRECEIPT_WHITEBOX
+Pos=0,544,1024,110
+TextSet=CENTER,COLOR_SKY
+[/Button]
+
+; press 'enter'
+[Button]
+ControlID=01807
+Font=FONT_ARIAL_28
+Pos=0,654,1024,80
+TextID=01802
+TextSet=CENTER,COLOR_SKY
+[/Button]
+
+; Item 3 case
+; Gray box
+[Button]
+ControlID=01809
+Font=FONT_ARIAL_28
+Picture=IMAGE_CLIENT_SCREENRECEIPT_BLUEBOX
+Pos=0,350,1024,110
+TextSet=CENTER,COLOR_SKY
+[/Button]
+
+; white box
+[Button]
+ControlID=01810
+Font=FONT_ARIAL_28
+Picture=IMAGE_CLIENT_SCREENRECEIPT_WHITEBOX
+Pos=0,460,1024,110
+TextSet=CENTER,COLOR_SKY
+[/Button]
+
+; Gray box
+[Button]
+ControlID=01811
+Font=FONT_ARIAL_28
+Picture=IMAGE_CLIENT_SCREENRECEIPT_BLUEBOX
+Pos=0,570,1024,110
+TextSet=CENTER,COLOR_SKY
+[/Button]
+
+; press 'enter'
+[Button]
+ControlID=01812
+Font=FONT_ARIAL_28
+Pos=0,684,1024,80
+TextID=01802
+TextSet=CENTER,COLOR_SKY
+[/Button]
+
+; Enter
+[Button]
+ControlID=01813
+[/Button]
+
+; Timeover
+[Button]
+ControlID=01814
+[/Button]
+
+
+[/Screen]

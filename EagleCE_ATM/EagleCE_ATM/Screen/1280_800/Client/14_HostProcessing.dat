@@ -1,0 +1,21 @@
+;----------------------------------------
+; 014 Screen - Host processing
+;----------------------------------------
+
+[Screen]
+ID=014
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_39
+Pos=0,277,1280,100
+TextID=01401
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+[GifBox]
+Pos=294,475,691,23
+Picture=IMAGE_LOADING
+[/GifBox]
+
+[/Screen]

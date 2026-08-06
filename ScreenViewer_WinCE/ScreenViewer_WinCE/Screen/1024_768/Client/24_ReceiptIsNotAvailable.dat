@@ -1,0 +1,58 @@
+;----------------------------------------
+; 024 Screen - Receipt is not available
+;----------------------------------------
+
+[Screen]
+ID=024
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_48
+Pos=26,177,998,100
+TextID=02402
+TextSet=LEFT,COLOR_SKY
+[/TextBox]
+
+[TextBox]
+Font=FONT_ARIAL_28
+Pos=26,329,998,96
+TextID=02401
+TextSet=LEFT,COLOR_SKY
+[/TextBox]
+
+[TextBox]
+Picture=IMAGE_CLIENT_RECEIPT_ERROR
+Pos=159,510,204,168
+[/TextBox]
+
+; RIGHT 2
+[Button]
+ControlID=02401
+Font=FONT_ARIAL_24
+TextID=B_LEFT_YES
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,556,394,54
+TextSet=CENTER,COLOR_SKY
+[/Button]
+
+; RIGHT 3
+[Button]
+ControlID=02402
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,626,394,54
+TextID=B_LEFT_NO
+TextSet=CENTER,COLOR_SKY
+[/Button]
+
+; Cancel
+[Button]
+ControlID=02403
+[/Button]
+
+; Timeover
+[Button]
+ControlID=02404
+[/Button]
+
+[/Screen]

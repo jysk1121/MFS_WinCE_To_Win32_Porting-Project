@@ -1,0 +1,21 @@
+;----------------------------------------
+; 016 Screen - Get cash
+;----------------------------------------
+
+[Screen]
+ID=016
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_40
+Pos=0,192,1024,228
+TextID=01601
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+[TextBox]
+Picture=IMAGE_CLIENT_GETCASH
+Pos=340,448,342,268
+[/TextBox]
+
+[/Screen]

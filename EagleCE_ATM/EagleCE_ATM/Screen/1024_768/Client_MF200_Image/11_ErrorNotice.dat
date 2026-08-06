@@ -1,0 +1,22 @@
+;----------------------------------------
+; 011 Screen - Error notice
+;----------------------------------------
+
+[Screen]
+ID=011
+Back=10000
+
+[TextBox]
+ControlID=01101
+Font=FONT_ARIAL_28
+Pos=0,192,1024,228
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+; Image out of service
+[TextBox]
+Picture=IMAGE_OUTOFSERVICE
+Pos=385,448,254,200
+[/TextBox]
+
+[/Screen]

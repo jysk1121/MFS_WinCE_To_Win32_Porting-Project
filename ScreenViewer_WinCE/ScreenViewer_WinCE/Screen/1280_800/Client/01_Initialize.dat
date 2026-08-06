@@ -1,0 +1,21 @@
+;----------------------------------------
+; 001 Screen - Initialize
+;----------------------------------------
+
+[Screen]
+ID=001
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_39
+Pos=0,257,1280,80
+TextID=00101
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+[GifBox]
+Pos=294,475,691,23
+Picture=IMAGE_LOADING
+[/GifBox]
+
+[/Screen]

@@ -1,0 +1,29 @@
+;----------------------------------------
+; 006 Screen - Transaction cancel
+;----------------------------------------
+
+[Screen]
+ID=006
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_48
+Pos=26,177,998,100
+TextID=00602
+TextSet=LEFT,COLOR_SKY
+[/TextBox]
+
+[TextBox]
+Font=FONT_ARIAL_28
+Pos=0,329,1024,140
+TextID=00601
+TextSet=CENTER,COLOR_SKY
+[/TextBox]
+
+; Image out of service
+[TextBox]
+Picture=IMAGE_OUTOFSERVICE
+Pos=434,469,156,156
+[/TextBox]
+
+[/Screen]

@@ -1,0 +1,13 @@
+;----------------------------------------
+; 034 Screen - Test4 Screen
+;----------------------------------------
+
+[Screen]
+ID=034
+
+[TextBox]
+Picture=IMAGE_TEST4
+Pos=0,0,1280,800
+[/TextBox]
+
+[/Screen]

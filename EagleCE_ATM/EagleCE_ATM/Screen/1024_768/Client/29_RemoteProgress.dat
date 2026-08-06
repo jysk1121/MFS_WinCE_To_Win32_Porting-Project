@@ -1,0 +1,22 @@
+;----------------------------------------
+; 090 Screen - Remote Progress
+;----------------------------------------
+
+[Screen]
+ID=090
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_40
+Pos=0,192,1024,228
+Text="Remote in progress..."
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+; Image out of service
+[GifBox]
+Picture=IMAGE_REMOTE_PROGRESS
+Pos=282,445,460,280
+[/GifBox]
+
+[/Screen]

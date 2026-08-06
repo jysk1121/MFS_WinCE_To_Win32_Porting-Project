@@ -1,0 +1,59 @@
+;----------------------------------------
+; 023 Screen - Enter amount
+;----------------------------------------
+
+[Screen]
+ID=023
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_39
+Pos=0,167,1280,133
+TextID=02301
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+; Available Denomination
+[TextBox]
+ControlID=02301
+Font=FONT_ARIAL_29
+Pos=0,307,1280,53
+TextSet=CENTER,COLOR_GRAY
+[/TextBox]
+
+; Available Max Amount
+[TextBox]
+ControlID=02302
+Font=FONT_ARIAL_29
+Pos=0,367,1280,53
+TextSet=CENTER,COLOR_GRAY
+[/TextBox]
+
+[TextBox]
+Font=FONT_ARIAL_19
+Pos=0,453,1280,47
+TextID=02302
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+; Cancel
+[Button]
+ControlID=02303
+[/Button]
+
+; Timeover
+[Button]
+ControlID=02304
+[/Button]
+
+; amount box
+[DollarBox]
+ControlID=02305
+Font=FONT_ARIAL_39
+Picture=IMAGE_AMOUNT_BOX
+Pos=307,510,664,95
+TextSet=CENTER,COLOR_WHITE
+[/DollarBox]
+
+
+[/Screen]

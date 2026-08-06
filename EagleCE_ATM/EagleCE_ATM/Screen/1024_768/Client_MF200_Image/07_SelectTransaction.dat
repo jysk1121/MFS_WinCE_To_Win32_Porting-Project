@@ -1,0 +1,56 @@
+;----------------------------------------
+; 007 Screen - Select transaction
+;----------------------------------------
+
+[Screen]
+ID=007
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_28
+Pos=30,192,994,228
+TextID=00701
+TextSet=LEFT,COLOR_WHITE
+[/TextBox]
+
+; RIGHT 1
+[Button]
+ControlID=00701
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,494,394,54
+TextID=007R1
+TextSet=LEFT,COLOR_DARKBLUE
+[/Button]
+
+; RIGHT 2
+[Button]
+ControlID=00702
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,564,394,54
+TextID=007R2
+TextSet=LEFT,COLOR_DARKBLUE
+[/Button]
+
+; RIGHT 3
+[Button]
+ControlID=00703
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,634,394,54
+TextID=007R3
+TextSet=LEFT,COLOR_DARKBLUE
+[/Button]
+
+; Cancel
+[Button]
+ControlID=00704
+[/Button]
+
+; Timeover
+[Button]
+ControlID=00705
+[/Button]
+
+[/Screen]

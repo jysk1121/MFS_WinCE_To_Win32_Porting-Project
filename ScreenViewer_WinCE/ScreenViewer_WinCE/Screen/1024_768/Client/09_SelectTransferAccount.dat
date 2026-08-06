@@ -1,0 +1,64 @@
+;----------------------------------------
+; 009 Screen - Select transfer account
+;----------------------------------------
+
+[Screen]
+ID=009
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_48
+Pos=26,177,998,100
+TextID=00902
+TextSet=LEFT,COLOR_SKY
+[/TextBox]
+
+
+[TextBox]
+Font=FONT_ARIAL_28
+Pos=26,329,998,96
+TextID=00901
+TextSet=LEFT,COLOR_SKY
+[/TextBox]
+
+; RIGHT 1
+[Button]
+ControlID=00901
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,486,394,54
+TextID=009R1
+TextSet=CENTER,COLOR_SKY
+[/Button]
+
+; RIGHT 2
+[Button]
+ControlID=00902
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,556,394,54
+TextID=009R2
+TextSet=CENTER,COLOR_SKY
+[/Button]
+
+; RIGHT 3
+[Button]
+ControlID=00903
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,626,394,54
+TextID=009R3
+TextSet=CENTER,COLOR_SKY
+[/Button]
+
+; Cancel
+[Button]
+ControlID=00904
+[/Button]
+
+; Timeover
+[Button]
+ControlID=00905
+[/Button]
+
+[/Screen]

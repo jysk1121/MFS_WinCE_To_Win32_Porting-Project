@@ -1,0 +1,22 @@
+;----------------------------------------
+; 025 Screen - EMV - processing
+;----------------------------------------
+
+[Screen]
+ID=025
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_39
+Pos=0,233,1280,133
+TextID=02501
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+; transfer chip card data
+[GifBox]
+Pos=554,403,173,250
+Picture=IMAGE_EMV_PROCESSING
+[/GifBox]
+
+[/Screen]

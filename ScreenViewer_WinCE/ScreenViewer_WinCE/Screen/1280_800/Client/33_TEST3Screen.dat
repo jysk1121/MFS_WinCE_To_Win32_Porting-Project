@@ -1,0 +1,13 @@
+;----------------------------------------
+; 033 Screen - Test3 Screen
+;----------------------------------------
+
+[Screen]
+ID=033
+
+[TextBox]
+Picture=IMAGE_TEST3
+Pos=0,0,1280,800
+[/TextBox]
+
+[/Screen]

@@ -1,0 +1,74 @@
+;----------------------------------------
+; 012 Screen - Confirm surcharge
+;----------------------------------------
+
+[Screen]
+ID=012
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_48
+Pos=26,177,998,100
+TextID=01203
+TextSet=LEFT,COLOR_SKY
+[/TextBox]
+
+[TextBox]
+Font=FONT_ARIAL_28
+Pos=26,329,998,96
+TextID=01201
+TextSet=LEFT,COLOR_SKY
+[/TextBox]
+
+; Image Fee notice Box
+[TextBox]
+Picture=IMAGE_CLIENT_FEENOTICE_BOX
+Pos=26,489,582,240
+[/TextBox]
+
+; Fee Notice
+[TextBox]
+Font=FONT_ARIAL_20
+Pos==88,508,512,40
+TextID=01202
+TextSet=LEFT,COLOR_NOTICE
+[/TextBox]
+
+[TextBox]
+ControlID=01201
+Font=FONT_ARIAL_17
+Pos=36,540,562,200
+TextSet=LEFT,COLOR_NOTICE
+[/TextBox]
+
+; RIGHT 2
+[Button]
+ControlID=01202
+Font=FONT_ARIAL_24
+TextID=B_LEFT_YES
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,556,394,54
+TextSet=CENTER,COLOR_SKY
+[/Button]
+
+; RIGHT 3
+[Button]
+ControlID=01203
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,626,394,54
+TextID=B_LEFT_NO
+TextSet=CENTER,COLOR_SKY
+[/Button]
+
+; Cancel
+[Button]
+ControlID=01204
+[/Button]
+
+; Timeover
+[Button]
+ControlID=01205
+[/Button]
+
+[/Screen]

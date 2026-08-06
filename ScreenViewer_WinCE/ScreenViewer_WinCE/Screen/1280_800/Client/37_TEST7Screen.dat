@@ -1,0 +1,13 @@
+;----------------------------------------
+; 037 Screen - Test7 Screen
+;----------------------------------------
+
+[Screen]
+ID=037
+
+[TextBox]
+Picture=IMAGE_TEST7
+Pos=0,0,1280,800
+[/TextBox]
+
+[/Screen]

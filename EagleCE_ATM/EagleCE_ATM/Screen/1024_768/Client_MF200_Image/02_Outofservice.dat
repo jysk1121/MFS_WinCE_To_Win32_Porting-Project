@@ -1,0 +1,29 @@
+;----------------------------------------
+; 002 Screen - Out of service
+;----------------------------------------
+
+[Screen]
+ID=002
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_40
+Pos=0,192,1024,228
+TextID=00201
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+; Image out of service
+[TextBox]
+Picture=IMAGE_OUTOFSERVICE
+Pos=385,448,254,200
+[/TextBox]
+
+[TextBox]
+ControlID=00201
+Font=FONT_ARIAL_28
+Pos=0,648,1024,120
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+[/Screen]

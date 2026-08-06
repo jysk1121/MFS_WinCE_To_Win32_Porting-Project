@@ -1,0 +1,30 @@
+;----------------------------------------
+; 090 Screen - Remote Progress
+;----------------------------------------
+
+[Screen]
+ID=090
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_48
+Pos=26,177,998,100
+Text="Remote in Progress"
+TextSet=LEFT,COLOR_SKY
+[/TextBox]
+
+[TextBox]
+;ControlID=09001
+Font=FONT_ARIAL_28
+Pos=0,329,1024,96
+Text="Remote in progress..."
+TextSet=CENTER,COLOR_SKY
+[/TextBox]
+
+; Image out of service
+[TextBox]
+Picture=IMAGE_REMOTE_PROGRESS
+Pos=274,431,477,193
+[/TextBox]
+
+[/Screen]

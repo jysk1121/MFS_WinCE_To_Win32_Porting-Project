@@ -1,0 +1,99 @@
+;----------------------------------------
+; 018 Screen - Screen receipt
+;----------------------------------------
+
+[Screen]
+ID=018
+Back=10000
+
+; Balance information
+[TextBox]
+Font=FONT_ARIAL_42
+Pos=0,94,1280,120
+TextID=01801
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+[TextBox]
+Picture=IMAGE_CLIENT_SCREENRECEIPT_POPUP
+Pos=52,214,1176,430
+[/TextBox]
+
+; Item 1 case
+; Gray box
+[Button]
+ControlID=01801
+Font=FONT_ARIAL_36
+Picture=IMAGE_SCREENRECEIPT_GRAY
+Pos=74,370,1130,114
+TextSet=CENTER,COLOR_BLACK
+[/Button]
+
+
+; Item 2 case
+; Gray box
+[Button]
+ControlID=01802
+Font=FONT_ARIAL_36
+Picture=IMAGE_SCREENRECEIPT_GRAY
+Pos=74,304,1130,114
+TextSet=CENTER,COLOR_BLACK
+[/Button]
+
+; white box
+[Button]
+ControlID=01803
+Font=FONT_ARIAL_36
+Picture=IMAGE_SCREENRECEIPT_WHITE
+Pos=74,438,1130,114
+TextSet=CENTER,COLOR_BLACK
+[/Button]
+
+; Item 3 case
+; Gray box
+[Button]
+ControlID=01804
+Font=FONT_ARIAL_36
+Picture=IMAGE_SCREENRECEIPT_GRAY
+Pos=74,236,1130,114
+TextSet=CENTER,COLOR_BLACK
+[/Button]
+
+; white box
+[Button]
+ControlID=01805
+Font=FONT_ARIAL_36
+Picture=IMAGE_SCREENRECEIPT_WHITE
+Pos=74,370,1130,114
+TextSet=CENTER,COLOR_BLACK
+[/Button]
+
+; Gray box
+[Button]
+ControlID=01806
+Font=FONT_ARIAL_36
+Picture=IMAGE_SCREENRECEIPT_GRAY
+Pos=74,504,1130,114
+TextSet=CENTER,COLOR_BLACK
+[/Button]
+
+; press 'enter'
+[Button]
+Font=FONT_ARIAL_42
+Pos=0,644,1280,120
+TextID=01802
+TextSet=CENTER,COLOR_WHITE
+[/Button]
+
+; Enter
+[Button]
+ControlID=01813
+[/Button]
+
+; Timeover
+[Button]
+ControlID=01814
+[/Button]
+
+
+[/Screen]

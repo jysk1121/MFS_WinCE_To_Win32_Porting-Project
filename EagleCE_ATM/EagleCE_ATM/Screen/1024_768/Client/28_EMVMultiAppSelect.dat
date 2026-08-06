@@ -1,0 +1,80 @@
+;----------------------------------------
+; 028 Screen - EMV - Multi App Select
+;----------------------------------------
+
+[Screen]
+ID=028
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_28
+Pos=30,192,994,228
+TextID=02801
+TextSet=LEFT,COLOR_WHITE
+[/TextBox]
+
+; LEFT 1
+[Button]
+ControlID=02801
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_LEFT
+Pos=2,494,394,54
+TextSet=CENTER,COLOR_DARKBLUE
+[/Button]
+
+; LEFT 2
+[Button]
+ControlID=02802
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_LEFT
+Pos=2,564,394,54
+TextSet=CENTER,COLOR_DARKBLUE
+[/Button]
+
+; LEFT 3
+[Button]
+ControlID=02803
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_LEFT
+Pos=2,634,394,54
+TextSet=CENTER,COLOR_DARKBLUE
+[/Button]
+
+; RIGHT 1
+[Button]
+ControlID=02804
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,494,394,54
+TextSet=CENTER,COLOR_DARKBLUE
+[/Button]
+
+; RIGHT 2
+[Button]
+ControlID=02805
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,564,394,54
+TextSet=CENTER,COLOR_DARKBLUE
+[/Button]
+
+; RIGHT 3
+[Button]
+ControlID=02806
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,634,394,54
+TextSet=CENTER,COLOR_DARKBLUE
+[/Button]
+
+; Cancel
+[Button]
+ControlID=02807
+[/Button]
+
+; Timeover
+[Button]
+ControlID=02808
+[/Button]
+
+[/Screen]

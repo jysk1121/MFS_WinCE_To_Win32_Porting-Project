@@ -1,0 +1,90 @@
+;----------------------------------------
+; 010 Screen - Select amount
+;----------------------------------------
+
+[Screen]
+ID=010
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_39
+Pos=0,167,1280,100
+TextID=01001
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+; LEFT 1
+[Button]
+ControlID=01001
+Font=FONT_ARIAL_29
+Picture=IMAGE_COMMON_LEFT_BUTTON
+Pos=0,295,416,90
+TextSet=RIGHT,COLOR_WHITE
+[/Button]
+
+; LEFT 2
+[Button]
+ControlID=01002
+Font=FONT_ARIAL_29
+Picture=IMAGE_COMMON_LEFT_BUTTON
+Pos=0,413,416,90
+TextSet=RIGHT,COLOR_WHITE
+[/Button]
+
+; LEFT 3
+[Button]
+ControlID=01003
+Font=FONT_ARIAL_29
+Picture=IMAGE_COMMON_LEFT_BUTTON
+Pos=0,537,416,90
+TextSet=RIGHT,COLOR_WHITE
+[/Button]
+
+; RIGHT 1
+[Button]
+ControlID=01004
+Font=FONT_ARIAL_29
+Picture=IMAGE_COMMON_RIGHT_BUTTON
+Pos=864,295,416,90
+TextSet=LEFT,COLOR_WHITE
+[/Button]
+
+; RIGHT 2
+[Button]
+ControlID=01005
+Font=FONT_ARIAL_29
+Picture=IMAGE_COMMON_RIGHT_BUTTON
+Pos=864,413,416,90
+TextSet=LEFT,COLOR_WHITE
+[/Button]
+
+; RIGHT 3
+[Button]
+ControlID=01006
+Font=FONT_ARIAL_29
+Picture=IMAGE_COMMON_RIGHT_BUTTON
+Pos=864,537,416,90
+TextSet=LEFT,COLOR_WHITE
+[/Button]
+
+; RIGHT 4
+[Button]
+ControlID=01007
+Font=FONT_ARIAL_29
+Picture=IMAGE_COMMON_RIGHT_BUTTON
+Pos=864,657,416,94
+TextID=010R4
+TextSet=LEFT,COLOR_WHITE
+[/Button]
+
+; Cancel
+[Button]
+ControlID=01008
+[/Button]
+
+; Timeover
+[Button]
+ControlID=01009
+[/Button]
+
+[/Screen]

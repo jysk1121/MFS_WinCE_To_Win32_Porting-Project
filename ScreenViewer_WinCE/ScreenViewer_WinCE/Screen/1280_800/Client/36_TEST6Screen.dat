@@ -1,0 +1,13 @@
+;----------------------------------------
+; 036 Screen - Test6 Screen
+;----------------------------------------
+
+[Screen]
+ID=036
+
+[TextBox]
+Picture=IMAGE_TEST6
+Pos=0,0,1280,800
+[/TextBox]
+
+[/Screen]

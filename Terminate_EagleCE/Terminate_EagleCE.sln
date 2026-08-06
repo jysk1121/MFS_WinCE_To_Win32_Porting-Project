@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Terminate_EagleCE", "Terminate_EagleCE\Terminate_EagleCE.vcproj", "{BD9C7892-B6B9-4E61-B90E-2F353FB7E688}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ICM_3011 (ARMv4I) = Debug|ICM_3011 (ARMv4I)
+		Release|ICM_3011 (ARMv4I) = Release|ICM_3011 (ARMv4I)
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD9C7892-B6B9-4E61-B90E-2F353FB7E688}.Debug|ICM_3011 (ARMv4I).ActiveCfg = Debug|ICM_3011 (ARMv4I)
+		{BD9C7892-B6B9-4E61-B90E-2F353FB7E688}.Debug|ICM_3011 (ARMv4I).Build.0 = Debug|ICM_3011 (ARMv4I)
+		{BD9C7892-B6B9-4E61-B90E-2F353FB7E688}.Debug|ICM_3011 (ARMv4I).Deploy.0 = Debug|ICM_3011 (ARMv4I)
+		{BD9C7892-B6B9-4E61-B90E-2F353FB7E688}.Release|ICM_3011 (ARMv4I).ActiveCfg = Release|ICM_3011 (ARMv4I)
+		{BD9C7892-B6B9-4E61-B90E-2F353FB7E688}.Release|ICM_3011 (ARMv4I).Build.0 = Release|ICM_3011 (ARMv4I)
+		{BD9C7892-B6B9-4E61-B90E-2F353FB7E688}.Release|ICM_3011 (ARMv4I).Deploy.0 = Release|ICM_3011 (ARMv4I)
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

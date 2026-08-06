@@ -1,0 +1,56 @@
+;----------------------------------------
+; 022 Screen - Select language
+;----------------------------------------
+
+[Screen]
+ID=022
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_28
+Pos=30,192,994,228
+TextID=02201
+TextSet=LEFT,COLOR_WHITE
+[/TextBox]
+
+; RIGHT 1
+[Button]
+ControlID=02201
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,494,394,54
+TextID=022R1
+TextSet=CENTER,COLOR_DARKBLUE
+[/Button]
+
+; RIGHT 2
+[Button]
+ControlID=02202
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,564,394,54
+TextID=022R2
+TextSet=CENTER,COLOR_DARKBLUE
+[/Button]
+
+; RIGHT 3
+[Button]
+ControlID=02203
+Font=FONT_ARIAL_24
+Picture=IMAGE_CLIENT_BUTTON_RIGHT
+Pos=628,634,394,54
+TextID=022R3
+TextSet=CENTER,COLOR_DARKBLUE
+[/Button]
+
+; Cancel
+[Button]
+ControlID=02204
+[/Button]
+
+; Timeover
+[Button]
+ControlID=02205
+[/Button]
+
+[/Screen]

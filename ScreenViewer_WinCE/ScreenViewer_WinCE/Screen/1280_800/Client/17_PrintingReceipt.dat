@@ -1,0 +1,21 @@
+;----------------------------------------
+; 017 Screen - Printing receipt
+;----------------------------------------
+
+[Screen]
+ID=017
+Back=10000
+
+[TextBox]
+Font=FONT_ARIAL_39
+Pos=0,277,1280,100
+TextID=01701
+TextSet=CENTER,COLOR_WHITE
+[/TextBox]
+
+[TextBox]
+Picture=IMAGE_PRINTING_RECEIPT
+Pos=550,403,181,177
+[/TextBox]
+
+[/Screen]
