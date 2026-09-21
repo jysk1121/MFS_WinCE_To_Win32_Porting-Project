@@ -1,0 +1,11 @@
+;
+; Device의 설정정보를 setting하는 용도로 사용.
+; [섹션이름] : 식별가능한 Device 이름
+; DeviceType=n : device 종류
+; 기타항목=value
+; [/섹션이름] : 해당 섹션 종료
+;
+
+[MCU]
+DeviceType=1		; DepType:1, MagTek:3
+[/MCU]

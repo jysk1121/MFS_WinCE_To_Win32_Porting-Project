@@ -1,0 +1,279 @@
+// NHMWI.odl : type library source for ActiveX Control project.
+
+// This file will be processed by the Make Type Library (mktyplib) tool to
+// produce the type library (NHMWI.tlb) that will become a resource in
+// NHMWI.ocx.
+
+#include <olectl.h>
+#include <idispids.h>
+
+[ uuid(CC1DA692-DEEF-4338-89FA-1F64BAE1AF24), version(1.0),
+  helpfile("NHMWI.hlp"),
+  helpstring("NHMWI ActiveX Control module"),
+  control ]
+library NHMWILib
+{
+	importlib(STDOLE_TLB);
+	importlib(STDTYPE_TLB);
+
+	//  Primary dispatch interface for CNHMWICtrl
+
+	[ uuid(9EDFDAFE-3023-4F3F-BAD8-DCA1DD3717D9),
+	  helpstring("Dispatch interface for NHMWI Control"), hidden ]
+	dispinterface _DNHMWI
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CNHMWICtrl)
+			//}}AFX_ODL_PROP
+
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CNHMWICtrl)
+			[id(1)] BSTR TestMethod(BSTR szParam1, BSTR szParam2, BSTR szParam3);
+			[id(2)] void ProcSetDeviceEvent(BSTR szDeviceName, BSTR szEventName, BSTR szEventValue);
+			[id(3)] void ProcSetDeviceStatus(BSTR szDeviceName, BSTR szProperty, BSTR szStatus);
+			[id(4)] long McuEntryDisable();
+			[id(5)] BSTR McuGetCardData();
+			[id(6)] long McuInitialize();
+			[id(7)] long McuRead();
+			[id(8)] long McuRetract();
+			[id(9)] long McuWrite(BSTR szTrackData);
+			[id(10)] long SprGetPaperStatus();
+			[id(11)] long JprEmbossPrint();
+			[id(12)] long JprGetPaperStatus();
+			[id(13)] long JprInitialize();
+			[id(14)] long McuDeinitialize();
+			[id(15)] BSTR CheckDeviceAction(long nDevID, long nWaitSec);
+			[id(16)] long McuWaitTaken();
+			[id(17)] long SprDeinitialize();
+			[id(18)] long SprWaitTaken();
+			[id(19)] long ScanDeviceAction(long nDevID, long nWaitSec, long nEventKind);
+			[id(20)] long McuEntryEnable(long nWaitSec);
+			[id(21)] long GetErrorDevice(long nDevID);
+			[id(22)] long McuGetMaterialInfo();
+			[id(23)] long SprGetMaterialInfo();
+			[id(24)] long JprGetMaterialInfo();
+			[id(25)] long SprInitialize();
+			[id(26)] long JprDeinitialize();
+			[id(27)] long McuEject(long nWaitSec);
+			[id(28)] long SprPrint(BSTR szPrintData);
+			[id(29)] long JprPrint(BSTR szPrintData);
+			[id(30)] long JprGetDeviceStatus();
+			[id(31)] long SprGetDeviceStatus();
+			[id(32)] long SprEject(long nWaitSec);
+			[id(33)] long SprRetract();
+			[id(34)] long McuGetDeviceStatus();
+			[id(35)] long DorInitialize();
+			[id(36)] long DorDeinitialize();
+			[id(37)] long DorGetDeviceStatus();
+			[id(38)] long DorGetDoorStatus();
+			[id(39)] long LgtInitialize();
+			[id(40)] long LgtDeinitialize();
+			[id(41)] long LgtSetFlicker(long nIndex, long nValue);
+			[id(42)] long LgtSetIndicator(long nValue);
+			[id(43)] long McuCancelWaitTaken();
+			[id(44)] BSTR McuGetErrorCode();
+			[id(45)] BSTR SprGetErrorCode();
+			[id(46)] BSTR JprGetErrorCode();
+			[id(47)] long SprClearErrorCode();
+			[id(48)] long JprClearErrorCode();
+			[id(49)] long McuClearErrorCode();
+			[id(50)] long DorClearErrorCode();
+			[id(51)] BSTR JprGetSensorInfo();
+			[id(52)] BSTR SprGetSensorInfo();
+			[id(53)] BSTR McuGetSensorInfo();
+			[id(54)] long SprClearRetractCnt();
+			[id(55)] long McuClearRetractCnt();
+			[id(56)] BSTR DorGetErrorCode();
+			[id(57)] BSTR SprGetRetractCnt();
+			[id(58)] BSTR McuGetRetractCnt();
+			[id(59)] long ScrInitialize();
+			[id(60)] BSTR ScrGetKeyString(long nWaitSec);
+			[id(61)] long ScrSetData(BSTR szDataName, BSTR szDataValue);
+			[id(62)] long ScrDisplayScreen(BSTR szTag, long nIndex, BSTR szData);
+			[id(63)] long SprCancelWaitTaken();
+			[id(64)] long LgtClearErrorCode();
+			[id(65)] long LgtGetDeviceStatus();
+			[id(66)] BSTR LgtGetErrorCode();
+			[id(67)] BSTR ScrGetScreenData(long nWaitSec);
+			[id(68)] long ScrSetScreenData(BSTR szDataName, BSTR szDataValue);
+			[id(69)] long ScrSetDisplayData(BSTR szDataName, BSTR szDataValue);
+			[id(70)] BSTR ScrGetKeyData(long nWaitSec);
+			[id(71)] long ScrClearKeyData();
+			[id(72)] long GetTimeoutDevice(long nDevID);
+			[id(73)] BSTR McuGetICData();
+			[id(74)] long McuICEntryEnable(long nWaitSec);
+			[id(75)] long McuICEntryDisable();
+			[id(76)] long McuICSendData(long ProtocolID, BSTR szSendData, long nWaitSec);
+			[id(77)] long McuICChipInitialize();
+			[id(78)] long CduInitialize(long InitialType);
+			[id(79)] long CduDeinitialize();
+			[id(80)] BSTR CduGetErrorCode();
+			[id(81)] long CduClearErrorCode();
+			[id(82)] BSTR CduGetSensorInfo();
+			[id(83)] long CduGetDeviceStatus();
+			[id(84)] long CduGetPosition();
+			[id(85)] long CduGetRejectCSTStatus();
+			[id(86)] long CduGetRecycleBoxStatus();
+			[id(87)] long CduGetMaterialInfo();
+			[id(88)] long CduGetAvailWithdraw();
+			[id(89)] long CduOpenShutter();
+			[id(90)] long CduCloseShutter();
+			[id(91)] long CduWaitTaken();
+			[id(92)] long CduCancelWaitTaken();
+			[id(93)] long CduRetract();
+			[id(94)] long CduPresent(long nWaitSec);
+			[id(95)] long PinInitialize();
+			[id(96)] long PinDeinitialize();
+			[id(97)] BSTR PinGetErrorCode();
+			[id(98)] long PinClearErrorCode();
+			[id(99)] long PinEntryDisable();
+			[id(100)] BSTR PinGetPinKeyData();
+			[id(101)] long CduGetCSTStatus(long nType);
+			[id(102)] long CduGetNumberOfCST();
+			[id(103)] long CduGetValueOfCash(long nCSTNo);
+			[id(104)] long CduGetNumberOfCash(long nCSTNo);
+			[id(105)] long CduGetNumberOfSetCash(long nCSTNo);
+			[id(106)] long CduDispenseCount(long nCST1Cnt, long nCST2Cnt, long nCST3Cnt, long nCST4Cnt);
+			[id(107)] long CduDispenseAmount(long nAmount);
+			[id(108)] long CduDispenseAndPresentAmount(long nAmount, long nWaitSec);
+			[id(109)] long PinEntryEnable(long nEnableMode, long nMinKeyCount, long nMaxKeyCount, BOOL bAutoEnd, BSTR szActiveKeys, BSTR szTerminatorKeys, BSTR szCardData, long nTimeout);
+			[id(110)] long PinMacingData(BSTR szMacData);
+			[id(111)] BSTR PinGetMacingData();
+			[id(112)] long PinLoadIV(BSTR szKeyName);
+			[id(113)] long PinLoadKey(BSTR szKeyName, BSTR szKeyValue);
+			[id(114)] long PinGetDeviceStatus();
+			[id(115)] BSTR CduGetDispenseOfCST(long nAmount);
+			[id(116)] long SnsDeinitialize();
+			[id(117)] long SnsClearErrorCode();
+			[id(118)] BSTR SnsGetErrorCode();
+			[id(119)] long SnsGetDeviceStatus();
+			[id(120)] long SnsGetOperatorSwitch();
+			[id(121)] long SnsClearOperatorSwitch();
+			[id(122)] long ClearEventDevice(long nDevId);
+			[id(123)] long ClearStatusDevice(long nDevID);
+			[id(124)] long GetEventDevice(long nDevID);
+			[id(125)] long GetStatusDevice(long nDevID);
+			[id(126)] long CduSetMinMaxCST(BSTR szMinCntData, BSTR szMaxCntData);
+			[id(127)] long CduSetNumberOfCash(BSTR szCashCntData);
+			[id(128)] long CduSetValueOfCash(BSTR szCashValueData);
+			[id(129)] long SnsInitialize();
+			[id(130)] long CduGetLastDispensedAmount();
+			[id(131)] long CduAddNumberOfCash(BSTR szInitialCnt, BSTR szAddCnt);
+			[id(132)] long ProcBackupTrace(BSTR szFileName, long nFileSize);
+			[id(133)] long CduDispenseAndPresentCount(long nCST1Cnt, long nCST2Cnt, long nCST3Cnt, long nCST4Cnt, long nWaitSec);
+			[id(134)] long PinLoadEncryptedKey(BSTR KeyUse, BSTR strKeyName, BSTR strKeyValue, BSTR strEncKeyName);
+			[id(135)] boolean CduGetShutterStatus();
+			[id(136)] long SnsGetEnhancedAudio();
+			[id(137)] long CduGetLastDispensedCount(long nCstNum);
+			[id(138)] long McuICChipPower(long nActType);
+			[id(139)] BSTR CduGetCurrencyID(long nCstNum);
+			[id(140)] long PinBuildPinBlock(BSTR CardPanData, BSTR XORData, short Padchar, BSTR Format, BSTR Key, BSTR KeyEncKey);
+			[id(141)] long CduSetCurrencyID(BSTR CurrencyID);
+			[id(142)] long RKT_ExportRSAIssuerSignedItem(BSTR ExportItemType, BSTR KeyName);
+			[id(143)] long RKT_ImportRSAPublicKey(BSTR Recv_HSM_PublicKey, BSTR Recv_HSM_Signature);
+			[id(144)] long RKT_StartKeyExchange();
+			[id(145)] long RKT_ImportRSASignedDESKey(long KeyType, BSTR Recv_EPP_RSACrypt, BSTR Recv_TMK_RSACrypt, BSTR Recv_HSM_Signature);
+			[id(146)] BSTR RKT_GetExportedKey();
+			[id(147)] BSTR RKT_GetExportedSignedValue();
+			[id(148)] BSTR RKT_GetEPP_RandomNumber();
+			[id(149)] BSTR RKT_GetEPP_KCV();
+			[id(150)] BSTR EMV_SendRecvMsgWithIFM(long ProtocolID, BSTR szSendData, long nWaitSec);
+			[id(151)] long SnsGetProximity();
+			[id(152)] long PinInitializeEDM();
+			[id(153)] long RKT_GetExtraCaps();
+			[id(154)] BSTR PIN_GenerateKCV_512K(BSTR KeyName);
+			[id(155)] long RFIDInitialize();
+			[id(156)] long RFIDDeinitialize();
+			[id(157)] BSTR RFIDGetErrorCode();
+			[id(158)] long RFIDClearErrorCode();
+			[id(159)] long RFIDGetDeviceStatus();
+			[id(160)] BSTR RFIDGetCardData();
+			[id(161)] long RFIDEntryEnable(long nWaitSec);
+			[id(162)] long RFIDEntryDisable();
+
+			// [#GLDV-3005] US Kook 2021.10.25 Support Side Car
+			[id(176)] long BcrInitialize();
+			[id(177)] long BcrDeinitialize();
+			[id(178)] BSTR BcrGetErrorCode();
+			[id(179)] long BcrClearErrorCode();
+			[id(180)] long BcrGetDeviceStatus();
+			[id(181)] long BcrSendRawData();
+			[id(182)] long BcrCancelAccept();
+			[id(183)] long BcrReset();
+			[id(184)] BSTR BcrGetBarcodeData();
+
+			// TODO: implement BNA methods
+			[id(185)] long BnaInitialize();
+			[id(186)] long BnaDeinitialize();
+			[id(187)] BSTR BnaGetErrorCode();
+			[id(188)] long BnaClearErrorCode();
+			[id(189)] long BnaGetDeviceStatus();
+			[id(190)] BSTR BnaGetExtraStatus(BSTR KeyName);
+			[id(191)] long BnaStartCashIn();
+			[id(192)] long BnaAcceptCash(long InsertionTimeOut, long TakenTimeOut);
+			[id(193)] long BnaCancelAccept();
+			[id(194)] long BnaStoreCash();
+			[id(195)] long BnaRollbackCash(long TakenTimeOut);
+			[id(196)] long BnaReset(short UnitNumber);
+			[id(197)] long BnaConfigureNoteType();
+			[id(198)] long BnaSetCashUnitInfo();
+
+			[id(199)] BSTR BnaGetLastCashInStatus();
+			[id(200)] long BnaGetNumberOfCashInStatus();
+			[id(201)] long BnaGetNumberOfLogicalUnit();
+			[id(202)] LPDISPATCH BnaGetCashInStatus(long Index);
+			[id(203)] LPDISPATCH BnaGetLogicalUnit(long Index);
+			[id(204)] BSTR BnaGetAcceptorStatus();
+			[id(205)] BSTR BnaGetStackerStatus();
+			[id(206)] long BnaGetMaxCashInItem();
+			[id(207)] long BnaGetMaxStackerItem();
+			[id(208)] long BnaGetLastRefusedCount();
+			// end of [#GLDV-3005]
+
+			[id(209)] BSTR BnaGetPositionStatus();	// [RWC6-676] SKKim 2024.05.17
+			[id(210)] BSTR BnaGetRefusedStatus();	// [RWC6-676] SKKim 2024.05.27
+
+			//}}AFX_ODL_METHOD
+
+			[id(DISPID_ABOUTBOX)] void AboutBox();
+	};
+
+	//  Event dispatch interface for CNHMWICtrl
+
+	[ uuid(8FE81179-8F28-4F2F-BA66-2A2AEDB87035),
+	  helpstring("Event interface for NHMWI Control") ]
+	dispinterface _DNHMWIEvents
+	{
+		properties:
+			//  Event interface has no properties
+
+		methods:
+			// NOTE - ClassWizard will maintain event information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_EVENT(CNHMWICtrl)
+			[id(1)] void TestEvent(BSTR szData);
+			[id(2)] void OnDisplayScreen(BSTR szTag, long nIndex, BSTR szData);
+			[id(3)] void OnDisplayData(BSTR szDataName, BSTR szDataValue);
+			[id(4)] void OnDisplayPinpadData(BSTR szPinpadData);
+			[id(5)] void OnSafeDoorChanged(BSTR szStatus);		// [#RWC6-14] US William 2019.09.18 Add Safe Door Status To Journal
+			//}}AFX_ODL_EVENT
+	};
+
+	//  Class information for CNHMWICtrl
+
+	[ uuid(984454BC-621A-41BE-AC67-636C00801AFC),
+	  helpstring("NHMWI Control"), control ]
+	coclass NHMWI
+	{
+		[default] dispinterface _DNHMWI;
+		[default, source] dispinterface _DNHMWIEvents;
+	};
+
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

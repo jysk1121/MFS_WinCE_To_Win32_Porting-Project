@@ -1,0 +1,54 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.aps
+*.log
+exerele*/**
+librele*/**
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Executables
+*.out
+*.app
+
+# VS Cache items
+*.suo
+*.tlb
+*.user
+*.ncb
+**/CHA_SDK_CE6\ (ARMV4I)
+**/Debug*
+**/Release
+**/*.suo
+**/*.dep
+
+# AP Builder Cache
+DAT/PostBuild/APBuilder/.cache
+DAT/PostBuild/APBuilder/__pycache__
+UpdateFiles/
+**/.restructured_*
+App/WinAtm/fxpkcs11.dll
+App/WinAtm/libhsm.dll
+.vs/
+Project_WinCE60/TestResults

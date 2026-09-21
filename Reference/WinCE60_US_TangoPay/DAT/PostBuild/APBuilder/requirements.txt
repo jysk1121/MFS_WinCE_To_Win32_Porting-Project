@@ -1,0 +1,5 @@
+-r publisher/requirements.txt
+-r reference_manager/requirements.txt
+-r manifest_builder/requirements.txt
+
+pywin32==227

@@ -1,0 +1,5639 @@
+﻿[SUPPORT]
+US_ENG=1
+US_SPN=1
+US_FRN=1
+CA_ENG=1
+CA_SPN=1
+CA_FRN=1
+MX_ENG=1
+MX_SPN=1
+MX_FRN=1
+AU_ENG=1
+AU_SPN=1
+AU_FRN=1
+[/SUPPORT]
+
+[Resource]
+
+Brush=B_KmBg,255,255,255
+Brush=B_KmInfoY,255,255,150
+Brush=B_KmInfoW,255,255,255
+Brush=B_KmEdit,255,255,255
+Brush=B_KmSelectEdit,255,255,200
+Brush=B_VKeySelect,255,102,0
+Brush=B_TKeyDisable,102,153,204
+Brush=B_TKeyEnable,255,255,255
+Brush=B_TKeySelect,255,102,0
+
+;by SKKIM
+Brush=B_ViewBoxBack,255,255,255	; View Box Back color
+Brush=B_BoxBack,255,255,255
+Brush=B_InputBoxWait,205,218,226
+Brush=B_InputSelect,151,187,213
+Brush=B_InfoBoxName,113,133,144
+Brush=B_VKeySelect,255,102,0	; Virtual Key
+Brush=B_TKeyDisable,97,176,250	; Table Edit
+Brush=B_TKeyEnable,255,255,255	; Table Edit
+Brush=B_TKeySelect,255,156,0	; Table Edit
+Brush=B_VOL_01,255,255,0
+Brush=B_VOL_02,255,247,0
+Brush=B_VOL_03,255,239,0
+Brush=B_VOL_04,255,222,0
+Brush=B_VOL_05,255,214,0
+Brush=B_VOL_06,255,197,0
+Brush=B_VOL_07,255,181,0
+Brush=B_VOL_08,255,173,0
+Brush=B_VOL_09,255,165,0
+Brush=B_VOL_10,255,156,0
+
+Color=C_KmBtn,255,255,255
+Color=C_KmTitle,50,70,137
+Color=C_KmInfo,100,100,100
+Color=C_KmResult,255,0,0
+Color=C_KmEdit,0,0,255
+Color=C_VGuideNormal,102,102,102
+Color=C_VKeyNormal,0,0,0
+Color=C_VKeySelect,255,255,255
+Color=C_TGuideNormal,102,102,102
+Color=C_TGuideSelect,255,102,0
+Color=C_TKeyNormal,0,0,0
+Color=C_TKeySelect,255,255,255
+
+;by SKKIM
+Color=C_ErrText,255,0,0		; Op Error Text Color
+Color=C_OpMainText,0,0,0	; Op Main Text Color
+Color=C_OpBtn,255,255,255	; Op Button Text Color
+Color=C_OpTitle,255,255,255	; Op Title Text Color
+Color=C_OpGuide,4,144,179	; OP Guide Text Color
+Color=C_OpText,0,63,89		; OP Text Color
+Color=C_OpMsg,0,0,0		; OP ApValue100 Text Color
+Color=C_KB_NORMAL,0,63,89	; VKeyboard Normal Text Color
+Color=C_VGuideNormal,102,102,102	; Virtual Key
+Color=C_VKeyNormal,0,0,0		; Virtual Key
+Color=C_VKeySelect,255,255,255		; Virtual Key
+Color=C_TGuideNormal,102,102,102	; Table	Edit
+Color=C_TGuideSelect,255,102,0		; Table Edit
+Color=C_TKeyNormal,0,0,0		; Table Edit
+Color=C_TKeySelect,255,255,255		; Table Edit
+Color=C_OpTime,254,245,0
+Color=C_OpNextPrev,49,66,71		; OP Button Next, Prev Color
+Color=C_InfoBoxName,255,255,255		; OP Information Name
+Color=C_InfoBoxValue,51,51,51		; OP Information Value
+Color=C_Notice,0,0,0
+
+Pen=P_KmInfo,2,254,210,392
+Pen=P_KmEdit,1,100,100,100
+Pen=P_VKeySelect,2,255,102,0
+Pen=P_TKeyDisable,1,102,153,204
+Pen=P_TKeyEnable,1,102,153,204
+Pen=P_TKeySelect,1,255,102,0
+
+;by SKKIM
+Pen=P_BoxLine,2,112,132,143	; Op Input Box Line
+Pen=P_InputBack,1,112,132,143	; Op Input Box Line
+Pen=P_VKeySelect,2,255,102,0	; Virtual Key
+Pen=P_TKeyDisable,1,102,153,204	; Table Edit
+Pen=P_TKeyEnable,1,102,153,204	; Table Edit
+Pen=P_TKeySelect,1,255,102,0	; Table Edit
+Pen=P_VOL_01,2,255,222,0
+Pen=P_VOL_02,2,255,212,0
+Pen=P_VOL_03,2,255,200,0
+Pen=P_VOL_04,2,255,186,0
+Pen=P_VOL_05,2,255,170,0
+Pen=P_VOL_06,2,255,152,0
+Pen=P_VOL_07,2,255,132,0
+Pen=P_VOL_08,2,255,110,0
+Pen=P_VOL_09,2,255,86,0
+Pen=P_VOL_10,2,255,60,0
+
+Font=F_KmBtn,Arial,12,1
+Font=F_KmTitle,Arial,16,1
+Font=F_KmInfo,Arial,9,1
+Font=F_KmEdit,Arial,12,1
+Font=F_VGuideNormal,Arial,11,0
+Font=F_VKeyNormal,Arial,11,1
+Font=F_VKeySelect,Arial,11,1
+
+[RES_1024_600]
+;Picture=I_KmTop,\1024_600\OP_Top.jpg
+;Picture=I_KmBtn,\1024_600\OP_Button.jpg
+Picture=I_INPUTBTN,\1024_600\OP_Button_Short.jpg
+;Picture=I_CANCEL,\1024_600\OP_Cancel.jpg		; op Cancel button
+Picture=I_PINKEYMAP,\1024_600\OP_KeyMgr_Map.png
+[/RES_1024_600]
+
+
+;// By Cha
+
+Brush=B_KEY_BACK,255,255,255		; Keymgr Back brush
+Brush=B_KEY_INPUT_NORMAL,255,255,255	; Keymgr Input Normal brush
+Brush=B_KEY_INPUT_SELECT,4,144,179	; Keymgr Input select brush
+Brush=B_KEY_KEYPAD,33,38,39
+
+Color=C_KEY_TITLE,255,255,255		; Keymgr Title Text Color
+Color=C_KEY_TEXT,0,63,89		; Keymgr Text Color
+Color=C_KEY_RED_TEXT,255,0,0		; Keymgr Red Text Color
+Color=C_KEY_BUTTON,255,255,255		; Keymgr Button Text Color
+Color=C_KEY_GUIDE,4,144,179		; Keymgr Guide Text Color
+Color=C_KEY_KB_NORMAL,0,63,89		; VKeyboard Normal Text Color
+
+Pen=P_KEY_BOX_GUIDE,2,112,132,143	; Keymgr Input Box Line
+Pen=P_KEY_INPUT_NORMAL,1,112,132,143	; Keymgr Input Normal Line
+Pen=P_KEY_INPUT_SELECT,1,112,132,143	; Keymgr Input Normal Line
+
+[RES_1024_600]
+Font=F_KEY_TITLE,Arial,15,1	; Keymgr Title Font
+Font=F_KEY_SUB_TITLE,Arial,14,1	; Keymgr Sub Title Font
+Font=F_KEY_TEXT,Arial,9,1	; Keymgr Text Font
+Font=F_KEY_BUTTON,Arial,10,1	; Keymgr Button Font
+Font=F_KEY_KB_NORMAL,Arial,10,1	; VKeyboard Normal Text
+Font=F_VGuideNormal_Alpha,Arial,10,0		; Virtual Key
+Font=F_VKeyNormal_Alpha,Arial,14,1		; Virtaul Key
+Font=F_VKeySelect_Alpha,Arial,14,1		; Virtual Key
+Font=F_VGuideNormal,Arial,10,0			; Virtual Key
+Font=F_VKeyNormal,Arial,13,1			; Virtual Key
+Font=F_VKeySelect,Arial,13,1			; Vitrual Key
+Font=F_TKeyNormal,FIXEDFONT,19,0		; Table Edit
+Font=F_TKeySelect,FIXEDFONT,19,1		; Table EditKEY
+
+;by SKKIM
+Font=F_VGuideNormal_Alpha,Arial,10,0		; Virtual Key
+Font=F_VKeyNormal_Alpha,Arial,14,1		; Virtaul Key
+Font=F_VKeySelect_Alpha,Arial,14,1		; Virtual Key
+Font=F_VGuideNormal,Arial,10,0			; Virtual Key
+Font=F_VKeyNormal,Arial,13,1			; Virtual Key
+Font=F_VKeySelect,Arial,13,1			; Vitrual Key
+Font=F_TKeyNormal,FIXEDFONT,19,0		; Table Edit
+Font=F_TKeySelect,FIXEDFONT,19,1		; Table Edit
+Font=F_ErrDesc,FIXEDFONT,7,0			; op Error Description
+Font=F_ErrCode,Arial,15,1	; Op Error code Font
+Font=F_ErrDesc,Arial,7,1	; Op Error Desc. font
+Font=F_OpMainText,Arial,6,0	; Op Main Text Font
+Font=F_OpNormalText,Arial,6,0	; Op Normal Text Font
+Font=F_OpMainTextBold,Arial,7,1	; Op Main Text Font
+Font=F_OpTitle,Arial,13,1	; OP Title Font
+Font=F_OpSubTitle,Arial,14,1	; OP Sub Title Font
+Font=F_OpGuide,Arial,9,1	; OP Guide Font
+Font=F_OpText,Arial,9,1		; OP Text Font
+Font=F_OPButton,Arial,9,1	; Op Main Button
+Font=F_Result,FIXEDFONT,10,0	; op error code view
+Font=F_ERR,FIXEDFONT,11,0	; op error code view
+Font=F_JNL,FIXEDFONT,11,0	; op jnl view
+Font=F_KB_NORMAL,Arial,12,3	; VKeyboard Normal Text
+
+
+Picture=US_ENG,I_KEY_BACK,\1024_600\OP_Back.png		; Keymgr Background Image
+Picture=US_ENG,I_KEY_BACK2,\1024_600\OP_Back2.png	; Keymgr Background2 Image
+Picture=US_ENG,I_KEY_BACK_INPUT,\1024_600\OP_BackInput.png		; OP Main Background Image
+Picture=US_ENG,I_OP_BOX_KEYBOARD,\1024_600\OP_BoxKeyboard.png
+;Picture=US_ENG,I_KEY_TITLE,\1024_600\OP_Title.jpg	; Keymgr Title Image
+Picture=US_ENG,I_KEY_CANCEL,\1024_600\OP_ButtonCancel.png	; Keymgr Cancel Image
+Picture=US_FRN,I_KEY_CANCEL,\1024_600\OP_ButtonCancel_FRN.png	; Keymgr Cancel Image
+Picture=US_ENG,I_KEY_BUTTON,\1024_600\OP_Button.png	; Keymgr Button Image
+
+; by SKKIM
+Picture=US_ENG,I_OP_BACK_INPUT,\1024_600\OP_BackInput.png		; OP Main Background Image
+Picture=US_ENG,I_OP_KB_KEY,\1024_600\OP_KeyBoardKey.png	; OP Keyboard Normal Button Image
+;Picture=US_ENG,I_OP_KB_CLEAR,\1024_600\OP_KeyBoardClear.jpg	; OP Keyboard Clear Button Image
+Picture=US_ENG,I_OP_KB_123,\1024_600\OP_KeyBoard123.png		; OP Keyboard 123 Button Image
+Picture=US_ENG,I_OP_KB_ABC,\1024_600\OP_KeyBoardAbc.png		; OP Keyboard Abc Button Image
+Picture=US_ENG,I_OP_KB_CAPS,\1024_600\OP_KeyBoardCaps.png		; OP Keyboard Caps Button Image
+Picture=US_ENG,I_OP_KB_SYMBOL1,\1024_600\OP_KeyBoardSymbol1.png	; OP Keyboard Symbol1 Button Image
+Picture=US_ENG,I_OP_KB_SYMBOL2,\1024_600\OP_KeyBoardSymbol2.png	; OP Keyboard Symbol2 Button Image
+Picture=US_ENG,I_OP_KB_SPACE,\1024_600\OP_KeyBoardSpace.png	; OP Keyboard Space Button Image
+Picture=US_ENG,I_OP_KB_ARROW_LEFT,\1024_600\OP_KeyBoardArrowLeft.png	; OP Keyboard Left Arrow Button Image
+Picture=US_ENG,I_OP_KB_ARROW_RIGHT,\1024_600\OP_KeyBoardArrowRight.png	; OP Keyboard Right Arrow Button Image
+Picture=US_ENG,I_OP_KB_ARROW_UP,\1024_600\OP_KeyBoardArrowUp.png		; OP Keyboard Up Arrow Button Image
+Picture=US_ENG,I_OP_KB_ARROW_DOWN,\1024_600\OP_KeyBoardArrowDown.png	; OP Keyboard Down Button Image
+
+;Picture=US_ENG,I_OP_BUTTON,\1024_600\OP_Button.png		; OP Button Image
+;Picture=US_ENG,I_OP_BUTTON_SHORT,\1024_600\OP_ButtonShort.png	; OP Button Short Image
+
+;Picture=US_ENG,I_BUTTON_SHORT,\1024_600\OP_Button.png				; OP Button Short Image
+;Picture=US_ENG,I_OP_BOX_TITLE,\1024_600\OP_BoxTitle.jpg		; OP Title Image
+
+Picture=US_ENG,I_PINKEYMAP,\1024_600\OP_KeyMgr_Map.png
+[/RES_1024_600]
+
+;// By Cha
+
+[/Resource]
+
+;////////////////////////////
+;        KeyMgr Back Screen
+;////////////////////////////
+
+[Screen]
+ID=S_KeyMgrBg
+
+[TextBox]
+Picture=I_KEY_BACK
+Pos=0,0,640,480
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;        KeyMgr Back Screen2
+;////////////////////////////
+
+[Screen]
+ID=S_KeyMgrBg2
+
+[TextBox]
+Picture=I_KEY_BACK2
+Pos=0,0,640,480
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;        KeyMgr Back Screen2
+;////////////////////////////
+
+[Screen]
+ID=S_KeyMgrBg3
+
+[TextBox]
+Picture=I_KEY_BACK_INPUT
+Pos=0,0,640,480
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;        EnterPW Screen
+;////////////////////////////
+
+[Screen]
+ID=S_EnterPW
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_EnterPW_Title
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; Sub-Title
+[TextBox]
+Font=F_KEY_SUB_TITLE
+Pos=145,58,350,48
+TextID=T_EnterPW_SubTitle
+TextSet=1,CENTER,C_KEY_GUIDE
+[/TextBox]
+
+;Info Box
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,110,323,28
+Name=APValue1
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; F8
+[Button]
+Act=FSCMD,ENTERPW,CANCEL
+ActKey=F8
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,423,130,58
+TextID=T_EnterPW_F8
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+[EditBox]
+AFocus=1
+Brush=B_InputSelect
+Font=F_OpText
+Pen=P_InputBack
+MaxInChar=7
+Round=15,15
+Pos=159,142,323,28
+TextSet=0,CENTER,C_InfoBoxValue
+[/EditBox]
+
+; EPP Key Map
+[Button]
+Picture=I_PINKEYMAP
+Pos=253,290,134,123
+TextSet=0,CENTER,C_OpBtn
+[/Button]
+
+;; EPP Key Map
+;[TextBox]
+;Picture=I_PINKEYMAP
+;Pos=224,250,188,176
+;TextSet=0,CENTER,C_OpBtn
+;[/TextBox]
+
+;Warnning
+[TextBox]
+Font=F_KEY_TEXT
+Pos=0,174,640,70
+Name=APValue2
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;TIME OVER
+[Button]
+Act=FSCMD,ENTERPW,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        KeyMgr Main Screen
+;////////////////////////////
+
+[Screen]
+ID=S_KeyMgrMain
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_KeyMgrMain_Title
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+;Info Text1 (KEY MODE)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,110,115,28
+TextID=T_KeyMgrMain_Info1
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;Info Box (KEY MODE)
+[TextBox]
+Brush=B_InputBoxWait
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=282,110,196,28
+Name=APValue1
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+;Info Text2 (KEY INDEX)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,142,115,28
+TextID=T_KeyMgrMain_Info2
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;Info Box (KEY INDEX)
+[EditBox]
+Brush=B_InputBoxWait,B_InputSelect
+Act=ALLFSCMD,KEYMGRMAIN,KEYINDEX
+ActKey=ENTER
+Name=APValue2
+MaxInChar=2
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=282,142,196,28
+TextSet=0,CENTER,C_InfoBoxValue
+[/EditBox]
+
+;Info Text3 (KEY CDIGIT)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_ErrDesc
+Pen=P_InputBack
+Round=15,15
+Pos=163,174,115,28
+TextID=T_KeyMgrMain_Info3
+TextSet=1,CENTER,C_InfoBoxName
+[/TextBox]
+
+;Info Box (KEY CDIGIT)
+[TextBox]
+Brush=B_InputBoxWait
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=282,174,196,28
+Name=APValue3
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+;Warnning
+[TextBox]
+Font=F_KEY_TEXT
+Pos=159,368,323,60
+Name=APValue4
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; F1
+[Button]
+Act=FSCMD,KEYMGRMAIN,KEYMODECHANGE
+ActKey=F1
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,178,130,58
+TextID=T_KeyMgrMain_F1
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F2
+[Button]
+Act=FSCMD,KEYMGRMAIN,EDITKEY
+ActKey=F2
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,178,130,58
+TextID=T_KeyMgrMain_F2
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F3
+[Button]
+Act=SETFOCUS,APValue2
+ActKey=F3
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,256,130,58
+TextID=T_KeyMgrMain_F3
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,KEYMGRMAIN,CHANGEPW
+ActKey=F4
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,256,130,58
+TextID=T_KeyMgrMain_F4
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F5
+[Button]
+Act=FSCMD,KEYMGRMAIN,CHECKKEY
+ActKey=F5
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,338,130,58
+TextID=T_KeyMgrMain_F5
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F6
+;[Button]
+;Act=FSCMD,KEYMGRMAIN,SERIALNUMBER
+;ActKey=F6
+;Font=F_KEY_BUTTON
+;Picture=I_KEY_BUTTON
+;Pos=506,338,130,58
+;TextID=T_KeyMgrMain_F6
+;TextSet=0,CENTER,C_KEY_BUTTON
+;[/Button]
+
+; Cancel - image
+[Button]
+Act=FSCMD,KEYMGRMAIN,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,KEYMGRMAIN,TIMEOVER
+ActKey=TIMEOVER
+Pos=240,446,160,30
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        KeyMgr Main Screen (512K)
+;////////////////////////////
+
+[Screen]
+ID=S_KeyMgrMain2
+Back=S_KeyMgrBg
+
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_KeyMgrMain_Title
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+;Info Text1 (KEY MODE)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,110,115,28
+TextID=T_KeyMgrMain_Info1
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;Info Box (KEY MODE)
+[TextBox]
+Brush=B_InputBoxWait
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=282,110,196,28
+Name=APValue1
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Info Box
+[TextBox]
+Font=F_KEY_TEXT
+Name=APValue2
+Pos=190,150,260,40
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; Warnning Box
+[TextBox]
+Font=F_KmInfo
+Pos=196,380,248,60
+;Pos=196,415,248,40
+Name=APValue4
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; F1
+[Button]
+Act=FSCMD,KEYMGRMAIN2,REMOTEKEYINFO
+ActKey=F1
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,178,130,58
+TextID=T_KeyMgrMain2_F1
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F2
+[Button]
+Act=FSCMD,KEYMGRMAIN2,EDITKEY2
+ActKey=F2
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,178,130,58
+TextID=T_KeyMgrMain2_F2
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F3
+[Button]
+Act=FSCMD,KEYMGRMAIN2,KEYMODECHANGE2
+ActKey=F3
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,256,130,58
+TextID=T_KeyMgrMain2_F3
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,KEYMGRMAIN2,CHANGEPW
+ActKey=F4
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,256,130,58
+TextID=T_KeyMgrMain2_F4
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F5
+[Button]
+Act=FSCMD,KEYMGRMAIN2,CHECKKEY2
+ActKey=F5
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,338,130,58
+TextID=T_KeyMgrMain2_F5
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F6
+;[Button]
+;Act=FSCMD,KEYMGRMAIN2,SERIALNUMBER
+;ActKey=F6
+;Font=F_KEY_BUTTON
+;Picture=I_KEY_BUTTON
+;Pos=506,338,130,58
+;TextID=T_KeyMgrMain2_F6
+;TextSet=0,CENTER,C_KEY_BUTTON
+;[/Button]
+
+; Cancel - image
+[Button]
+Act=FSCMD,KEYMGRMAIN,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,KEYMGRMAIN,TIMEOVER
+ActKey=TIMEOVER
+Pos=240,446,160,30
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        KeyMgr Check Key Screen
+;////////////////////////////
+
+[Screen]
+ID=S_CheckKey
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_CheckKey_Title
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; Text Box
+[TextBox]
+Font=F_KEY_TEXT
+Pos=0,80,640,53
+Name=APValue1
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (#0)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,137,78,28
+TextID=T_CheckKey_Key1
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=245,137,75,28
+Name=APValue2
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Text Box (#8)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=324,137,75,28
+TextID=T_CheckKey_Key9
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=403,137,75,28
+Name=APValue10
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Text Box (#1)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,169,78,28
+TextID=T_CheckKey_Key2
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=245,169,75,28
+Name=APValue3
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Text Box (#9)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=324,169,75,28
+TextID=T_CheckKey_Key10
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=403,169,75,28
+Name=APValue11
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Text Box (#2)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,201,78,28
+TextID=T_CheckKey_Key3
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=245,201,75,28
+Name=APValue4
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Text Box (#10)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=324,201,75,28
+TextID=T_CheckKey_Key11
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=403,201,75,28
+Name=APValue12
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Text Box (#3)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,233,78,28
+TextID=T_CheckKey_Key4
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=245,233,75,28
+Name=APValue5
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Text Box (#11)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=324,233,75,28
+TextID=T_CheckKey_Key12
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=403,233,75,28
+Name=APValue13
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Text Box (#4)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,265,78,28
+TextID=T_CheckKey_Key5
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=245,265,75,28
+Name=APValue6
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Text Box (#12)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=324,265,75,28
+TextID=T_CheckKey_Key13
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=403,265,75,28
+Name=APValue14
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Text Box (#5)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,297,78,28
+TextID=T_CheckKey_Key6
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=245,297,75,28
+Name=APValue7
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Text Box (#13)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=324,297,75,28
+TextID=T_CheckKey_Key14
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=403,297,75,28
+Name=APValue15
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Text Box (#6)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,329,78,28
+TextID=T_CheckKey_Key7
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=245,329,75,28
+Name=APValue8
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Text Box (#14)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=324,329,75,28
+TextID=T_CheckKey_Key15
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=403,329,75,28
+Name=APValue16
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Text Box (#7)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,361,78,28
+TextID=T_CheckKey_Key8
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=245,361,75,30
+Name=APValue9
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Text Box (#15)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=324,361,75,28
+TextID=T_CheckKey_Key16
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=403,361,75,28
+Name=APValue17
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+;APValue100
+[TextBox]
+Font=F_KEY_TEXT
+Name=APValue100
+Pos=163,380,317,48
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; Cancel - image
+[Button]
+Act=FSCMD,CHECKKEY,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,CHECKKEY,TIMEOVER
+ActKey=TIMEOVER
+Pos=240,446,160,30
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        KeyMgr Check Key Screen (512K)
+;////////////////////////////
+
+[Screen]
+ID=S_CheckKey2
+Back=S_KeyMgrBg2
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_CheckKey_Title
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; Status
+[TextBox]
+Font=F_KEY_TEXT
+Pos=0,90,640,35
+Name=APValue1
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; Text Box 
+;[TextBox]
+;Brush=B_KEY_BACK
+;Pen=P_KEY_BOX_GUIDE
+;Round=15,15
+;Pos=126,126,389,286
+;[/TextBox]
+
+; Text Box (Page Title)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+;Round=15,15
+Pos=130,130,36,25
+TextID=T_CheckKey2_Page
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;[TextBox]
+;Font=F_KEY_TEXT
+;Pos=130,130,36,25
+;TextID=T_CheckKey2_Page
+;TextSet=0,CENTER,C_KEY_TEXT
+;[/TextBox]
+
+; Text Box (Key Name Title)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+;Round=15,15
+Pos=165,130,136,25
+TextID=T_CheckKey2_KeyName
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;[TextBox]
+;Font=F_KEY_TEXT
+;Pos=165,130,141,25
+;TextID=T_CheckKey2_KeyName
+;TextSet=0,CENTER,C_KEY_TEXT
+;[/TextBox]
+
+; Text Box (Use Title)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+;Round=15,15
+Pos=300,130,66,25
+TextID=T_CheckKey2_Use
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;[TextBox]
+;Font=F_KEY_TEXT
+;Pos=305,130,66,25
+;TextID=T_CheckKey2_Use
+;TextSet=0,CENTER,C_KEY_TEXT
+;[/TextBox]
+
+; Text Box (Type Title)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+;Round=15,15
+Pos=365,130,36,25
+TextID=T_CheckKey2_Type
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;[TextBox]
+;Font=F_KEY_TEXT
+;Pos=370,130,36,25
+;TextID=T_CheckKey2_Type
+;TextSet=0,CENTER,C_KEY_TEXT
+;[/TextBox]
+
+; Text Box (Length Title)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_ErrDesc
+Pen=P_InputBack
+;Round=15,15
+Pos=400,130,56,25
+TextID=T_CheckKey2_Length
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;[TextBox]
+;Font=F_KEY_TEXT
+;Pos=405,130,51,25
+;TextID=T_CheckKey2_Length
+;TextSet=0,CENTER,C_KEY_TEXT
+;[/TextBox]
+
+; Text Box (KCV Title)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+;Round=15,15
+Pos=455,130,56,25
+TextID=T_CheckKey2_KCV
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;[TextBox]
+;Font=F_KEY_TEXT
+;Pos=455,130,56,25
+;TextID=T_CheckKey2_KCV
+;TextSet=0,CENTER,C_KEY_TEXT
+;[/TextBox]
+
+; Text Box (Page 1)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=130,155,36,26
+Name=APValue2
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Page 2)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=130,180,36,26
+Name=APValue8
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Page 3)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=130,205,36,26
+Name=APValue14
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Page 4)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=130,230,36,26
+Name=APValue20
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Page 5)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=130,255,36,26
+Name=APValue26
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Page 6)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=130,280,36,26
+Name=APValue32
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Page 7)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=130,305,36,26
+Name=APValue38
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Page 8)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=130,330,36,26
+Name=APValue44
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Page 9)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=130,355,36,26
+Name=APValue50
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Page 10)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=130,380,36,26
+Name=APValue56
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 1)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=165,155,136,26
+Name=APValue3
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 2)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=165,180,136,26
+Name=APValue9
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 3)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=165,205,136,26
+Name=APValue15
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 4)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=165,230,136,26
+Name=APValue21
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 5)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=165,255,136,26
+Name=APValue27
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 6)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=165,280,136,26
+Name=APValue33
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 7)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=165,305,136,26
+Name=APValue39
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 8)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=165,330,136,26
+Name=APValue45
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 9)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=165,355,136,26
+Name=APValue51
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 10)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=165,380,136,26
+Name=APValue57
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 1)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=300,155,66,26
+Name=APValue4
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 2)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=300,180,66,26
+Name=APValue10
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 3)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=300,205,66,26
+Name=APValue16
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 4)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=300,230,66,26
+Name=APValue22
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 5)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=300,255,66,26
+Name=APValue28
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 6)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=300,280,66,26
+Name=APValue34
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 7)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=300,305,66,26
+Name=APValue40
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 8)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=300,330,66,26
+Name=APValue46
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 9)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=300,355,66,26
+Name=APValue52
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 10)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=300,380,66,26
+Name=APValue58
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Type 1)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=365,155,36,26
+Name=APValue5
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Type 2)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=365,180,36,26
+Name=APValue11
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Type 3)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=365,205,36,26
+Name=APValue17
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Type 4)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=365,230,36,26
+Name=APValue23
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Type 5)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=365,255,36,26
+Name=APValue29
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Type 6)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=365,280,36,26
+Name=APValue35
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Type 7)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=365,305,36,26
+Name=APValue41
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Type 8)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=365,330,36,26
+Name=APValue47
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Type 9)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=365,355,36,26
+Name=APValue53
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Type 10)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=365,380,36,26
+Name=APValue59
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 1)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=400,155,56,26
+Name=APValue6
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 2)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=400,180,56,26
+Name=APValue12
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 3)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=400,205,56,26
+Name=APValue18
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 4)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=400,230,56,26
+Name=APValue24
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 5)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=400,255,56,26
+Name=APValue30
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 6)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=400,280,56,26
+Name=APValue36
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 7)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=400,305,56,26
+Name=APValue42
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 8)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=400,330,56,26
+Name=APValue48
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 9)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=400,355,56,26
+Name=APValue54
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 10)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=400,380,56,26
+Name=APValue60
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 1)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=455,155,56,26
+Name=APValue7
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 2)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=455,180,56,26
+Name=APValue13
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 3)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=455,205,56,26
+Name=APValue19
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 4)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=455,230,56,26
+Name=APValue25
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 5)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=455,255,56,26
+Name=APValue31
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 6)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=455,280,56,26
+Name=APValue37
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 7)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=455,305,56,26
+Name=APValue43
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 8)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=455,330,56,26
+Name=APValue49
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 9)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=455,355,56,26
+Name=APValue55
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 10)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=455,380,56,26
+Name=APValue61
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; F7
+[Button]
+Act=FSCMD,CHECKKEY2,PREVIOUS
+Name=APState1
+ActKey=F7
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,423,130,58
+TextID=T_KeyMgr_Previous
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F8
+[Button]
+Act=FSCMD,CHECKKEY2,NEXT
+Name=APState2
+ActKey=F8
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,423,130,58
+TextID=T_KeyMgr_Next
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; Cancel - image
+[Button]
+Act=FSCMD,CHECKKEY2,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,CHECKKEY2,TIMEOVER
+ActKey=TIMEOVER
+Pos=240,446,160,30
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        EditMkKey Screen
+;////////////////////////////
+
+[Screen]
+ID=S_EditMkKey
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_EditMkKey_Title
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; F1
+[Button]
+Act=FSCMD,EIDTMKKEY,MKPARTA
+ActKey=F1
+Name=APState1
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,178,130,58
+TextID=T_EditMkKey_F1
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F2
+[Button]
+Act=FSCMD,EIDTMKKEY,MKPARTB
+ActKey=F2
+Name=APState2
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,178,130,58
+TextID=T_EditMkKey_F2
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F3
+[Button]
+Act=FSCMD,EIDTMKKEY,UNIQPARTA
+ActKey=F3
+Name=APState3
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,256,130,58
+TextID=T_EditMkKey_F3
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,EIDTMKKEY,UNIQPARTB
+ActKey=F4
+Name=APState4
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,256,130,58
+TextID=T_EditMkKey_F4
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F5
+[Button]
+Act=FSCMD,EIDTMKKEY,MACPARTA
+ActKey=F5
+Name=APState5
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,338,130,58
+TextID=T_EditMkKey_F5
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F6
+[Button]
+Act=FSCMD,EIDTMKKEY,MACPARTB
+ActKey=F6
+Name=APState6
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,338,130,58
+TextID=T_EditMkKey_F6
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+;APValue100
+[TextBox]
+Font=F_KEY_TEXT
+Name=APValue100
+Pos=163,380,317,48
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; Cancel - image
+[Button]
+Act=FSCMD,CHECKKEY,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,KEYIDX,TIMEOVER
+ActKey=TIMEOVER
+Pos=240,446,160,30
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        EditMkKey Screen (512K)
+;////////////////////////////
+
+[Screen]
+ID=S_EditMkKey2
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_EditMkKey_Title
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; F1
+[Button]
+Act=FSCMD,EIDTMKKEY2,MASTERK
+ActKey=F1
+Name=APValue1
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,178,130,58
+;TextID=T_EditMkKey2_F1
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F2
+[Button]
+Act=FSCMD,EIDTMKKEY2,MASTERK3
+ActKey=F2
+Name=APValue2
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,178,130,58
+;TextID=T_EditMkKey2_F2
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F3
+[Button]
+Act=FSCMD,EIDTMKKEY2,PINMASTERK
+ActKey=F3
+Name=APValue3
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,256,130,58
+;TextID=T_EditMkKey2_F3
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,EIDTMKKEY2,PINMASTERK3
+ActKey=F4
+Name=APValue4
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,256,130,58
+;TextID=T_EditMkKey2_F4
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F5
+[Button]
+Act=FSCMD,EIDTMKKEY2,MACMASTERK
+ActKey=F5
+Name=APValue5
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,338,130,58
+;TextID=T_EditMkKey2_F5
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F6
+[Button]
+Act=FSCMD,EIDTMKKEY2,MACMASTERK3
+ActKey=F6
+Name=APValue6
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,338,130,58
+;TextID=T_EditMkKey2_F6
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F7
+[Button]
+Act=FSCMD,EIDTMKKEY2,DATAMASTERK
+Name=APValue7
+ActKey=F7
+;Font=F_KEY_BUTTON
+Font=F_KEY_TEXT
+Picture=I_KEY_BUTTON
+Pos=3,423,130,58
+;TextID=T_EditMkKey2_F7
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F8
+[Button]
+Act=FSCMD,EIDTMKKEY2,DATAMASTERK3
+Name=APValue8
+ActKey=F8
+;Font=F_KEY_BUTTON
+Font=F_KEY_TEXT
+Picture=I_KEY_BUTTON
+Pos=506,423,130,58
+;TextID=T_EditMkKey2_F8
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+;APValue100
+[TextBox]
+Font=F_KmInfo
+Name=APValue100
+Pos=163,380,317,48
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; Cancel - image
+[Button]
+Act=FSCMD,EIDTMKKEY2,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,EIDTMKKEY2,TIMEOVER
+ActKey=TIMEOVER
+Pos=240,446,160,30
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        EnterKeyIdx Screen
+;////////////////////////////
+
+[Screen]
+ID=S_EnterKeyIdx
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_EnterKeyIdx_Title
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,110,323,28
+Name=APValue2
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Cancel - image
+[Button]
+Act=FSCMD,KEYIDX,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+[EditBox]
+Act=ALLFSCMD,KEYIDX,KEYINDEX
+ActKey=ENTER
+AFocus=1
+Brush=B_InputSelect
+MaxInChar=2
+Font=F_KEY_TEXT
+Pen=P_InputBack
+Round=15,15
+Pos=159,142,323,28
+TextSet=0,CENTER,B_InfoBoxValue
+[/EditBox]
+
+; Warnning Box
+[TextBox]
+Font=F_KEY_TEXT
+Pos=159,390,323,40
+Name=APValue1
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,KEYIDX,TIMEOVER
+ActKey=TIMEOVER
+Pos=240,446,160,30
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        EnterMkKey Screen
+;////////////////////////////
+
+[Screen]
+ID=S_EnterMkKey
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+Name=APValue1
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; EPP Key Map
+[TextBox]
+Picture=I_PINKEYMAP
+Pos=253,290,134,123
+TextSet=0,CENTER,C_OpBtn
+[/TextBox]
+
+;[Button]
+;Picture=I_PINKEYMAP
+;Pos=224,260,188,176
+;TextSet=0,CENTER,C_OpBtn
+;[/Button]
+
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,110,323,28
+Name=APValue2
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,142,323,28
+Name=APValue3
+TextSet=1,CENTER,C_InfoBoxName
+[/TextBox]
+
+[TextBox]
+Font=F_KEY_TEXT
+Pos=159,220,323,65
+Name=APValue4
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; F8
+[Button]
+Act=FSCMD,ENTERMKKEY,CANCEL
+ActKey=F8
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,423,130,58
+TextID=T_EnterMkKey_F8
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+;APValue100
+[TextBox]
+Font=F_KEY_TEXT
+Name=APValue100
+Pos=159,410,323,28
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;EXIT
+[Button]
+Act=FSCMD,ENTERMKKEY,EXIT
+ActKey=ENTER
+Pos=216,456,212,24
+[/Button]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,ENTERMKKEY,TIMEOVER
+ActKey=TIMEOVER
+Pos=240,446,160,30
+[/Button]
+
+[EditBox]
+Brush=B_InputBoxWait,B_InputSelect
+MaxInChar=16
+;AFocus=1
+Name=PWInput
+Font=F_KEY_TEXT
+Pen=P_InputBack
+Round=15,15
+Pos=159,190,323,28
+TextSet=0,CENTER,C_InfoBoxValue
+[/EditBox]
+
+;[TextBox]
+;Font=F_KmInfo
+;Pos=0,400,640,80
+;Name=APValue4
+;TextSet=1,CENTER,C_KEY_RED_TEXT
+;[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;        EnterMkKey Screen (512K, Single)
+;////////////////////////////
+
+[Screen]
+ID=S_EnterMkKey2
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_EnterMkKey_Title1
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; EPP Key Map
+[Button]
+Picture=I_PINKEYMAP
+Pos=253,290,134,123
+TextSet=0,CENTER,C_OpBtn
+[/Button]
+
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,110,323,28
+Name=APValue1
+TextSet=1,LEFT,C_InfoBoxName
+[/TextBox]
+
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,142,323,28
+Name=APValue2
+TextSet=1,LEFT,C_InfoBoxName
+[/TextBox]
+
+;[TextBox]
+;Font=F_KEY_TEXT
+;Pos=159,235,323,65
+;Name=APValue4
+;TextSet=1,CENTER,C_KEY_RED_TEXT
+;[/TextBox]
+
+;Info Box (Info 1)
+[TextBox]
+Font=F_KEY_TEXT
+;Pen=P_InputBack
+Round=15,15
+Pos=159,165,323,28
+Name=APValue3
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; F5
+[Button]
+Act=FSCMD,ENTERMKKEY2,IMPORT
+ActKey=F5
+Name=APState5
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,338,130,58
+TextID=T_EnterMkKey2_F5
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F7
+[Button]
+Act=FSCMD,ENTERMKKEY2,ENTRY
+Name=APState7
+ActKey=F7
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,423,130,58
+TextID=T_EnterMkKey2_F7
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F8
+[Button]
+Act=FSCMD,ENTERMKKEY2,CANCEL
+Name=APState8
+ActKey=F8
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,423,130,58
+TextID=T_EnterMkKey_F8
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+;[TextBox]
+;Brush=B_KmInfoY
+;Pen=P_KmInfo
+;Pos=196,175,248,40
+;[/TextBox]
+
+[EditBox]
+Brush=B_InputBoxWait,B_InputSelect
+MaxInChar=16
+;AFocus=1
+Name=PWInput
+Font=F_KEY_TEXT
+Pen=P_InputBack
+Round=15,15
+Pos=159,190,323,28
+TextSet=0,CENTER,C_InfoBoxValue
+[/EditBox]
+
+;[TextBox]
+;Font=F_KmInfo
+;Pos=200,290,240,15
+;Name=APValue4
+;TextSet=0,CENTER,C_KEY_RED_TEXT
+;[/TextBox]
+
+; Info Box
+[TextBox]
+Font=F_KEY_TEXT
+Pos=159,220,323,70
+Name=APValue4
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;APValue100
+[TextBox]
+Font=F_KEY_TEXT
+Name=APValue100
+Pos=159,410,323,28
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,ENTERMKKEY2,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        EnterMkKey Screen (512K, Triple)
+;////////////////////////////
+
+[Screen]
+ID=S_EnterMkKey3
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_EnterMkKey_Title1
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; EPP Key Map
+[TextBox]
+Picture=I_PINKEYMAP
+Pos=253,290,134,123
+TextSet=0,CENTER,C_OpBtn
+[/TextBox]
+
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,110,323,28
+Name=APValue1
+TextSet=1,LEFT,C_InfoBoxName
+[/TextBox]
+
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,142,323,28
+Name=APValue2
+TextSet=1,LEFT,C_InfoBoxName
+[/TextBox]
+
+;Info Box (Info 1)
+[TextBox]
+Font=F_KEY_TEXT
+;Pen=P_InputBack
+Round=15,15
+Pos=159,165,323,28
+Name=APValue3
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; F5
+[Button]
+Act=FSCMD,ENTERMKKEY2,IMPORT
+ActKey=F5
+Name=APState5
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,338,130,58
+TextID=T_EnterMkKey2_F5
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F7
+[Button]
+Act=FSCMD,ENTERMKKEY2,ENTRY
+Name=APState7
+ActKey=F7
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,423,130,58
+TextID=T_EnterMkKey2_F7
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F8
+[Button]
+Act=FSCMD,ENTERMKKEY2,CANCEL
+Name=APState8
+ActKey=F8
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,423,130,58
+TextID=T_EnterMkKey_F8
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+[EditBox]
+Brush=B_InputBoxWait,B_InputSelect
+MaxInChar=32
+;AFocus=1
+Name=PWInput
+Font=F_KEY_TEXT
+Pen=P_InputBack
+Round=15,15
+Pos=159,190,323,28
+TextSet=0,CENTER,C_InfoBoxValue
+[/EditBox]
+
+; Info Box
+[TextBox]
+Font=F_KEY_TEXT
+Pos=159,220,323,70
+Name=APValue4
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;APValue100
+[TextBox]
+Font=F_KEY_TEXT
+Name=APValue100
+Pos=159,410,323,28
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,ENTERMKKEY3,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        ChangePw Screen
+;////////////////////////////
+
+[Screen]
+ID=S_ChangePw
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_OpTitle
+Pos=159,7,325,40
+TextID=T_ChangePw_Title
+TextSet=0,CENTER,C_OpTitle
+[/TextBox]
+
+; EPP Key Map
+[Button]
+Picture=I_PINKEYMAP
+Pos=253,290,134,123
+TextSet=0,CENTER,C_OpBtn
+[/Button]
+
+;Info Box
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,110,323,28
+Name=APValue1
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; F8
+[Button]
+Act=FSCMD,CHANGEPW,CANCEL
+ActKey=F8,CANCEL
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,423,130,58
+TextID=T_ChangePw_F8
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+[EditBox]
+;AFocus=1
+Brush=B_InputSelect
+Font=F_OpText
+Pen=P_InputBack
+MaxInChar=7
+Name=APValue2
+Round=15,15
+Pos=159,142,323,28
+TextSet=0,CENTER,C_InfoBoxValue
+[/EditBox]
+
+;Warnning
+[TextBox]
+Font=F_KEY_TEXT
+Pos=159,172,323,70
+Name=APValue3
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; F3
+[Button]
+Act=FSCMD,CHANGEPW,PASSWORD1
+ActKey=F3
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,256,130,58
+TextID=T_ChangePw_F3
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,CHANGEPW,PASSWORD2
+ActKey=F4
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,256,130,58
+TextID=T_ChangePw_F4
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+;TIME OVER
+[Button]
+Act=FSCMD,CHANGEPW,TIMEOVER
+ActKey=TIMEOVER
+Pos=240,446,160,30
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        S_ErrorScr Screen
+;////////////////////////////
+
+[Screen]
+ID=S_ErrorScr
+Back=S_KeyMgrBg2
+
+; Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_ERROR_MESSAGE
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; Error Information
+[TextBox]
+Name=APValue1
+Font=F_KEY_TITLE
+Pos=0,60,640,352
+TextID=T_ErrorScr_RETRY
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; F8
+;[Button]
+;Act=FSCMD,ERROR,CANCEL
+;ActKey=F8
+;Font=F_KEY_BUTTON
+;Picture=I_KEY_BUTTON
+;Pos=506,423,130,58
+;TextID=T_ErrorScr_F8
+;TextSet=0,CENTER,C_KEY_BUTTON
+;[/Button]
+
+; Cancel - image
+[Button]
+Act=FSCMD,ERROR,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIME OVER
+[Button]
+Act=FSCMD,ERROR,TIMEOVER
+ActKey=TIMEOVER
+Pos=240,446,160,30
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        Serial Number Screen
+;////////////////////////////
+[Screen]
+ID=S_SerialNumber
+Back=S_KeyMgrBg
+
+; Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_SerialNumber_Title
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; Virtual Alpha Number Key
+[AlphaKeyBox]
+Name=AlphaNumber
+AFocus=1
+VKeyType=Number
+Pos=135,300,370,150
+GuideFont=F_VGuideNormal
+GuideTextColor=C_VGuideNormal
+VKeyFont=F_VKeyNormal,F_VKeySelect
+VKeyBrush=NULL,B_VKeySelect
+VKeyTextColor=C_VKeyNormal,C_VKeySelect
+[/AlphaKeyBox]
+
+; Virtual Alpha Upper Key
+[AlphaKeyBox]
+Name=AlphaUpper
+VKeyType=Upper
+Pos=135,300,370,150
+GuideFont=F_VGuideNormal
+GuideTextColor=C_VGuideNormal
+VKeyFont=F_VKeyNormal
+VKeyBrush=NULL,B_VKeySelect
+VKeyTextColor=C_VKeyNormal,C_VKeySelect
+[/AlphaKeyBox]
+
+; Virtual Alpha Low Key
+[AlphaKeyBox]
+Name=AlphaLower
+VKeyType=Lower
+Pos=135,300,370,150
+GuideFont=F_VGuideNormal
+GuideTextColor=C_VGuideNormal
+VKeyFont=F_VKeyNormal
+VKeyBrush=NULL,B_VKeySelect
+VKeyTextColor=C_VKeyNormal,C_VKeySelect
+[/AlphaKeyBox]
+
+; Virtual Tabke Key
+[TableKeyBox]
+Name=AlphaTable
+Pos=135,300,370,150
+GuideFont=F_VGuideNormal
+GuideTextColor=C_VGuideNormal
+VKeyFont=F_VKeyNormal
+VKeyBrush=NULL,B_VKeySelect
+VKeyTextColor=C_VKeyNormal,C_VKeySelect
+[/TableKeyBox]
+
+[TableEditBox]
+Name=APValue1
+Pos=115,130,410,140
+AllowRowColumn=1,10
+GuideFont=F_TKeyNormal,F_TKeySelect
+GuideTextColor=C_TGuideNormal,C_TGuideSelect
+ElementFont=F_TKeyNormal,F_TKeyNormal,F_TKeySelect
+ElementPen=P_TKeyDisable,P_TKeyEnable,P_TKeySelect
+ElementBrush=B_TKeyDisable,B_TKeyEnable,B_TKeySelect
+ElementTextColor=C_TKeyNormal,C_TKeyNormal,C_TKeySelect
+[/TableEditBox]
+
+; F1
+[VKeyButton]
+Act=SETFOCUS,AlphaUpper
+AFocus=1
+Name=AlphaNumber
+ActKey=F1
+Font=F_KEY_BUTTON
+Picture=I_INPUTBTN
+Pos=0,156,100,60
+TextID=9999915
+TextSet=0,RIGHT,C_OpBtn
+[/VKeyButton]
+
+; F1
+[VKeyButton]
+Act=SETFOCUS,AlphaTable
+Name=AlphaUpper
+ActKey=F1
+Font=F_KEY_BUTTON
+Picture=I_INPUTBTN
+Pos=0,156,100,60
+TextID=9999916
+TextSet=0,RIGHT,C_OpBtn
+[/VKeyButton]
+
+; F1
+[VKeyButton]
+Act=SETFOCUS,AlphaTable
+Name=AlphaLower
+ActKey=F1
+Font=F_KEY_BUTTON
+Picture=I_INPUTBTN
+Pos=0,156,100,60
+TextID=9999916
+TextSet=0,RIGHT,C_OpBtn
+[/VKeyButton]
+
+; F1
+[VKeyButton]
+Act=SETFOCUS,AlphaNumber
+Name=AlphaTable
+ActKey=F1
+Font=F_KEY_BUTTON
+Picture=I_INPUTBTN
+Pos=0,156,100,60
+TextID=9999917
+TextSet=0,RIGHT,C_OpBtn
+[/VKeyButton]
+
+; F2
+[Button]
+Act=KEYEVENT,APValue1,CLEARALL
+Name=APState2
+ActKey=F2
+Font=F_KEY_BUTTON
+Picture=I_INPUTBTN
+Pos=538,156,100,60
+;TextID=971004
+TextID=9999918
+TextSet=1,LEFT,C_OpBtn
+[/Button]
+
+; F3
+[VKeyButton]
+Act=SETFOCUS,AlphaLower
+Name=AlphaUpper
+ActKey=F3
+Font=F_KEY_BUTTON
+Picture=I_INPUTBTN
+Pos=0,244,100,60
+TextID=9999919
+TextSet=0,RIGHT,C_OpBtn
+[/VKeyButton]
+
+; F3
+[VKeyButton]
+Act=SETFOCUS,AlphaUpper
+Name=AlphaLower
+ActKey=F3
+Font=F_KEY_BUTTON
+Picture=I_INPUTBTN
+Pos=0,244,100,60
+TextID=9999920
+TextSet=0,RIGHT,C_OpBtn
+[/VKeyButton]
+
+; F4
+[Button]
+Act=KEYEVENT,APValue1,CLEARLINE
+Name=APState4
+ActKey=F4
+Font=F_KEY_BUTTON
+Picture=I_INPUTBTN
+Pos=538,244,100,60
+TextID=9999921
+TextSet=1,LEFT,C_OpBtn
+[/Button]
+
+; F5
+[Button]
+Act=ALLFSCMD,SERIALNUMBER,INPUT
+Name=APState5
+ActKey=F5
+Font=F_KEY_BUTTON
+Picture=I_INPUTBTN
+Pos=0,332,100,60
+TextID=9999922
+TextSet=1,RIGHT,C_OpBtn
+[/Button]
+
+; F6
+[Button]
+Act=FSCMD,SERIALNUMBER,CANCEL
+Name=APState6
+ActKey=F6
+Font=F_KEY_BUTTON
+Picture=I_INPUTBTN
+Pos=538,332,100,60
+TextID=9999923
+TextSet=1,LEFT,C_OpBtn
+[/Button]
+
+; F7
+[Button]
+Act=KEYEVENT,APValue1,UP
+Name=APState4
+ActKey=F7
+Font=F_KEY_BUTTON
+Picture=I_INPUTBTN
+Pos=0,420,100,60
+TextID=9999924
+TextSet=1,RIGHT,C_OpBtn
+[/Button]
+
+; F8
+[Button]
+Act=KEYEVENT,APValue1,DOWN
+ActKey=F8
+Font=F_KEY_BUTTON
+Name=APState8
+Picture=I_INPUTBTN
+Pos=538,420,100,60
+TextID=9999925
+TextSet=0,LEFT,C_OpBtn
+[/Button]
+
+;APValue100
+[TextBox]
+Font=F_KmInfo
+Name=APValue100
+;Pos=200,432,244,24
+Pos=196,415,248,40
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;CANCEL TO
+[Button]
+Act=FSCMD,SERIALNUMBER,CANCEL
+ActKey=CANCEL
+Font=F_KmInfo
+Pos=216,456,212,24
+TextID=T_CommMsg14
+TextSet=0,CENTER,C_KmInfo
+[/Button]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,SERIALNUMBER,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;    KeyMgr Remote Key Info Screen
+;////////////////////////////
+
+[Screen]
+ID=S_RemoteKeyInfo
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_RemoteKeyInfo_Title
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+;; Status
+;[TextBox]
+;Font=F_VKeyNormal
+;Pos=0,110,640,36
+;Name=APValue1
+;TextSet=0,CENTER,C_VGuideNormal
+;[/TextBox]
+
+[TextBox]
+Font=F_KEY_TEXT
+Name=APValue1
+Pos=159,80,325,28
+TextSet=0,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; Text Box (EPP Serial Number)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,110,161,28
+TextID=T_RemoteKeyInfo_Msg1
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Brush=F_KEY_TEXT
+Pen=P_KEY_INPUT_NORMAL
+Round=15,15
+Pos=328,110,150,28
+Name=APValue2
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (CA Public Key)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,142,161,28
+TextID=T_RemoteKeyInfo_Msg2
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Brush=F_KEY_TEXT
+Pen=P_KEY_INPUT_NORMAL
+Round=15,15
+Pos=328,142,150,28
+Name=APValue3
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (EPP Public Key)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,174,161,28
+TextID=T_RemoteKeyInfo_Msg3
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Brush=F_KEY_TEXT
+Pen=P_KEY_INPUT_NORMAL
+Round=15,15
+Pos=328,174,150,28
+Name=APValue4
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (EPP Private Key)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,206,161,28
+TextID=T_RemoteKeyInfo_Msg4
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Brush=F_KEY_TEXT
+Pen=P_KEY_INPUT_NORMAL
+Round=15,15
+Pos=328,206,150,28
+Name=APValue5
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (EPP Public Key Signature)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,238,161,28
+TextID=T_RemoteKeyInfo_Msg5
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Brush=F_KEY_TEXT
+Pen=P_KEY_INPUT_NORMAL
+Round=15,15
+Pos=328,238,150,28
+Name=APValue6
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Serial Number Signature)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,270,161,28
+TextID=T_RemoteKeyInfo_Msg6
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Brush=F_KEY_TEXT
+Pen=P_KEY_INPUT_NORMAL
+Round=15,15
+Pos=328,270,150,28
+Name=APValue7
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (HOST Public Key)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,302,161,28
+TextID=T_RemoteKeyInfo_Msg7
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Brush=F_KEY_TEXT
+Pen=P_KEY_INPUT_NORMAL
+Round=15,15
+Pos=328,302,150,28
+Name=APValue8
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Download Public Key)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,334,161,28
+TextID=T_RemoteKeyInfo_Msg8
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Brush=F_KEY_TEXT
+Pen=P_KEY_INPUT_NORMAL
+Round=15,15
+Pos=328,334,150,28
+Name=APValue9
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Signature algorithm)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,366,161,28
+TextID=T_RemoteKeyInfo_Msg9
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box 
+[TextBox]
+Brush=F_KEY_TEXT
+Pen=P_KEY_INPUT_NORMAL
+Round=15,15
+Pos=328,366,150,28
+Name=APValue10
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+
+; Cancel - image
+[Button]
+Act=FSCMD,REMOTEKEYINFO,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,REMOTEKEYINFO,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        Select MK Screen (512K)
+;////////////////////////////
+
+[Screen]
+ID=S_SelectMKey
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_SelectMKey_Title
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; F1
+[Button]
+Act=FSCMD,SELECTMKEY,F1
+ActKey=F1
+Name=APValue1
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,178,130,58
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F2
+[Button]
+Act=FSCMD,SELECTMKEY,F2
+ActKey=F2
+Name=APValue2
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,178,130,58
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F3
+[Button]
+Act=FSCMD,SELECTMKEY,F3
+ActKey=F3
+Name=APValue3
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,256,130,58
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,SELECTMKEY,F4
+ActKey=F4
+Name=APValue4
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,256,130,58
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F5
+[Button]
+Act=FSCMD,SELECTMKEY,F5
+ActKey=F5
+Name=APValue5
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,338,130,58
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F6
+[Button]
+Act=FSCMD,SELECTMKEY,F6
+ActKey=F6
+Name=APValue6
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,338,130,58
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F7
+[Button]
+Act=FSCMD,SELECTMKEY,F7
+Name=APValue7
+ActKey=F7
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,423,130,58
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F8
+[Button]
+Act=FSCMD,SELECTMKEY,F8
+Name=APValue8
+ActKey=F8
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,423,130,58
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+;APValue100
+[TextBox]
+Font=F_KmInfo
+Name=APValue10
+Pos=163,380,317,48
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;CANCEL TO
+;[Button]
+;Act=FSCMD,SELECTMKEY,CANCEL
+;ActKey=CANCEL
+;Font=F_KmInfo
+;Pos=216,456,212,24
+;TextID=T_CommMsg14
+;TextSet=0,CENTER,C_KmInfo
+;[/Button]
+
+; Cancel - image
+[Button]
+Act=FSCMD,REMOTEKEYINFO,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,SELECTMKEY,TIMEOVER
+ActKey=TIMEOVER
+Pos=240,446,160,30
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        S_Warining Screen
+;////////////////////////////
+
+[Screen]
+ID=S_WarningScr
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_WARNNING_MESSAGE
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; Error Information
+[TextBox]
+Font=F_KEY_TEXT
+Pos=159,60,325,370
+Name=APValue1
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; F1
+[Button]
+Act=FSCMD,WARNINGSCR,F1
+ActKey=F1
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,178,130,58
+TextID=T_WarningScr_YES
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F2
+[Button]
+Act=FSCMD,WARNINGSCR,F2
+ActKey=F2
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,178,130,58
+TextID=T_WarningScr_NO
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; Cancel - image
+[Button]
+Act=FSCMD,WARNINGSCR,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIME OVER
+[Button]
+Act=FSCMD,WARNINGSCR,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+; S_ClearEPP Screen - PCI5.0
+;////////////////////////////
+
+[Screen]
+ID=S_CLEARSELECTSCR
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_ETC_Clear
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; Error Information
+[TextBox]
+Font=F_KEY_TEXT
+Pos=159,60,325,370
+Name=APValue1
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; F1
+[Button]  
+Act=FSCMD,CLEARSELECTSCR,F1
+ActKey=F1
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,178,130,58
+TextID=T_ClearKEY_All_BTN
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+;Start CE 는 불필요 로 막음.
+; F2
+[Button]
+Act=FSCMD,CLEARSELECTSCR,F2
+ActKey=F2
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,178,130,58
+TextID=T_Set_Initialization_state_BTN
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; Cancel - image
+[Button]
+Act=FSCMD,CLEARSELECTSCR,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIME OVER
+[Button]
+Act=FSCMD,CLEARSELECTSCR,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+; S_ClearEPP Screen - PCI5.0
+;////////////////////////////
+
+[Screen]
+ID=S_ClearEPPScr
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_CONFIRM_MESSAGE
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; Error Information
+[TextBox]
+Font=F_KEY_TEXT
+Pos=159,60,325,370
+Name=APValue1
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; F1
+[Button]  
+Act=FSCMD,CLEAREPPSCR,F1
+ActKey=F1
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,178,130,58
+TextID=T_ClearEPP_YES_BTN
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+;Start CE 는 불필요 로 막음.
+; F2
+[Button]
+Act=FSCMD,CLEAREPPSCR,F2
+ActKey=F2
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,178,130,58
+TextID=T_WarningScr_NO
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+
+; F3
+;[Button]
+;Act=FSCMD,CLEAREPPSCR,F3
+;ActKey=F3
+;Font=F_KEY_BUTTON
+;Picture=I_KEY_BUTTON
+;Pos=3,256,130,58
+;TextID=T_ClearEPPScr_YES_FactoryReset_BTN
+;TextSet=1,CENTER,C_KEY_BUTTON
+;[/Button]
+;
+;; F5
+;[Button]
+;Act=FSCMD,CLEAREPPSCR,F5
+;ActKey=F5
+;Font=F_KEY_BUTTON
+;Picture=I_KEY_BUTTON
+;Pos=3,338,130,58
+;TextID=T_ClearEPPScr_YES_Host_public_BTN
+;TextSet=1,CENTER,C_KEY_BUTTON
+;[/Button]
+;
+;; F7
+;[Button]
+;Act=FSCMD,CLEAREPPSCR,F7
+;;Name=APState1
+;ActKey=F7
+;Font=F_KEY_BUTTON
+;Picture=I_KEY_BUTTON
+;Pos=3,423,130,58
+;TextID=T_ClearEPPScr_YES_HDD_SN_MAC_BTN
+;TextSet=1,CENTER,C_KEY_BUTTON
+;[/Button]
+;
+;; F8
+;[Button]
+;Act=FSCMD,CLEAREPPSCR,F8
+;ActKey=F8
+;Font=F_KEY_BUTTON
+;Picture=I_KEY_BUTTON
+;Pos=506,423,130,58
+;TextID=T_ClearEPPScr_YES_All_symmetric_BTN
+;TextSet=1,CENTER,C_KEY_BUTTON
+;[/Button]
+;End CE 는 불필요 로 막음.
+
+
+; Cancel - image
+[Button]
+Act=FSCMD,CLEAREPPSCR,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIME OVER
+[Button]
+Act=FSCMD,CLEAREPPSCR,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+
+
+[Screen]
+ID=S_RemovalScr
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_Set_Removal_State_MESSAGE
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; Error Information
+[TextBox]
+Font=F_KEY_TEXT
+Pos=159,60,325,370
+Name=APValue1
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;Result Message
+[TextBox]
+Font=F_KmInfo
+Pos=159,255,323,110
+Name=APValue3
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; F1
+[Button]  
+Act=FSCMD,REMOVALSCR,F1
+ActKey=F1
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,178,130,58
+TextID=T_Activate_MESSAGE
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+;Start CE 는 불필요 로 막음.
+; F2
+[Button]
+Act=FSCMD,REMOVALSCR,F2
+ActKey=F2
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,178,130,58
+TextID=T_Deactivate_MESSAGE
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; Cancel - image
+[Button]
+Act=FSCMD,REMOVALSCR,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIME OVER
+[Button]
+Act=FSCMD,REMOVALSCR,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+
+
+
+
+;///////////////////////////////////////////
+;512K - Key Mode
+
+;////////////////////////////
+;        KeyMgr Main Screen (512K) - Key Mode
+;////////////////////////////
+
+[Screen]
+ID=S_KeyMgrMain_KeyMode
+Back=S_KeyMgrBg
+
+; Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_KeyMgrMain_Title
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+;Info Text1 (KEY MODE)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,110,115,28
+TextID=T_KeyMgrMain_Info1
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;Info Box (KEY MODE)
+[TextBox]
+Brush=B_InputBoxWait
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=282,110,196,28
+Name=APValue1
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; Info Box
+[TextBox]
+Font=F_KEY_TEXT
+Name=APValue2
+;Pos=190,140,260,28
+Pos=190,140,260,50
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; Warnning Box
+[TextBox]
+Font=F_KmInfo
+Pos=196,380,248,60
+;Pos=196,415,248,40
+Name=APValue4
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; F1
+[Button]
+Act=FSCMD,KEYMGRMAIN,KEYMODECHANGE
+ActKey=F1
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,178,130,58
+TextID=T_KeyMgrMain_F1
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F2
+[Button]
+Act=FSCMD,KEYMGRMAIN,EDITKEY
+ActKey=F2
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,178,130,58
+TextID=T_KeyMgrMain_F2
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F3 ;Index 미사용
+;[Button]
+;Act=SETFOCUS,APValue2
+;ActKey=F3
+;Font=F_KEY_BUTTON
+;Picture=I_KEY_BUTTON
+;Pos=3,256,130,58
+;TextID=T_KeyMgrMain_F3
+;TextSet=0,CENTER,C_KEY_BUTTON
+;[/Button]
+
+; F3
+[Button]
+Act=FSCMD,KEYMGRMAIN,SETFIELDMODE
+Name=APState3
+ActKey=F3
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,256,130,58
+TextID=T_KeyMgrMain3_F3
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,KEYMGRMAIN,CHANGEPW
+ActKey=F4
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,256,130,58
+TextID=T_KeyMgrMain_F4
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F5
+[Button]
+Act=FSCMD,KEYMGRMAIN,CHECKKEY
+ActKey=F5
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,338,130,58
+TextID=T_KeyMgrMain_F5
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F6 ;Serial Number -> Remoet Key Info
+[Button]
+;Act=FSCMD,KEYMGRMAIN,SERIALNUMBER
+Act=FSCMD,KEYMGRMAIN,REMOTEKEYINFO
+ActKey=F6
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,338,130,58
+TextID=T_KeyMgrMain2_F1
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F7
+[Button]
+Act=FSCMD,KEYMGRMAIN,ENTERID
+;Name=APState1
+ActKey=F7
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,423,130,58
+TextID=T_KeyMgrMain3_F7
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+
+;////////////////////////////
+; S_ClearEPP Screen - PCI5.0
+;////////////////////////////
+; F8
+[Button]
+Act=FSCMD,KEYMGRMAIN,CLEAR
+ActKey=F8
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,423,130,58
+TextID=T_ETC_ClearEPP
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; Cancel - image
+[Button]
+Act=FSCMD,KEYMGRMAIN,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,KEYMGRMAIN,TIMEOVER
+ActKey=TIMEOVER
+Pos=240,446,160,30
+[/Button]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,KEYMGRMAIN,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+
+;////////////////////////////
+;        KeyMgr Check Key Screen (512K) - KEY MODE
+;////////////////////////////
+
+[Screen]
+ID=S_CheckKey_KeyMode
+Back=S_KeyMgrBg
+
+; Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_CheckKey_Title
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; Status
+[TextBox]
+Font=F_KEY_TEXT
+Pos=0,90,640,35
+Name=APValue1
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; Text Box (Key Name Title)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+;Round=15,15
+Pos=160,130,136,41
+TextID=T_CheckKey2_KeyName
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box (Use Title)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+;Round=15,15
+Pos=295,130,66,41
+TextID=T_CheckKey2_Use
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box (Length Title)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_ErrDesc
+Pen=P_InputBack
+;Round=15,15
+Pos=360,130,56,41
+TextID=T_CheckKey3_Length
+TextSet=1,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box (KCV Title)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+;Round=15,15
+Pos=415,130,66,41
+TextID=T_CheckKey2_KCV
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; Text Box (Key Name 1)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=160,170,136,26
+Name=APValue2
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 2)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=160,195,136,26
+Name=APValue6
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 3)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=160,220,136,26
+Name=APValue10
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 4)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=160,245,136,26
+Name=APValue14
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 5)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=160,270,136,26
+Name=APValue18
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 6)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=160,295,136,26
+Name=APValue22
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 7)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=160,320,136,26
+Name=APValue26
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 8)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=160,345,136,26
+Name=APValue30
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 9)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=160,370,136,26
+Name=APValue34
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Key Name 10)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=160,395,136,26
+Name=APValue38
+TextSet=1,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 1)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=295,170,66,26
+Name=APValue3
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 2)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=295,195,66,26
+Name=APValue7
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 3)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=295,220,66,26
+Name=APValue11
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 4)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=295,245,66,26
+Name=APValue15
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 5)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=295,270,66,26
+Name=APValue19
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 6)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=295,295,66,26
+Name=APValue23
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 7)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=295,320,66,26
+Name=APValue27
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 8)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=295,345,66,26
+Name=APValue31
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 9)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=295,370,66,26
+Name=APValue35
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Use 10)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_ErrDesc
+Pos=295,395,66,26
+Name=APValue39
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 1)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=360,170,56,26
+Name=APValue4
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 2)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=360,195,56,26
+Name=APValue8
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 3)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=360,220,56,26
+Name=APValue12
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 4)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=360,245,56,26
+Name=APValue16
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 5)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=360,270,56,26
+Name=APValue20
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 6)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=360,295,56,26
+Name=APValue24
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 7)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=360,320,56,26
+Name=APValue28
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 8)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=360,345,56,26
+Name=APValue32
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 9)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=360,370,56,26
+Name=APValue36
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (Length 10)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=360,395,56,26
+Name=APValue40
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 1)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=415,170,66,26
+Name=APValue5
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 2)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=415,195,66,26
+Name=APValue9
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 3)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=415,220,66,26
+Name=APValue13
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 4)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=415,245,66,26
+Name=APValue17
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 5)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=415,270,66,26
+Name=APValue21
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 6)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=415,295,66,26
+Name=APValue25
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 7)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=415,320,66,26
+Name=APValue29
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 8)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=415,345,66,26
+Name=APValue33
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 9)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=415,370,66,26
+Name=APValue37
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; Text Box (KCV 10)
+[TextBox]
+Pen=P_KEY_INPUT_NORMAL
+Font=F_KEY_TEXT
+Pos=415,395,66,26
+Name=APValue41
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; F8
+;[Button]
+;Act=FSCMD,CHECKKEY,CANCEL
+;ActKey=F8,CANCEL
+;Font=F_KEY_BUTTON
+;Picture=I_KEY_BUTTON
+;Pos=506,423,130,58
+;TextID=T_EnterMkKey_F8
+;TextSet=0,CENTER,C_KEY_BUTTON
+;[/Button]
+
+; F7
+[Button]
+Act=FSCMD,CHECKKEY2,PREVIOUS
+Name=APState1
+ActKey=F7
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=0,420,100,60
+TextID=T_KeyMgr_Previous
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F8
+[Button]
+Act=FSCMD,CHECKKEY2,NEXT
+Name=APState2
+ActKey=F8
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=540,420,100,60
+TextID=T_KeyMgr_Next
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; Cancel - image
+[Button]
+Act=FSCMD,CHECKKEY,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,CHECKKEY2,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        EditMkKey Screen (512K)-KEY MODE
+;////////////////////////////
+[Screen]
+ID=S_EditMkKey_KeyMode
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_EditMkKey_Title
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; F1
+[Button]
+Act=FSCMD,EIDTMKKEY,MKPARTA
+ActKey=F1
+Name=APState1
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,178,130,58
+TextID=T_EditMkKey_F1
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F2
+[Button]
+Act=FSCMD,EIDTMKKEY,MKPARTB
+ActKey=F2
+Name=APState2
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,178,130,58
+TextID=T_EditMkKey_F2
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F3
+[Button]
+Act=FSCMD,EIDTMKKEY,UNIQPARTA
+ActKey=F3
+Name=APState3
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,256,130,58
+TextID=T_EditMkKey_F3
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,EIDTMKKEY,UNIQPARTB
+ActKey=F4
+Name=APState4
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,256,130,58
+TextID=T_EditMkKey_F4
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F5
+[Button]
+Act=FSCMD,EIDTMKKEY,MACPARTA
+ActKey=F5
+Name=APState5
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,338,130,58
+TextID=T_EditMkKey_F5
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F6
+[Button]
+Act=FSCMD,EIDTMKKEY,MACPARTB
+ActKey=F6
+Name=APState6
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,338,130,58
+TextID=T_EditMkKey_F6
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+;APValue100
+[TextBox]
+Font=F_KEY_TEXT
+Name=APValue100
+Pos=163,380,317,48
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; Cancel - image
+[Button]
+Act=FSCMD,CHECKKEY,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,KEYIDX,TIMEOVER
+ActKey=TIMEOVER
+Pos=240,446,160,30
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        EnterMkKey Screen (512K, Single)-KEY MODE
+;////////////////////////////
+
+[Screen]
+ID=S_EnterMkKey_KeyMode_S
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_EnterMkKey_Title1
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; EPP Key Map
+[Button]
+Picture=I_PINKEYMAP
+Pos=253,290,134,123
+TextSet=0,CENTER,C_OpBtn
+[/Button]
+
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,110,323,28
+Name=APValue1
+TextSet=1,LEFT,C_InfoBoxName
+[/TextBox]
+
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,142,323,28
+Name=APValue2
+TextSet=1,LEFT,C_InfoBoxName
+[/TextBox]
+
+;[TextBox]
+;Font=F_KEY_TEXT
+;Pos=159,235,323,65
+;Name=APValue4
+;TextSet=1,CENTER,C_KEY_RED_TEXT
+;[/TextBox]
+
+;Info Box (Info 1)
+[TextBox]
+Font=F_KEY_TEXT
+;Pen=P_InputBack
+Round=15,15
+Pos=159,165,323,28
+Name=APValue3
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; F5
+[Button]
+Act=FSCMD,ENTERMKKEY2,IMPORT
+ActKey=F5
+Name=APState5
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,338,130,58
+TextID=T_EnterMkKey2_F5
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F7
+[Button]
+Act=FSCMD,ENTERMKKEY2,ENTRY
+Name=APState7
+ActKey=F7
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,423,130,58
+TextID=T_EnterMkKey2_F7
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F8
+[Button]
+Act=FSCMD,ENTERMKKEY2,CANCEL
+Name=APState8
+ActKey=F8
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,423,130,58
+TextID=T_EnterMkKey_F8
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+;[TextBox]
+;Brush=B_KmInfoY
+;Pen=P_KmInfo
+;Pos=196,175,248,40
+;[/TextBox]
+
+[EditBox]
+Brush=B_InputBoxWait,B_InputSelect
+MaxInChar=16
+;AFocus=1
+Name=PWInput
+Font=F_KEY_TEXT
+Pen=P_InputBack
+Round=15,15
+Pos=159,190,323,28
+TextSet=0,CENTER,C_InfoBoxValue
+[/EditBox]
+
+;[TextBox]
+;Font=F_KmInfo
+;Pos=200,290,240,15
+;Name=APValue4
+;TextSet=0,CENTER,C_KEY_RED_TEXT
+;[/TextBox]
+
+; Info Box
+[TextBox]
+Font=F_KEY_TEXT
+Pos=159,220,323,70
+Name=APValue4
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;APValue100
+[TextBox]
+Font=F_KEY_TEXT
+Name=APValue100
+Pos=159,410,323,28
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,ENTERMKKEY2,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        EnterMkKey Screen (512K, Triple)-KEY MODE
+;////////////////////////////
+
+[Screen]
+ID=S_EnterMkKey_KeyMode_T
+Back=S_KeyMgrBg
+
+;Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_EnterMkKey_Title1
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; EPP Key Map
+[TextBox]
+Picture=I_PINKEYMAP
+Pos=253,290,134,123
+TextSet=0,CENTER,C_OpBtn
+[/TextBox]
+
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,110,323,28
+Name=APValue1
+TextSet=1,LEFT,C_InfoBoxName
+[/TextBox]
+
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,142,323,28
+Name=APValue2
+TextSet=1,LEFT,C_InfoBoxName
+[/TextBox]
+
+;Info Box (Info 1)
+[TextBox]
+Font=F_KEY_TEXT
+;Pen=P_InputBack
+Round=15,15
+Pos=159,165,323,28
+Name=APValue3
+TextSet=0,CENTER,C_KEY_TEXT
+[/TextBox]
+
+; F5
+[Button]
+Act=FSCMD,ENTERMKKEY2,IMPORT
+ActKey=F5
+Name=APState5
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,338,130,58
+TextID=T_EnterMkKey2_F5
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F7
+[Button]
+Act=FSCMD,ENTERMKKEY2,ENTRY
+Name=APState7
+ActKey=F7
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,423,130,58
+TextID=T_EnterMkKey2_F7
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F8
+[Button]
+Act=FSCMD,ENTERMKKEY2,CANCEL
+Name=APState8
+ActKey=F8
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,423,130,58
+TextID=T_EnterMkKey_F8
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+[EditBox]
+Brush=B_InputBoxWait,B_InputSelect
+MaxInChar=32
+;AFocus=1
+Name=PWInput
+Font=F_KEY_TEXT
+Pen=P_InputBack
+Round=15,15
+Pos=159,190,323,28
+TextSet=0,CENTER,C_InfoBoxValue
+[/EditBox]
+
+; Info Box
+[TextBox]
+Font=F_KEY_TEXT
+Pos=159,220,323,70
+Name=APValue4
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;APValue100
+[TextBox]
+Font=F_KEY_TEXT
+Name=APValue100
+Pos=159,410,323,28
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,ENTERMKKEY2,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        Inject Menu Mk Key Screen - Key Mode
+;////////////////////////////
+
+[Screen]
+ID=S_InjectMenu_KeyMode
+Back=S_KeyMgrBg
+
+; Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_EditMkKey_Title
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; F1
+[Button]
+Act=FSCMD,INEJCTMENUKM,MASTERKEY
+ActKey=F1
+Name=APState1
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,178,130,58
+TextID=T_InjectMenuKM_F1
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F2
+[Button]
+Act=FSCMD,INEJCTMENUKM,MASTERKEY3
+ActKey=F2
+Name=APState2
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,178,130,58
+TextID=T_InjectMenuKM_F2
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F3
+[Button]
+Act=FSCMD,INEJCTMENUKM,UNIQUEKEY
+ActKey=F3
+Name=APState3
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,256,130,58
+TextID=T_InjectMenuKM_F3
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,INEJCTMENUKM,UNIQUEKEY3
+ActKey=F4
+Name=APState4
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,256,130,58
+TextID=T_InjectMenuKM_F4
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F5
+[Button]
+Act=FSCMD,INEJCTMENUKM,MACKEY
+ActKey=F5
+Name=APState5
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,338,130,58
+TextID=T_InjectMenuKM_F5
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F6
+[Button]
+Act=FSCMD,INEJCTMENUKM,MACKEY3
+ActKey=F6
+Name=APState6
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,338,130,58
+TextID=T_InjectMenuKM_F6
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F8
+;[Button]
+;Act=FSCMD,INEJCTMENUKM,CANCEL
+;ActKey=F8,CANCEL
+;Font=F_KEY_BUTTON
+;Picture=I_KEY_BUTTON
+;Pos=506,423,130,58
+;TextID=T_EnterMkKey_F8
+;TextSet=0,CENTER,C_KEY_BUTTON
+;[/Button]
+
+;APValue100
+[TextBox]
+Font=F_KmInfo
+Name=APValue100
+Pos=196,370,248,55
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; Cancel - image
+[Button]
+Act=FSCMD,INEJCTMENUKM,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,INEJCTMENUKM,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        Set EPP State Menu Screen - PCI 2.0
+;////////////////////////////
+
+[Screen]
+ID=S_SetEPPState
+Back=S_KeyMgrBg
+
+; Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_SetEPPState_Title
+TextSet=0,CENTER,C_KEY_TITLE
+[/TextBox]
+
+;Info Text1 (ID COUNT)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,180,115,28
+TextID=T_SetState_Info1
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;Info Box (ID COUNT)
+[TextBox]
+Brush=B_InputBoxWait
+;Font=F_OpText
+Font=F_ErrDesc
+Pen=P_InputBack
+Round=15,15
+Pos=282,180,196,28
+Name=APValue1
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+;Info Text2 (STATE)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,215,115,28
+TextID=T_SetState_Info2
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;Info Box (STATE)
+[TextBox]
+Brush=B_InputBoxWait
+Font=F_ErrDesc
+Pen=P_InputBack
+Round=15,15
+Pos=282,215,196,28
+Name=APValue2
+TextSet=1,CENTER,C_InfoBoxValue
+[/TextBox]
+
+;Result Message
+[TextBox]
+;Brush=B_KmInfoY
+Font=F_KmInfo
+Pos=190,290,260,150
+Name=APValue3
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; F1
+[Button]
+Act=FSCMD,SETEPPSTATE,ADDID
+ActKey=F1
+Name=APState1
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,178,130,58
+TextID=T_SetEPPState_F1
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F2
+[Button]
+Act=FSCMD,SETEPPSTATE,CHANGEPW
+ActKey=F2
+Name=APState2
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,178,130,58
+TextID=T_SetEPPState_F2
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F3
+[Button]
+Act=FSCMD,SETEPPSTATE,DELETEID
+ActKey=F3
+Name=APState3
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,256,130,58
+TextID=T_SetEPPState_F3
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F7
+[Button]
+Act=FSCMD,SETEPPSTATE,CHANGESTATE
+ActKey=F7
+Name=APState7
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,423,130,58
+TextID=T_SetEPPState_F7
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F8
+;[Button]
+;Act=FSCMD,SETEPPSTATE,CANCEL
+;ActKey=F8,CANCEL
+;Font=F_KEY_BUTTON
+;Picture=I_KEY_BUTTON
+;Pos=506,423,130,58
+;TextID=T_SetEPPState_F8
+;TextSet=0,CENTER,C_KEY_BUTTON
+;[/Button]
+
+;APValue100
+;'[TextBox]
+;Font=F_KmInfo
+;Name=APValue100
+;Pos=196,415,248,40
+;TextSet=1,CENTER,C_KEY_RED_TEXT
+;[/TextBox]
+
+; Cancel - image
+[Button]
+Act=FSCMD,SETEPPSTATE,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;TIMEOVER
+[Button]
+Act=FSCMD,SETEPPSTATE,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        Enter ID and Password Screen - PCI 2.0
+;////////////////////////////
+
+[Screen]
+ID=S_EnterID
+Back=S_KeyMgrBg
+
+; Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_EnterIDPW_Title
+TextSet=1,CENTER,C_KEY_TITLE
+[/TextBox]
+
+;Info Box
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,110,323,28
+Name=APValue1
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+; F1
+[Button]
+Act=FSCMD,ENTERPW,SETREMOVALSTATE
+ActKey=F1
+Name=APState1
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,178,130,58
+TextID=T_EnterIDPW_F1
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F8
+[Button]
+Act=FSCMD,ENTERPW,CANCEL
+ActKey=F8
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,423,130,58
+TextID=T_EnterIDPW_F8
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+;Result Message
+[TextBox]
+Font=F_KmInfo
+Pos=159,255,323,110
+Name=APValue2
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;Help Message
+[TextBox]
+Font=F_KmInfo
+Pos=159,365,323,60
+Name=APValue3
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;Info Text1 (ID)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,178,140,33
+TextID=T_EnterIDPW_Info1
+TextSet=0,RIGHT,C_InfoBoxName
+[/TextBox]
+
+;Info Box (ID)
+[EditBox]
+Brush=B_InputBoxWait,B_InputSelect
+Act=ALLFSCMD,ENTERPW,IDEND
+AutoRun=1
+;ActKey=ENTER
+Name=APValue4
+MaxInChar=6
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=307,178,171,33
+TextSet=0,CENTER,C_InfoBoxValue
+[/EditBox]
+
+;Info Text2 (PASSWORD)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,217,140,33
+TextID=T_EnterIDPW_Info2
+TextSet=0,RIGHT,C_InfoBoxName
+[/TextBox]
+
+;Info Box (PASSWORD)
+[EditBox]
+Brush=B_InputBoxWait,B_InputSelect
+;Act=ALLFSCMD,ENTERPW,PWEND
+;ActKey=ENTER
+Name=APValue5
+MaxInChar=7
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=307,217,171,33
+TextSet=0,CENTER,C_InfoBoxValue
+[/EditBox]
+
+; F7
+[Button]
+;Act=SETFOCUS,APValue4
+Act=FSCMD,ENTERPW,ENTERID
+ActKey=F7
+Name=APState7
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,423,130,58
+TextID=T_EnterIDPW_F7
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+;TIME OVER
+[Button]
+Act=FSCMD,ENTERID,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        ADD ID and Password Screen - PCI 2.0
+;////////////////////////////
+
+[Screen]
+ID=S_ADDIDPW
+Back=S_KeyMgrBg
+
+; Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_ADDIDPW_Title
+TextSet=1,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; F8
+[Button]
+Act=FSCMD,ADDIDPW,CANCEL
+ActKey=F8
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,423,130,58
+TextID=T_ADDIDPW_F8
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+;Info Box
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,110,323,28
+Name=APValue1
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;Result Message
+[TextBox]
+Font=F_KmInfo
+Pos=159,255,323,110
+Name=APValue2
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;Help Message
+[TextBox]
+Font=F_KmInfo
+Pos=159,365,323,60
+Name=APValue3
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;Info Text1 (ID)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,178,140,33
+TextID=T_EnterIDPW_Info1
+TextSet=0,RIGHT,C_InfoBoxName
+[/TextBox]
+
+;Info Box (ID)
+[EditBox]
+Brush=B_InputBoxWait,B_InputSelect
+Act=ALLFSCMD,ADDIDPW,IDEND
+AutoRun=1
+;ActKey=ENTER
+Name=APValue4
+MaxInChar=6
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=307,178,171,33
+TextSet=0,CENTER,C_InfoBoxValue
+[/EditBox]
+
+;Info Text2 (PASSWORD)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,217,140,33
+TextID=T_EnterIDPW_Info2
+TextSet=0,RIGHT,C_InfoBoxName
+[/TextBox]
+
+;Info Box (PASSWORD)
+[EditBox]
+AutoRun=1
+Brush=B_InputBoxWait,B_InputSelect
+;Act=ALLFSCMD,ADDIDPW,KEYINDEX
+;ActKey=ENTER
+Name=APValue5
+MaxInChar=7
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=307,217,171,33
+TextSet=0,CENTER,C_InfoBoxValue
+Type=PASSWORD
+[/EditBox]
+
+; F5
+[Button]
+Act=FSCMD,ADDIDPW,ENTER
+ActKey=F5
+Name=APState5
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,338,130,58
+TextID=T_AddIDPW_F5
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F7
+[Button]
+Act=FSCMD,ADDIDPW,VERIFY
+ActKey=F7
+Name=APState7
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,423,130,58
+TextID=T_AddIDPW_F7
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+;TIME OVER
+[Button]
+Act=FSCMD,ADDIDPW,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        Change ID and Password Screen - PCI 2.0
+;////////////////////////////
+
+[Screen]
+ID=S_ChangeIDPW
+Back=S_KeyMgrBg
+
+; Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_ChangeIDPW_Title
+TextSet=1,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; F8
+[Button]
+Act=FSCMD,CHANGEIDPW,CANCEL
+ActKey=F8
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,423,130,58
+TextID=T_ChangeIDPW_F8
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+;Info Box
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,110,323,28
+Name=APValue1
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;Result Message
+[TextBox]
+Font=F_KmInfo
+Pos=159,255,323,110
+Name=APValue2
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;Help Message
+[TextBox]
+Font=F_KmInfo
+Pos=159,365,323,60
+Name=APValue3
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;Info Text1 (ID)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,178,140,33
+TextID=T_EnterIDPW_Info1
+TextSet=0,RIGHT,C_InfoBoxName
+[/TextBox]
+
+;Info Box (ID)
+[EditBox]
+Brush=B_InputBoxWait,B_InputSelect
+Act=ALLFSCMD,CHANGEIDPW,IDEND
+AutoRun=1
+;ActKey=ENTER
+Name=APValue4
+MaxInChar=6
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=307,178,171,33
+TextSet=0,CENTER,C_InfoBoxValue
+[/EditBox]
+
+;Info Text2 (PASSWORD)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,217,140,33
+TextID=T_EnterIDPW_Info2
+TextSet=0,RIGHT,C_InfoBoxName
+[/TextBox]
+
+;Info Box (PASSWORD)
+[EditBox]
+AutoRun=1
+Brush=B_InputBoxWait,B_InputSelect
+;Act=ALLFSCMD,CHANGEIDPW,KEYINDEX
+;ActKey=ENTER
+Name=APValue5
+MaxInChar=7
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=307,217,171,33
+TextSet=0,CENTER,C_InfoBoxValue
+Type=PASSWORD
+[/EditBox]
+
+; F5
+[Button]
+Act=FSCMD,CHANGEIDPW,ENTER
+ActKey=F5
+Name=APState5
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,338,130,58
+TextID=T_ChangeIDPW_F5
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F7
+[Button]
+Act=FSCMD,CHANGEIDPW,VERIFY
+ActKey=F7
+Name=APState7
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,423,130,58
+TextID=T_ChangeIDPW_F7
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+;TIME OVER
+[Button]
+Act=FSCMD,CHANGEIDPW,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        Delete ID and Password Screen - PCI 2.0
+;////////////////////////////
+
+[Screen]
+ID=S_DeleteIDPW
+Back=S_KeyMgrBg
+
+; Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_DeleteIDPW_Title
+TextSet=1,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; F8
+[Button]
+Act=FSCMD,DELETEID,CANCEL
+ActKey=F8
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=506,423,130,58
+TextID=T_DeleteIDPW_F8
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+;Info Box
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=159,110,323,28
+Name=APValue1
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;Result Message
+[TextBox]
+Font=F_KmInfo
+Pos=159,255,323,110
+Name=APValue2
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;Help Message
+[TextBox]
+Font=F_KmInfo
+Pos=159,365,323,60
+Name=APValue3
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+;Info Text1 (ID)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,178,140,33
+TextID=T_EnterIDPW_Info1
+TextSet=0,RIGHT,C_InfoBoxName
+[/TextBox]
+
+;Info Box (ID)
+[EditBox]
+Brush=B_InputBoxWait,B_InputSelect
+Act=ALLFSCMD,DELETEID,IDEND
+AutoRun=1
+;ActKey=ENTER
+Name=APValue4
+MaxInChar=6
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=307,178,171,33
+TextSet=0,CENTER,C_InfoBoxValue
+[/EditBox]
+
+;Info Text2 (PASSWORD)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,217,140,33
+TextID=T_EnterIDPW_Info2
+TextSet=0,RIGHT,C_InfoBoxName
+[/TextBox]
+
+;Info Box (PASSWORD)
+[EditBox]
+AutoRun=1
+Brush=B_InputBoxWait,B_InputSelect
+;Act=ALLFSCMD,DELETEID,KEYINDEX
+;ActKey=ENTER
+Name=APValue5
+MaxInChar=7
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=307,217,171,33
+TextSet=0,CENTER,C_InfoBoxValue
+Type=PASSWORD
+[/EditBox]
+
+; F7
+;[Button]
+;;Act=SETFOCUS,APValue4
+;Act=FSCMD,DELETEID,ENTERID
+;ActKey=F7
+;Name=APState7
+;Font=F_KEY_BUTTON
+;Picture=I_KEY_BUTTON
+;Pos=3,423,130,58
+;TextID=T_EnterIDPW_F7
+;TextSet=0,CENTER,C_KEY_BUTTON
+;[/Button]
+
+;TIME OVER
+[Button]
+Act=FSCMD,DELETEID,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+
+;////////////////////////////
+;        Change EPP State Screen - PCI 2.0
+;////////////////////////////
+
+[Screen]
+ID=S_ChangeState
+Back=S_KeyMgrBg
+
+; Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_ChangeState_Title
+TextSet=1,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; Cancel - image
+[Button]
+Act=FSCMD,CHANGESTATE,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;Info Text1 (STATE)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,110,140,33
+TextID=T_ChangeState_Info1
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;Info Box (STATE)
+[TextBox]
+Brush=B_InputBoxWait
+Font=F_OpText
+;Font=F_ErrDesc
+Pen=P_InputBack
+Round=15,15
+Pos=307,110,171,33
+Name=APValue1
+TextSet=1,CENTER,C_InfoBoxValue
+[/TextBox]
+
+;Result Message
+[TextBox]
+;Brush=B_KmInfoY
+Font=F_KmInfo
+Pos=190,240,260,150
+Name=APValue2
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; F5
+;[Button]
+;Act=FSCMD,CHANGESTATE,ENTER
+;ActKey=F5
+;Name=APState5
+;Font=F_KEY_BUTTON
+;Picture=I_KEY_BUTTON
+;Pos=3,338,130,58
+;TextID=T_ChangeIDPW_F5
+;TextSet=0,CENTER,C_KEY_BUTTON
+;[/Button]
+
+; F7
+[Button]
+Act=FSCMD,CHANGESTATE,CHANGE
+ActKey=F7
+Name=APState7
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,423,130,58
+TextID=T_ChangeState_F7
+TextSet=0,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F8
+;[Button]
+;Act=FSCMD,CHANGESTATE,CANCEL
+;ActKey=F8
+;Font=F_KEY_BUTTON
+;Picture=I_KEY_BUTTON
+;Pos=506,423,130,58
+;TextID=T_ChangeIDPW_F8
+;TextSet=0,CENTER,C_KEY_BUTTON
+;[/Button]
+
+;TIME OVER
+[Button]
+Act=FSCMD,CHANGESTATE,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        Set Field Mode Screen - PCI 3.0
+;////////////////////////////
+
+[Screen]
+ID=S_SetFieldMode
+Back=S_KeyMgrBg
+
+; Title
+[TextBox]
+Font=F_KEY_TITLE
+Pos=159,7,325,40
+TextID=T_SetFieldMode_Title
+TextSet=1,CENTER,C_KEY_TITLE
+[/TextBox]
+
+; Cancel - image
+[Button]
+Act=FSCMD,SETFIELDMODE,CANCEL
+ActKey=CANCEL
+Picture=I_KEY_CANCEL
+Pos=140,437,357,39
+[/Button]
+
+;Info Text1 (STATE)
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,110,140,33
+TextID=T_SetFieldModeState_Info1
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+;Info Box (STATE)
+[TextBox]
+Brush=B_InputBoxWait
+Font=F_OpText
+;Font=F_ErrDesc
+Pen=P_InputBack
+Round=15,15
+Pos=307,110,171,33
+Name=APValue1
+TextSet=1,CENTER,C_InfoBoxValue
+[/TextBox]
+
+;Result Message
+[TextBox]
+;Brush=B_KmInfoY
+Font=F_KmInfo
+Pos=190,240,260,150
+Name=APValue2
+TextSet=1,CENTER,C_KEY_RED_TEXT
+[/TextBox]
+
+; F5
+;[Button]
+;Act=FSCMD,SETFIELDMODE,ENTER
+;ActKey=F5
+;Name=APState5
+;Font=F_KEY_BUTTON
+;Picture=I_KEY_BUTTON
+;Pos=3,338,130,58
+;TextID=T_ChangeIDPW_F5
+;TextSet=0,CENTER,C_KEY_BUTTON
+;[/Button]
+
+; F7
+[Button]
+Act=FSCMD,SETFIELDMODE,SETMODE
+ActKey=F7
+Name=APState7
+Font=F_KEY_BUTTON
+Picture=I_KEY_BUTTON
+Pos=3,423,130,58
+TextID=T_KeyMgrMain3_F3
+TextSet=1,CENTER,C_KEY_BUTTON
+[/Button]
+
+; F8
+;[Button]
+;Act=FSCMD,SETFIELDMODE,CANCEL
+;ActKey=F8
+;Font=F_KEY_BUTTON
+;Picture=I_KEY_BUTTON
+;Pos=506,423,130,58
+;TextID=T_ChangeIDPW_F8
+;TextSet=0,CENTER,C_KEY_BUTTON
+;[/Button]
+
+;TIME OVER
+[Button]
+Act=FSCMD,SETFIELDMODE,TIMEOVER
+ActKey=TIMEOVER
+Pos=216,456,212,24
+[/Button]
+
+[/Screen]
+
+ 

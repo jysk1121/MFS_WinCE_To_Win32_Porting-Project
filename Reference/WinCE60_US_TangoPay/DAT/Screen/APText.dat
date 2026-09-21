@@ -1,0 +1,1123 @@
+﻿[SUPPORT]
+US_ENG=1
+US_SPN=1
+US_FRN=1
+US_CHN=1
+US_KOR=1
+US_JPN=1
+CA_ENG=1
+CA_SPN=1
+CA_FRN=1
+CA_CHN=1
+CA_KOR=1
+CA_JPN=1
+AU_ENG=1
+AU_SPN=1
+AU_FRN=1
+AU_CHN=1
+AU_KOR=1
+AU_JPN=1
+MX_ENG=1
+MX_SPN=1
+MX_FRN=1
+MX_CHN=1
+MX_KOR=1
+MX_JPN=1
+[/SUPPORT]
+
+[TEXT]
+ID=INITMSG
+US_ENG="Please wait while loading..."
+US_SPN="Por favor espere mientras carga…"
+US_FRN="S'il vous plaît patienter pendant le chargement…"
+US_CHN="请稍等…"
+US_KOR="기동 중입니다. 잠시만 기다려 주십시오."
+US_JPN="ロードする間お待ちください..."
+
+ID=001001
+US_ENG="Please wait while initializing..."
+US_SPN="Por favor, espere mientras la inicialización..."
+US_FRN="Veuillez patienter, en cours d'initialisation..."
+US_CHN="正在初始化,请稍等…"
+US_KOR="초기화 중입니다. 잠시만 기다려 주십시오."
+US_JPN="初期化しています。しばらくお待ちください。"
+AU_ENG="Please wait while initialising..."
+
+ID=002001
+US_ENG="OUT OF SERVICE"
+US_SPN="FUERA DE SERVICIO"
+US_FRN="HORS DE SERVICE"
+US_CHN="服务中断"
+US_KOR="서비스 불가"
+US_JPN="サービス中止"
+CA_ENG="OUT OF SERVICEHORS DE SERVICE"
+CA_FRN="OUT OF SERVICEHORS DE SERVICE"
+
+ID=002002
+US_ENG="ATM is temporarily out of service."
+US_SPN="ATM esta temporalmente fuera de servicio."
+US_FRN="ATM est temporairement hors service."
+US_CHN="ATM服务临时中断。"
+US_KOR="일시적으로 ATM을 사용하실 수 없습니다."
+US_JPN="ATMサービスがしばらく中止されています。"
+CA_ENG="ATM is temporarily out of service.ATM est temporairement hors service."
+CA_FRN="ATM is temporarily out of service.ATM est temporairement hors service."
+
+ID=003001
+US_ENG="Now Administrator managing system."
+US_SPN="Ahora la gestión del administrador del sistema."
+US_FRN="Maintenant l'administrateur de gérer le système."
+US_CHN="现在管理员正在管理系统。"
+US_KOR="운영자 관리 모드에 진입하였습니다."
+US_JPN="現在、管理者がシステム管理中"
+
+ID=004001
+US_ENG="Now we provide audio guidance."
+US_SPN="Ahora le ofrecemos una guía de audio."
+US_FRN="Maintenant nous fournir des indications audio."
+US_CHN="现在正在提供音频向导。"
+US_KOR="현재 음성 안내 중입니다."
+US_JPN="現在、オーディオ案内提供中"
+
+ID=005001
+US_ENG="Remote Monitoring System is in progress."
+US_SPN="Sistema de Monitoreo Remoto está en marcha."
+US_FRN="Système de surveillance à distance est en cours."
+US_CHN="远程监控系统正在运行。"
+US_KOR="원격 모니터링 시스템이 작동 중입니다."
+US_JPN="遠隔モニタリングシステムが実行されます。"
+
+ID=006001
+US_ENG="STOP ATTACKING"
+US_SPN="DEJAR DE ATACAR"
+US_FRN="CESSER D'ATTAQUER"
+US_CHN="攻击中断"
+US_KOR="기기 훼손을 중단하십시오."
+US_JPN="攻撃中止"
+CA_ENG="STOP ATTACKINGCESSER D'ATTAQUER"
+CA_FRN="STOP ATTACKINGCESSER D'ATTAQUER"
+
+ID=006002
+US_ENG="Now Calling Police Station and Security Guard."
+US_SPN="Ahora llamar a la estación de Policía y Guardia de Seguridad."
+US_FRN="Maintenant Calling station de police et de gardes de sécurité."
+US_CHN="现在正在联络警察和保安公司。"
+US_KOR="경찰과 보안요원이 출동 중입니다."
+US_JPN="警察署及びセキュリティー会社に連絡中"
+CA_ENG="Now Calling Police Station and Security Guard.Maintenant Calling station de police et de gardes de sécurité."
+CA_FRN="Now Calling Police Station and Security Guard.Maintenant Calling station de police et de gardes de sécurité."
+
+ID="100001"
+US_ENG="Please select transaction type you want."
+US_SPN="Por favor, seleccione el tipo de transacción."
+US_FRN="S'il vous plaît sélectionner le type de transaction."
+US_CHN="請選擇您想要交易類型。"
+US_KOR="원하시는 거래를 선택하여주십시요."
+US_JPN="必要なトランザクションタイプを選択してください。"
+
+ID="102102"
+US_ENG="Please selectthe language."
+US_SPN="Por favorseleccione el idioma."
+US_FRN="Choisissez votre langue."
+US_CHN="请选择语言。"
+US_KOR="언어를 선택하여 주십시오."
+US_JPN="言語をお選びください。"
+MX_ENG="Select desired language."
+MX_SPN="Seleccione idioma deseado."
+
+ID="105102"
+US_ENG="Please selectdesired transaction."
+US_SPN="Seleccionetipo de transacción"
+US_FRN="Que souhaitez vous faire?Faites votre choix."
+US_CHN="您想做什么? 请选择。"
+US_KOR="원하시는 거래를선택하여 주십시오."
+US_JPN="ご希望の取引をお選びください。"
+MX_ENG="Please select desired transaction."
+MX_SPN="Seleccione tipo de transacción."
+
+ID="106001"
+US_ENG="Receipt Selection"
+US_SPN="Selección de Recibo"
+US_FRN="Réception de sélection"
+US_CHN="收据选择"
+US_KOR="명세표 선택"
+US_JPN="領収証選択"
+
+ID="112102"
+US_ENG="Please select theamount you wouldlike to withdraw."
+US_SPN="Seleccione lacantidad a retirar."
+US_FRN="Choisissez le montantque vous souhaitezretirer."
+US_CHN="请选择您要提取的金额。"
+US_KOR="지급 금액을선택하여 주십시오."
+US_JPN="引き出し金額をお選びください。"
+MX_ENG="Please select fast cash amount."
+MX_SPN="Seleccione cantidad de efectivo."
+
+ID=121F8
+US_ENG="OK"
+
+ID=137001
+US_ENG="Digital Receipt"
+US_SPN="Digital Recibo"
+US_FRN="Numérique Reçu"
+US_CHN="數位收據"
+US_KOR="디지털 명세표"
+US_JPN="デジタル領収書"
+
+ID=137002
+US_ENG="Please capture the QR code belowusing your digital receipt app."
+US_SPN="Por favor capturar el código QRmediante la aplicación de la recepción digital."
+US_FRN="S'il vous plaît capturer le code QRutilisant votre application de réception numérique."
+US_CHN="數位收據的應用程序通過使用下面的QR碼獲得射門。"
+US_KOR="디지털 명세표 응용 프로그램을 사용하여아래의 QR 코드를 촬영하세요."
+US_JPN="デジタル領収書アプリケーションを使用して下のQRコードを撮影してください。"
+
+ID=121F8
+US_ENG="OK"
+US_SPN="Bueno"
+US_FRN="Bien"
+US_CHN="确认"
+US_KOR="확인"
+US_JPN="確認"
+
+ID=137F7
+US_ENG="Finish"
+US_SPN="Terminar"
+US_FRN="Terminer"
+US_CHN="完"
+US_KOR="완료"
+US_JPN="完了"
+
+ID="144001"
+US_ENG="Main Menu"
+US_SPN="Menú principal"
+US_FRN="Menu principal"
+US_CHN="主菜單"
+US_KOR="메인메뉴"
+US_JPN="メインメニュー"
+
+ID=158001
+US_ENG="Close Out"
+US_SPN="Cerrar"
+US_FRN="Fermeture"
+US_CHN="閉幕"
+US_KOR="결산"
+US_JPN="決算"
+
+ID=158002
+US_ENG="Do you want Close Out?"
+US_SPN="¿Quieres Cerrar?"
+US_FRN="Voulez-vous Fermer?"
+US_CHN="您確定要閉幕？"
+US_KOR="결산을 하시겠습니까?"
+US_JPN="あなたはデイ閉じるをしたいですか？"
+
+ID=158003
+US_ENG="NormalTransaction"
+US_SPN="TransacciónNormales"
+US_FRN="TransactionNormale"
+US_CHN="正常交易"
+US_KOR="정상거래"
+US_JPN="正常な取引"
+
+ID=158004
+US_ENG="Close Out"
+US_SPN="Cerrar"
+US_FRN="Fermeture"
+US_CHN="閉幕"
+US_KOR="결산"
+US_JPN="決算"
+
+ID=158005
+US_ENG="TrialClose Out"
+US_SPN="Cierre dela prueba"
+US_FRN="Fermeturedes essais"
+US_CHN="臨時結算"
+US_KOR="중간 결산"
+US_JPN="中間決算"
+
+ID=159001
+US_ENG="CONTINUEWITH FEE"
+US_SPN="CONTINUARCON CARGO"
+US_FRN="CONTINUERAVEC FRAIS"
+US_CHN="繼續"
+US_KOR="계속진행"
+US_JPN="続行"
+
+ID=159002
+US_ENG="CANCEL WITHNO FEE"
+US_SPN="CANCELARSIN CARGO"
+US_FRN="ANNULER"
+US_CHN="取消"
+US_KOR="취소"
+US_JPN="キャンセル"
+
+ID=162001
+US_ENG="QR CODE"
+US_SPN="QR CODE"
+US_FRN="QR CODE"
+US_CHN="QR CODE"
+US_KOR="QR CODE"
+US_JPN="QR CODE"
+
+ID=162002
+US_ENG="Please scan the QR Codeto complete the transaction."
+US_SPN="Por favor, escanear el códigoQRpara completar la transacción."
+US_FRN="S'il vous plaît scanner le code QRpour compléter la transaction."
+US_CHN="請掃描QR碼來完成交易。"
+US_KOR="거래를 진행하기 위해서QR 코드를 스캔해 주십시요."
+US_JPN="トランザクションを完了するためにQRコードをスキャンしてください。"
+
+ID=200001
+US_ENG="Reset Master Password"
+US_SPN="Reset Master Password"
+US_FRN="Reset Master Password"
+US_CHN="重置主密码"
+US_KOR="마스터 패스워드 초기화"
+US_JPN="マスターパスワード再設定"
+
+ID=200002
+US_ENG="To reset master password and clear EPP,press 'YES'. To exit, press 'NO'.The terminal will be rebootedafter pressing Button."
+US_SPN="To reset master password and clear EPP,press 'YES'. To exit, press 'NO'.The terminal will be rebootedafter pressing Button."
+US_FRN="To reset master password and clear EPP,press 'YES'. To exit, press 'NO'.The terminal will be rebootedafter pressing Button."
+US_CHN="若要重置主密码并清除EPP，请按“是”键。若要退出，请按“否”键。按下按键后终端将被重启。"
+US_KOR="마스터 패스워드와 EPP를초기화하시려면 '예'를,나가시려면 '아니오'를 눌러 주십시오.버튼을 누른 뒤 ATM이 재시작됩니다."
+US_JPN="マスターパスワードを再設定してEPPを消したい場合、'はい'を押してください。終了したい場合は'いいえ'を押してください。ボタンを押すとターミナルが再起動します。"
+
+ID=341001
+US_ENG="Incorrect"
+
+ID=341002
+US_ENG="Correct"
+
+ID=342001
+US_ENG="Press here to start over"
+
+ID=342002
+US_ENG="Start Over"
+
+ID="343000"
+US_ENG="Scan QR Code"
+US_SPN="Scan QR Code"
+US_FRN="Scan QR Code"
+US_CHN="Scan QR Code"
+US_KOR="Scan QR Code"
+US_JPN="Scan QR Code"
+
+ID="344000"
+US_ENG="Awaiting Authentication"
+US_SPN="Awaiting Authentication"
+US_FRN="Awaiting Authentication"
+US_CHN="Awaiting Authentication"
+US_KOR="Awaiting Authentication"
+US_JPN="Awaiting Authentication"
+
+ID="344001"
+US_ENG="Complete the transaction on your mobile app."
+US_SPN="Complete the transaction on your mobile app."
+US_FRN="Complete the transaction on your mobile app."
+US_CHN="Complete the transaction on your mobile app."
+US_KOR="Complete the transaction on your mobile app."
+US_JPN="Complete the transaction on your mobile app."
+
+
+
+ID=350001
+US_ENG="Enter 6 digit LibertyX ordernumber and press [ENTER]"
+
+ID=351001
+US_ENG="Enter purchase amount"
+
+ID=353001
+US_ENG="Enter PIN #and press [ENTER]"
+
+ID="343000"
+US_ENG="Scan QR Code"
+US_SPN="Scan QR Code"
+US_FRN="Scan QR Code"
+US_CHN="Scan QR Code"
+US_KOR="Scan QR Code"
+US_JPN="Scan QR Code"
+
+ID="344000"
+US_ENG="Awaiting Authentication"
+US_SPN="Awaiting Authentication"
+US_FRN="Awaiting Authentication"
+US_CHN="Awaiting Authentication"
+US_KOR="Awaiting Authentication"
+US_JPN="Awaiting Authentication"
+
+ID="344001"
+US_ENG="Complete the transaction on your mobile app."
+US_SPN="Complete the transaction on your mobile app."
+US_FRN="Complete the transaction on your mobile app."
+US_CHN="Complete the transaction on your mobile app."
+US_KOR="Complete the transaction on your mobile app."
+US_JPN="Complete the transaction on your mobile app."
+
+ID="358F6"
+US_ENG="Buy Bitcoin"
+US_SPN="Buy Bitcoin"
+US_FRN="Buy Bitcoin"
+US_CHN="Buy Bitcoin"
+US_KOR="Buy Bitcoin"
+US_JPN="Buy Bitcoin"
+
+ID="358F8"
+US_ENG="Sell Bitcoin"
+US_SPN="Sell Bitcoin"
+US_FRN="Sell Bitcoin"
+US_CHN="Sell Bitcoin"
+US_KOR="Sell Bitcoin"
+US_JPN="Sell Bitcoin"
+
+ID="359001"
+US_ENG="Bitcoin"
+US_SPN="Bitcoin"
+US_FRN="Bitcoin"
+US_CHN="Bitcoin"
+US_KOR="Bitcoin"
+US_JPN="Bitcoin"
+
+ID="359002"
+US_ENG="Bill Pay"
+US_SPN="Pago de Facturas"
+US_FRN="Pago de Facturas"
+US_CHN="Bitcoin"
+US_KOR="Bitcoin"
+US_JPN="Bitcoin"
+
+ID="Yes"
+US_ENG="Yes"
+US_FRN="Oui"
+US_SPN="Si"
+US_CHN="是"
+US_KOR="예"
+US_JPN="はい"
+
+ID="No"
+US_ENG="No"
+US_FRN="Non"
+US_SPN="No"
+US_CHN="否"
+US_KOR="아니오"
+US_JPN="いいえ"
+
+ID="Exit"
+US_ENG="Exit"
+US_FRN="Sortie"
+US_SPN="Salida"
+US_CHN="結束"
+US_KOR="종료"
+US_JPN="終了"
+
+ID="OK"
+US_ENG="OK"
+US_SPN="Muy bien"
+US_FRN="Bien"
+US_CHN="確定"
+US_KOR="확인"
+US_JPN="確認"
+
+ID="Other"
+US_ENG="Other"
+US_SPN="Otros"
+US_FRN="Autre"
+US_CHN="其他"
+US_KOR="기타"
+US_JPN="その他"
+
+ID="Continue"
+US_ENG="Continue"
+US_SPN="Continuar"
+US_FRN="Continuer"
+US_CHN="延續"
+US_KOR="계속"
+US_JPN="続き"
+
+ID="Prev"
+US_ENG="Prev"
+US_SPN="Anterior"
+US_FRN="Précédent"
+US_CHN="上一篇"
+US_KOR="이전"
+US_JPN="前へ"
+
+ID="Next"
+US_ENG="Next"
+US_SPN="Próximo"
+US_FRN="Suivant"
+US_CHN="下一个"
+US_KOR="다음"
+US_JPN="次"
+
+ID="Print"
+US_ENG="Print"
+US_SPN="Imprimir"
+US_FRN="Imprimer"
+US_CHN="打印"
+US_KOR="인쇄"
+US_JPN="印刷する"
+
+; TODO: Translations
+ID="Done"
+US_ENG="Done"
+US_SPN="Hecho"
+US_FRN="Fait"
+
+ID="TOS"
+US_ENG="Send TOS"
+US_SPN="Enviar condicionesde servicio"
+US_FRN="Envoyer les conditions d'utilisation"
+
+ID="Confirm"
+US_ENG="Confirm"
+US_SPN="Confirmar"
+US_FRN="Confirmer"
+
+ID="ResetPIN"
+US_ENG="Reset PIN"
+US_SPN="RestablecerPIN"
+US_FRN="Réinitialiserle code PIN"
+
+ID="Next"
+US_ENG="Next"
+US_SPN="Próximo"
+US_FRN="Prochain"
+
+ID="Reprint"
+US_ENG="Reprint"
+US_SPN="Reimprimir"
+US_FRN="Réimpression"
+
+ID="5040F1"
+US_ENG="Insert $1"
+US_SPN="Insertar $1"
+US_FRN="Insérer 1 $"
+
+ID="5040F3"
+US_ENG="Insert $5"
+US_SPN="Insertar $5"
+US_FRN="Insérer 5 $"
+
+ID="5040F5"
+US_ENG="Insert $10"
+US_SPN="Insertar $10"
+US_FRN="Insérer 10 $"
+
+ID="5040F7"
+US_ENG="Insert $20"
+US_SPN="Insertar $20"
+US_FRN="Insérer 20 $"
+
+ID="5040F4"
+US_ENG="Insert $50"
+US_SPN="Insertar $50"
+US_FRN="Insérer 50 $"
+
+ID="5040F6"
+US_ENG="Insert $100"
+US_SPN="Insertar $100"
+US_FRN="Insérer 100 $"
+; End of TODO: Translations
+
+ID="Digital Receipt"
+US_ENG="Digital Receipt"
+US_SPN="Digital Recibo"
+US_FRN="Numérique Reçu"
+US_CHN="數位收據"
+US_KOR="디지털 명세표"
+US_JPN="デジタル領収書"
+
+ID="No Receipt"
+US_ENG="No Receipt"
+US_SPN="No Recibo"
+US_FRN="Aucun Reçu"
+US_CHN="无收据"
+US_KOR="명세표없음"
+US_JPN="領収証なし"
+
+ID="Hello!"
+US_ENG="Hello!"
+US_SPN="¡Hola!"
+US_FRN="Bonjour!"
+US_CHN="你好!"
+US_KOR="안녕하세요!"
+US_JPN="こんにちは！"
+
+ID="CARD"
+US_ENG="CARD"
+US_SPN="TARJETA"
+US_FRN="CARTE"
+US_CHN="卡"
+US_KOR="카드"
+US_JPN="カード"
+
+ID="CASH OUT"
+US_ENG="CASH OUT"
+US_SPN="EFECTIVO"
+US_FRN="RETIRER"
+US_CHN="現金釋放"
+US_KOR="현금방출"
+US_JPN="現金放出"
+
+ID="RECEIPT"
+US_ENG="RECEIPT"
+US_SPN="RECIBO"
+US_FRN="LE REÇU"
+US_CHN="收据"
+US_KOR="명세표"
+US_JPN="明細票"
+
+ID="Receipt"
+US_ENG="Receipt"
+US_SPN="Recibo"
+US_FRN="Le Reçu"
+US_CHN="收据"
+US_KOR="명세표"
+US_JPN="レシート"
+
+
+ID="DO NOT REMOVE"
+US_ENG="DO NOT REMOVE"
+US_SPN="NO QUITAR"
+US_FRN="NE PAS ENLEVER"
+US_CHN="不要刪除"
+US_KOR="제거하지 마십시요"
+US_JPN="外さないでください"
+
+
+
+; TODO: Translations
+;---------------------------------------
+;    ENTER PHONE NUMBER (Screen #370)
+;---------------------------------------
+ID="DMPhoneNumberScreenTitle"
+US_ENG="Enter your DigitalMint account phone number,then press [ENTER]."
+US_SPN="Introduce el número de teléfono de tu cuenta de DigitalMinty, a continuación, pulsa [ENTRAR]."
+US_FRN="Saisissez le numéro de téléphone de votre compte DigitalMint,puis appuyez sur [ENTRER]."
+
+ID="DMPhoneNumberSubtitle"
+US_ENG="Input your account phone number using the PIN pad below.Do not include the country code."
+US_SPN="Introduzca el número de teléfono de su cuenta mediante el teclado PIN que aparece a continuación.No incluya el código de país."
+US_FRN="Saisissez le numéro de téléphone de votre compte à l'aide du clavier NIP ci-dessous.N'incluez pas le code du pays."
+
+; ---------------------------------------
+;        ENTER PIN (Screen #371)
+; ---------------------------------------
+ID="DMEnterPINScreenTitle"
+US_ENG="Enter your DigitalMint Account PIN,then press [ENTER]"
+US_SPN="Introduce el PIN de tu cuenta de DigitalMinty, a continuación, pulsa [ENTRAR]"
+US_FRN="Saisissez le code PIN de votre compte DigitalMint,puis appuyez sur [ENTRER]."
+
+ID="DMEnterPINSubtitle"
+US_ENG="Your DigitalMint account PIN was setwhen you created your account."
+US_SPN="El PIN de su cuenta de DigitalMint seconfiguró cuando creó su cuenta."
+US_FRN="Le code PIN de votre compteDigitalMint a été défini lorsquevous avez créé votre compte."
+
+;---------------------------------------
+;        CREATE PIN (Screen #383)
+;---------------------------------------
+ID="DMNewPINScreenTitle"
+US_ENG="Please create your DigitalMint Account PIN,then press [ENTER]"
+US_SPN="Cree el PIN de su cuenta de DigitalMint,luego presione [ENTRAR]"
+US_FRN="Veuillez créer le code PIN de votre compte DigitalMint,puis appuyez sur [ENTER]"
+
+;---------------------------------------
+;  SELECT CRYPTOCURRENCY (Screen #372)
+;---------------------------------------
+;         DMDailyLimitLabel and
+;      DMTransactionLimitLabel are
+;        also used on screen #375
+;---------------------------------------
+ID="DMSelectCoinScreenTitle"
+US_ENG="Select a Cryptocurrencyfor Your Transaction"
+US_SPN="Seleccione una criptomonedapara su transacción"
+US_FRN="Sélectionnez une crypto-monnaiepour votre transaction"
+
+ID="DMDailyLimitLabel"
+US_ENG="Daily Limit: "
+US_SPN="Límite diario: "
+US_FRN="Limite journalière: "
+
+ID="DMMonthlyLimitLabel"
+US_ENG="Monthly Limit: "
+US_SPN="Límite mensual: "
+US_FRN="Limite mensuelle : "
+
+ID="DMTransactionLimitLabel"
+US_ENG="Transaction Limit: "
+US_SPN="Límite de transacciones: "
+US_FRN="Limite de transactions : "
+
+ID="DMMaximumLimitLabel"
+US_ENG="Maximum amount for this transaction: "
+US_SPN="Monto máximo para esta transacción: "
+US_FRN="Montant maximum pour cette transaction : "
+
+;---------------------------------------
+;      SELECT PAYMENT (Screen #373)
+;---------------------------------------
+ID="DMSelectFlow"
+US_ENG="How would you like to payfor your cryptocurrency?"
+US_SPN="¿Cómo le gustaría pagarsu criptomoneda?"
+US_FRN="Comment souhaitez-vous payervotre crypto-monnaie ?"
+
+ID="DMDebit"
+US_ENG="Debit Card"
+US_SPN="Tarjeta de débito"
+US_FRN="Carte de débit"
+
+ID="DMCash"
+US_ENG="Cash"
+US_SPN="Dinero"
+US_FRN="En espèces"
+
+;---------------------------------------
+;       PLEASE WAIT (Screen #374)
+;---------------------------------------
+ID="DMPleaseWait"
+US_ENG="Please wait..."
+US_SPN="Espere por favor..."
+US_FRN="S'il vous plaît, attendez..."
+
+;---------------------------------------
+;  ENTER PURCHASE AMOUNT (Screen #375)
+;---------------------------------------
+ID="DMEnterAmountTitle"
+US_ENG="Please enter the purchase amount,then press [ENTER]."
+US_SPN="Introduce el importe de la compray, a continuación, pulsa [ENTRAR]."
+US_FRN="Veuillez saisir le montant de l'achat,puis appuyez sur [ENTRER]."
+
+;---------------------------------------
+;  CONFIRM WALLET ADDRESS (Screen #376)
+;---------------------------------------
+ID="DMConfirmWalletAddress"
+US_ENG="Confirm your Wallet Address"
+US_SPN="Confirme su dirección de billetera"
+US_FRN="Confirmez votre adresse de portefeuille"
+
+ID="DMDefaultCoin"
+US_ENG="Default Coin:"
+US_SPN="Moneda predeterminada:"
+US_FRN="Pièce par défaut :"
+
+ID="DMIsThisYourWallet"
+US_ENG="Is this your wallet address?"
+US_SPN="¿Es esta la dirección de tu billetera?"
+US_FRN="Est-ce votre adresse de portefeuille ?"
+
+;---------------------------------------
+;          ERROR (Screen #377)
+;---------------------------------------
+;        All other error messages
+;           come from the API
+;---------------------------------------
+ID="DMDefaultError"
+US_ENG="An Error Has Occurred During Your Transaction.Please contact customer support for assistance:(855) 274-2900support@digitalmint.ioSupport HoursWeekdays: 8am - 8pmWeekends: 9am - 5pm"
+US_SPN="Se ha producido un error durante su transacción.Póngase en contacto con el servicio de atención al cliente para obtener ayuda:(855) 274-2900support@digitalmint.ioHorario de asistenciaDías laborables : 8 a. m. a 8 p. m.Fines de semana: 9 a. m. a 5 p. m."
+US_FRN="Une erreur s'est produite lors de votre transaction.Veuillez contacter le service client pour obtenir de l'aide :(855) 274-2900support@digitalmint.ioHeures d'assistanceEn semaine : de 8h à 20hWeek-end : de 9h à 17h"
+
+ID="DMEnrollError"
+US_ENG="An Error Has Occurred During Your Enrollment.Please contact customer support for assistance:(855) 274-2900support@digitalmint.ioSupport HoursWeekdays: 8am - 8pmWeekends: 9am - 5pm"
+US_SPN="Se ha producido un error durante su inscripción.Póngase en contacto con el servicio de atención al cliente para obtener ayuda:(855) 274-2900support@digitalmint.ioHorario de asistenciaDías laborables : 8 a. m. a 8 p. m.Fines de semana: 9 a. m. a 5 p. m."
+US_FRN="Une erreur s'est produite lors de votre inscription.Veuillez contacter le service client pour obtenir de l'aide :(855) 274-2900support@digitalmint.ioHeures d'assistanceEn semaine : de 8h à 20hWeek-end : de 9h à 17h"
+
+ID="DMWebEnrollError"
+US_ENG="Please Complete Web EnrollmentYou received a text message from DigitalMint with a link to our online registration portal.Please provide your information to have your account created and approved.Please contact customer support for if you have any questions or need assistance:(855) 274-2900support@digitalmint.ioSupport HoursWeekdays: 8am - 8pmWeekends: 9am - 5pm"
+US_SPN="Complete el registro webRecibió un mensaje de texto de DigitalMint con un enlace a nuestro portal de registro en línea.Proporcione su información para crear y aprobar su cuenta.Póngase en contacto con el cliente asistencia si tiene alguna pregunta o necesita ayuda:(855) 274-2900support@digitalmint.ioHorario de asistenciaDías laborables: de 8:00 a. m. a 8:00 p. m.Fines de semana: 9:00 a. m. - 17:00"
+US_FRN="Veuillez compléter l'inscription WebVous avez reçu un SMS de DigitalMint contenant un lien vers notre portail d'inscription en ligne.Veuillez fournir vos informations pour que votre compte soit créé et approuvé.Veuillez contacter le client Si vous avez des questions ou avez besoin d'aide :(855) 274-2900support@digitalmint.ioHoraires d'assistanceEn semaine : de 8h à 20hWeek-end : 9h - 17h"
+
+;---------------------------------------
+; ENTER CONFIRMATION CODE (Screen #379)
+;---------------------------------------
+ID="DMEnterConfirmCode"
+US_ENG="Enter Confirmation Code"
+US_SPN="Introducir el código de confirmación"
+US_FRN="Entrer le code de confirmation"
+
+ID="DMEnterConfirmCodeSubtitle"
+US_ENG="Your code will have been sent to your phone."
+US_SPN="Tu código habrá sido enviado a tu teléfono."
+US_FRN="Votre code aura été envoyé sur votre téléphone."
+
+;---------------------------------------
+;   SCAN WALLET QR CODE (Screen #380)
+;---------------------------------------
+ID="DMScanWalletAddress"
+US_ENG="Scan the QR Code for your Wallet ID"
+US_SPN="Escanee el código QR para su identificación de billetera"
+US_FRN="Scannez le code QR pour votre identifiant de portefeuille"
+
+;ID=1021D003
+ID="DMScanWalletAddressInstructions1"
+US_ENG="Hold your phone up to the barcode scanner."
+US_SPN="Sostenga su teléfono hacia el escáner de código debarras."
+US_FRN="Tenez votre téléphone devant le lecteur decode-barres."
+
+ID="DMScanWalletAddressInstructions2"
+US_ENG="For best results, hold QR code 4-6 inches from scanner."
+US_SPN="Para mejores resultados, sostenga el código QRa una distancia de 4 a 6 pulgadas del escáner."
+US_FRN="Pour de meilleurs résultats, maintenez le code QRà 4-6 pouces du scanner."
+
+;---------------------------------------
+;   SCAN STATE ISSUED ID (Screen #381)
+;---------------------------------------
+ID="DMScanDriversLicense"
+US_ENG="Scan Your State ID or Drivers License"
+US_SPN="Escanee su identificación estatal o licencia de conducir"
+US_FRN="Scannez votre ID d'état ou votre permis de conduire"
+
+ID="DMDriversLicenseHelp"
+US_ENG="Please scan again."
+US_SPN="Escanee de nuevo."
+US_FRN="Veuillez numériser à nouveau."
+
+;---------------------------------------
+;   PRE-PURCHASE DETAILS (Screen #384)
+;    (Account Limits w/Pricing Info)
+;---------------------------------------
+ID="DMPrePurchaseDetailsWalletInfo"
+US_ENG="Your purchase will be sent to:"
+US_SPN="Su compra será enviada a:"
+US_FRN="Votre achat sera envoyé à :"
+
+ID="DMTermsOfServiceURL"
+US_ENG="https://digitalmint.io/terms-of-service"
+US_SPN="https://digitalmint.io/terms-of-service"
+US_FRN="https://digitalmint.io/terms-of-service"
+
+ID="DMSupportContact"
+US_ENG="If you have questions you may contact customer support at855-274-2900 or support@digitalmint.io"
+US_SPN="Si tiene preguntas, puede ponerse en contacto con el servicio de atención alcliente en 855-274-2900 o support@digitalmint.io"
+US_FRN="Si vous avez des questions, vous pouvez contacter le service client au855-274-2900 ou support@digitalmint.io"
+
+;---------------------------------------
+;  POST-PURCHASE DETAILS (Screen #385)
+;         (Purchase Information)
+;---------------------------------------
+ID="DMPostPurchaseDetailsCashApplied"
+US_ENG="Cash applied to purchase:"
+US_SPN="Efectivo aplicado a la compra:"
+US_FRN="Espèces appliquées à l'achat :"
+
+ID="DMAccountPendingApproval"
+US_ENG="One Moment While We Confirm Your Account Information...You will receive a confirmation text message within 5 minutes during DigitalMint support hours.Please contact customer support for if you have any questions or need assistance:(855) 274-2900support@digitalmint.ioSupport HoursWeekdays: 8am - 8pmWeekends: 9am - 5pm"
+US_SPN="Un momento mientras confirmamos la información de su cuenta...Recibirá un mensaje de texto de confirmación dentro de los 5 minutos durante el horario de asistencia de DigitalMint.Póngase en contacto con el servicio de atención al cliente si tiene alguna pregunta o necesita ayuda:(855) 274-2900support@digitalmint.ioHorario de asistenciaDías laborables: de 8:00 a. m. a 8:00 p. m.Fines de semana: de 9:00 a. m. a 5:00 p. m."
+US_FRN="Un moment pendant que nous confirmons les informations de votre compte...Vous recevrez un SMS de confirmation dans les 5 minutes pendant les heures d'assistance de DigitalMint.Veuillez contacter le service client si vous avez des questions ou si vous avez besoin d'aide :(855) 274-2900support@digitalmint.ioHoraires d'assistanceEn semaine : de 8h à 20hLe week-end : de 9h à 17h"
+
+;---------------------------------------
+;        TangoPay (Screen #410)
+;           410 Screen
+;---------------------------------------
+ID="410001"
+US_ENG="Enter your 10-digit US Mobile Phone Number"
+US_SPN="Introduzca su númerode 10 dígitosdel teléfono móvil de EE.UU."
+
+ID="410002"
+US_ENG="Press ENTER when finished."
+US_SPN="Pulse ENTER cuando haya terminado."
+
+
+;---------------------------------------
+;        TangoPay (Screen #411)
+;           411 Screen
+;---------------------------------------
+ID="411001"
+US_ENG="Enter the 6-digit TangoPay code"
+US_SPN="Ingresa el código TangoPay de 6 dígitos"
+
+ID="411002"
+US_ENG="Press ENTER when finished."
+US_SPN="Pulse ENTER cuando haya terminado."
+
+;---------------------------------------
+;        TangoPay (Screen #412)
+;           412 Screen
+;---------------------------------------
+ID="412001"
+US_ENG="Your Transaction Summary"
+US_SPN="Resumen de su transacción"
+
+ID="412002"
+US_ENG="Sent to"
+US_SPN="Enviado a"
+
+ID="412003"
+US_ENG="Country"
+US_SPN="País"
+
+ID="412004"
+US_ENG="Total Amount to Deposit"
+US_SPN="Monto total a depositar"
+
+ID="412005"
+US_ENG="Send Amount"
+US_SPN="Enviar cantidad"
+
+ID="412006"
+US_ENG="Total to Receiver"
+US_SPN="Total al receptor"
+
+
+;---------------------------------------
+;        TangoPay (Screen #413)
+;           413 Screen
+;---------------------------------------
+
+;---------------------------------------
+;        TangoPay (Screen #414)
+;           414 Screen
+;---------------------------------------
+ID="414003"
+US_ENG="Deposit the correct amount(Deposit cash one by one)"
+US_SPN="Deposite la cantidad correcta(Depositar efectivo uno por uno)"
+
+;---------------------------------------
+;        TangoPay (Screen #415)
+;           415 Screen
+;---------------------------------------
+ID="415001"
+US_ENG="Processing...Please wait"
+US_SPN="Procesando .. por favor espere"
+
+;---------------------------------------
+;        TangoPay (Screen #416)
+;           416 Screen
+;---------------------------------------
+ID="416001"
+US_ENG="Transaction Summary"
+US_SPN="Resumen de Transacciones"
+
+; move to multitext.dat fils
+;ID="416002"
+;US_ENG="Sent to"
+;US_SPN="Enviado a"
+
+;ID="416003"
+;US_ENG="Total Received"
+;US_SPN="Total recibido"
+
+;ID="416004"
+;US_ENG="Send Fees"
+;US_SPN="Enviar tarifas"
+
+;ID="416005"
+;US_ENG="Send Amount"
+;US_SPN="Enviar cantidad"
+
+;ID="416006"
+;US_ENG="Receive Method"
+;US_SPN="Método de recepción"
+
+;ID="416007"
+;US_ENG="Total to Receiver"
+;US_SPN="Total al receptor"
+
+
+;---------------------------------------
+;        TangoPay (Screen #417)
+;           417 Screen
+;---------------------------------------
+ID="417001"
+US_ENG="Transaction Complete"
+US_SPN="Transacción completa"
+
+ID="417002"
+US_ENG="Reference Number"
+US_SPN="Número de referencia"
+
+;---------------------------------------
+;        TangoPay (Screen #418)
+;           418 Screen
+;---------------------------------------
+
+;---------------------------------------
+;        TangoPay (Screen #419)
+;           419 Screen
+;---------------------------------------
+ID="419001"
+US_ENG="Do you want to cancel the transaction?"
+US_SPN="¿Quieres cancelar la transacción?"
+
+ID="419002"
+US_ENG="If you cancel a transaction,a separate inquiry is requiredfor the currently deposited bills."
+US_SPN="Si cancela una transacción,se requiere una consulta por separado paralas facturas depositadas actualmente."
+
+;---------------------------------------
+;        TangoPay (Screen #420)
+;           420 Screen
+;---------------------------------------
+ID="420001"
+US_ENG="We don't recognize your phone number.Download and register on the TangoPay app and try again."
+US_SPN="No reconocemos su número de teléfono.Descargue y regístrese en la aplicación TangoPay e inténtelo nuevamente."
+
+ID="420002"
+US_ENG="Scan this QR code with your phone to install TangoPay.Please hold your phone 4-6 inches from the QR-code for best results."
+US_SPN="Escanea este código QR con tu teléfono para instalar TangoPay.Mantenga su teléfono a una distancia de 4 a 6 pulgadasdel código QR para obtener mejores resultados."
+
+
+;---------------------------------------
+;        Just.Cash Flow Selection
+;               500 Screen
+;---------------------------------------
+ID="JCFlowSelection"
+US_ENG="What type of transaction would you like?"
+US_SPN="¿Qué tipo de transacción le gustaría?"
+US_FRN="Quel type de transaction souhaitez-vous ?"
+
+ID="JCDigitalCurrency"
+US_ENG="Purchase Bitcoin"
+US_SPN="Comprar Bitcoin"
+US_FRN="Acheter Bitcoin"
+US_CHN="購買加密貨幣"
+US_KOR="암호화화폐 구매"
+US_JPN="暗号化貨幣 購入"
+
+ID="JCCardlessTransaction"
+US_ENG="Cash Withdrawal"
+US_SPN="Retiro de efectivo"
+US_FRN="Retrait d'espèces"
+
+;---------------------------------------
+;      Just.Cash Payment Selection
+;               501 Screen
+;---------------------------------------
+ID="JCDebit"
+US_ENG="Debit Card"
+US_SPN="Tarjeta de débito"
+US_FRN="Carte de débit"
+
+ID="JCCash"
+US_ENG="Cash"
+US_SPN="Dinero"
+US_FRN="En espèces"
+
+;---------------------------------------
+;            Just.Cash Phone
+;               505 Screen
+;---------------------------------------
+ID="JCPhoneNumberScreenTitle"
+US_ENG="Enter your mobile phone number then press [ENTER]"
+US_SPN="Ingrese su número de teléfono móvil y luego presione [ENTRAR]"
+US_FRN="Entrez votre numéro de téléphone portable puis appuyez sur [ENTER]"
+
+ID="JCPhoneNumberSubtitle"
+US_ENG="Input your account phone number using the PIN pad below.Do not include the country code."
+US_SPN="Introduzca el número de teléfono de su cuenta mediante el teclado PIN que aparece a continuación.No incluya el código de país."
+US_FRN="Saisissez le numéro de téléphone de votre compte à l'aide du clavier NIP ci-dessous.N'incluez pas le code du pays."
+
+;---------------------------------------
+;         Just.Cash Confirm Code
+;               506 Screen
+;---------------------------------------
+ID="JCEnterConfirmCode"
+US_ENG="Enter Confirmation Code"
+US_SPN="Introducir el código de confirmación"
+US_FRN="Entrer le code de confirmation"
+
+ID="JCEnterConfirmCodeSubtitle"
+US_ENG="A code has been texted to your phone."
+US_SPN="Se ha enviado un código a su teléfono."
+US_FRN="Un code a été envoyé par SMS à votre téléphone."
+
+;---------------------------------------
+;        Just.Cash Confirm Wallet
+;               508 Screen
+;---------------------------------------
+ID="JCConfirmWallet"
+US_ENG="Confirm your Paper Wallet printed ok?"
+US_SPN="Confirme su billetera de papel impresa ¿de acuerdo?"
+US_FRN="Confirmez-vous que votre portefeuille papier est bien imprimé ?"
+
+;---------------------------------------
+;     Cash Depot Provider Selection
+;               400 Screen
+;---------------------------------------
+ID="CDProviderSelectionScreenTitle"
+US_ENG="Select Crypto Provider"
+
+;---------------------------------------
+;        Cash Depot Phone Number
+;               402 Screen
+;---------------------------------------
+ID="CDPhoneNumberScreenTitle"
+US_ENG="Enter Your Cell Phone Number"
+
+;---------------------------------------
+;        Cash Depot Confirm Code
+;               403 Screen
+;---------------------------------------
+ID="CDEnterConfirmCode"
+US_ENG="Please enter the confirmation code that was sent to you via text"
+
+;---------------------------------------
+;           Cash Depot Message
+;               404 Screen
+;---------------------------------------
+; Default Error Message
+ID="CDDefaultError"
+US_ENG="An Error Has Occurred During Your Transaction.Please contact customer support for assistance."
+
+;---------------------------------------
+;        Cash Depot Accept Terms
+;               405 Screen
+;---------------------------------------
+ID="CDAcceptTermsScreenTitle"
+US_ENG="Welcome"
+
+ID="CDAcceptTermsSubtitle"
+US_ENG="Please accept Virtual Currency and Fraud Disclosure to continue."
+
+ID="CDAcceptTermsFraudDisclosureTitle"
+US_ENG="Fraud Disclosure"
+
+ID="CDAcceptTermsFraudDisclosure"
+US_ENG="NOTICE ALL BITCOIN SALES ARE FINAL PLEASE VERIFY THE IDENTITY OF YOUR BITCOIN RECIPIENT BEFORE SENDING BITCOIN IF YOU BELIEVE YOU ARE A VICTIM OF A SCAM OR FRAUD PLEASE CONTACT SUPPORT@COINSOURCE.NET OR TEXT 1-805-500-2646"
+
+ID="CDAcceptTermsF5"
+US_ENG="PREV"
+
+ID="CDAcceptTermsF6"
+US_ENG="I ACCEPT"
+
+ID="CDAcceptTermsF7"
+US_ENG="NEXT"
+
+ID="CDAcceptTermsF8"
+US_ENG="I DO NOT ACCEPT"
+
+;---------------------------------------
+;  Cash Depot Cryptocurrency Selection
+;               406 Screen
+;---------------------------------------
+ID="CDCryptoCurrencySelectionScreenTitle"
+US_ENG="Please select one of the currencies available:"
+
+ID="CDCryptoCurrencySelectionSubtitle"
+US_ENG="Remaining Daily Limit:"
+
+;---------------------------------------
+;              Enter Amount
+;               407 Screen
+;---------------------------------------
+ID="CDEnterAmountTitle"
+US_ENG="Please enter amount."
+
+ID="CDDailyLimitLabel"
+US_ENG="Remaining Daily Limit: "
+
+;---------------------------------------
+;     Cash Depot Transaction Sumary
+;               408 Screen
+;---------------------------------------
+ID="CDTransactionSummaryScreenTitle"
+US_ENG="Please review the cash and confirm deposit wallet address."
+
+ID="CDTransactionSummaryAmount"
+US_ENG="Transaction Amount:"
+
+ID="CDTransactionSummaryWalletAddress"
+US_ENG="Deposit Wallet Address:"
+; End of TODO: Translations
+[/TEXT]

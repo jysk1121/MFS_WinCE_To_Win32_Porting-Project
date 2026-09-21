@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1">
+	<dependency>
+		<dependentAssembly>
+			<assemblyIdentity name="Microsoft.VC90.CRT" processorArchitecture="x86" publicKeyToken="1fc8b3b9a1e18e3b" type="win32" version="9.0.30729.4926"/>
+		</dependentAssembly>
+	</dependency>
+	<dependency>
+		<dependentAssembly>
+			<assemblyIdentity name="Microsoft.VC90.DebugCRT" processorArchitecture="x86" publicKeyToken="1fc8b3b9a1e18e3b" type="win32" version="9.0.21022.8"/>
+		</dependentAssembly>
+	</dependency>
+	<dependency>
+		<dependentAssembly>
+			<assemblyIdentity name="Microsoft.VC90.DebugMFC" processorArchitecture="x86" publicKeyToken="1fc8b3b9a1e18e3b" type="win32" version="9.0.21022.8"/>
+		</dependentAssembly>
+	</dependency>
+	<trustInfo xmlns="urn:schemas-microsoft-com:asm.v3">
+		<security>
+			<requestedPrivileges>
+				<requestedExecutionLevel level="asInvoker" uiAccess="false"/>
+			</requestedPrivileges>
+		</security>
+	</trustInfo>
+</assembly>

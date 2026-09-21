@@ -1,0 +1,81 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://hyosung.com" 
+    xmlns="https://hyosung.com">
+    <xs:simpleType name="lineageType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="V"/>
+            <xs:enumeration value="P"/>
+            <xs:enumeration value="C"/>
+            <xs:enumeration value="T"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="territoryType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="US"/>
+            <xs:enumeration value="CA"/>
+            <xs:enumeration value="MX"/>
+            <xs:enumeration value="AUS"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="releaseType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="bugfix"/>
+            <xs:enumeration value="security"/>
+            <xs:enumeration value="feature"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:element name="manifest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="metadata">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="version">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute type="lineageType" name="lineage"/>
+                                            <xs:attribute type="territoryType" name="territory"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element type="xs:string" name="version_human"/>
+                            <xs:element type="xs:dateTime" name="build_date"/>
+                            <xs:element type="xs:string" name="model"/>
+                            <xs:element name="severity">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:byte">
+                                        <xs:minInclusive value="0"/>
+                                        <xs:maxInclusive value="9"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element type="releaseType" name="type"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="contents">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="item" maxOccurs="unbounded" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:simpleContent>
+                                        <xs:extension base="xs:string">
+                                            <xs:attribute type="xs:string" name="sig" use="optional"/>
+                                            <xs:attribute type="xs:string" name="sig_type" use="optional"/>
+                                            <xs:attribute type="xs:int" name="size" use="optional"/>
+                                        </xs:extension>
+                                    </xs:simpleContent>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:int" name="count"/>
+                        <xs:attribute type="xs:int" name="total_size"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="version"/>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

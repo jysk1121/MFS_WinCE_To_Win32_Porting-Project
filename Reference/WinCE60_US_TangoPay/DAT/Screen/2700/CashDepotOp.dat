@@ -1,0 +1,104 @@
+;///////////////////////////////
+;       CashDepot Options
+;          1030 Screen
+;///////////////////////////////
+[Screen]
+ID=1030
+Back=990000
+
+; Title
+[TextBox]
+Font=F_OpTitle
+Pos=POS_Title
+TextID=1030001
+TextSet=0,CENTER,C_OpTitle
+[/TextBox]
+
+; Guide
+[TextBox]
+Font=F_OpGuide
+Pos=145,58,350,48
+TextSet=1,CENTER,C_OpGuide
+[/TextBox]
+
+; URL EN/DISABLE
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,110,171,28
+TextID=1030002
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+[TextBox]
+Brush=B_InputBoxWait
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Name=APValue1
+Pos=338,110,140,28
+TextSet=0,CENTER,C_InfoBoxValue
+[/TextBox]
+
+; HOST ADDRESS
+[TextBox]
+Brush=B_InfoBoxName
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Pos=163,142,317,28
+TextID=1030003
+TextSet=0,CENTER,C_InfoBoxName
+[/TextBox]
+
+[EditBox]
+Brush=B_BoxBack
+Font=F_OpText
+Pen=P_InputBack
+Round=15,15
+Name=APValue2
+Pos=163,174,317,28
+TextSet=0,CENTER,C_InfoBoxValue
+[/EditBox]
+
+; F1
+[Button]
+Act=FSCMD,N,HOSTURLSETUP
+ActKey=F1
+Name=APState1
+Font=F_OPButton
+Picture=I_OP_BUTTON
+Pos=POS_Button_F1
+TextID=1030F1
+TextSet=1,CENTER,C_OpBtn
+[/Button]
+
+; F2
+[Button]
+Act=FSCMD,N,HOSTADDRESS
+ActKey=F2
+Name=APState2
+Font=F_OPButton
+Picture=I_OP_BUTTON
+Pos=POS_Button_F2
+TextID=1030F2
+TextSet=1,CENTER,C_OpBtn
+[/Button]
+
+; Cancel - image
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=CANCEL
+Picture=I_OP_BUTTON_CANCEL
+Pos=POS_Cancel
+[/Button]
+
+;Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]

@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScrCtrl", "..\Dll\ScrCtrl\ScrCtrl.vcproj", "{1C340D63-E3F4-4611-998A-3A037FA74BA0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScreenViewer", "ScreenViewer.vcproj", "{96CCDEEE-187F-4CF6-B5B3-7A25138AAAEC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1C340D63-E3F4-4611-998A-3A037FA74BA0} = {1C340D63-E3F4-4611-998A-3A037FA74BA0}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|CHA_SDK_CE6 (ARMV4I) = Debug|CHA_SDK_CE6 (ARMV4I)
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|CHA_SDK_CE6 (ARMV4I) = Release|CHA_SDK_CE6 (ARMV4I)
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C340D63-E3F4-4611-998A-3A037FA74BA0}.Debug|CHA_SDK_CE6 (ARMV4I).ActiveCfg = Debug|Win32
+		{1C340D63-E3F4-4611-998A-3A037FA74BA0}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{1C340D63-E3F4-4611-998A-3A037FA74BA0}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{1C340D63-E3F4-4611-998A-3A037FA74BA0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1C340D63-E3F4-4611-998A-3A037FA74BA0}.Debug|Win32.Build.0 = Debug|Win32
+		{1C340D63-E3F4-4611-998A-3A037FA74BA0}.Release|CHA_SDK_CE6 (ARMV4I).ActiveCfg = Release|Win32
+		{1C340D63-E3F4-4611-998A-3A037FA74BA0}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{1C340D63-E3F4-4611-998A-3A037FA74BA0}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{1C340D63-E3F4-4611-998A-3A037FA74BA0}.Release|Win32.ActiveCfg = Release|Win32
+		{1C340D63-E3F4-4611-998A-3A037FA74BA0}.Release|Win32.Build.0 = Release|Win32
+		{96CCDEEE-187F-4CF6-B5B3-7A25138AAAEC}.Debug|CHA_SDK_CE6 (ARMV4I).ActiveCfg = Debug|Win32
+		{96CCDEEE-187F-4CF6-B5B3-7A25138AAAEC}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{96CCDEEE-187F-4CF6-B5B3-7A25138AAAEC}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{96CCDEEE-187F-4CF6-B5B3-7A25138AAAEC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96CCDEEE-187F-4CF6-B5B3-7A25138AAAEC}.Debug|Win32.Build.0 = Debug|Win32
+		{96CCDEEE-187F-4CF6-B5B3-7A25138AAAEC}.Release|CHA_SDK_CE6 (ARMV4I).ActiveCfg = Release|Win32
+		{96CCDEEE-187F-4CF6-B5B3-7A25138AAAEC}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{96CCDEEE-187F-4CF6-B5B3-7A25138AAAEC}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{96CCDEEE-187F-4CF6-B5B3-7A25138AAAEC}.Release|Win32.ActiveCfg = Release|Win32
+		{96CCDEEE-187F-4CF6-B5B3-7A25138AAAEC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

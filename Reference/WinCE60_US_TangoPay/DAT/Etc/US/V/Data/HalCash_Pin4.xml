@@ -1,0 +1,19 @@
+<HalCash_Pin4>
+  <Setting>
+    <Auth_HostIP>apiservices.halcash.com</Auth_HostIP>
+    <Auth_HostPort>6125</Auth_HostPort>
+    <Auth_UseSSL>1</Auth_UseSSL>
+    <Auth_Process>v1/oauth2/atm/token</Auth_Process>
+    <Auth_ClientID>US-TW-00001-1</Auth_ClientID>
+
+    <HostIP>apiservices.halcash.com</HostIP>
+    <HostPort>6126</HostPort>
+    <UseSSL>1</UseSSL>
+    <Process>PIN4-Orchestration/WSTriton?wsdl</Process>
+
+    <MaxDispenseLimit>500</MaxDispenseLimit>
+    <CommId>PAI1</CommId>
+    <Pin4Logo>Pin4LogoSml.jpg</Pin4Logo>
+    <Pin4Logo_Button>Pin4Logo.jpg</Pin4Logo_Button>
+  </Setting>
+</HalCash_Pin4>

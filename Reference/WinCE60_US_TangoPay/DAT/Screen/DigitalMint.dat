@@ -1,0 +1,1758 @@
+;///////////////////////////////
+;       DigitalMint Phone
+;           370 Screen
+;///////////////////////////////
+[Screen]
+ID=370
+Back=199904
+
+; Screen Title
+[TextBox]
+Pos=POS_DMScreenTitle
+Font=F_DMScreenTitle
+TextID=DMPhoneNumberScreenTitle
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=POS_DMSubTitle
+Font=F_DMSubTitle
+TextID=DMPhoneNumberSubtitle
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_DMCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[CustomEditBox]
+Act=FSCMD,N,
+ActKey=ENTER
+AFocus=1
+Font=F_ApTitle
+MaxInChar=10
+DispFormat=NNN-NNN-NNNN
+Pos=POS_DMInputBox
+TextSet=0,CENTER,C_DMInputText
+Picture=I_AP_INPUT_BOX
+[/CustomEditBox]
+
+; Under Guide
+[TextBox]
+Pos=POS_DMHelpText
+Name=APValue1
+Font=F_DMTextBold
+TextSet=1,CENTER,C_DMHelpText
+[/TextBox]
+
+[/Screen]
+
+;///////////////////////////////
+;        DigitalMint PIN
+;           371 Screen
+;///////////////////////////////
+[Screen]
+ID=371
+Back=199904
+
+; Screen Title
+[TextBox]
+Pos=POS_DMScreenTitle
+Font=F_DMScreenTitle
+TextID=DMEnterPINScreenTitle
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=POS_DMSubTitle
+Font=F_DMSubTitle
+TextID=DMEnterPINSubtitle
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; F2
+[Button]
+Act=FSCMD,N,RESETPIN
+ActKey=F2
+Pos=POS_Button_F2
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_DMButtonMulti
+TextID="ResetPIN"
+[/Button]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_DMCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[EditBox]
+Act=FSCMD,N,
+ActKey=ENTER
+AFocus=1
+Font=F_ApTitle
+MinInChar=4
+MaxInChar=6
+Pos=POS_DMInputBox
+TextSet=0,CENTER,C_DMInputText
+Picture=I_AP_INPUT_BOX
+Type=PASSWORD
+[/EditBox]
+
+; Help Text
+[TextBox]
+Pos=POS_DMHelpText
+Name=APValue1
+Font=F_DMTextBold
+TextSet=2,CENTER,C_DMHelpText
+[/TextBox]
+
+[/Screen]
+
+;///////////////////////////////
+;    DigitalMint Select Coin
+;           372 Screen
+;///////////////////////////////
+[Screen]
+ID=372
+Back=199904
+
+; Screen Title
+[TextBox]
+Pos=POS_DMScreenTitleAlignLeft
+Font=F_DMScreenTitle
+TextID=DMSelectCoinScreenTitle
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; Daily Limit Label
+[TextBox]
+Pos=POS_DMGrid3Line1Label
+Font=F_DMText
+TextID=DMDailyLimitLabel
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; Daily Limit Value
+[TextBox]
+Pos=POS_DMGrid3Line1Value
+Font=F_DMTextBold
+Name=APValue7
+TextSet=1,RIGHT,C_DMText
+[/TextBox]
+
+; Divider Line 1
+[TextBox]
+Picture=I_AP_DM_LINE_WHITE
+Pos=POS_DMGrid3Line1Divider
+[/TextBox]
+
+; Monthly Limit Label
+[TextBox]
+Pos=POS_DMGrid3Line2Label
+Font=F_DMText
+TextID=DMMonthlyLimitLabel
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; Monthly Limit Value
+[TextBox]
+Pos=POS_DMGrid3Line2Value
+Font=F_DMTextBold
+Name=APValue8
+TextSet=1,RIGHT,C_DMText
+[/TextBox]
+
+; Divider Line 2
+[TextBox]
+Picture=I_AP_DM_LINE_WHITE
+Pos=POS_DMGrid3Line2Divider
+[/TextBox]
+
+; Transaction Limit Label
+[TextBox]
+Pos=POS_DMGrid3Line3Label
+Font=F_DMText
+TextID=DMTransactionLimitLabel
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; Transaction Limit Value
+[TextBox]
+Pos=POS_DMGrid3Line3Value
+Font=F_DMTextBold
+Name=APValue9
+TextSet=1,RIGHT,C_DMText
+[/TextBox]
+
+; Divider Line 3
+[TextBox]
+Picture=I_AP_DM_LINE_WHITE
+Pos=POS_DMGrid3Line3Divider
+[/TextBox]
+
+; Maximum Transaction Amount Label
+[TextBox]
+Pos=POS_DMGrid3Line4Label
+Font=F_DMText
+TextID=DMMaximumLimitLabel
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; Maximum Transaction Amount Value
+[TextBox]
+Pos=POS_DMGrid3Line4Value
+Font=F_DMTextBold
+Name=APValue10
+TextSet=1,RIGHT,C_DMText
+[/TextBox]
+
+; Divider Line 4
+[TextBox]
+Picture=I_AP_DM_LINE_WHITE
+Pos=POS_DMGrid3Line4Divider
+[/TextBox]
+
+; Coin 1 Conversion Rate Label
+[TextBox]
+Pos=POS_DM372ExchangeRateLabel1
+Font=F_DMText
+Name=APValue11
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; Coin 1 Conversion Rate
+[TextBox]
+Pos=POS_DM372ExchangeRateValue1
+Font=F_DMTextBold
+Name=APValue14
+TextSet=1,RIGHT,C_DMText
+[/TextBox]
+
+; Coin 2 Conversion Rate Label
+[TextBox]
+Pos=POS_DM372ExchangeRateLabel2
+Font=F_DMText
+Name=APValue12
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; Coin 2 Conversion Rate
+[TextBox]
+Pos=POS_DM372ExchangeRateValue2
+Font=F_DMTextBold
+Name=APValue15
+TextSet=1,RIGHT,C_DMText
+[/TextBox]
+
+; Coin 3 Conversion Rate Label
+[TextBox]
+Pos=POS_DM372ExchangeRateLabel3
+Font=F_DMText
+Name=APValue13
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; Coin 3 Conversion Rate
+[TextBox]
+Pos=POS_DM372ExchangeRateValue3
+Font=F_DMTextBold
+Name=APValue16
+TextSet=1,RIGHT,C_DMText
+[/TextBox]
+
+; F2
+[Button]
+Act=FSCMD,N,F2
+ActKey=F2
+Font=F_ApButton
+Name=APValue4
+Pos=POS_Button_F2
+Picture=I_AP_BUTTON_RIGHT
+TextSet=TS_DMButtonMulti
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,N,F4
+ActKey=F4
+Font=F_ApButton
+Name=APValue5
+Pos=POS_Button_F4
+Picture=I_AP_BUTTON_RIGHT
+TextSet=TS_DMButton
+[/Button]
+
+; F6
+[Button]
+Act=FSCMD,N,F6
+ActKey=F6
+Font=F_ApButton
+Name=APValue6
+Pos=POS_Button_F6
+Picture=I_AP_BUTTON_RIGHT
+TextSet=TS_DMButton
+[/Button]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_DMCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;   DigitalMint Flow Selection
+;           373 Screen
+;///////////////////////////////
+[Screen]
+ID=373
+Back=199904
+
+; Screen Title
+[TextBox]
+Pos=POS_DMScreenTitle
+Font=F_DMScreenTitle
+TextID=DMSelectFlow
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; F2, Debit
+[Button]
+Act=FSCMD,N,DEBIT
+ActKey=F2
+Pos=POS_Button_F2
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_DMButton
+TextID=DMDebit
+[/Button]
+
+; F4, Sidecar
+[Button]
+Act=FSCMD,N,CASH
+ActKey=F4
+Pos=POS_Button_F4
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_DMButton
+TextID=DMCash
+[/Button]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_DMCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;  DigitalMint Host Connection
+;           374 Screen
+;///////////////////////////////
+[Screen]
+ID=374
+Back=199904
+
+[AniBox]
+Name=APState1
+Pos=POS_DM374AniBox
+Frame_800_600=6,\800_600\AP_Host_,PNG
+Frame_1024_600=6,\1024_600\AP_Host_,PNG
+Frame_1024_768=7,\1024_768\AP_Waiting_,PNG
+[/AniBox]
+
+; Under
+[TextBox]
+Pos=POS_DM374Under
+Font=F_DMSubTitle
+TextID=DMPleaseWait
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+[/Screen]
+
+;///////////////////////////////
+;    DigitalMint Enter Amount
+;           375 Screen
+;///////////////////////////////
+[Screen]
+ID=375
+Back=199904
+
+; Screen Title
+[TextBox]
+Pos=POS_DMScreenTitle
+Font=F_DMScreenTitle
+TextID=DMEnterAmountTitle
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; Daily Limit Label
+[TextBox]
+Pos=POS_DM375DailyLimitLabel
+Font=F_DMText
+TextID=DMDailyLimitLabel
+TextSet=0,LEFT,C_DMText
+[/TextBox]
+
+; Daily Limit Value
+[TextBox]
+Pos=POS_DM375DailyLimitValue
+Font=F_DMTextBold
+Name=APValue1
+TextSet=0,LEFT,C_DMText
+[/TextBox]
+
+; Transaction Limit Label
+[TextBox]
+Pos=POS_DM375TransactionLimitLabel
+Font=F_DMText
+TextID=DMTransactionLimitLabel
+TextSet=0,LEFT,C_DMText
+[/TextBox]
+
+; Transaction Limit Value
+[TextBox]
+Pos=POS_DM375TransactionLimitValue
+Font=F_DMTextBold
+Name=APValue2
+TextSet=0,LEFT,C_DMText
+[/TextBox]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_DMCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[AmountBox]
+Act=FSCMD,N,
+ActKey=ENTER
+AFocus=1
+Font=F_ApTitle
+Pos=POS_DMInputBox
+SymbolName=APValue4
+AmountName=APValue5
+InputMinName=APValue10
+InputMaxName=APValue11
+AutoRunName=APValue12
+TextSet=0,CENTER,C_DMInputText
+Picture=I_AP_INPUT_BOX
+[/AmountBox]
+
+[/Screen]
+
+;///////////////////////////////
+;DigitalMint Confirm Wallet Address
+;           376 Screen
+;///////////////////////////////
+[Screen]
+ID=376
+Back=199904
+
+; Screen Title
+[TextBox]
+Pos=POS_DMScreenTitleAlignLeft
+Font=F_DMScreenTitle
+TextID=DMConfirmWalletAddress
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; Default Coin Label
+[TextBox]
+Pos=POS_DM376DefaultCoinLabel
+Font=F_DMSubTitle
+TextID=DMDefaultCoin
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; Default Coin Value
+[TextBox]
+Pos=POS_DM376DefaultCoinValue
+Font=F_DMSubTitle
+Name=APValue1
+TextSet=1,LEFT,C_DMHelpText
+[/TextBox]
+
+; Wallet Address Label
+[TextBox]
+Pos=POS_DM376WalletAddressLabel
+Font=F_DMSubTitle
+TextID=DMIsThisYourWallet
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; Wallet Address Value
+[TextBox]
+Pos=POS_DM376WalletAddressValue
+Font=F_DMSubTitle
+Name=APValue2
+TextSet=1,LEFT,C_DMHelpText
+[/TextBox]
+
+; F2 - Yes
+[Button]
+Act=FSCMD,N,YES,ENTER
+ActKey=F2,ENTER
+Font=F_ApButton
+TextID=Yes
+Pos=POS_Button_F2
+Picture=I_AP_BUTTON_RIGHT
+TextSet=TS_DMButtonMulti
+[/Button]
+
+; F4 - No
+[Button]
+Act=FSCMD,N,NO,CANCEL
+ActKey=F4,CANCEL
+Font=F_ApButton
+TextID=NO
+Pos=POS_Button_F4
+Picture=I_AP_BUTTON_RIGHT
+TextSet=TS_DMButton
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;       DigitalMint Error
+;           377 Screen
+;///////////////////////////////
+[Screen]
+ID=377
+Back=199904
+
+; Error Message (Via API)
+[TextBox]
+Name=APValue2
+Pos=POS_DMErrorScreen
+Font=F_DMTextBold
+TextSet=1,CENTER,C_DMError
+[/TextBox]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;    DigitalMint Insert Card
+;           378 Screen
+;///////////////////////////////
+[Screen]
+ID=378
+Back=199904
+
+; Screen Title
+[TextBox]
+Name=APValue1
+Pos=POS_DMScreenTitle
+Font=F_DMScreenTitle
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; Screen Title
+[TextBox]
+Name=APValue11
+Pos=POS_DMScreenTitle
+Font=F_DMScreenTitle
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; Screen Title
+[TextBox]
+Name=APValue2
+Pos=POS_DMScreenTitle
+Font=F_DMScreenTitle
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; Screen Title (PAI)
+[TextBox]
+Name=APValue12
+Pos=POS_DMScreenTitle
+Font=F_DMScreenTitle
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+;///////////////////////////////
+;    Insert Card Images Start
+;///////////////////////////////
+; APState2
+[AniBox]
+Pos=POS_DM378APState2
+Name=APState2
+Frame_800_600=10,\800_600\AP_Card_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_,PNG
+Frame_1024_768=8,\1024_768\AP_Card_,PNG
+[/AniBox]
+
+; APState3
+[AniBox]
+Pos=POS_DM378APState3
+Name=APState3
+Frame_800_600=10,\800_600\AP_Card_IC_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_IC_,PNG
+Frame_1024_768=9,\1024_768\AP_EMVCard_,PNG
+[/AniBox]
+
+; APState4
+[AniBox]
+Pos=POS_DM378APState4
+Name=APState4
+Frame_800_600=10,\800_600\AP_Card_Take_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_Take_,PNG
+Frame_1024_768=4,\1024_768\AP_Card_Take_,PNG
+[/AniBox]
+
+; Card Image - 4000W SWIPE
+[AniBox]
+Name=APState5
+Pos=212,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_,PNG
+[/AniBox]
+
+; Card Image - 4000W Insert and Don't Remove
+[AniBox]
+Name=APState6
+Pos=212,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_IC_,PNG
+[/AniBox]
+
+; Card Image - 4000W Remove
+[AniBox]
+Name=APState7
+Pos=212,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_TAKE_,PNG
+[/AniBox]
+
+; APState8
+[AniBox]
+Pos=POS_DM378APState8
+Name=APState8
+Frame_1024_600=10,\1024_600\AP_Card_,PNG
+Frame_1024_768=8,\1024_768\AP_Card_,PNG
+[/AniBox]
+
+; APState9
+[AniBox]
+Pos=POS_DM378APState9
+Name=APState9
+Frame_1024_600=10,\1024_600\AP_Card_IC_,PNG
+Frame_1024_768=9,\1024_768\AP_EMVCard_,PNG
+[/AniBox]
+
+; APState10
+[AniBox]
+Pos=POS_DM378APState10
+Name=APState10
+Frame_1024_600=6,\1024_600\AP_RFID_,PNG
+Frame_1024_768=6,\1024_768\AP_NFC_,PNG
+[/AniBox]
+
+; APState12
+[AniBox]
+Pos=POS_DM378APState12
+Name=APState12
+Frame_800_600=10,\800_600\AP_Card_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_,PNG
+Frame_1024_768=8,\1024_768\AP_Card_,PNG
+[/AniBox]
+
+; APState13
+[AniBox]
+Pos=POS_DM378APState13
+Name=APState13
+Frame_800_600=10,\800_600\AP_Card_IC_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_IC_,PNG
+Frame_1024_768=9,\1024_768\AP_EMVCard_,PNG
+[/AniBox]
+
+; APState14
+[AniBox]
+Pos=POS_DM378APState14
+Name=APState14
+Frame_800_600=10,\800_600\AP_Card_Take_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_Take_,PNG
+Frame_1024_768=4,\1024_768\AP_Card_Take_,PNG
+[/AniBox]
+
+; Card Image - 4000W SWIPE (PAI)
+[AniBox]
+Name=APState15
+Pos=107,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_,PNG
+[/AniBox]
+
+; Card Image - 4000W Insert and Don't Remove (PAI)
+[AniBox]
+Name=APState16
+Pos=107,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_IC_,PNG
+[/AniBox]
+
+; Card Image - 4000W Remove (PAI)
+[AniBox]
+Name=APState17
+Pos=107,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_TAKE_,PNG
+[/AniBox]
+
+; APState18
+[AniBox]
+Pos=POS_DM378APState18
+Name=APState18
+Frame_1024_600=10,\1024_600\AP_Card_,PNG
+Frame_1024_768=8,\1024_768\AP_Card_,PNG
+[/AniBox]
+
+; APState19
+[AniBox]
+Pos=POS_DM378APState19
+Name=APState19
+Frame_1024_600=10,\1024_600\AP_Card_IC_,PNG
+Frame_1024_768=9,\1024_768\AP_EMVCard_,PNG
+[/AniBox]
+
+; APState20
+[AniBox]
+Pos=POS_DM378APState20
+Name=APState20
+Frame_1024_600=6,\1024_600\AP_RFID_,PNG
+Frame_1024_768=6,\1024_768\AP_NFC_,PNG
+[/AniBox]
+;///////////////////////////////
+;     Insert Card Images End
+;///////////////////////////////
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_DMCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;    DigitalMint Confirm Code
+;           379 Screen
+;///////////////////////////////
+[Screen]
+ID=379
+Back=199904
+
+; Screen Title
+[TextBox]
+Pos=POS_DMScreenTitle
+Font=F_DMScreenTitle
+TextID=DMEnterConfirmCode
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=POS_DMSubTitle
+Font=F_DMSubTitle
+TextID=DMEnterConfirmCodeSubtitle
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_DMCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+; Input Box
+[EditBox]
+Act=FSCMD,N,
+ActKey=ENTER
+AFocus=1
+Font=F_ApTitle
+MaxInChar=6
+Pos=POS_DMInputBox
+TextSet=0,CENTER,C_DMInputText
+Picture=I_AP_INPUT_BOX
+Type=PASSWORD
+[/EditBox]
+
+[/Screen]
+
+;///////////////////////////////
+;DigitalMint Scan Wallet Address
+;           380 Screen
+;///////////////////////////////
+[Screen]
+ID=380
+Back=199904
+
+; Screen Title
+[TextBox]
+TextID=DMScanWalletAddress
+Pos=POS_DMScreenTitle
+Font=F_DMScreenTitle
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; Instructions 1
+[TextBox]
+TextID=DMScanWalletAddressInstructions1
+Pos=POS_DMAnimationScreenInstructions1
+Font=F_DMSubTitle
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; Instructions 2
+[TextBox]
+TextID=DMScanWalletAddressInstructions2
+Pos=POS_DMAnimationScreenInstructions2
+Font=F_DMSubTitle
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_DMCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+; Bypass for Win32
+[Button]
+Act=FSCMD,N,ENTER
+ActKey=ENTER
+[/Button]
+
+[AniBox]
+Pos=POS_DMGuideImage2
+Frame_800_600=8,\800_600\AP_QR_,PNG
+Frame_1024_600=8,\1024_600\AP_QR_,PNG
+Frame_1024_768=8,\1024_768\AP_QR_,PNG
+[/AniBox]
+
+; Help Text
+[TextBox]
+Pos=POS_DM380HelpText
+Name=APValue1
+Font=F_DMTextBold
+TextSet=1,CENTER,C_DMError
+[/TextBox]
+
+[/Screen]
+
+;///////////////////////////////
+;DigitalMint Scan Driver's License
+;           381 Screen
+;///////////////////////////////
+[Screen]
+ID=381
+Back=199904
+
+; Screen Title
+[TextBox]
+Pos=POS_DMScreenTitle
+Font=F_DMScreenTitle
+TextID=DMScanDriversLicense
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_DMCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+; Bypass for Win32
+[Button]
+Act=FSCMD,N,ENTER
+ActKey=ENTER
+[/Button]
+
+[AniBox]
+Pos=POS_DM381AniBox
+Frame_800_600=8,\800_600\AP_DriverLicense_,PNG
+Frame_1024_600=8,\1024_600\AP_DriverLicense_,PNG
+Frame_1024_768=8,\1024_768\AP_DriverLicense_,PNG
+[/AniBox]
+
+; Under Guide
+[TextBox]
+Pos=POS_DM381UnderGuide
+Name=APValue1
+Font=F_DMTextBold
+TextSet=1,CENTER,C_DMHelpText
+[/TextBox]
+
+[/Screen]
+
+;///////////////////////////////
+;DigitalMint Driver's License Help
+;           382 Screen
+;///////////////////////////////
+[Screen]
+ID=382
+Back=199904
+
+; Screen Title
+[TextBox]
+Pos=POS_DMScreenTitle
+Font=F_DMScreenTitle
+TextID=DMDriversLicenseHelp
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_DMCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+; Bypass for Win32
+[Button]
+Act=FSCMD,N,ENTER
+ActKey=ENTER
+[/Button]
+
+[AniBox]
+Pos=POS_DM382AniBox
+Frame_800_600=8,\800_600\AP_DriverLicense_,PNG
+Frame_1024_600=8,\1024_600\AP_DriverLicense_,PNG
+Frame_1024_768=8,\1024_768\AP_DriverLicense_,PNG
+[/AniBox]
+
+[/Screen]
+
+;///////////////////////////////
+;      DigitalMint New PIN
+;           383 Screen
+;///////////////////////////////
+[Screen]
+ID=383
+Back=199904
+
+; Screen Title
+[TextBox]
+Pos=POS_DMScreenTitle
+Font=F_DMScreenTitle
+TextID=DMNewPINScreenTitle
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_DMCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[EditBox]
+Act=FSCMD,N,
+ActKey=ENTER
+AFocus=1
+Font=F_ApTitle
+MinInChar=4
+MaxInChar=6
+Pos=POS_DMInputBox
+TextSet=0,CENTER,C_DMInputText
+Picture=I_AP_INPUT_BOX
+Type=PASSWORD
+[/EditBox]
+
+[/Screen]
+
+;///////////////////////////////
+;   DigitalMint Confirm Rates
+;           384 Screen
+;///////////////////////////////
+[Screen]
+ID=384
+Back=199904
+
+; Screen Title
+[TextBox]
+Name=APValue1
+Pos=POS_DM384ScreenTitleAlignLeft
+Font=F_DMScreenTitle
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; Notice
+[TextBox]
+Name=APValue2
+Pos=POS_DM384SubTitleAlignLeft
+Font=F_DMTextBold
+TextSet=1,LEFT,C_DMHelpText
+[/TextBox]
+
+; Wallet Label
+[TextBox]
+TextID=DMPrePurchaseDetailsWalletInfo
+Pos=POS_DMGridLine1Label
+Font=F_DMSubTitle
+TextSet=0,LEFT,C_DMText
+[/TextBox]
+
+; Wallet Value
+[TextBox]
+Name=APValue3
+Pos=POS_DMGridLine1Value
+Font=F_DMSubTitle
+TextSet=1,RIGHT,C_DMHelpText
+[/TextBox]
+
+; Exchange Rate Label
+[TextBox]
+Name=APValue4
+Pos=POS_DMGridLine2Label
+Font=F_DMText
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; Exchange Rate Value
+[TextBox]
+Name=APValue5
+Pos=POS_DMGridLine2Value
+Font=F_DMTextBold
+TextSet=0,RIGHT,C_DMText
+[/TextBox]
+
+; Divider Line 2
+[TextBox]
+Picture=I_AP_DM_LINE_WHITE
+Pos=POS_DMGridLine2Divider
+[/TextBox]
+
+; Exchange Fee Label
+[TextBox]
+Name=APValue6
+Pos=POS_DMGridLine3Label
+Font=F_DMText
+TextSet=0,LEFT,C_DMText
+[/TextBox]
+
+; Exchange Fee Value
+[TextBox]
+Name=APValue7
+Pos=POS_DMGridLine3Value
+Font=F_DMTextBold
+TextSet=0,RIGHT,C_DMText
+[/TextBox]
+
+; Divider Line 3
+[TextBox]
+Picture=I_AP_DM_LINE_WHITE
+Pos=POS_DMGridLine3Divider
+[/TextBox]
+
+; Account Limits
+[TextBox]
+Name=APValue8
+Pos=POS_DMLimits1
+Font=F_DMTextBold
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; DM Terms of Service Text
+[TextBox]
+Name=APValue9
+Pos=POS_DM384TOSText
+Font=F_DMSmallTextBold
+TextSet=1,LEFT,C_DMHelpText
+[/TextBox]
+
+; DM Terms of Service URL
+[TextBox]
+TextID=DMTermsOfServiceURL
+Pos=POS_DM384TOSUrl
+Font=F_DMSmallText
+TextSet=0,LEFT,C_DMText
+[/TextBox]
+
+; Fake URL Underscore
+[TextBox]
+Picture=I_AP_DM_LINE_WHITE
+Pos=POS_DM384TOSUrlLine
+[/TextBox]
+
+; Questions
+[TextBox]
+TextID=DMSupportContact
+Pos=POS_DM384TOSQuestions
+Font=F_DMSmallText
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; F2, ENTER
+[Button]
+Act=FSCMD,N,CONFIRM
+ActKey=F2,ENTER
+Font=F_ApButton
+Pos=POS_Button_F2
+Picture=I_AP_BUTTON_RIGHT
+TextSet=TS_DMButton
+TextID="Confirm"
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,N,TOS
+ActKey=F4
+Font=F_ApButton
+Pos=POS_Button_F4
+Picture=I_AP_BUTTON_RIGHT
+TextSet=TS_DMButtonMulti
+TextID="TOS"
+[/Button]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_DMCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;    DigitalMint Cash Summary
+;           385 Screen
+;///////////////////////////////
+[Screen]
+ID=385
+Back=199904
+
+; Screen Title
+[TextBox]
+Name=APValue1
+Pos=POS_DMScreenTitleAlignLeft
+Font=F_DMScreenTitle
+TextSet=TS_DM385ScreenTitle
+[/TextBox]
+
+; Cash Total Label
+[TextBox]
+Name=APValue2
+Pos=POS_DMGrid2Line1Label
+Font=F_DMText
+TextSet=0,LEFT,C_DMText
+[/TextBox]
+
+; Cash Total Value
+[TextBox]
+Name=APValue3
+Pos=POS_DMGrid2Line1Value
+Font=F_DMTextBold
+TextSet=1,RIGHT,C_DMText
+[/TextBox]
+
+; Divider Line 1
+[TextBox]
+Picture=I_AP_DM_LINE_WHITE
+Pos=POS_DMGrid2Line1Divider
+[/TextBox]
+
+; Exchange Fee Label
+[TextBox]
+Name=APValue4
+Pos=POS_DMGrid2Line2Label
+Font=F_DMText
+TextSet=1,LEFT,C_DMText
+[/TextBox]
+
+; Exchange Fee Value
+[TextBox]
+Name=APValue5
+Pos=POS_DMGrid2Line2Value
+Font=F_DMTextBold
+TextSet=0,RIGHT,C_DMText
+[/TextBox]
+
+; Divider Line 2
+[TextBox]
+Picture=I_AP_DM_LINE_WHITE
+Pos=POS_DMGrid2Line2Divider
+[/TextBox]
+
+; Purchase Total Label
+[TextBox]
+TextID=DMPostPurchaseDetailsCashApplied
+Pos=POS_DMGrid2Line3Label
+Font=F_DMText
+TextSet=0,LEFT,C_DMText
+[/TextBox]
+
+; Purchase Total Value
+[TextBox]
+Name=APValue6
+Pos=POS_DMGrid2Line3Value
+Font=F_DMTextBold
+TextSet=0,RIGHT,C_DMText
+[/TextBox]
+
+; Divider Line 3
+[TextBox]
+Picture=I_AP_DM_LINE_WHITE
+Pos=POS_DMGrid2Line3Divider
+[/TextBox]
+
+; Amount Total Label
+[TextBox]
+Name=APValue7
+Pos=POS_DMGrid2Line4Label
+Font=F_DMText
+TextSet=0,LEFT,C_DMText
+[/TextBox]
+
+; Amount Total Value
+[TextBox]
+Name=APValue8
+Pos=POS_DMGrid2Line4Value
+Font=F_DMTextBold
+TextSet=0,RIGHT,C_DMText
+[/TextBox]
+
+; Divider Line 4
+[TextBox]
+Picture=I_AP_DM_LINE_WHITE
+Pos=POS_DMGrid2Line4Divider
+[/TextBox]
+
+; F2, ENTER
+[Button]
+Act=FSCMD,N,CONFIRM
+ActKey=F2,ENTER
+Font=F_ApButton
+Pos=POS_Button_F2
+Picture=I_AP_BUTTON_RIGHT
+TextSet=TS_DMButton
+TextID="Confirm"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;     DigitalMint Thank You
+;           386 Screen
+;///////////////////////////////
+[Screen]
+ID=386
+Back=199904
+
+; Box
+[TextBox]
+Picture=I_AP_THANKS_BOX     ; 1800SE, 2700
+Picture=I_AP_MESSAGE_BOX    ; 2800
+Pos=POS_DM386MessageBox
+[/TextBox]
+
+; Icon
+[TextBox]
+Picture=I_AP_ICON_THANKS
+Pos=285,168,65,96
+[/TextBox]
+
+; Message
+[TextBox]
+Pos=POS_DM386Message
+Font=F_DM386Message
+Name=APValue1
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+[/Screen]
+
+;///////////////////////////////
+;   DigitalMint Enter Password
+;           387 Screen
+;///////////////////////////////
+[Screen]
+ID=387
+Back=199904
+
+; Screen Title - 3 lines including AID
+[TextBox]
+Pos=POS_DMScreenTitle
+Font=F_DMScreenTitle
+Name=APValue3
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Font=F_ApButton
+TextSet=TS_DMCancelButton
+TextID="Exit"
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+; PASSWORD
+[EditBox]
+ActKey=ENTER
+Act=FSCMD,N,PIN
+AutoRun=1
+AFocus=1
+Font=F_ApTitle
+MaxInChar=12
+TextSet=0,CENTER,C_DMInputText
+Picture=I_AP_INPUT_BOX
+Pos=POS_DMInputBox
+Type=PASSWORD
+[/EditBox]
+
+; Bottom Arrow
+[TextBox]
+Pos=POS_DM387BottomArrow
+Picture=I_AP_ICON_ARROW
+[/TextBox]
+
+; Under Guide
+[TextBox]
+Pos=POS_DMHelpText
+Font=F_DMText
+Name=APValue4
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+[/Screen]
+
+;///////////////////////////////
+;   DigitalMint IC Processing
+;           388 Screen
+;///////////////////////////////
+[Screen]
+ID=388
+Back=199904
+
+; Screen Title
+[TextBox]
+Pos=POS_DM388ScreenTitle
+Font=F_DMScreenTitle
+Name=APValue3
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; IC Processing
+[AniBox]
+Pos=POS_DM388ICProcessing
+Frame_800_600=9,\800_600\AP_Card_IC_Proc_,PNG
+Frame_1024_600=9,\1024_600\AP_Card_IC_Proc_,PNG
+Frame_1024_768=2,\1024_768\AP_EMVICProcessing_,PNG
+[/AniBox]
+
+[TextBox]
+Name=APState1
+Pos=0,412,640,20
+Font=F_ApUnderMsg
+TextID="DO NOT REMOVE"
+TextSet=1,CENTER,C_DMHelpText
+[/TextBox]
+
+[AniBox]
+Name=APState1
+Pos=118,464,405,56
+Frame_1024_768=7,\1024_768\AP_Waiting_,PNG
+[/AniBox]
+
+[/Screen]
+
+;///////////////////////////////
+;    DigitalMint Remove Card
+;           389 Screen
+;///////////////////////////////
+[Screen]
+ID=389
+Back=199904
+
+; Screen Title
+[TextBox]
+Pos=POS_DM389ScreenTitle
+Font=F_DMSubTitle
+Name=APValue3
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; Remove Your Card
+[AniBox]
+Pos=POS_DM389RemoveCard
+Frame_800_600=10,\800_600\AP_Card_Take_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_Take_,PNG
+Frame_1024_768=4,\1024_768\AP_Card_Take_,PNG
+[/AniBox]
+
+[/Screen]
+
+;///////////////////////////////
+;    DigitalMint Insert Cash
+;           390 Screen
+;///////////////////////////////
+[Screen]
+ID=390
+Back=199904
+
+; Screen Title
+[TextBox]
+Name=APValue1
+Pos=POS_DMScreenTitle
+Font=F_DMScreenTitle
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; Max Total
+[TextBox]
+Name=APValue3
+Pos=POS_DM390MaxCashAllowed
+Font=F_ApUnderMsg
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; Running Total
+[TextBox]
+Name=APValue2
+Pos=POS_DM390RunningTotal
+Font=F_ApUnderMsg
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; F2, ENTER
+[Button]
+Name=APState1
+Act=FSCMD,N,DONE
+ActKey=F2,ENTER
+Pos=POS_Button_F2
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_DMButton
+TextID="Done"
+[/Button]
+
+; F8, CANCEL
+[Button]
+Name=APState2
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_DMCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[AniBox]
+Pos=POS_DM390AniBox
+Frame_800_600=8,\800_600\AP_CASH_,PNG
+Frame_1024_600=8,\1024_600\AP_CASH_,PNG
+Frame_1024_768=8,\1024_768\AP_CashPaper_Insert_,PNG
+[/AniBox]
+
+; Under Guide
+[TextBox]
+Pos=POS_DM390UnderGuide
+Name=APValue4
+Font=F_DMTextBold
+TextSet=1,CENTER,C_DMHelpText
+[/TextBox]
+
+[/Screen]
+
+;///////////////////////////////
+;   DigitalMint Enroll Pending
+;           391 Screen
+;///////////////////////////////
+[Screen]
+ID=391
+Back=199904
+
+; Screen Title
+[TextBox]
+TextID=DMAccountPendingApproval
+Pos=POS_DM391ScreenTitle
+Font=F_DMSubTitle
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; F8, ENTER
+[Button]
+Act=FSCMD,N,DONE
+ActKey=F8,ENTER
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_DMButton
+TextID="Done"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;  DigitalMint Select Language
+;           392 Screen
+;///////////////////////////////
+[Screen]
+ID=392
+Back=199904
+
+; Screen Title
+[TextBox]
+Pos=POS_DMScreenTitle
+Font=F_DMScreenTitle
+Name=APValue3
+TextSet=1,CENTER,C_DMText
+[/TextBox]
+
+; F1 (CHINESE)
+[Button]
+Name=APValue7
+Act=FSCMD,N,F1
+ActKey=F1
+Pos=POS_Button_F1
+Picture=I_AP_BUTTON_LEFT
+Font=F_ApButtonSimsun
+TextSet=TS_DMButton
+[/Button]
+
+; F2 (ENGLISH)
+[Button]
+Name=APValue4
+Act=FSCMD,N,F2
+ActKey=F2
+Pos=POS_Button_F2
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_DMButton
+[/Button]
+
+; F3 (KOREAN)
+[Button]
+Name=APValue8
+Act=FSCMD,N,F3
+ActKey=F3
+Pos=POS_Button_F3
+Picture=I_AP_BUTTON_LEFT
+Font=F_ApButtonGulim
+TextSet=TS_DMButton
+[/Button]
+
+; F4 (SPANISH)
+[Button]
+Name=APValue5
+Act=FSCMD,N,F4
+ActKey=F4
+Pos=POS_Button_F4
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_DMButton
+[/Button]
+
+; F5 (JAPANESE)
+[Button]
+Name=APValue9
+Act=FSCMD,N,F5
+ActKey=F5
+Pos=POS_Button_F5
+Picture=I_AP_BUTTON_LEFT
+Font=F_ApButtonSimsun
+TextSet=TS_DMButton
+[/Button]
+
+; F6 (FRENCH)
+[Button]
+Name=APValue6
+Act=FSCMD,N,F6
+ActKey=F6
+Pos=POS_Button_F6
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_DMButton
+[/Button]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_DMCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]

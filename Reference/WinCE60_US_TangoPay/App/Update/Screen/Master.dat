@@ -1,0 +1,6 @@
+; Master Define
+
+[UPDATE]
+LoadControl=Function
+File=\Update.dat
+[/UPDATE]

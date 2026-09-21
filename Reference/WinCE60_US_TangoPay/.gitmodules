@@ -1,0 +1,4 @@
+[submodule "DAT/MasterFiles"]
+	path = DAT/MasterFiles
+	url = https://gitlab.nha.local/retail-ce-6.0/wince60-masterfiles.git
+	branch = feature/sidecar

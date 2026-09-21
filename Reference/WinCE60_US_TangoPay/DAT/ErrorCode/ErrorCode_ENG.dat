@@ -1,0 +1,7071 @@
+﻿[ERROR]
+CODE=1106910
+DESC="LOST SLIP, DEV_SPR"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=2001000
+DESC="Receipt paper jam"
+ACTS="Remove any jammed paper from the printer"
+[/ERROR]
+
+[ERROR]
+CODE=2001200
+DESC="Receipt printer feed plate open"
+ACTS="Close the feed plate."
+[/ERROR]
+
+[ERROR]
+CODE=2001300
+DESC="Out of receipt(Receipt paper empty)"
+ACTS="Replenish the receipt paper."
+[/ERROR]
+
+[ERROR]
+CODE=2001400
+DESC="Receipt printer head overheated"
+DESC="before printing"
+ACTS="Check the printer head and change"
+ACTS="if necessary"
+[/ERROR]
+
+[ERROR]
+CODE=2010100
+DESC="Receipt printer lever opened"
+ACTS="Close the lever of print head"
+ACTS="completely"
+[/ERROR]
+
+[ERROR]
+CODE=2010200
+DESC="Receipt printer head overheated"
+ACTS="Wait the time until the temperature"
+ACTS="of head adequately slow down and try"
+ACTS="to initilalize"
+[/ERROR]
+
+[ERROR]
+CODE=2010300
+DESC="Receipt paper jam"
+ACTS="Remove jammed paper between printer head"
+ACTS="and rollers"
+[/ERROR]
+
+[ERROR]
+CODE=2010400
+DESC="Receipt paper empty"
+ACTS="1.Replenish receipt paper"
+ACTS="2.Check the status of sensor and"
+ACTS="  its connector"
+[/ERROR]
+
+[ERROR]
+CODE=2010500
+DESC="Receipt paper setting error"
+ACTS="1.Check the status of setting paper"
+ACTS="2.Check the status of sensor and"
+ACTS="  its connector"
+[/ERROR]
+
+[ERROR]
+CODE=2010600
+DESC="Command is received while doing"
+DESC="self-test"
+ACTS="After terminating self-test and"
+ACTS="initialize receipt printer"
+[/ERROR]
+
+[ERROR]
+CODE=2010700
+DESC="No receipt paper"
+ACTS="1.Replenish receipt paper"
+ACTS="  in paper charger"
+ACTS="2.Check the status of Near End sensor"
+ACTS="  and its connector"
+[/ERROR]
+
+[ERROR]
+CODE=2010800
+DESC="Receipt paper cutting error"
+ACTS="1.Check the Cutter module"
+ACTS="2.Check if printer head lever is"
+ACTS="  properly close"
+[/ERROR]
+
+[ERROR]
+CODE=2010900
+DESC="No sensing black mark (dark sensor)"
+ACTS="1.Check the status of Black mark sensor"
+ACTS="2.Check if Dip switch 6 is correctly set"
+ACTS="  (DIP switch #6 is set by On in case of"
+ACTS="   not using Black mark)"
+[/ERROR]
+
+[ERROR]
+CODE=2010A00
+DESC="The size of image print data is abnormal"
+ACTS="Check the AP version and initialize"
+[/ERROR]
+
+[ERROR]
+CODE=2080100
+DESC="Receipt printer lever opened"
+ACTS="Close the lever of print head"
+ACTS="completely"
+[/ERROR]
+
+[ERROR]
+CODE=2080200
+DESC="Receipt printer head overheated"
+ACTS="Wait the time until the temperature"
+ACTS="of head adequately slow down and try"
+ACTS="to initialize"
+[/ERROR]
+
+[ERROR]
+CODE=2080300
+DESC="Receipt paper jam"
+ACTS="Remove jammed paper between printer head"
+ACTS="and rollers"
+[/ERROR]
+
+[ERROR]
+CODE=2080400
+DESC="Receipt paper empty"
+ACTS="1.Replenish receipt paper"
+ACTS="2.Check the status of sensor and"
+ACTS="  its connector"
+[/ERROR]
+
+[ERROR]
+CODE=2080500
+DESC="Receipt paper setting error"
+ACTS="1.Check the status of setting paper"
+ACTS="2.Check the status of sensor and"
+ACTS="  its connector"
+[/ERROR]
+
+[ERROR]
+CODE=2080600
+DESC="Command is received while doing"
+DESC="self-test"
+ACTS="After terminating self-test and"
+ACTS="initialize receipt printer"
+[/ERROR]
+
+[ERROR]
+CODE=2080700
+DESC="No receipt paper"
+ACTS="1.Replenish receipt paper"
+ACTS="  in paper charger"
+ACTS="2.Check the status of Near End sensor"
+ACTS="  and its connector"
+[/ERROR]
+
+[ERROR]
+CODE=2080800
+DESC="Receipt paper cutting error"
+ACTS="1.Check the Cutter module"
+ACTS="2.Check if printer head lever is"
+ACTS="  properly close"
+[/ERROR]
+
+[ERROR]
+CODE=2080900
+DESC="No sensing black mark (dark sensor)"
+ACTS="1.Check the status of Black mark sensor"
+ACTS="2.Check if Dip switch 6 is correctly set"
+ACTS="  (DIP switch #6 is set by On in case of"
+ACTS="   not using Black mark)"
+[/ERROR]
+
+[ERROR]
+CODE=2080A00
+DESC="The size of image print data is abnormal"
+ACTS="Check the AP version and initialize"
+[/ERROR]
+
+[ERROR]
+CODE=9720000
+DESC="Receipt printer communication error"
+DESC="during SP opening"
+ACTS="Check if communication cable or"
+ACTS="COM port is not connected"
+[/ERROR]
+
+[ERROR]
+CODE=2DN0000
+DESC="Failed to connect communication between"
+DESC="Receipt printer and SP"
+ACTS="Check if communication cable or"
+ACTS="COM port is not connected"
+[/ERROR]
+
+[ERROR]
+CODE=2080B00
+DESC="Margin setting error"
+ACTS="1.Check whether the default registry"
+ACTS="  setting is changed"
+ACTS="2.Reset the PTR SP"
+[/ERROR]
+
+[ERROR]
+CODE=2080C00
+DESC="Paper jammed at the exit of the slot"
+ACTS="Remove the jammed paper"
+[/ERROR]
+
+[ERROR]
+CODE=2080D00
+DESC="Paper jammed in the path"
+ACTS="Remove the jammed paper"
+[/ERROR]
+
+[ERROR]
+CODE=2080F00
+DESC="The firmware crashed"
+ACTS="1.Check whether the dip switch #1 is"
+ACTS="  set to [ON] position"
+ACTS="2.Update the firmware"
+[/ERROR]
+
+[ERROR]
+CODE=9722010
+DESC="Receipt Printer communication failure"
+DESC="during COM port open"
+ACTS="1.Do RESET at Operator Function"
+ACTS="2.Reboot ATM"
+[/ERROR]
+
+[ERROR]
+CODE=9722DN0
+DESC="Receipt Printer communication failure"
+DESC="during sending command to Receipt"
+DESC="Printer"
+ACTS="1.Do RESET at Operator Function"
+ACTS="2.Reboot ATM"
+[/ERROR]
+
+[ERROR]
+CODE=97912XX
+DESC="DEV_SPR Timer Over Error"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97922XX
+DESC="DEV_SPR FATAL ERROR (WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=A010100
+DESC="Detecting the lever opened before"
+DESC="executing command"
+ACTS="Close the feed lever"
+[/ERROR]
+
+[ERROR]
+CODE=A010200
+DESC="Printer thermal head overheated while"
+DESC="executing command"
+ACTS="Check the thermal printer head and"
+ACTS="change if necessary"
+[/ERROR]
+
+[ERROR]
+CODE=A010300
+DESC="Paper jam detected before executing"
+DESC="command"
+ACTS="Remove any jammed paper from the printer"
+[/ERROR]
+
+[ERROR]
+CODE=A010400
+DESC="Paper setting error detected before"
+DESC="executing command"
+ACTS="Remove and re-install the receipt paper"
+[/ERROR]
+
+[ERROR]
+CODE=A010500
+DESC="Paper check error detected before"
+DESC="executing command"
+ACTS="Remove and re-install the receipt paper"
+[/ERROR]
+
+[ERROR]
+CODE=A010800
+DESC="Paper cutter software check error"
+DESC="detected before executing command"
+ACTS="Remove any jammed paper"
+[/ERROR]
+
+[ERROR]
+CODE=A080100
+DESC="Detecting the lever opened before"
+DESC="executing command"
+ACTS="Remove any jammed paper"
+[/ERROR]
+
+[ERROR]
+CODE=A080200
+DESC="Receipt printer head overheated"
+DESC="while printing"
+ACTS="Check the thermal printer head and"
+ACTS="change if necessary"
+[/ERROR]
+
+[ERROR]
+CODE=A080300
+DESC="Paper jam detected while executing"
+DESC="command"
+ACTS="Remove and re-install the receipt paper"
+[/ERROR]
+
+[ERROR]
+CODE=A080400
+DESC="Paper setting error detected before"
+DESC="executing command"
+ACTS="Remove and re-install the receipt paper"
+[/ERROR]
+
+[ERROR]
+CODE=A080500
+DESC="Paper check error in doing command"
+ACTS="Remove any jammed paper"
+[/ERROR]
+
+[ERROR]
+CODE=A080800
+DESC="Paper cutter software check error"
+DESC="detected while executing command"
+ACTS="Remove any jammed paper"
+[/ERROR]
+
+[ERROR]
+CODE=ADN0100
+DESC="No response detected for 30 seconds"
+DESC="after sending command"
+ACTS="Check cable and connection between the"
+ACTS="CE and printer"
+[/ERROR]
+
+[ERROR]
+CODE=ADN0F00
+DESC="No response detected for 30 seconds"
+DESC="after sending command"
+ACTS="Check cable and connection between the"
+ACTS="CE and printer"
+[/ERROR]
+
+[ERROR]
+CODE=ADN1100
+DESC="No response detected after 3 retries"
+ACTS="Check cable and connection between the"
+ACTS="CE and printer"
+[/ERROR]
+
+[ERROR]
+CODE=ADN1200
+DESC="No response detected between ENQ-ACK"
+DESC="after 5 retries of ENQ"
+ACTS="Check the cable and connection between"
+ACTS="the CE and printer"
+[/ERROR]
+
+[ERROR]
+CODE=ADN1300
+DESC="No response detected after 5 retries"
+DESC="because of timeout between STX-BCC"
+DESC="interval"
+ACTS="Check cable and connection between the"
+ACTS="CE and printer"
+[/ERROR]
+
+[ERROR]
+CODE=8217091
+DESC="Card in card reader"
+ACTS="Remove card"
+[/ERROR]
+
+[ERROR]
+CODE=1101910
+DESC="LOST CARD, DEV_MCU"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9723010
+DESC="Failed to open device"
+ACTS="Check the serial port or cable"
+[/ERROR]
+
+[ERROR]
+CODE=9723011
+DESC="Communication error"
+ACTS="Check the serial port or cable"
+[/ERROR]
+
+[ERROR]
+CODE=9723016
+DESC="Time out to receive data"
+ACTS="Check the serial port or cable"
+[/ERROR]
+
+[ERROR]
+CODE=9723019
+DESC="Polling down"
+ACTS="Check the serial port or cable"
+[/ERROR]
+
+[ERROR]
+CODE=9723040
+DESC="Fail to create sensor polling thread"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9723048
+DESC="Sensor polling thread thrminated"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9723058
+DESC="Exception is occurred"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9730100
+DESC="IC CARD DENIAL"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9730200
+DESC="IC CARD ONLINE DATA ERROR"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9730300
+DESC="IC CARD ERROR"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9730400
+DESC="IC CARD NOT REMOVED"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97913XX
+DESC="DEV_MCU Timeover Error Code"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97923XX
+DESC="DEV_MCU FATALERROR (WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792300
+DESC="DEV_MCU FATALERROR (WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9799301
+DESC="MCU RETRACT OVER"
+ACTS="Clear the count of retracted card"
+ACTS="at OP mode"
+[/ERROR]
+
+[ERROR]
+CODE=9311200
+DESC="Fail to connect device"
+ACTS="Check the serial port or cable"
+[/ERROR]
+
+[ERROR]
+CODE=9312300
+DESC="Fail to close device"
+ACTS="Check the serial port or cable"
+[/ERROR]
+
+[ERROR]
+CODE=9313200
+DESC="Fail to send command to device"
+ACTS="Check the serial port or cable"
+[/ERROR]
+
+[ERROR]
+CODE=9313300
+DESC="Abnormal communication"
+ACTS="Check the serial port or cable"
+[/ERROR]
+
+[ERROR]
+CODE=9341100
+DESC="Fail to create sensor polling thread"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9341300
+DESC="Sensor polling thread is terminated"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=93A5600
+DESC="Exception is occurred"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=93A9500
+DESC="Fail to connect ESU or setting fail"
+ACTS="Check the connect status of ESU"
+[/ERROR]
+
+[ERROR]
+CODE=3100100
+DESC="Send to undefined command"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3100200
+DESC="Command execution is impossible"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3100400
+DESC="Command data error"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3101000
+DESC="Latch sensor is abnormal"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3102000
+DESC="Card has not been read yet or"
+DESC="others errors"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3102100
+DESC="No Start sentinel"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3102200
+DESC="VRC Error"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3102300
+DESC="No End sentinel. Too many data"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3102400
+DESC="LRC Error"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3102500
+DESC="No mac.stripe or No encoded card"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3102700
+DESC="SS-ES-LRC card"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3103000
+DESC="Detection of Power failure"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3106000
+DESC="Abnormal condition was found on the"
+DESC="power-line(Vcc) of ICC(or SAM)"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3106100
+DESC="The receiving error of ATR"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3106200
+DESC="The card(SAM) does not accept this"
+DESC="protocol"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3106300
+DESC="IC Card communication error(No answer)"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3106400
+DESC="IC Card communication error(Other)"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3106500
+DESC="IC Card is not activated"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3106600
+DESC="IC Card returned ATR which is not"
+DESC="supported ISO/IEC7816-3"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3106900
+DESC="IC Card returned ATR which does not"
+DESC="match EMV2000 V4.0"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3107000
+DESC="F-FROM write error"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3107100
+DESC="CRC error of User program code area"
+DESC="of ESU"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3107200
+DESC="EEPROM operation error"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3107600
+DESC="Transmission error between ESU and"
+DESC="ICRW"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3109500
+DESC="ESU is broken-down or disconnected"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3109600
+DESC="Metalic fraud object is detected"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=3109900
+DESC="_INTERNAL_ERROR error is occurred and"
+DESC="Fail to get error code from DLL"
+ACTS="Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9721111
+DESC="Off line status"
+ACTS="1.Check communication cable connected"
+ACTS="  properly"
+ACTS="2.Check power cable connected properly"
+[/ERROR]
+
+[ERROR]
+CODE=9721112
+DESC="On busy"
+ACTS="Check printer’s working status"
+[/ERROR]
+
+[ERROR]
+CODE=9721121
+DESC="Mechanics Error"
+ACTS="1.Recover printer’s mechanical Error"
+ACTS="2.Reboot ATM"
+[/ERROR]
+
+[ERROR]
+CODE=9721122
+DESC="Recoverable Error"
+ACTS="1.Recover printer’s Error"
+ACTS="2.Reboot ATM"
+[/ERROR]
+
+[ERROR]
+CODE=9721123
+DESC="Unrecoverable Error"
+ACTS="Reboot ATM"
+[/ERROR]
+
+[ERROR]
+CODE=9721124
+DESC="Paper jammed"
+ACTS="Remove jammed paper"
+[/ERROR]
+
+[ERROR]
+CODE=97911XX
+DESC="DEV_JPR Timeover Error Code"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97921XX
+DESC="DEV_JPR FATALERROR (WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=1102910
+DESC="LOST WITHDRAW CASH, DEV_CSH"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=1102920
+DESC="LOST DEPOSIT CASH, DEV_CSH"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=1103910
+DESC="LOST CARD & SLIP, DEV_MCU | DEV_SPR"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=2000100
+DESC="No cassette"
+ACTS="Insert or re-insert the cassette(s)"
+ACTS="Check cassette sensor"
+[/ERROR]
+
+[ERROR]
+CODE=2000200
+DESC="Note shortage"
+ACTS="Replenish the cassette"
+[/ERROR]
+
+[ERROR]
+CODE=2000300
+DESC="Reject bin full"
+ACTS="Remove notes from the reject bin and"
+ACTS="try the Cassette Total function again"
+[/ERROR]
+
+[ERROR]
+CODE=2000400
+DESC="Vault door open"
+ACTS="Close the vault door. Check door switch"
+[/ERROR]
+
+[ERROR]
+CODE=2000500
+DESC="Cash Dispenser Unit data setting error"
+ACTS="Check Cash Dispenser Unit information"
+ACTS="(Currency, Denomination, etc)"
+[/ERROR]
+
+[ERROR]
+CODE=2000600
+DESC="Side Car doors open"
+ACTS="Close all the Side Car doors"
+ACTS="Check door switch"
+[/ERROR]
+
+[ERROR]
+CODE=2001600
+DESC="Note detected in stacker"
+DESC="(shutter or presenter type)"
+ACTS="Clear any notes from the stacker"
+[/ERROR]
+
+[ERROR]
+CODE=2021500
+DESC="Sensor detects note in delivery path"
+DESC="before CDU dispenses"
+ACTS="Remove note from the CDU delivery path"
+[/ERROR]
+
+[ERROR]
+CODE=2131500
+DESC="CS4 sensor detects note in delivery path"
+DESC="before CDU dispenses. Sensor is located"
+DESC="along the delivery path right before"
+DESC="the reject bin."
+ACTS="Remove note from the CDU delivery path."
+[/ERROR]
+
+[ERROR]
+CODE=21A1500
+DESC="CS1A sensor detects note in delivery"
+DESC="path before CDU dispenses. Sensor is"
+DESC="located along the delivery path right"
+DESC="after where the note exits the 1st"
+DESC="cassette."
+ACTS="Remove note from the CDU delivery path."
+[/ERROR]
+
+[ERROR]
+CODE=21B1500
+DESC="CSB sensor detects note in delivery path"
+DESC="before CDU dispenses. Sensor is located"
+DESC="along the delivery path right after"
+DESC="where the note exits the 1st cassette"
+ACTS="Remove note from the CDU delivery path"
+[/ERROR]
+
+[ERROR]
+CODE=24A1500
+DESC="CS31A sensor detects note in delivery"
+DESC="path before CDU dispenses. Sensor is"
+DESC="located along the delivery path right"
+DESC="after where the note exits the"
+DESC="3rd cassette"
+ACTS="Remove note from the CDU delivery path."
+[/ERROR]
+
+[ERROR]
+CODE=24B1500
+DESC="CS31B sensor detects note in delivery"
+DESC="path before CDU dispenses. Sensor is"
+DESC="located along the delivery path right"
+DESC="after where the note exits the"
+DESC="3rd cassette"
+ACTS="Remove note from the CDU delivery path"
+[/ERROR]
+
+[ERROR]
+CODE=4000000
+DESC="Cash Dispenser(CDU) received the"
+DESC="undefined command from AP software"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4001100
+DESC="Detecting CS2 / LS3 Dark"
+DESC="(Front Access Type:Reject box is opened)"
+ACTS="1.Remove notes on CS2 / LS3 sensor"
+ACTS="2.Clean CS2 / LS3"
+[/ERROR]
+
+[ERROR]
+CODE=4001400
+DESC="CS4A / LS9 sensor detects note in"
+DESC="delivery path before/after CDU dispenses"
+ACTS="1.Remove note from the CDU delivery path"
+ACTS="2.Clean CS4A / LS9"
+[/ERROR]
+
+[ERROR]
+CODE=4001500
+DESC="CS2 or CS4A sensor detects note in"
+DESC="delivery path before/after CDU dispenses"
+ACTS="1.Remove note from the CDU delivery path"
+ACTS="2.Clean CS2 and CS4A"
+[/ERROR]
+
+[ERROR]
+CODE=4001800
+DESC="CS4B sensor detects note in delivery"
+DESC="path before/after CDU dispenses."
+ACTS="1.Remove note from the CDU delivery path"
+ACTS="2.Clean CS4B"
+[/ERROR]
+
+[ERROR]
+CODE=4001900
+DESC="CS2 or CS4B sensor detects note in"
+DESC="delivery path before/after CDU dispenses"
+ACTS="1.Remove note from the CDU delivery path"
+ACTS="2.Clean CS2 and CS4B"
+[/ERROR]
+
+[ERROR]
+CODE=4001C00
+DESC="CS4A or CS4B sensor detects note in"
+DESC="delivery path before/after CDU dispenses"
+ACTS="1.Remove note from the CDU delivery path"
+ACTS="2.Clean CS4A and CS4B"
+[/ERROR]
+
+[ERROR]
+CODE=4001D00
+DESC="CS2, CS4A or CS4B sensor detects note in"
+DESC="delivery path before/after CDU dispenses"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4002100
+DESC="CS1A / LS1 sensor detects note in"
+DESC="delivery path before/after CDU dispenses"
+ACTS="1.Remove note from the CDU delivery path"
+ACTS="2.Clean CS1A / LS1"
+[/ERROR]
+
+[ERROR]
+CODE=4002200
+DESC="CS1B sensor detects note in delivery"
+DESC="path before/after CDU dispenses."
+ACTS="1.Remove note from the CDU delivery path"
+ACTS="2.Clean CS1B"
+[/ERROR]
+
+[ERROR]
+CODE=4002300
+DESC="CS1A or CS1B sensor detects note in"
+DESC="delivery path before/after CDU dispenses"
+ACTS="1.Remove note from the CDU delivery path"
+ACTS="2.Clean CS1A and CS1B"
+[/ERROR]
+
+[ERROR]
+CODE=4002800
+DESC="CS13 sensor detects note in delivery"
+DESC="path before/after CDU dispenses."
+ACTS="1.Remove note from the CDU delivery path"
+ACTS="2.Clean CS13"
+[/ERROR]
+
+[ERROR]
+CODE=4002900
+DESC="CS1A or CS13 sensor detects note in"
+DESC="delivery path before/after CDU dispenses"
+ACTS="1.Remove note from the CDU delivery path"
+ACTS="2.Clean CS1A and CS13"
+[/ERROR]
+
+[ERROR]
+CODE=4002A00
+DESC="CS1B or CS13 sensor detects note in"
+DESC="delivery path before/after CDU dispenses"
+ACTS="1.Remove note from the CDU delivery path"
+ACTS="2.Clean CS1B and CS13"
+[/ERROR]
+
+[ERROR]
+CODE=4002B00
+DESC="CS1A, CS1B or CS13 sensor detects note"
+DESC="in delivery path before/after"
+DESC="CDU dispenses."
+ACTS="1.Remove note from the CDU delivery path"
+ACTS="2.Clean CS1A, CS1B and CS13"
+[/ERROR]
+
+[ERROR]
+CODE=4003000
+DESC="Failed in checking the main motor echo"
+ACTS="1.Initialize"
+ACTS="2.Check Main Motor Encoder Slit"
+ACTS="3.Initialize after Power On/Off"
+ACTS="4.Check Encoder Sensor CS8 BRKT"
+ACTS="5.Check CS8 Sensor Cable"
+ACTS="6.Change Main Motor Encoder"
+ACTS="  Slit Sensor CS8"
+[/ERROR]
+
+[ERROR]
+CODE=4003100
+DESC="Failed in checking the reject gate"
+DESC="solenoid echo"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4003200
+DESC="Failed in checking the present gate"
+DESC="solenoid echo"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4003300
+DESC="Check sum error (No information is set)"
+ACTS="1.Check Cash Dispenser Information"
+ACTS="  after reading Cash Dispenser version"
+ACTS="2.Initialize"
+ACTS="3.Initialize after executing Cash"
+ACTS="  Dispenser Information Set(‘P’) command"
+ACTS="4.Change Cash Dispenser B/D"
+[/ERROR]
+
+[ERROR]
+CODE=4003400
+DESC="Error of two sheets detecting"
+DESC="sensor(CS5_1)for initializing"
+ACTS="1.Check CS5_1 Sensor Cable"
+ACTS="2.Check second Dip Switch in Cash"
+ACTS="  Dispenser B/D"
+ACTS="3.Change CS5_1 Sensor"
+[/ERROR]
+
+[ERROR]
+CODE=4003600
+DESC="Error of CS 2, CS13 / LS2 sensor"
+DESC="during initialization"
+ACTS="1.Remove a jammed note in CS13 / LS2"
+ACTS="  sensor"
+ACTS="2.Replace CS13 / LS2 sensor."
+[/ERROR]
+
+[ERROR]
+CODE=4003700
+DESC="Error of 2 sheets detecting"
+DESC="sensor (CS5_1 / CS5_2) for dispensing"
+ACTS="1.Check Cash Dispenser Board Segment"
+ACTS="2.Initialize"
+ACTS="3.Read data of ‘Read Double Sensor’"
+ACTS="  command"
+[/ERROR]
+
+[ERROR]
+CODE=4003800
+DESC="Error in checking SRAM"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4003900
+DESC="Gate operation sensor (CS3 / LS8) error"
+DESC="before initial recovery"
+ACTS="1.Initialize after removing notes"
+ACTS="  or dust over Gate"
+ACTS="2.Check CS3 / LS8 Sensor BKRT"
+ACTS="3.Check CS3 / LS8 Sensor Cable"
+ACTS="4.Exchange Sensor after abnormal"
+ACTS="  operating CS3 / LS8 Gate detecting"
+ACTS="  Sensor"
+ACTS="5.Replace Reject Solenoid 1"
+[/ERROR]
+
+[ERROR]
+CODE=4003A00
+DESC="When more than 5 sheets of cash"
+DESC="dispensing is required during a test"
+ACTS="1.Check command that Cash Dispenser"
+ACTS="  is received"
+ACTS="2.Check Cash Dispenser EP ROM Version"
+ACTS="  or specification"
+[/ERROR]
+
+[ERROR]
+CODE=4003B00
+DESC="When CS15A or CS 15B sensor is detected"
+DESC="as dark after initial recovery"
+ACTS="1.Remove notes or dust on CS15A Sensor"
+ACTS="2.Check CS15A Sensor Cable"
+ACTS="3.Exchange Sensor after abnormal"
+ACTS="  operating CS15A Sensor"
+[/ERROR]
+
+[ERROR]
+CODE=4003C00
+DESC="CS60 Dark detection during initializing"
+DESC="or Dispense reserved operation."
+ACTS="1.Remove the remaining notes and foreign"
+ACTS="  objects at the position of the CS60
+ACTS="  sensor"
+ACTS="2.Check if the CS60 sensor cable is"
+ACTS="  disconnected."
+ACTS="3.Exchange sensor if error occurs after"
+ACTS="  checking CS60 sensor operation"
+[/ERROR]
+
+[ERROR]
+CODE=4004000
+DESC="Cassette is removed during dispensing"
+ACTS="1.Check the cassette catcher"
+ACTS="2.Set the cassette properly"
+[/ERROR]
+
+[ERROR]
+CODE=4004100
+DESC="Error if re-driving is over 5 times"
+DESC="during separated rejection"
+ACTS="1.Check notes in Reject Box"
+ACTS="2.Rearrange notes in Cassette"
+ACTS="3.Remove dust in CS15AB, CS31AB"
+ACTS="  CS41AB CS1AB Sensor"
+ACTS="4.Check dust existing in CS5"
+ACTS="  Sensor Guide"
+ACTS="5.Check dust existing in Main Motor"
+ACTS="  Encoder Slit"
+ACTS="6.Check index value of notes"
+ACTS="  each cassette"
+[/ERROR]
+
+[ERROR]
+CODE=4004200
+DESC="In case the number of notes detected"
+DESC="outlet sensor(CS13 / LS2) is less than"
+DESC="the number of required notes"
+ACTS="1.Check notes dispensed and rejected"
+ACTS="2.Remove notes jammed in CDU"
+ACTS="3.Remove dust in CS13 / LS2 Sensor"
+ACTS="4.Exchange sensor after abnormal"
+ACTS="  operating CS13 / LS2 Sensor"
+[/ERROR]
+
+[ERROR]
+CODE=4004300
+DESC="Error if total reject is more than"
+DESC="20 sheets"
+ACTS="1.Check notes in Reject Box"
+ACTS="2.Rearrange notes in Cassette"
+ACTS="3.Remove dust in CS1AB, CS15AB, CS31AB"
+ACTS="  ,CS41AB Sensor"
+ACTS="4.Check dust in existence CS5 Sensor"
+ACTS="  Guide"
+ACTS="5.Check notes index value"
+[/ERROR]
+
+[ERROR]
+CODE=4004400
+DESC="Notes are rejected 5 times continuously"
+ACTS="1.Check notes in Reject Box"
+ACTS="2.Rearrange notes in Cassette"
+ACTS="3.Check dust in Main Motor Encoder Slit"
+ACTS="4.Remove dust in CS15AB, CS31AB, CS1AB"
+ACTS="  Sensor"
+ACTS="5.Exchange CS8 Encoder Slit Sensor"
+[/ERROR]
+
+[ERROR]
+CODE=4004500
+DESC="In case the number of notes detected"
+DESC="on outlet sensor(CS13 / LS2) is more"
+DESC="than required notes"
+ACTS="1.Check notes dispensed and rejected"
+ACTS="2.Remove dust in CS13 / LS2 Sensor"
+ACTS="3.Exchange sensor after abnormal"
+ACTS="  operating CS13 / LS2 Sensor"
+[/ERROR]
+
+[ERROR]
+CODE=4004600
+DESC="Program error(Separated rejection)"
+ACTS="1.Initialize after Reset Power"
+ACTS="2.Upgrade Cash Dispenser Firmware"
+ACTS="  or re-download"
+ACTS="3.Exchange Cash Dispenser B/D"
+[/ERROR]
+
+[ERROR]
+CODE=4004700
+DESC="1 cassette mis-feed error"
+DESC="(Separated rejection)"
+ACTS="1.Check notes in 1 Cassette"
+ACTS="2.Mount 1 cassette box after realigning"
+ACTS="  notes in 1 cassette box"
+ACTS="3.Remove dust in"
+[/ERROR]
+
+[ERROR]
+CODE=4004800
+DESC="Error if the number of dispensed notes"
+DESC="is not matched to the requested"
+ACTS="1.Check CS13 / LS2 sensor"
+ACTS="  (note jam and dust)"
+ACTS="2.Replace CS13 sensor"
+[/ERROR]
+
+[ERROR]
+CODE=4004900
+DESC="Error to dispense 0 sheets to be"
+DESC="required(Separated rejection)"
+ACTS="1.Check received command"
+ACTS="2.Check communication cable"
+ACTS="3.Check Cash Dispenser Firmware Version"
+[/ERROR]
+
+[ERROR]
+CODE=4004A00
+DESC="Error of note jam (Separated rejection)"
+ACTS="1.Remove jammed notes on Cash Dispenser"
+ACTS="  return path"
+ACTS="2.Remove dust in CS1~CS4 sensor"
+ACTS="3.Install after rearranging notes in"
+ACTS="  cassette"
+[/ERROR]
+
+[ERROR]
+CODE=4004B00
+DESC="Continuous 3 times error if note is long"
+DESC="(once tried, twice retried)>"
+DESC="Separated rejection"
+ACTS="1.Check state of notes in reject box"
+ACTS="2.Rearrange notes in cassette"
+ACTS="3.Check Index of notes"
+ACTS="4.Check foreign objects in the main"
+ACTS="  motor encoder slit"
+ACTS="5.Replace the CS8 encoder slit sensor"
+[/ERROR]
+
+[ERROR]
+CODE=4004C00
+DESC="In case the number of notes detected"
+DESC="outlet sensor(CS13 / LS2) is more than"
+DESC="that of notes detected on CS1A,B sensor"
+ACTS="1.Check CS1 sensor"
+ACTS="2.Reconnect CS1 sensor"
+[/ERROR]
+
+[ERROR]
+CODE=4004D00
+DESC="Error of being removed 1st cassette"
+DESC="before separate rejection"
+ACTS="1.Set cassette #1 correctly"
+ACTS="2.Check the catcher inside cassette #1"
+ACTS="  guide"
+[/ERROR]
+
+[ERROR]
+CODE=4004E00
+DESC="Error of being removed 2nd cassette"
+DESC="before separate rejection"
+ACTS="1.Set cassette #2 correctly"
+ACTS="2.Check the catcher inside cassette #2"
+ACTS="  guide"
+[/ERROR]
+
+[ERROR]
+CODE=4005100
+DESC="Received a request for over 150 notes"
+DESC="dispensing on the Cash Dispenser from"
+DESC="the upper unit"
+ACTS="1.Check the Cash Dispenser received"
+ACTS="  command"
+ACTS="2.Check the abnormal communication cable"
+ACTS="3.Check the Cash Dispenser firmwave"
+ACTS="  version and refer to specifications"
+[/ERROR]
+
+[ERROR]
+CODE=4005200
+DESC="The remaining notes at the sensor"
+DESC="in front of the CST after dispense"
+DESC="operation (CS1A, CS1B)"
+ACTS="1.Remove the remaining notes at a sensor"
+ACTS="  in front of the CST"
+ACTS="2.Realign notes in the cassette"
+ACTS="3.Check abnormal clutch"
+ACTS="4.Check abrasion of the cassette box"
+ACTS="  pick unit"
+[/ERROR]
+
+[ERROR]
+CODE=4005300
+DESC="Error for the double note detection"
+DESC="during separation."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4005400
+DESC="Cash Dispenser EP Program Error during"
+DESC="dispense operation (failed table search)"
+ACTS="1.Initialize after resetting the power"
+ACTS="2.Upgrade the Cash Dispenser firmware"
+ACTS="  or download software again"
+ACTS="3.Replace the Cash Dispenser B/D"
+[/ERROR]
+
+[ERROR]
+CODE=4005500
+DESC="Timeout due to note’s length error"
+DESC="passed through the CS13 / LS2 during"
+DESC="dispense operation"
+ACTS="1.Remove a jammed note between the tray"
+ACTS="  and Cash Dispenser"
+ACTS="2.Remove a jammed note at the position"
+ACTS="  of the CS13 / LS2 sensor"
+ACTS="3.Remove a dust on the CS13 / LS2 sensor"
+[/ERROR]
+
+[ERROR]
+CODE=4005600
+DESC="Abnormal operation of the gate solenoid"
+DESC="during dispense operation"
+ACTS="1.Remove a jammed note on the gate"
+ACTS="2.Remove notes in the reject box and"
+ACTS="  remount the reject box"
+ACTS="3.Check if the CS3 / LS8 sensor bracket"
+ACTS="  is bended"
+ACTS="4.Check if the CS3 / LS8 sensor cable"
+ACTS="  is disconnected(CN10 #9~10)"
+ACTS="5.Exchange a sensor after abnormal"
+ACTS="  operating CS3 / LS8 Gate detecting"
+ACTS="  sensor"
+ACTS="6.Replace the reject solenoid 1"
+[/ERROR]
+
+[ERROR]
+CODE=4005700
+DESC="Cash dispenser configuration error"
+ACTS="1.Replace cash dispenser PCB"
+ACTS="2.Reconfigure cash dispenser setup data"
+[/ERROR]
+
+[ERROR]
+CODE=4005800
+DESC="Retract box position error during"
+DESC="command reserved operation"
+ACTS="1.Mount the retract box or open the"
+ACTS="  box cover"
+ACTS="2.Check if CS62 sensor poll is abnormal"
+ACTS="3.Check if the CS62 sensor cable is"
+ACTS="  disconnected"
+ACTS="  (Cash Dispenser Board CN10 #5~2)"
+[/ERROR]
+
+[ERROR]
+CODE=4005900
+DESC="Initial jam time error"
+ACTS="1.Remove jammed notes"
+ACTS="2.Clean the sensors (CS1~CS15) in cash"
+ACTS="  dispenser"
+[/ERROR]
+
+[ERROR]
+CODE=4005B00
+DESC="2 Cassette Miss Feed Error"
+DESC="(Fail to reject bill separately.)"
+ACTS="1.Check notes in 2 Cassette"
+ACTS="2.Check jam in 2 cassette and reload"
+ACTS="3.Exchange 2 cassette box when there"
+ACTS="  are many error"
+[/ERROR]
+
+[ERROR]
+CODE=4005D00
+DESC="Continuously detected 2 notes for three"
+DESC="times or more during dispense operation"
+ACTS="1.Check notes’ status in the reject box"
+ACTS="2.Realign notes in the cassette"
+ACTS="3.Check foreign objects at the"
+ACTS="  position of the CS5 Sensor Guide"
+ACTS="4.Check if the CS5 cable is"
+ACTS="  disconnected (CS5_1:Cash Dispenser B/D"
+ACTS="  CN10 #11~12, 25~28/ CS5_2:CN12)"
+[/ERROR]
+
+[ERROR]
+CODE=4006000
+DESC="Something is detected in C31AB"
+DESC="sensor before dispensing bills"
+DESC="from 3rd cassette."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4006100
+DESC="Something is detected in C31AB sensor"
+DESC="before dispensing bills."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4006200
+DESC="Bills are remained in CS1AB sensor"
+DESC="after dispensing bills."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4006300
+DESC="Bills are remained in CS31AB sensor"
+DESC="after dispensing bills."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4006900
+DESC="Reject Gate close fail (CS3 dark)"
+ACTS="1.Initialize after removing notes or"
+ACTS="  dust over Gate"
+ACTS="2.Check CS3 Sensor BKRT"
+ACTS="3.Check CS3 Sensor Cable"
+ACTS="4.Exchange Sensor after abnormal"
+ACTS="  operating CS3 Gate detecting Sensor"
+ACTS="5.Exchange Reject Solenoid"
+[/ERROR]
+
+[ERROR]
+CODE=4006A00
+DESC="CS15AB ~ CS13 Time out(Jam) during"
+DESC="dispensing bills from second cassette."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4006B00
+DESC="Something is detected on CS31A, CS31B"
+DESC="sensor during initialization."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4007000
+DESC="Something is detected on CS41AB"
+DESC="sensor before dispensing bills"
+DESC="from fourth cassette."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4007200
+DESC="Something is detected on CS41AB sensor"
+DESC="during dispensing bills."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4007300
+DESC="Bills are remained in CS41AB sensor"
+DESC="after dispensing bills."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4007A00
+DESC="CS31AB ~ CS13 Time out (Jam) during"
+DESC="dispensing bills from fourth cassette."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4007B00
+DESC="Something is detected on CS41A, CS41B"
+DESC="sensor in initialization"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4007C00
+DESC="4 cassette mis-feed error"
+DESC="(Separated rejection)"
+ACTS="1.Check notes in 4 Cassette"
+ACTS="2.Check Sensor(CS36) Poll"
+ACTS="3.Check jam in 4 cassette and reload"
+ACTS="4.Remove dust in CS4A, CS4B Sensor"
+ACTS="5.Exchange 4 cassette box when there"
+ACTS="  are many error"
+[/ERROR]
+
+[ERROR]
+CODE=4007D00
+DESC="Trying to dispense bills from 4th"
+DESC="cassette but the 4th cassette"
+DESC="doesn't installed."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4008000
+DESC="Something is detected on CS15AB sensor"
+DESC="before dispensing operation."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4008100
+DESC="Something is detected in C15AB sensor"
+DESC="during dispensing operation."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4008200
+DESC="Bill is remained in CS15AB sensor"
+DESC="after dispensing operation."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4008F00
+DESC="CS13 sensor detects the notes with hole."
+ACTS="1.Initialize Cash Dispenser (CDU)"
+ACTS="2.Remove the holed note on CS13"
+[/ERROR]
+
+[ERROR]
+CODE=4009A00
+DESC="CS31AB~CS13 Time out(Jam) during"
+DESC="dispensing from 3rd cassette."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4009D00
+DESC="Trying to dispense bills from 3rd"
+DESC="cassette but the 3rd cassette"
+DESC="doesn't installed."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4009F00
+DESC="3 cassette miss feed error."
+ACTS="1.Check notes in 3 Cassette"
+ACTS="2.Check jam in 3 cassette and reload"
+ACTS="3.Exchange 3 cassette box when there"
+ACTS="  are many error"
+[/ERROR]
+
+[ERROR]
+CODE=400AC00
+DESC="Something is detected on CS2 sensor"
+DESC="after dispense operation."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=400BC00
+DESC="Controller authentication failure."
+ACTS="One registered controller can dispense."
+ACTS="Clear the existing registration and"
+ACTS="re-register a controller again."
+[/ERROR]
+
+[ERROR]
+CODE=400BE00
+DESC="Bill pickup sensor(CS1, CS15) recognized"
+DESC="has a hole and CS4 sensor detects it or"
+DESC="CS4 sensor detects the gap too close."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=400C100
+DESC="1 Cassette Jam during dispense operation"
+DESC="(1 CST Encoder Error)."
+ACTS="1.Remove a jammed note in 1 Cassette."
+ACTS="2.Replace 1 cassette box when multiple"
+ACTS="  errors occur."
+[/ERROR]
+
+[ERROR]
+CODE=400C200
+DESC="2 Cassette Jam during dispense operation"
+DESC="(2 CST Encoder Error)."
+ACTS="1.Remove a jammed note in 2 Cassette."
+ACTS="2.Replace 2 cassette box when multiple"
+ACTS="  errors occur."
+[/ERROR]
+
+[ERROR]
+CODE=400C300
+DESC="3 Cassette Jam during dispense operation"
+DESC="(3 CST Encoder Error)."
+ACTS="1.Remove a jammed note in 3 Cassette."
+ACTS="2.Replace 3 cassette box when multiple"
+ACTS="  errors occur."
+[/ERROR]
+
+[ERROR]
+CODE=400C400
+DESC="4 Cassette Jam during dispense operation"
+DESC="(4 CST Encoder Error)."
+ACTS="1.Remove a jammed note in 4 Cassette."
+ACTS="2.Replace 4 cassette box when multiple"
+ACTS="  errors occur."
+[/ERROR]
+
+[ERROR]
+CODE=400C600
+DESC="Error of CS 2, CS13 sensor"
+DESC="during initialization"
+ACTS="1.Remove a jammed note in CS13 sensor."
+ACTS="2.Replace CS13 sensor."
+[/ERROR]
+
+[ERROR]
+CODE=400C700
+DESC="Something is detected on CS12 sensor"
+DESC="during dispensing bills or"
+DESC="initialization.-MB TTW"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=400C800
+DESC="Something is detected on CS14 sensor"
+DESC="during dispensing bills or"
+DESC="initialization.-MB TTW"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=400C900
+DESC="Something is detected on CS14 sensor"
+DESC="after dispense operation"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=400CC00
+DESC="Bill is remained on the sensor in front"
+DESC="of cassette during resetting."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=400D000
+DESC="Bills are passed on CS13~CS12 sensor."
+DESC="-Timeout[Jam], MB TTW"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=400D100
+DESC="Bills are passed on CS12~CS14 sensor."
+DESC="-Timeout[Jam], MB TTW"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=400FF00
+DESC="Bill jam"
+ACTS="1.Remove the jammed notes"
+ACTS="2.Initialize"
+[/ERROR]
+
+[ERROR]
+CODE=C004F00
+DESC="The number of dispensed notes does not"
+DESC="match."
+ACTS="1.Check the number of dispensed notes."
+ACTS="2.Perform a test on the Cash Dispenser"
+ACTS="  Unit"
+[/ERROR]
+
+[ERROR]
+CODE=4DN0000
+DESC="Cash dispenser communication failure"
+DESC="during sending command to cash dispenser"
+ACTS="1.Do RESET at Operator Function"
+ACTS="2.Reboot ATM"
+[/ERROR]
+
+[ERROR]
+CODE=4DN0100
+DESC="Cash Dispenser communication failure"
+DESC="during receiving command to cash"
+DESC="dispenser"
+ACTS="1.Do RESET at Operator Function"
+ACTS="2.Reboot ATM"
+[/ERROR]
+
+[ERROR]
+CODE=4DN8100
+DESC="Communication error of Shutter"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4T02200
+DESC="Mistracked note at feed"
+ACTS="1.Remove a jammed note at feed"
+ACTS="2.Mount 1 cassette box after realigning"
+ACTS="  notes in 1 cassette box"
+[/ERROR]
+
+[ERROR]
+CODE=4T02300
+DESC="Mistracked note at doulbe detect"
+ACTS="1.Remove notes at double detect sensor"
+ACTS="2.Mount 1 cassette box after realigning"
+ACTS="  notes in 1 cassette box"
+[/ERROR]
+
+[ERROR]
+CODE=4T02400
+DESC="Mistracked note at exit"
+ACTS="1.Remove objects at exit"
+ACTS="2.Clear notes in retract box"
+ACTS="3.Replace S23 Sensor Ass'y"
+ACTS="4.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T02500
+DESC="Note too long at exit"
+ACTS="1.Check or replace S19 sensor"
+ACTS="2.Remove object"
+ACTS="3.Replace S19 sensor cable"
+ACTS="4.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T02600
+DESC="Blocked exit"
+ACTS="1.Remove objects at exit"
+ACTS="2.Remove dust in"
+[/ERROR]
+
+[ERROR]
+CODE=4T02700
+DESC="Too many notes"
+ACTS="1.Check or repace S11, S19 sensor"
+ACTS="2.Remove object"
+ACTS="3.Remove notes which have a hole"
+ACTS="4.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T02900
+DESC="Jam at S11 sensor"
+ACTS="1.Check or repace S11 sensor"
+ACTS="2.Remove object"
+ACTS="3.Do the same error handling as #40047"
+[/ERROR]
+
+[ERROR]
+CODE=4T02A00
+DESC="Timing wheel"
+ACTS="1.Check sensors and objects"
+ACTS="2.Do the same error handling as #4T029"
+[/ERROR]
+
+[ERROR]
+CODE=4T02C00
+DESC="Bad roller profile"
+ACTS="1.Check ROM version and replace"
+ACTS="2.Replace CDU"
+[/ERROR]
+
+[ERROR]
+CODE=4T02D00
+DESC="Reject error"
+ACTS="1.Check and replace solenoid"
+ACTS="2.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T02E00
+DESC="Exit quantified"
+ACTS="1.Check notes rejected"
+ACTS="2.Do the same error handling as #4T02C"
+[/ERROR]
+
+[ERROR]
+CODE=4T02F00
+DESC="Note missing at double detect"
+ACTS="1.Replace CDU"
+ACTS="2.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T03000
+DESC="Reject rate exceed"
+ACTS="1.Check notes rejected"
+ACTS="2.Check ROM version and replace ROM"
+ACTS="3.Replace CDU"
+[/ERROR]
+
+[ERROR]
+CODE=4T03100
+DESC="Jam at exit"
+ACTS="1.Check and replace S19 sensor"
+ACTS="2.Check and replace S23 sensor"
+[/ERROR]
+
+[ERROR]
+CODE=4T03200
+DESC="Interference Recovery"
+ACTS="1.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T03300
+DESC="Suspect exit accountancy"
+ACTS="1.Check and replace S19 sensor"
+ACTS="2.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T03400
+DESC="RAM error"
+ACTS="1.Check ROM version and replace ROM"
+ACTS="2.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T03500
+DESC="EPROM error"
+ACTS="1.Check ROM version and replace ROM"
+ACTS="2.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T03600
+DESC="Operation time out"
+ACTS="1.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T03700
+DESC="RAM corruption"
+ACTS="1.Check and replace RAM"
+[/ERROR]
+
+[ERROR]
+CODE=4T04000
+DESC="Cassette motor echo error"
+ACTS="1.Reset cassette"
+ACTS="2.Replace power cable"
+ACTS="3.Check ROM version and replace ROM"
+ACTS="4.Replace LEENO-PIN"
+[/ERROR]
+
+[ERROR]
+CODE=4T04100
+DESC="Mistracked note at S17 sensor"
+ACTS="1.Check and replace S15, S16 sensor"
+ACTS="2.Remove objects"
+ACTS="3.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T04200
+DESC="Mistracked note at S23 sensor"
+ACTS="1.Check and replace S17 sensor"
+ACTS="2.Remove objects"
+ACTS="3.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T04300
+DESC="Reject gate open error"
+ACTS="1.Check and replace solenoid"
+ACTS="2.Do the same error handling as #4T02D"
+[/ERROR]
+
+[ERROR]
+CODE=4T04500
+DESC="Double sensor jam"
+ACTS="1.Check double note sensor bearing"
+ACTS="2.Replace S15, S16 sensor"
+ACTS="3.Replace CDU"
+[/ERROR]
+
+[ERROR]
+CODE=4T04600
+DESC="S15, S16 sensor jam"
+ACTS="1.Check double note sensor bearing"
+ACTS="2.Replace S15, S16 sensor"
+ACTS="3.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T04700
+DESC="Too many notes picked up"
+ACTS="1.Check and replace S11 sensor"
+ACTS="2.Check and replace S19 sensor"
+ACTS="3.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T04800
+DESC="S23 sensor jam"
+ACTS="1.Check and replace S23 sensor"
+ACTS="2.Replace main board"
+ACTS="3.Check and replace solenoid"
+[/ERROR]
+
+[ERROR]
+CODE=4T04900
+DESC="Cassette is not in right position"
+ACTS="1.Reset cassette box"
+ACTS="2.Replace main board"
+ACTS="3.Replace cassette LEENO-PIN PCB"
+[/ERROR]
+
+[ERROR]
+CODE=4T04A00
+DESC="S17 jam"
+ACTS="1.Check and replace S11 sensor"
+ACTS="2.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T04B00
+DESC="S23 sensor failed after S17 dark"
+DESC="when rejecting"
+ACTS="1.Check and replace S23 sensor"
+ACTS="2.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T04C00
+DESC="S19 sensor failed after S17 dark"
+DESC="when dispensing"
+ACTS="1.Check and replace S19 sensor"
+ACTS="2.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T04D00
+DESC="Corrupted note count"
+ACTS="1.Check sensors and replace ROM"
+ACTS="2.Replace main board"
+[/ERROR]
+
+[ERROR]
+CODE=4T04E00
+DESC="S15/S16 jam"
+ACTS="1.Replace CDU"
+ACTS="2.Replace cassette"
+[/ERROR]
+
+[ERROR]
+CODE=4T04F00
+DESC="Invalid command"
+ACTS="1.Replace main board"
+ACTS="2.Check ROM version and replace ROM"
+[/ERROR]
+
+[ERROR]
+CODE=4V00100
+DESC="Feeding Timeout between CS1 and CS21"
+ACTS="1.Check and replace S1 sensor"
+ACTS="2.Check and replace S21 sensor"
+[/ERROR]
+
+[ERROR]
+CODE=4V00200
+DESC="Feeding Timeout between CS21 and CS24"
+ACTS="1.Check and replace S21 sensor"
+ACTS="2.Check and replace S24 sensor"
+[/ERROR]
+
+[ERROR]
+CODE=4V00300
+DESC="Feeding Timeout between CS24 and CS26"
+ACTS="1.Check and replace S24 sensor"
+ACTS="2.Check and replace S26 sensor"
+[/ERROR]
+
+[ERROR]
+CODE=4V00400
+DESC="Feeding Timeout between CS24 and CS25"
+ACTS="1.Check and replace S24 sensor"
+ACTS="2.Check and replace S25 sensor"
+[/ERROR]
+
+[ERROR]
+CODE=4V00500
+DESC="A note is staying at EXIT sensor"
+ACTS="1.Check and replace EXIT sensor"
+[/ERROR]
+
+[ERROR]
+CODE=4V00600
+DESC="Ejecting the note suspected as rejected"
+ACTS="1.Check the note ejected"
+[/ERROR]
+
+[ERROR]
+CODE=4V00700
+DESC="Abnormal note management"
+ACTS="1.Check the road of a note"
+[/ERROR]
+
+[ERROR]
+CODE=4V00800
+DESC="Abnormal note management"
+ACTS="1.Check the road of a note"
+[/ERROR]
+
+[ERROR]
+CODE=4V00900
+DESC="Rejecting the note suspected as ejected"
+ACTS="1.Check a reject box"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V00b00
+DESC="Detecting notes on the path before start"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V00c00
+DESC="Exceed the limit of Pick-up event"
+ACTS="1.Check the required amount"
+ACTS="2.The limit of pick-up is 50"
+[/ERROR]
+
+[ERROR]
+CODE=4V00d00
+DESC="Exceed the limit of rejecting"
+ACTS="1.Check the reject box"
+ACTS="2.The limit of rejecting notes is 20"
+[/ERROR]
+
+[ERROR]
+CODE=4V00e00
+DESC="Abnormal termination"
+ACTS="1.Reboot a ATM"
+[/ERROR]
+
+[ERROR]
+CODE=4V01100
+DESC="Detecting the trouble of sensor"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V01200
+DESC="Not detecting reject tray"
+ACTS="1.Plug reject tray in the slot"
+[/ERROR]
+
+[ERROR]
+CODE=4V01300
+DESC="Fail to calibrate sensor"
+ACTS="1.Check sensors"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V01400
+DESC="More notes are dispensed than required"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V01500
+DESC="Exceed the limit time in dispensing"
+ACTS="1.limit time in Dispensing is 90 sec."
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V01600
+DESC="Recognizing abnormal command"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V01700
+DESC="Recognizing abnormal parameter"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V01800
+DESC="Sequence for downloading is incorrect"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V01900
+DESC="Failure of writing"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V01a00
+DESC="No reset command after downloading"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V01b00
+DESC="Failure of writing EEPROM"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V01c00
+DESC="Mismatches of chcksum in EEPROM"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V01d00
+DESC="Serial or ID. number error in dispensing"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V02000
+DESC="Divert sensor is always on"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V02100
+DESC="Exit sensor is always on"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V02200
+DESC="Reject sensor is always on"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V02300
+DESC="Sonar sensor is always on"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V02800
+DESC="Divert sensor is always off"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V02900
+DESC="Exit sensor is always off"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V02a00
+DESC="Reject sensor is always off"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V02b00
+DESC="Sonar sensor is always off"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V03000
+DESC="Path1 sensor is always on"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V03100
+DESC="Check1 sensor is always on"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V03200
+DESC="CST_IN1 sensor is always on"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V03300
+DESC="Path2 sensor is always on"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V03400
+DESC="Check2 sensor is always on"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V03500
+DESC="CST_IN2 sensor is always on"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V03600
+DESC="Path3 sensor is always on"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V03700
+DESC="Check3 sensor is always on"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V03800
+DESC="CST_IN3 sensor is always on"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V03900
+DESC="Path4 sensor is always on"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V03a00
+DESC="Check4 sensor is always on"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V03b00
+DESC="CST_IN4 sensor is always on"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V04000
+DESC="Path1 sensor is always off"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V04100
+DESC="Check1 sensor is always off"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V04200
+DESC="CST_IN1 sensor is always off"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V04300
+DESC="Path2 sensor is always off"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V04400
+DESC="Check2 sensor is always off"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V04500
+DESC="CST_IN2 sensor is always off"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V04600
+DESC="Path3 sensor is always off"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V04700
+DESC="Check3 sensor is always off"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V04800
+DESC="CST_IN3 sensor is always off"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V04900
+DESC="Path4 sensor is always off"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V04a00
+DESC="Check4 sensor is always off"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V04b00
+DESC="CST_IN4 sensor is always off"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V05000
+DESC="Cassette1 error on NEAREND state"
+ACTS="1.Check the notes in Cassette1"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V05100
+DESC="Cassette2 error on NEAREND state"
+ACTS="1.Check the notes in Cassette2"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V05200
+DESC="Cassette3 error on NEAREND state"
+ACTS="1.Check the notes in Cassette3"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V05300
+DESC="Cassette4 error on NEAREND state"
+ACTS="1.Check the notes in Cassette4"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V05400
+DESC="Jamming or sensor failure in cassette1"
+ACTS="1.Check the Cassette1"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V05500
+DESC="Jamming or sensor failure in cassette2"
+ACTS="1.Check the Cassette2"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V05600
+DESC="Jamming or sensor failure in cassette3"
+ACTS="1.Check the Cassette3"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V05700
+DESC="Jamming or sensor failure in cassette4"
+ACTS="1.Check the Cassette4"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V05800
+DESC="Not detecting cash in cassette1"
+ACTS="1.Check the Cassette1"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V05900
+DESC="Not detecting cash in cassette2"
+ACTS="1.Check the Cassette2"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V05a00
+DESC="Not detecting cash in cassette3"
+ACTS="1.Check the Cassette3"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V05b00
+DESC="Not detecting cash in cassette4"
+ACTS="1.Check the Cassette4"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V05c00
+DESC="Cash in cassette1 is almost gone out of"
+ACTS="1.Check the Cassette1"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V05d00
+DESC="Cash in cassette2 is almost gone out of"
+ACTS="1.Check the Cassette2"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V05e00
+DESC="Cash in cassette3 is almost gone out of"
+ACTS="1.Check the Cassette3"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V05f00
+DESC="Cash in cassette4 is almost gone out of"
+ACTS="1.Check the Cassette4"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V06000
+DESC="Pick-up error in cassette1"
+ACTS="1.Check the Cassette1"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V06100
+DESC="Pick-up error in cassette2"
+ACTS="1.Check the Cassette2"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V06200
+DESC="Pick-up error in cassette3"
+ACTS="1.Check the Cassette3"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V06300
+DESC="Pick-up error in cassette4"
+ACTS="1.Check the Cassette4"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V08000
+DESC="Detect note in check sensor of cassette1"
+ACTS="1.Check the Cassette1"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V08100
+DESC="Detect note in check sensor of cassette2"
+ACTS="1.Check the Cassette2"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V08200
+DESC="Detect note in check sensor of cassette3"
+ACTS="1.Check the Cassette3"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=4V08300
+DESC="Detect note in check sensor of cassette4"
+ACTS="1.Check the Cassette4"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=8216091
+DESC="Cash jammed on Cash Dispenser"
+ACTS="1.Remove jammed notes on Cash Dispenser"
+ACTS="  return path"
+ACTS="2.Remove dust in CS1~CS4 sensor"
+[/ERROR]
+
+[ERROR]
+CODE=9712000
+DESC="Failed to create file"
+ACTS="1.Reboot ATM"
+ACTS="2.Reinstall software"
+ACTS="3.Replace hard disk drive"
+[/ERROR]
+
+[ERROR]
+CODE=9712100
+DESC="Failed to read file"
+ACTS="1.Reboot ATM"
+ACTS="2.Reinstall software"
+ACTS="3.Replace hard disk drive"
+[/ERROR]
+
+[ERROR]
+CODE=9712200
+DESC="Failed to write file"
+ACTS="1.Reboot ATM"
+ACTS="2.Reinstall software"
+ACTS="3.Replace hard disk drive"
+[/ERROR]
+
+[ERROR]
+CODE=9712300
+DESC="Failed to close file"
+ACTS="1.Reboot ATM"
+ACTS="2.Reinstall software"
+ACTS="3.Replace hard disk drive"
+[/ERROR]
+
+[ERROR]
+CODE=9712400
+DESC="Failed to delete file"
+ACTS="1.Reboot ATM"
+ACTS="2.Reinstall software"
+ACTS="3.Replace hard disk drive"
+[/ERROR]
+
+[ERROR]
+CODE=9712500
+DESC="Failed to COPY file"
+ACTS="1.Reboot ATM"
+ACTS="2.Reinstall software"
+ACTS="3.Replace hard disk drive"
+[/ERROR]
+
+[ERROR]
+CODE=9712600
+DESC="Failed to create directory"
+ACTS="1.Reboot ATM"
+ACTS="2.Reinstall software"
+ACTS="3.Replace hard disk drive"
+[/ERROR]
+
+[ERROR]
+CODE=9719000
+DESC="Failed to execute an extra command"
+DESC="in the status of Cash Unit Exchange"
+ACTS="1.Reboot ATM"
+ACTS="2.Reinstall software"
+ACTS="3.Replace hard disk drive"
+[/ERROR]
+
+[ERROR]
+CODE=9719100
+DESC="In case of not being the status of"
+DESC="Cash Unit Exchange out of End Exchange"
+ACTS="1.Reboot ATM"
+ACTS="2.Reinstall software"
+ACTS="3.Replace hard disk drive"
+[/ERROR]
+
+[ERROR]
+CODE=9719200
+DESC="In case of carrying out Cash In"
+DESC="Start command at two times"
+ACTS="1.Reboot ATM"
+ACTS="2.Reinstall software"
+ACTS="3.Replace hard disk drive"
+[/ERROR]
+
+[ERROR]
+CODE=9719300
+DESC="In case of not being the status of"
+DESC="Cash In out of End Cash In"
+ACTS="1.Reboot ATM"
+ACTS="2.Reinstall software"
+ACTS="3.Replace hard disk drive"
+[/ERROR]
+
+[ERROR]
+CODE=9719400
+DESC="Invalid Cash Unit ID"
+ACTS="Reconfigure cash dispenser setup data"
+[/ERROR]
+
+[ERROR]
+CODE=9719500
+DESC="Invalid Cash Unit number"
+ACTS="Reconfigure cash dispenser setup data"
+[/ERROR]
+
+[ERROR]
+CODE=9719600
+DESC="The abnormal of the number of Cash Unit"
+ACTS="Reconfigure cash dispenser setup data"
+[/ERROR]
+
+[ERROR]
+CODE=9719700
+DESC="No. of dispensed notes that software"
+DESC="counts is not matched to it"
+DESC="cash dispenser responded"
+ACTS="1.Initialize after resetting the power"
+ACTS="2.Upgrade the Cash Dispenser firmware"
+ACTS="  or download software again"
+ACTS="3.Replace the Cash Dispenser B/D"
+[/ERROR]
+
+[ERROR]
+CODE=9719800
+DESC="Being same ID Cst"
+DESC="(When using LCUComposeType0)"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=971A000
+DESC="Invalid denomination"
+ACTS="Reconfigure denomination at supervisor"
+ACTS="mode"
+[/ERROR]
+
+[ERROR]
+CODE=971A100
+DESC="Invalid currency"
+ACTS="Reconfigure currency at supervisor mode"
+[/ERROR]
+
+[ERROR]
+CODE=971A200
+DESC="CASSETTE OFF POSITION (NOT DISPENSABLE)"
+ACTS="1.Reconfigure denomination"
+ACTS="2.Reconfigure currency"
+[/ERROR]
+
+[ERROR]
+CODE=971A300
+DESC="In case the number of bills dispensed"
+DESC="exceeds the maximum dispensing bill"
+ACTS="1.Check cash dispenser driver (CDM SP)"
+ACTS="  version"
+ACTS="2.Reconfigure the maximum dispensable"
+ACTS="  count"
+[/ERROR]
+
+[ERROR]
+CODE=971A400
+DESC="In case the number of coins dispensed"
+DESC="exceeds the maximum dispensing coin"
+ACTS="1.Check coin dispenser driver version"
+ACTS="2.Reconfigure the maximum dispensable"
+ACTS="  count"
+[/ERROR]
+
+[ERROR]
+CODE=971A500
+DESC="Invalid mix number"
+ACTS="Reconfigure cash dispenser at supervisor"
+ACTS="mode"
+[/ERROR]
+
+[ERROR]
+CODE=971A600
+DESC="Denomination Not Set"
+ACTS="Go to Transaction Setup/Denomination and"
+ACTS="set desired denominations"
+[/ERROR]
+
+[ERROR]
+CODE=971A700
+DESC="Denomination Not Set"
+ACTS="Go to Transaction Setup/Denomination and"
+ACTS="set desired denominations"
+[/ERROR]
+
+[ERROR]
+CODE=971B000
+DESC="In case of being executed Reject or"
+DESC="Retract command without being the bills"
+DESC="in stacker"
+ACTS="1.Check a dust in stacker"
+ACTS="2.Reconfigure the maximum dispensable"
+ACTS="  count"
+[/ERROR]
+
+[ERROR]
+CODE=971C000
+DESC="Not supported command"
+ACTS="Reinstall software"
+[/ERROR]
+
+[ERROR]
+CODE=971D100
+DESC="Partial dispense"
+ACTS="1.Check the replenished amount"
+ACTS="  and replenish"
+ACTS="2.Check the notes in cassette #1"
+[/ERROR]
+
+[ERROR]
+CODE=971D200
+DESC="Partial dispense from cassette #2"
+ACTS="1.Check the replenished amount and"
+ACTS="  replenish"
+ACTS="2.Check the notes in cassette #2"
+[/ERROR]
+
+[ERROR]
+CODE=971D300
+DESC="Partial dispense from cassette #3"
+ACTS="1.Check the replenished amount"
+ACTS="  and replenish"
+ACTS="2.Check the notes in cassette #3"
+[/ERROR]
+
+[ERROR]
+CODE=971DX00
+DESC="In case partial bills dispensed by"
+DESC="dispensing demand when Partial Dispense"
+DESC="option is on"
+DESC="'X' means cassette number"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9740000
+DESC="Cash Dispenser communication failure"
+DESC="during COM port open"
+ACTS="1.Do RESET at Operator Function"
+ACTS="2.Reboot ATM"
+[/ERROR]
+
+[ERROR]
+CODE=9740101
+DESC="In case incorrect cassette type is set"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9740102
+DESC="In case nonexistent Note Index is set"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9741100
+DESC="When sensing CS2 Dark"
+DESC="(Error code, 400FF00 is subdivided by"
+DESC="location of sensor)"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9741400
+DESC="When sensing CS4A Dark"
+DESC="(Error code, 400FF00 is subdivided"
+DESC="by location of sensor)"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9741800
+DESC="When sensing CS4B Dark"
+DESC="(Error code, 400FF00 is subdivided"
+DESC="by location of sensor.)"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9742100
+DESC="When sensing CS21A,B Dark"
+DESC="(Error code, 400FF00 is subdivided by"
+DESC="location of sensor.)"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9742800
+DESC="When sensing CS13 Dark"
+DESC="(Error code, 400FF00 is subdivided"
+DESC="by location of sensor.)"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9743B00
+DESC="When sensing CS15A,B Dark"
+DESC="(Error code, 400FF00 is subdivided by"
+DESC="location of sensor.)"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9744600
+DESC="There is no file to download in EP"
+DESC="even if EP is in DL mode."
+ACTS="Copy a file to dowload and"
+ACTS="SP Close and Open"
+[/ERROR]
+
+[ERROR]
+CODE=9744700
+DESC="Cash picking-up fail while cash in"
+DESC="cassette #1 is enough"
+ACTS="1.Check bill jam or no note in"
+ACTS="  cassette #1"
+ACTS="2.Check cash dispenser"
+[/ERROR]
+
+[ERROR]
+CODE=9745B00
+DESC="Cash picking-up fail while cash in"
+DESC="cassette #2 is enough"
+ACTS="1.Check bill jam or no note in"
+ACTS="  cassette #2"
+ACTS="2.Check cash dispenser"
+[/ERROR]
+
+[ERROR]
+CODE=9746B00
+DESC="When sensing CS31A,B Dark"
+DESC="(Error code, 400FF00 is subdivided by"
+DESC="location of sensor.)"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9747B00
+DESC="When sensing CS41A,B Dark"
+DESC="(Error code, 400FF00 is subdivided by"
+DESC="location of sensor.)"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9747C00
+DESC="Cash picking-up fail while cash"
+DESC="in cassette #4 is enough"
+ACTS="1.Check bill jam or no note in"
+ACTS="  cassette #2"
+ACTS="2.Check cash dispenser"
+[/ERROR]
+
+[ERROR]
+CODE=974FF00
+DESC="When sensing bills in the Stacker"
+DESC="(Error code, 400FF00 is subdivided by"
+DESC="location of sensor.)"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9749F00
+DESC="Cash picking-up fail while cash in"
+DESC="cassette #3 is enough"
+ACTS="1.Check bill jam or no note in"
+ACTS="  cassette #2"
+ACTS="2.Check cash dispenser"
+[/ERROR]
+
+[ERROR]
+CODE=974AA00
+DESC="Firmware Download Fail"
+ACTS="Try it again and Check the file"
+[/ERROR]
+
+[ERROR]
+CODE=97914XX
+DESC="DEV_Cash Dispenser Timeover Error Code"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792400
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792401
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792402
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792403
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792404
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792405
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792406
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792407
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792408
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792409
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792410
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792411
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792412
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792413
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792414
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792415
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792416
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792417
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97924XX
+DESC="DEV_Cash Dispenser FATAL ERROR(WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9799499
+DESC="DISPENSER COUNT ERROR"
+ACTS="Check the sensor on cash dispenser"
+[/ERROR]
+
+[ERROR]
+CODE=D030000
+DESC="Modem is not responding"
+ACTS="Check the modem controller"
+[/ERROR]
+
+[ERROR]
+CODE=D030100
+DESC="The target call address has call"
+DESC="blocking enabled"
+ACTS="1.Check modem cable"
+ACTS="2.Contact to technician support team"
+[/ERROR]
+
+[ERROR]
+CODE=D030200
+DESC="The specified terminal identifier is"
+DESC="invalid"
+ACTS="1.Check modem cable"
+ACTS="2.Contact to technician support team"
+[/ERROR]
+
+[ERROR]
+CODE=D030300
+DESC="All call appearances on the specified"
+DESC="address are currently in use"
+ACTS="1.Check modem cable"
+ACTS="2.Contact to technician support team"
+[/ERROR]
+
+[ERROR]
+CODE=D030400
+DESC="The disable address parameter contains"
+DESC="dialing control characters that are not"
+DESC="processed by the service provider"
+ACTS="1.Check modem cable"
+ACTS="2.Contact to technician support team"
+[/ERROR]
+
+[ERROR]
+CODE=D030500
+DESC="The specified country/region code"
+DESC="is invalid"
+ACTS="1.Check modem cable"
+ACTS="2.Contact to host and phone company"
+[/ERROR]
+
+[ERROR]
+CODE=D030600
+DESC="The operation failed for an unspecified"
+DESC="or unknown reason"
+ACTS="Contact to technician support team"
+[/ERROR]
+
+[ERROR]
+CODE=D030700
+DESC="Insufficient resources to complete"
+DESC="the operation"
+ACTS="Contact to technician support team"
+[/ERROR]
+
+[ERROR]
+CODE=1030100
+DESC="DEV_PIN (Key data error from host)"
+ACTS="Contact to host"
+[/ERROR]
+
+[ERROR]
+CODE=9701010
+DESC="Failed to connect communication between"
+DESC="SP of PIN and EP of one"
+ACTS="Check if communication cable or"
+ACTS="COM port is not connected"
+[/ERROR]
+
+[ERROR]
+CODE=9701012
+DESC="Failed to deliver to data of EPP's SP"
+ACTS="Check if communication cable or"
+ACTS="COM port is not connected"
+[/ERROR]
+
+[ERROR]
+CODE=9701016
+DESC="Received data time out of EPP"
+ACTS="Check if communication cable or"
+ACTS="COM port is not connected"
+[/ERROR]
+
+[ERROR]
+CODE=9701017
+DESC="Delivered data time out of EPP"
+ACTS="Check if communication cable or"
+ACTS="COM port is not connected"
+[/ERROR]
+
+[ERROR]
+CODE=9701031
+DESC="Failed to read Register of EPP"
+ACTS="Reboot ATM"
+[/ERROR]
+
+[ERROR]
+CODE=9701040
+DESC="Failed to produce Thread of EPP"
+ACTS="Reboot ATM"
+[/ERROR]
+
+[ERROR]
+CODE=9701060
+DESC="Failed to create buffer"
+ACTS="Reboot ATM"
+[/ERROR]
+
+[ERROR]
+CODE=9701111
+DESC="BCC error of EPP"
+ACTS="Check BCC logic of EPP"
+[/ERROR]
+
+[ERROR]
+CODE=9701151
+DESC="EPP is down when it receives an"
+DESC="'Get Status' command"
+ACTS="1.Reboot ATM"
+ACTS="2.Replace pinpad"
+[/ERROR]
+
+[ERROR]
+CODE=9701152
+DESC="EPP is down when it receives an"
+DESC="'Clear Func Key' command"
+ACTS="1.Reboot ATM"
+ACTS="2.Replace pinpad"
+[/ERROR]
+
+[ERROR]
+CODE=9722020
+DESC="File Open Error"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9722060
+DESC="Memory Allocate Error"
+DESC="(PrintForm Allocate IndexBuffer Fail)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9722068
+DESC="Invalid Media Name"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221A2
+DESC="Invalid Unit"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221C1
+DESC="Form is not Found"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221C4
+DESC="Form Name is NULL"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221C5
+DESC="Invalid Form"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221C6
+DESC="PrintForm() offset is Invalid"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221C7
+DESC="Invalid Form (Too many Fields)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221D1
+DESC="Media is not Found"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221D3
+DESC="Media Overflow when form size is larger"
+DESC="than media size"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221D4
+DESC="Media Name is NULL"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221D5
+DESC="Invalid Media(Attribute for Media"
+DESC="definition is not proper)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221D6
+DESC="Invalid Media (Area size is larger than"
+DESC="media size)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221D7
+DESC="Invalid Media (Size of Media Name is"
+DESC="exceeded to 2048 bytes totally)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221E1
+DESC="Field is not Found"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221E2
+DESC="Field Error (This Field must have"
+DESC="initial value)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221E3
+DESC="Non-Indexed value for Indexed Field"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221E4
+DESC="Invalid Field"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97221E5
+DESC="Invalid Field (This Field's width is 0)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9740020
+DESC="Failed to create file"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9740025
+DESC="Failed to COPY file"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9745500
+DESC="System power off while dispensing"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97915XX
+DESC="DEV_BRM Timeover Error Code"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97916XX
+DESC="DEV_PBM Timeover Error Code"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97918XX
+DESC="DEV_PIN Timeover Error Code"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9791AXX
+DESC="DEV_FNG Timeover Error Code"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9791BXX
+DESC="DEV_VFD Timeover Error Code"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97925XX
+DESC="DEV_BRM FATALERROR (WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97926XX
+DESC="DEV_PBM FATALERROR (WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=97928XX
+DESC="DEV_PIN FATALERROR (WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792AXX
+DESC="DEV_FNG FATALERROR (WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9792BXX
+DESC="DEV_VFD FATALERROR (WARNING)"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9799901
+DESC="DOOR CHECK"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9799902
+DESC="LIGHT ERROR"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9799903
+DESC="SPL ERROR"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9799904
+DESC="EPP ERROR"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9799905
+DESC="SENSOR CHECK"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9799907
+DESC="UPS ERROR"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9799908
+DESC="SCREEN ERROR"
+ACTS="1.Reboot ATM"
+ACTS="2.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=991@@91
+DESC="ON TRANSACTION POWER OFF"
+ACTS="1.Check power supply"
+ACTS="2.Check backup battery"
+[/ERROR]
+
+[ERROR]
+CODE=D000100
+DESC="Error while modem initializing"
+ACTS="Check the modem connection and the"
+ACTS="modem test"
+[/ERROR]
+
+[ERROR]
+CODE=D000200
+DESC="Reversal transaction failure"
+ACTS="Check for any CDU error codes and"
+ACTS="the number of notes dispensed"
+ACTS="to customer"
+[/ERROR]
+
+[ERROR]
+CODE=D000300
+DESC="PIN ERROR"
+ACTS="Transaction was denied by host"
+[/ERROR]
+
+[ERROR]
+CODE=D000400
+DESC="INVALID PIN"
+ACTS="Reboot ATM"
+[/ERROR]
+
+[ERROR]
+CODE=D000500
+DESC="BANK UNAVAILABLE"
+ACTS="Transaction was denied by host"
+[/ERROR]
+
+[ERROR]
+CODE=D000600
+DESC="CARD NOT SUPPORTED"
+ACTS="Transaction was denied by host"
+[/ERROR]
+
+[ERROR]
+CODE=D000700
+DESC="INSUFFICIENT FUNDS"
+ACTS="Transaction was denied by host"
+[/ERROR]
+
+[ERROR]
+CODE=D000800
+DESC="INELIGIBLE TRANSACTION"
+ACTS="Transaction was denied by host"
+[/ERROR]
+
+[ERROR]
+CODE=D000900
+DESC="INELIGIBLE ACCOUNT"
+ACTS="Transaction was denied by host"
+[/ERROR]
+
+[ERROR]
+CODE=D001000
+DESC="DAILY LIMIT EXCEEDED"
+ACTS="Transaction was denied by host"
+[/ERROR]
+
+[ERROR]
+CODE=D001100
+DESC="UNABLE TO PROCESS"
+ACTS="Transaction was denied by host"
+[/ERROR]
+
+[ERROR]
+CODE=D001200
+DESC="Invalid transaction"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D001300
+DESC="Invalid amount"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D001400
+DESC="Invalid card number"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D001500
+DESC="UNABLE TO PROCESS"
+ACTS="Transaction was denied by host"
+[/ERROR]
+
+[ERROR]
+CODE=D001600
+DESC="WITHDRAWAL LIMIT ALREADY REACHED"
+ACTS="Transaction was denied by host"
+[/ERROR]
+
+[ERROR]
+CODE=D001700
+DESC="Invalid amount"
+ACTS="Transaction was denied by host"
+[/ERROR]
+
+[ERROR]
+CODE=D001800
+DESC="EXTERNAL DECLINE"
+ACTS="Transaction was denied by host"
+[/ERROR]
+
+[ERROR]
+CODE=D001900
+DESC="SYSTEM ERROR"
+ACTS="Transaction was denied by host"
+[/ERROR]
+
+[ERROR]
+CODE=D002000
+DESC="Surcharge screen should have been"
+DESC="displayed"
+ACTS="Check the transaction from the host and"
+ACTS="try again. Check BIN List"
+[/ERROR]
+
+[ERROR]
+CODE=D002100
+DESC="ROUTING LOOKUP PROBLEM"
+ACTS="Transaction was denied by host"
+[/ERROR]
+
+[ERROR]
+CODE=D002200
+DESC="UNABLE TO PROCESS"
+ACTS="Transaction was denied by host"
+[/ERROR]
+
+[ERROR]
+CODE=D002300
+DESC="TRANSACTION NOT SUPPORTED"
+ACTS="Transaction was denied by host"
+[/ERROR]
+
+[ERROR]
+CODE=D002400
+DESC="Exceeds Issuer Withdrawal Limit"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D003900
+DESC="No Credit Account"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D005100
+DESC="INSUFFICIENT FUNDS"
+ACTS="Check the transaction from the host and"
+ACTS="try again. Try Balance Inquiry"
+[/ERROR]
+
+[ERROR]
+CODE=D005200
+DESC="No Checking Account"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D005300
+DESC="No Savings Account"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D005400
+DESC="Expire Card"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D005500
+DESC="Incorrect Pin"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D005700
+DESC="Transaction not Permitted – Card"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D005800
+DESC="Transaction not Permitted – Terminal"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D006100
+DESC="Exceeds Withdrawal Limit"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D007500
+DESC="PIN Tries Exceeded"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D007800
+DESC="No Account"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D008000
+DESC="Invalid Date"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D008300
+DESC="Can not Verify PIN"
+ACTS="Check the transaction from the host and"
+ACTS="try again. Try different cards."
+[/ERROR]
+
+[ERROR]
+CODE=D008600
+DESC="Can not Verify PIN"
+ACTS="Check the transaction from the host and"
+ACTS="try again. Try different cards."
+[/ERROR]
+
+[ERROR]
+CODE=D009100
+DESC="BANK UNAVAILABLE"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D009200
+DESC="System Unavailable"
+ACTS="Check the transaction from the host and"
+ACTS="try again"
+[/ERROR]
+
+[ERROR]
+CODE=D009300
+DESC="Transaction Serial Number mismatch"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D009400
+DESC="Record format mismatch"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D009500
+DESC="Routing ID mismatch"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D009600
+DESC="Terminal ID mismatch"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D009700
+DESC="Response Type mismatch (Reversal)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D009800
+DESC="Response Type mismatch (Day Close)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D009900
+DESC="Response Type mismatch  (Config.)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D009A00
+DESC="Response Type mismatch"
+DESC="(Withdrawal/Balance/Transfer)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D009B00
+DESC="STX error"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D009C00
+DESC="ETX error"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D009D00
+DESC="FS out (after response code)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D009E00
+DESC="FS out(after retrieval reference number)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D009F00
+DESC="FS out (after system trace audit number)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D00A000
+DESC="FS out (after account balance)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D00A100
+DESC="FS out (after available balance)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D00A200
+DESC="FS out (after surcharge amount)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D00A300
+DESC="FS out (after authorization response"
+DESC="text)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D00A400
+DESC="ETX wrong position"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D00A500
+DESC="FS out(after total cash dispense amount)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D00A600
+DESC="FS out (after total non-cash dispense"
+DESC="amount)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D00A700
+DESC="FS out (after total surcharge amount)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D00A800
+DESC="FS out (after config surcharge amount)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D00A900
+DESC="ETX out (config)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D00AC00
+DESC="Invalid data received from the host"
+DESC="(MAC data mismatch)"
+ACTS="Check the terminal setting from the host"
+[/ERROR]
+
+[ERROR]
+CODE=D00B000
+DESC="TERMINAL ID MISMATCHED"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D00B100
+DESC="TRANSACTION CODE MISMATCHED"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D00B200
+DESC="SECOND FIELD ID CODE MISMATCHED"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D00B300
+DESC="FIRST DES KEY WRONG SIZE"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D00B400
+DESC="SURCHARGE AMOUNT WRONG SIZE"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D00B500
+DESC="Sequence Number MISMATCHED"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D00B600
+DESC="INVALID RESPONSE CODE ERROR"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D00B700
+DESC="Authorization Number Error"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D00B800
+DESC="BUSINESS DATE Error"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D00B900
+DESC="Transaction time Number Error"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D00BA00
+DESC="BUSINESS DATE Error"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D00BB00
+DESC="Balance amount Error"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D00BC00
+DESC="Actual Surcharge Error"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D00BD00
+DESC="Sequence Number MISMATCHED"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D00BF00
+DESC="BUSINESS DATE Error"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D00C000
+DESC="Settlement Error"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D00C100
+DESC="Host Mac result error"
+ACTS="Check the key mode and MAC value"
+[/ERROR]
+
+[ERROR]
+CODE=D00C200
+DESC="ATM Mac result error"
+ACTS="Check the key mode and MAC value"
+[/ERROR]
+
+[ERROR]
+CODE=D00DB00
+DESC="Amount Not Dispensable"
+ACTS="Try again at the other location"
+[/ERROR]
+
+[ERROR]
+CODE=D011100
+DESC="REVERSAL DECLINED"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D022200
+DESC="PIN CHANGE DECLINED"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D100000
+DESC="No connection"
+ACTS="1.Check phone number"
+ACTS="2.Check modem cable"
+ACTS="3.Contact phone company"
+[/ERROR]
+
+[ERROR]
+CODE=D110000
+DESC="Cannot receive ENQ from the host"
+ACTS="1.Check phone number"
+ACTS="2.Check modem cable"
+ACTS="3.Contact phone company"
+[/ERROR]
+
+[ERROR]
+CODE=D120000
+DESC="Transmission error : Failed to receive"
+DESC="the whole data within 5 seconds after"
+DESC="requesting the modem to send the data"
+ACTS="1.Check modem and modem cable connection"
+ACTS="2.Contact telephone company"
+[/ERROR]
+
+[ERROR]
+CODE=D130000
+DESC="Receiving NAK more than 3 times"
+ACTS="1.Check modem and modem cable connection"
+ACTS="2.Contact telephone company"
+[/ERROR]
+
+[ERROR]
+CODE=D140100
+DESC="Disconnected by Unknown Reason"
+ACTS="1.Check modem and modem cable connection"
+ACTS="2.Contact telephone company"
+[/ERROR]
+
+[ERROR]
+CODE=D140200
+DESC="Disconnected by rejected call from"
+DESC="remote party"
+ACTS="Try again later"
+[/ERROR]
+
+[ERROR]
+CODE=D140300
+DESC="Disconnected because the local phone"
+DESC="was picked up"
+ACTS="Try again later"
+[/ERROR]
+
+[ERROR]
+CODE=D140400
+DESC="Disconnected by Forwarded"
+ACTS="1.Check modem and modem cable connection"
+ACTS="2.Contact telephone company"
+[/ERROR]
+
+[ERROR]
+CODE=D140500
+DESC="Disconnected by Unreachable"
+ACTS="1.Check modem and modem cable connection"
+ACTS="2.Contact telephone company"
+[/ERROR]
+
+[ERROR]
+CODE=D140600
+DESC="Disconnected by Congestion"
+ACTS="1.Check modem and modem cable connection"
+ACTS="2.Contact telephone company"
+[/ERROR]
+
+[ERROR]
+CODE=D140700
+DESC="Disconnected by Incompatible"
+ACTS="1.Check modem and modem cable connection"
+ACTS="2.Contact telephone company"
+[/ERROR]
+
+[ERROR]
+CODE=D140800
+DESC="Disconnected by un-known reason"
+ACTS="1.Check modem and modem cable connection"
+ACTS="2.Contact telephone company"
+[/ERROR]
+
+[ERROR]
+CODE=D140900
+DESC="Disconnected by Bad Address"
+ACTS="1.Check modem and modem cable connection"
+ACTS="2.Contact telephone company"
+[/ERROR]
+
+[ERROR]
+CODE=D141000
+DESC="Disconnected by Unavailable"
+ACTS="1.Check modem and modem cable connection"
+ACTS="2.Contact telephone company"
+[/ERROR]
+
+[ERROR]
+CODE=D150000
+DESC="1.Connection time-out(Modem or TCP/IP)"
+DESC="2.No response from host for 60 seconds"
+ACTS="1.Check modem or TCP/IP cable connection"
+[/ERROR]
+
+[ERROR]
+CODE=D150100
+DESC="SSL connection failure(TCP/IP)"
+ACTS="1.Check a host"
+[/ERROR]
+
+[ERROR]
+CODE=D160100
+DESC="Disconnected by Bad Address"
+ACTS="1.Check modem and modem cable connection"
+ACTS="2.Contact telephone company"
+[/ERROR]
+
+[ERROR]
+CODE=D160200
+DESC="Disconnected by Unavailable"
+ACTS="1.Check modem and modem cable connection"
+ACTS="2.Contact telephone company"
+[/ERROR]
+
+[ERROR]
+CODE=D160300
+DESC="Disconnected by Out of Order"
+ACTS="1.Check modem and modem cable connection"
+ACTS="2.Contact telephone company"
+[/ERROR]
+
+[ERROR]
+CODE=D170000
+DESC="No carrier (while sending/receiving"
+DESC="data after dial connection)"
+ACTS="Check host"
+[/ERROR]
+
+[ERROR]
+CODE=D170100
+DESC="No Carrier during ENQ data receive"
+DESC="from host"
+ACTS="Check host"
+[/ERROR]
+
+[ERROR]
+CODE=D170200
+DESC="No Carrier before sending data send to"
+DESC="host"
+ACTS="Check host"
+[/ERROR]
+
+[ERROR]
+CODE=D170300
+DESC="No Carrier during sending data send"
+DESC="to host"
+ACTS="Check host"
+[/ERROR]
+
+[ERROR]
+CODE=D170400
+DESC="No Carrier during ACK/NAK data send to"
+DESC="host"
+ACTS="Check host"
+[/ERROR]
+
+[ERROR]
+CODE=D170500
+DESC="No Carrier during ACK/NAK data receive"
+DESC="from host"
+ACTS="Check host"
+[/ERROR]
+
+[ERROR]
+CODE=D170600
+DESC="No Carrier during receiving data"
+ACTS="Check host"
+[/ERROR]
+
+[ERROR]
+CODE=D170700
+DESC="NAK retry error"
+ACTS="1.Check modem or TCP/IP cable connection"
+[/ERROR]
+
+[ERROR]
+CODE=D170800
+DESC="Send retry error"
+ACTS="1.Check modem or TCP/IP cable connection"
+[/ERROR]
+
+[ERROR]
+CODE=D170900
+DESC="Modem initialize fail"
+ACTS="Check modem"
+[/ERROR]
+
+[ERROR]
+CODE=D171000
+DESC="Modem Comport Failed"
+ACTS="Check modem"
+[/ERROR]
+
+[ERROR]
+CODE=D180000
+DESC="No Dial Tone(in Modem dial connection)"
+ACTS="1.Check telephone line connection"
+ACTS="2.Test Modem"
+[/ERROR]
+
+[ERROR]
+CODE=D190000
+DESC="No Answer"
+ACTS="1.Contact telephone company"
+ACTS="2.Check telephone line connection"
+ACTS="3.Check phone number"
+[/ERROR]
+
+[ERROR]
+CODE=D200000
+DESC="Dial(Line) busy"
+ACTS="Try again later. Check phone number"
+[/ERROR]
+
+[ERROR]
+CODE=D210000
+DESC="Time out(30sec.) for initializing"
+DESC="modem before Modem Dial connecting"
+ACTS="1.Check telephone line connection"
+ACTS="2.Test Modem"
+[/ERROR]
+
+[ERROR]
+CODE=D220000
+DESC="Not receiving EOT from HOST"
+ACTS="1.Check modem or TCP/IP line connection"
+ACTS="2.Check host"
+[/ERROR]
+
+[ERROR]
+CODE=D230000
+DESC="No response from Host - Dialing time out"
+DESC="to Host"
+ACTS="1.Check telephone line connection"
+ACTS="2.Test Modem. Check host"
+[/ERROR]
+
+[ERROR]
+CODE=D250000
+DESC="Cannot connect to the host"
+ACTS="Check telephone line connection"
+[/ERROR]
+
+[ERROR]
+CODE=D251000
+DESC="Timeout while Sending"
+ACTS="Check telephone line connection"
+[/ERROR]
+
+[ERROR]
+CODE=D251100
+DESC="Communication error while Sending"
+ACTS="Check telephone line connection"
+[/ERROR]
+
+[ERROR]
+CODE=D251200
+DESC="Socket error while Sending"
+ACTS="Check telephone line connection"
+[/ERROR]
+
+[ERROR]
+CODE=D251300
+DESC="Timeout while Receiving"
+ACTS="Check telephone line connection"
+[/ERROR]
+
+[ERROR]
+CODE=D251400
+DESC="Communication error while Receiving"
+ACTS="Check telephone line connection"
+[/ERROR]
+
+[ERROR]
+CODE=D251500
+DESC="Socket Error while Receiving"
+ACTS="Check telephone line connection"
+[/ERROR]
+
+[ERROR]
+CODE=D320000
+DESC="No response from Host/Dialing time out"
+DESC="to Host"
+ACTS="Check telephone line connection"
+[/ERROR]
+
+[ERROR]
+CODE=D320100
+DESC="Outbound call is aborted"
+ACTS="Check telephone line connection"
+ACTS="Test Modem"
+[/ERROR]
+
+[ERROR]
+CODE=D320200
+DESC="Fail to dial out"
+ACTS="Check telephone line connection"
+ACTS="Test Modem"
+[/ERROR]
+
+[ERROR]
+CODE=D320300
+DESC="No Line Reply"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D320400
+DESC="Get Line ID Failed"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D320500
+DESC="Modem Comport Failed"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D320600
+DESC="Call Failed"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D320700
+DESC="No Answer"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D320800
+DESC="Modem Call Other Error"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=D410000
+DESC="CRC Mismatch"
+ACTS="Check telephone line connection"
+[/ERROR]
+
+[ERROR]
+CODE=D410100
+DESC="No CRC Received"
+ACTS="Make sure that the host is using CRC"
+[/ERROR]
+
+[ERROR]
+CODE=DA00010
+DESC="Expired card"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00020
+DESC="Unauthorized usage"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00030
+DESC="PIN ERROR"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00040
+DESC="INVALID PIN"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00050
+DESC="BANK UNAVAILABLE"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00060
+DESC="CARD NOT SUPPORTED"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00070
+DESC="INSUFFICIENT FUNDS"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00080
+DESC="INELIGIBLE TRANSACTION"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00090
+DESC="INELIGIBLE ACCOUNT"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00100
+DESC="Standard 1: Refer to card issuer"
+DESC="Standard 3: Number of daily withdrawals"
+DESC="            exceeded"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00110
+DESC="Cannot process transaction"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00120
+DESC="Amount too large"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00130
+DESC="Account closed"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00140
+DESC="PIN Tries Exceeded"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00150
+DESC="Database problem"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00160
+DESC="WITHDRAWAL LIMIT ALREADY REACHED"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00170
+DESC="Invalid amount"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00180
+DESC="EXTERNAL DECLINE"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00190
+DESC="SYSTEM ERROR"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00200
+DESC="Standard 1: Refer to Card Issuer,"
+DESC="            Conditional"
+DESC="Standard 3: Contact card issuer"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00210
+DESC="ROUTING LOOKUP PROBLEM"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00220
+DESC="Message edit error"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00230
+DESC="TRANSACTION NOT SUPPORTED"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00240
+DESC="INSUFFICIENT FUNDS"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00250
+DESC="Western Union sender data error"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00260
+DESC="Western Union receiver data error"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00270
+DESC="CRC error"
+ACTS="Check telephone line connection"
+[/ERROR]
+
+[ERROR]
+CODE=DA00280
+DESC="Pre-pay transaction failed"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00290
+DESC="Pre-pay transaction rejected"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00300
+DESC="Standard 1: Invalid Merchant"
+DESC="Standard 3: Invalid mobile phone number"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00310
+DESC="Pre-pay account limit reached"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00320
+DESC="Pre-pay system unavailable"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00330
+DESC="Response would exceed message size limit"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00340
+DESC="Necessary information missing to process"
+DESC="transaction"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00350
+DESC="Second Invalid PIN (second 'invalid PIN'"
+DESC="try in a row and one try is left before"
+DESC="deactivation)"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00360
+DESC="Fallback Not Allowed"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA01110
+DESC="REVERSAL DECLINED"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA02220
+DESC="PIN CHANGE DECLINED"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA02230
+DESC="PIN Unlock Declined"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00400
+DESC="Pickup"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00500
+DESC="Do Not Honor"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00600
+DESC="Error"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00700
+DESC="Suspect Fraud"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA00900
+DESC="Request in Progress"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA01100
+DESC="Unauthorized Transaction"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA01200
+DESC="Invalid transaction"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA01300
+DESC="Invalid amount"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA01400
+DESC="Invalid card number"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA01500
+DESC="No such issuer"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA01900
+DESC="Re Enter Transaction"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA02000
+DESC="Invalid Response"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA02100
+DESC="Unauthorized use"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA02200
+DESC="Expired card"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA02300
+DESC="Unacceptable Transaction Fee"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA02400
+DESC="Exceeds Issuer Withdrawal Limit"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA03000
+DESC="Format Error"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA03100
+DESC="Bank not supported by Switch"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA03200
+DESC="Network Down"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA03900
+DESC="No Credit Account"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA04000
+DESC="Requested function not supported"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA04200
+DESC="No Universal account"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA04400
+DESC="Lesser whole dollar retry"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA05000
+DESC="INVALID PIN"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA05100
+DESC="Non sufficient funds"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA05200
+DESC="No Checking Account"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA05300
+DESC="No Savings Account"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA05400
+DESC="Expired card"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA05500
+DESC="Incorrect Pin"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA05600
+DESC="No Card record"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA05700
+DESC="Transaction not permitted to cardholder"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA05800
+DESC="Transaction not permitted to terminal"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA05900
+DESC="Suspected Fraud"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA06000
+DESC="Card Acceptor, Call acquirer"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA06100
+DESC="Exceeds Withdrawal Limit"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA06200
+DESC="Restricted card"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA06300
+DESC="Invalid Acquiring Financial Institution"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA06500
+DESC="Exceeds withdrawal frequency limit"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA07000
+DESC="Invalid Card number, Not a Debit card"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA07100
+DESC="No Credit Account"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA07500
+DESC="Allowable PIN tries exceeded"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA07600
+DESC="Key Sync Error"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA07800
+DESC="No Account"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA08000
+DESC="Stale Dated transaction"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA08300
+DESC="Can not Verify PIN"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA08600
+DESC="Can not Verify PIN"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA09000
+DESC="Cutoff in progress"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA09100
+DESC="BANK UNAVAILABLE"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA09200
+DESC="System Unavailable"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA09300
+DESC="Trans cannot be completed, violation of"
+DESC="law"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA09400
+DESC="Host error"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA09500
+DESC="Authorization request for other than"
+DESC="$0.00"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA09600
+DESC="System malfunction"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA09700
+DESC="Exceeds Merchant Daily credit limit"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA09800
+DESC="Exceeds Merchant Daily debit limit"
+ACTS="Check the transaction from the host"
+[/ERROR]
+
+[ERROR]
+CODE=DA0xxx0
+DESC="Host Denial Error"
+ACTS="Refer to E7. Description for error code"
+ACTS="organization"
+[/ERROR]
+
+[ERROR]
+CODE=F000100
+DESC="Number of Bill is not inputted"
+ACTS="Enter number of bill. (required)"
+[/ERROR]
+
+[ERROR]
+CODE=F000200
+DESC="Parameter is not properly set"
+DESC="(Surcharge Owner)"
+ACTS="Enter surcharge owner. (required)"
+[/ERROR]
+
+[ERROR]
+CODE=F000300
+DESC="Parameter is not properly set"
+DESC="(Surcharge Amount)"
+ACTS="Enter surcharge amount. (required)"
+[/ERROR]
+
+[ERROR]
+CODE=F000400
+DESC="Parameter is not properly set"
+DESC="(Adver. Text refreshing timer)"
+ACTS="Enter Ad text refresh timer."
+[/ERROR]
+
+[ERROR]
+CODE=F000500
+DESC="Parameter is not properly set"
+DESC="(Advertisement text)"
+ACTS="Enter Ad text."
+[/ERROR]
+
+[ERROR]
+CODE=F000600
+DESC="Parameter is not properly set"
+DESC="(Dispense limit)"
+ACTS="Enter Dispense limit"
+[/ERROR]
+
+[ERROR]
+CODE=F000700
+DESC="Parameter is not properly set"
+DESC="(Denomination)"
+ACTS="Enter Denomination. (required)"
+[/ERROR]
+
+[ERROR]
+CODE=F000800
+DESC="Parameter is not properly set"
+DESC="(Fast Cash)"
+ACTS="Enter Fast Cash amount"
+[/ERROR]
+
+[ERROR]
+CODE=F000900
+DESC="Master Key Index invalid"
+ACTS="Check Master key index"
+[/ERROR]
+
+[ERROR]
+CODE=F000A00
+DESC="Master Key empty"
+ACTS="Enter Master key. (required)"
+[/ERROR]
+
+[ERROR]
+CODE=F000B00
+DESC="Host Address is not inputted"
+ACTS="Enter Host Address"
+[/ERROR]
+
+[ERROR]
+CODE=F000C00
+DESC="Error Retry Timer is not inputted"
+ACTS="Enter Retry timer"
+[/ERROR]
+
+[ERROR]
+CODE=F000D00
+DESC="RMS Password is not inputted"
+DESC="in RMS Enable"
+ACTS="Enter RMS password"
+[/ERROR]
+
+[ERROR]
+CODE=F000E00
+DESC="RMS Phone Number(RMS Address) is not"
+DESC="inputted in RMS Send Enable"
+ACTS="Enter RMS phone number or RMS Address"
+[/ERROR]
+
+[ERROR]
+CODE=F000F00
+DESC="Terminal Number is not inputted"
+ACTS="Enter Terminal number. (required)"
+[/ERROR]
+
+[ERROR]
+CODE=F001000
+DESC="Comm./Routing ID is not inputted"
+ACTS="Enter Comm./Routing ID (required)"
+[/ERROR]
+
+[ERROR]
+CODE=F001100
+DESC="Master Key Serial Number is not inputted"
+ACTS="Enter Master key serial number"
+[/ERROR]
+
+[ERROR]
+CODE=F001200
+DESC="Non-Cash Type text is not inputted"
+ACTS="Enter Non-cash type text"
+[/ERROR]
+
+[ERROR]
+CODE=F001300
+DESC="Parameter is not properly set"
+ACTS="Check proper parameters in setting"
+[/ERROR]
+
+[ERROR]
+CODE=F001400
+DESC="NVRAM Failure"
+ACTS="Try to clear NVRAM"
+[/ERROR]
+
+[ERROR]
+CODE=F001500
+DESC="ATM Serial No. Empty"
+ACTS="Enter ATM serial number. (required)"
+[/ERROR]
+
+[ERROR]
+CODE=F001600
+DESC="Default master password was not changed"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=F002000
+DESC="Remote Out of Service"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=F002100
+DESC="Default Service password was not changed"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=F002200
+DESC="Default Operator password was not changed"
+ACTS="1.Call your attendant"
+[/ERROR]
+
+
+[ERROR]
+CODE=F001F00
+DESC="Machine serial number is not set"
+ACTS="1.Check serial number."
+ACTS="2.Set serial number"
+[/ERROR]
+
+[ERROR]
+CODE=F002F00
+DESC="Host type is not set"
+ACTS="1.Check host type."
+ACTS="2.Set host type"
+[/ERROR]
+
+[ERROR]
+CODE=F003F00
+DESC="Communication ID invalid (only triton)"
+ACTS="Contact to technician support team."
+[/ERROR]
+
+[ERROR]
+CODE=F004F00
+DESC="EPP(Pinpad) key mode is invalid"
+ACTS="1.Check modem cable"
+ACTS="2.Contact to technician support team"
+[/ERROR]
+
+[ERROR]
+CODE=F005F00
+DESC="Denomination is invalid"
+ACTS="1.Check modem cable"
+ACTS="2.Contact to technician support team"
+[/ERROR]
+
+[ERROR]
+CODE=F006F00
+DESC="Failed Host Connection!"
+ACTS="1.Check Host Connection"
+ACTS="2.Contact to technician support team"
+[/ERROR]
+
+[ERROR]
+CODE=F00FF00
+DESC="Failed to write Journal"
+ACTS="1.Back up journal to thumb drive"
+ACTS="2.Clear journal"
+ACTS="3.Reboot ATM"
+[/ERROR]
+
+[ERROR]
+CODE=FFFFFFF
+DESC="NVRAM is broken"
+ACTS="1.Reset Master Password"
+ACTS="2.Clear NVRAM"
+[/ERROR]
+
+[ERROR]
+CODE=F007F00
+DESC="Invalid Exchange Rate"
+ACTS="Download the exchange rate from RMS"
+[/ERROR]
+
+[ERROR]
+CODE=POWERAB
+DESC="UPS ABNORMAL"
+ACTS="Check UPS"
+[/ERROR]
+
+[ERROR]
+CODE=POWERAC
+DESC="POWER OUT OR AC OFF"
+ACTS="Check AC power status and environment"
+[/ERROR]
+
+[ERROR]
+CODE=POWERBA
+DESC="BATTERY LOW"
+ACTS="1.Check AC power status and environment"
+ACTS="2.Check UPS"
+[/ERROR]
+
+[ERROR]
+CODE=SDN0100
+DESC="Service Panel (SPL) communication error"
+ACTS="Check the cables and connections"
+[/ERROR]
+
+[ERROR]
+CODE=7000100
+DESC="It’s impossible to read the version"
+DESC="after transferring to the CduSetup menu."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=7000200
+DESC="It’s impossible to read the version"
+DESC="after CDU Setup."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=7000300
+DESC="User’s setting values are different from"
+DESC="the actual written setting value."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9701150
+DESC="EPP is down when it received"
+DESC="Initialization command."
+ACTS="1.Call your attendant"
+[/ERROR]
+
+[ERROR]
+CODE=9E11200
+DESC="Failed to connect communication between"
+DESC="SP of PIN and EP of one"
+ACTS="Check if communication cable or"
+ACTS="COM port is not connected"
+[/ERROR]
+
+[ERROR]
+CODE=9E13100
+DESC="Received data time out of EPP"
+ACTS="Check if communication cable or"
+ACTS="COM port is not connected"
+[/ERROR]
+
+[ERROR]
+CODE=9E13200
+DESC="Failed to deliver to data of EPP's SP"
+ACTS="Check if communication cable or"
+ACTS="COM port is not connected"
+[/ERROR]
+
+[ERROR]
+CODE=9E41A00
+DESC="Failed to produce Thread of EPP"
+ACTS="Restart ATM"
+[/ERROR]
+
+[ERROR]
+CODE=9EA6100
+DESC="PIN Pad Self test error"
+ACTS="Replace PIN Pad device"
+[/ERROR]
+
+[ERROR]
+CODE=9EA6200
+DESC="Failed to download firmware"
+DESC="(no firmware file)"
+ACTS="Check if firmware file is correct or not"
+[/ERROR]
+
+[ERROR]
+CODE=9EA6300
+DESC="Failed to download firmware"
+DESC="(failure during downloading)"
+ACTS="Replace PIN Pad device"
+[/ERROR]
+
+[ERROR]
+CODE=9EA6400
+DESC="BCC error of EPP"
+ACTS="Replace PIN Pad device"
+[/ERROR]
+
+[ERROR]
+CODE=E??1000
+DESC="Undefined Command	"
+ACTS="Check command message"
+[/ERROR]
+
+[ERROR]
+CODE=E12A500
+DESC="Invalid baudrate"
+ACTS="Check if the baudrate is either 38400 or"
+ACTS=" 115200"
+[/ERROR]
+
+[ERROR]
+CODE=E131100
+DESC="Invalid parameter length"
+ACTS="Check if the parameter length is normal"
+[/ERROR]
+
+[ERROR]
+CODE=E147600
+DESC="Invalid the sum of function key value"
+ACTS="Check if the sum of function key value"
+ACTS="is 0x4b"
+[/ERROR]
+
+[ERROR]
+CODE=E147700
+DESC="Invalid the function key value"
+ACTS="Check if the function key value is"
+ACTS="between 0x0a and 0x0f"
+[/ERROR]
+
+[ERROR]
+CODE=E15A400
+DESC="Invalid time value"
+ACTS="Check if the time value is ASC value"
+[/ERROR]
+
+[ERROR]
+CODE=E211300
+DESC="PIN or Key entry timeout"
+ACTS="Retry PIN or Key entry from the"
+ACTS="beginning	"
+[/ERROR]
+
+[ERROR]
+CODE=E217400
+DESC="It is not in the sensitive mode"
+ACTS="Enter two sensitive passwords to be"
+ACTS="sensitive mode"
+[/ERROR]
+
+[ERROR]
+CODE=E217800
+DESC="PIN transaction exceeded 120 within one"
+DESC="hour"
+ACTS="Retry PIN transaction after one hour"
+[/ERROR]
+
+[ERROR]
+CODE=E221300
+DESC="Password entry timeout"
+ACTS="Retry password entry from the beginning"
+[/ERROR]
+
+[ERROR]
+CODE=E227000
+DESC="Incorrect password"
+ACTS="Enter correct passwords"
+[/ERROR]
+
+[ERROR]
+CODE=E231300
+DESC="PIN or Key entry timeout"
+ACTS="Retry PIN or Key entry from the"
+ACTS="beginning	"
+[/ERROR]
+
+[ERROR]
+CODE=E247400
+DESC="It is not in the sensitive mode"
+ACTS="Enter two sensitive passwords to be"
+ACTS="sensitive mode"
+[/ERROR]
+
+[ERROR]
+CODE=E312300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=E322300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=E331200
+DESC="Invalid parameter"
+ACTS="Check if the parameter is normal"
+[/ERROR]
+
+[ERROR]
+CODE=E332300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=E341200
+DESC="Invalid parameter"
+ACTS="Check if the parameter is normal"
+[/ERROR]
+
+[ERROR]
+CODE=E342300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=E352300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=E362300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=E372300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=E382300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=E392300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=E3A2300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=E3C2300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=E412300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=E412A00
+DESC="Key usage mismatch"
+ACTS="Check the key usage"
+[/ERROR]
+
+[ERROR]
+CODE=E412C00
+DESC="Failure of obtaining the key in the"
+DESC="keytable"
+ACTS="Check if the parent key is loaded status"
+[/ERROR]
+
+[ERROR]
+CODE=E41A200
+DESC="Local PIN verification failure"
+ACTS="Check the data for local PIN"
+ACTS="verification"
+[/ERROR]
+
+[ERROR]
+CODE=E41A300
+DESC="No PIN is entered	"
+ACTS="Try again after entering PIN"
+[/ERROR]
+
+[ERROR]
+CODE=E611100
+DESC="Invalid parameter length"
+ACTS="Check if the parameter length is normal"
+[/ERROR]
+
+[ERROR]
+CODE=E612A00
+DESC="Key usage mismatch"
+ACTS="Check the key usage"
+[/ERROR]
+
+[ERROR]
+CODE=E615000
+DESC="Undefined RSA Key Type"
+ACTS="Check the firmware code"
+[/ERROR]
+
+[ERROR]
+CODE=E615800
+DESC="The keyname is same with existing"
+DESC="symmetric keyname	"
+ACTS="Set the different keyname with existing"
+ACTS="symmetric keyname	"
+[/ERROR]
+
+[ERROR]
+CODE=E616300
+DESC="Invalid RSA Key format"
+ACTS="Check the RSA Key format"
+[/ERROR]
+
+[ERROR]
+CODE=EA17400
+DESC="It is not in the sensitive mode"
+ACTS="Enter two sensitive passwords to be"
+ACTS="sensitive mode"
+[/ERROR]
+
+[ERROR]
+CODE=EC11200
+DESC="Invalid parameter"
+ACTS="Check if the parameter is normal"
+[/ERROR]
+
+[ERROR]
+CODE=EC12000
+DESC="Key Table is FULL"
+ACTS="Delete an existing key and try it again"
+ACTS="or set the existing keyname"
+[/ERROR]
+
+[ERROR]
+CODE=EC12100
+DESC="Key Table is FULL"
+ACTS="Delete an existing key and try it again"
+ACTS="or set the existing keyname"
+[/ERROR]
+
+[ERROR]
+CODE=EC12200
+DESC="The key usage is not Key Encryption Key"
+ACTS="Set the key which of usage is Key"
+ACTS="Encrytion Key"
+[/ERROR]
+
+[ERROR]
+CODE=EC12300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=EC12700
+DESC="The key usage is null"
+ACTS="Set the correct key usage"
+[/ERROR]
+
+[ERROR]
+CODE=EC12800
+DESC="The parent key is not loaded status"
+ACTS="Check if the key is loaded status	"
+[/ERROR]
+
+[ERROR]
+CODE=EC12900
+DESC="The parent key mismatch"
+ACTS="Set the same parent key"
+[/ERROR]
+
+[ERROR]
+CODE=EC12A00
+DESC="Key usage mismatch"
+ACTS="Check the key usage"
+[/ERROR]
+
+[ERROR]
+CODE=EC12D00
+DESC="The child key length error"
+ACTS="The child key length should be equal or"
+ACTS="less than the parent key length"
+[/ERROR]
+
+[ERROR]
+CODE=EC12E00
+DESC="Single length key level error"
+ACTS="Single length key level should be 2"
+[/ERROR]
+
+[ERROR]
+CODE=EC12F00
+DESC="The parent key usage is not Key"
+DESC="Encryption Key"
+ACTS="Set the parent key which of usage is Key"
+ACTS="Encrytion Key"
+[/ERROR]
+
+[ERROR]
+CODE=EC13000
+DESC="Double length key level error"
+ACTS="Double length key level should be 2 or 3"
+[/ERROR]
+
+[ERROR]
+CODE=EC13100
+DESC="The key is not KEK for PIN Key"
+ACTS="Set the key which of usage is KEK for"
+ACTS=" PIN Key"
+[/ERROR]
+
+[ERROR]
+CODE=EC13200
+DESC="The key is not KEK for Data Key"
+ACTS="Set the key which of usage is KEK for"
+ACTS="Data Key"
+[/ERROR]
+
+[ERROR]
+CODE=EC13300
+DESC="The key is not KEK for MAC Key"
+ACTS="Set the key which of usage is KEK for"
+ACTS="MAC Key"
+[/ERROR]
+
+[ERROR]
+CODE=EC13400
+DESC="The key is not KEK for Unique PIN Key"
+ACTS="Set the key which of usage is KEK for"
+ACTS="Unique PIN Key"
+[/ERROR]
+
+[ERROR]
+CODE=EC13500
+DESC="The key is not KEK for Local PIN Key"
+ACTS="Set the key which of usage is KEK for"
+ACTS="Local PIN Key"
+[/ERROR]
+
+[ERROR]
+CODE=EC13600
+DESC="Transaction key usage is KEK"
+ACTS="Set the transaction key which of usage"
+ACTS="is not KEK"
+[/ERROR]
+
+[ERROR]
+CODE=EC13700
+DESC="Transaction key is multiple usage"
+ACTS="Set the transaction key which has single"
+ACTS=" usage"
+[/ERROR]
+
+[ERROR]
+CODE=EC13800
+DESC="The left key is same with the right key"
+ACTS="Set the different key value"
+[/ERROR]
+
+[ERROR]
+CODE=EC13900
+DESC="The left key is weak key"
+ACTS="Set the left key which is not weak key"
+[/ERROR]
+
+[ERROR]
+CODE=EC13A00
+DESC="The right key is weak key"
+ACTS="Set the right key which is not weak key"
+[/ERROR]
+
+[ERROR]
+CODE=EC13D00
+DESC="Failure of obtaining the parent key"
+ACTS="Check if the parent key is loaded status"
+[/ERROR]
+
+[ERROR]
+CODE=EC13E00
+DESC="The child key counts exceed 5"
+ACTS="Delete an existing key and try it again"
+ACTS="or set the existing child keyname"
+[/ERROR]
+
+[ERROR]
+CODE=EC13F00
+DESC="The key is not duplicated usage"
+ACTS="The key cannot be overwritten because of"
+ACTS=" no duplicate usage"
+[/ERROR]
+
+[ERROR]
+CODE=EC14100
+DESC="The same key value exists"
+ACTS="Set the different key value with the"
+ACTS="existing key"
+[/ERROR]
+
+[ERROR]
+CODE=EC14800
+DESC="It is in the ANSI TR31 mode"
+ACTS="ANSI TR31 Import Key Command should be"
+ACTS="used."
+[/ERROR]
+
+[ERROR]
+CODE=EC16200
+DESC="The keyname is same with existing"
+DESC="asymmetric keyname"
+ACTS="Set the different keyname with existing"
+ACTS="asymmetric keyname"
+[/ERROR]
+
+[ERROR]
+CODE=EC22000
+DESC="Key Table is FULL"
+ACTS="Delete an existing key and try it again"
+ACTS="or set the existing keyname"
+[/ERROR]
+
+[ERROR]
+CODE=EC22300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=EC22800
+DESC="The parent key is not loaded status"
+ACTS="Check if the key is loaded status	"
+[/ERROR]
+
+[ERROR]
+CODE=EC22B00
+DESC="Invalid keyname"
+ACTS="Check the keyname is normal string and"
+ACTS="less than 32 digits"
+[/ERROR]
+
+[ERROR]
+CODE=EC22C00
+DESC="Failure of obtaining the key in the"
+DESC="keytable"
+ACTS="Check if the parent key is loaded status"
+[/ERROR]
+
+[ERROR]
+CODE=EC22D00
+DESC="The child key length error"
+ACTS="The child key length should be equal or"
+ACTS="less than the parent key length"
+[/ERROR]
+
+[ERROR]
+CODE=EC22F00
+DESC="The parent key usage is not Key"
+DESC="Encryption Key"
+ACTS="Set the parent key which of usage is Key"
+ACTS="Encrytion Key"
+[/ERROR]
+
+[ERROR]
+CODE=EC23000
+DESC="Double length key level error"
+ACTS="Double length key level should be 2 or 3"
+[/ERROR]
+
+[ERROR]
+CODE=EC23100
+DESC="The key is not KEK for PIN Key"
+ACTS="Set the key which of usage is KEK for"
+ACTS=" PIN Key"
+[/ERROR]
+
+[ERROR]
+CODE=EC23200
+DESC="The key is not KEK for Data Key"
+ACTS="Set the key which of usage is KEK for"
+ACTS="Data Key"
+[/ERROR]
+
+[ERROR]
+CODE=EC23300
+DESC="The key is not KEK for MAC Key"
+ACTS="Set the key which of usage is KEK for"
+ACTS="MAC Key"
+[/ERROR]
+
+[ERROR]
+CODE=EC23400
+DESC="The key is not KEK for Unique PIN Key"
+ACTS="Set the key which of usage is KEK for"
+ACTS="Unique PIN Key"
+[/ERROR]
+
+[ERROR]
+CODE=EC23500
+DESC="The key is not KEK for Local PIN Key"
+ACTS="Set the key which of usage is KEK for"
+ACTS="Local PIN Key"
+[/ERROR]
+
+[ERROR]
+CODE=EC23600
+DESC="Transaction key usage is KEK"
+ACTS="Set the transaction key which of usage"
+ACTS="is not KEK"
+[/ERROR]
+
+[ERROR]
+CODE=EC23700
+DESC="Transaction key is multiple usage"
+ACTS="Set the transaction key which has single"
+ACTS=" usage"
+[/ERROR]
+
+[ERROR]
+CODE=EC23800
+DESC="The left key is same with the right key"
+ACTS="Set the different key value"
+[/ERROR]
+
+[ERROR]
+CODE=EC23900
+DESC="The left key is weak key"
+ACTS="Set the left key which is not weak key"
+[/ERROR]
+
+[ERROR]
+CODE=EC23A00
+DESC="The right key is weak key"
+ACTS="Set the right key which is not weak key"
+[/ERROR]
+
+[ERROR]
+CODE=EC23D00
+DESC="Failure of obtaining the parent key"
+ACTS="Check if the parent key is loaded status"
+[/ERROR]
+
+[ERROR]
+CODE=EC23E00
+DESC="The child key counts exceed 5"
+ACTS="Delete an existing key and try it again"
+[/ERROR]
+
+[ERROR]
+CODE=EC24100
+DESC="The same key value exists"
+ACTS="Set the different key value with the"
+ACTS="existing key"
+[/ERROR]
+
+[ERROR]
+CODE=EC24200
+DESC="Key Block length error"
+ACTS="Check Key Block length"
+[/ERROR]
+
+[ERROR]
+CODE=EC24300
+DESC="Key Block Header error"
+ACTS="Check Key Block Header"
+[/ERROR]
+
+[ERROR]
+CODE=EC24400
+DESC="The parent key is not TR31 Master Key"
+ACTS="Set the parent key which of usage is"
+ACTS="TR31 Master Key"
+[/ERROR]
+
+[ERROR]
+CODE=EC24500
+DESC="Failure of decrypting Key Block"
+ACTS="Check if the Key Block is correct"
+[/ERROR]
+
+[ERROR]
+CODE=EC24700
+DESC="Key Block verification failure"
+ACTS="Check MAC for Key Block"
+[/ERROR]
+
+[ERROR]
+CODE=EC26200
+DESC="The keyname is same with existing"
+DESC="asymmetric keyname"
+ACTS="Set the different keyname with existing"
+ACTS="asymmetric keyname"
+[/ERROR]
+
+[ERROR]
+CODE=ED11100
+DESC="Invalid parameter length"
+ACTS="Check if the parameter length is normal"
+[/ERROR]
+
+[ERROR]
+CODE=ED11200
+DESC="Invalid parameter"
+ACTS="Check if the parameter is normal"
+[/ERROR]
+
+[ERROR]
+CODE=ED12300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=ED12A00
+DESC="Key usage mismatch"
+ACTS="Check the key usage"
+[/ERROR]
+
+[ERROR]
+CODE=ED12C00
+DESC="Failure of obtaining the key in the"
+DESC="keytable"
+ACTS="Check if the parent key is loaded status"
+[/ERROR]
+
+[ERROR]
+CODE=ED1A000
+DESC="Undefined AES length"
+ACTS="Set AES length 16, 24 or 32"
+[/ERROR]
+
+[ERROR]
+CODE=ED21100
+DESC="Invalid parameter length"
+ACTS="Check if the parameter length is normal"
+[/ERROR]
+
+[ERROR]
+CODE=ED21200
+DESC="Invalid parameter"
+ACTS="Check if the parameter is normal"
+[/ERROR]
+
+[ERROR]
+CODE=ED22300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=ED22A00
+DESC="Key usage mismatch"
+ACTS="Check the key usage"
+[/ERROR]
+
+[ERROR]
+CODE=ED22C00
+DESC="Failure of obtaining the key in the"
+DESC="keytable"
+ACTS="Check if the parent key is loaded status"
+[/ERROR]
+
+[ERROR]
+CODE=ED2A000
+DESC="Undefined AES length"
+ACTS="Set AES length 16, 24 or 32"
+[/ERROR]
+
+[ERROR]
+CODE=EF11100
+DESC="Invalid parameter length"
+ACTS="Check if the parameter length is normal"
+[/ERROR]
+
+[ERROR]
+CODE=EF12A00
+DESC="Key usage mismatch"
+ACTS="Check the key usage"
+[/ERROR]
+
+[ERROR]
+CODE=EF15000
+DESC="Undefined RSA Key Type"
+ACTS="Check the firmware code"
+[/ERROR]
+
+[ERROR]
+CODE=EF15800
+DESC="The keyname is same with existing"
+DESC="symmetric keyname	"
+ACTS="Set the different keyname with existing"
+ACTS="symmetric keyname	"
+[/ERROR]
+
+[ERROR]
+CODE=EF16300
+DESC="Invalid RSA Key format"
+ACTS="Check the RSA Key format"
+[/ERROR]
+
+[ERROR]
+CODE=EF21100
+DESC="Invalid parameter length"
+ACTS="Check if the parameter length is normal"
+[/ERROR]
+
+[ERROR]
+CODE=EF22A00
+DESC="Key usage mismatch"
+ACTS="Check the key usage"
+[/ERROR]
+
+[ERROR]
+CODE=EF25000
+DESC="Undefined RSA Key Type"
+ACTS="Check the firmware code"
+[/ERROR]
+
+[ERROR]
+CODE=EF25800
+DESC="The keyname is same with existing"
+DESC="symmetric keyname	"
+ACTS="Set the different keyname with existing"
+ACTS="symmetric keyname	"
+[/ERROR]
+
+[ERROR]
+CODE=EF26300
+DESC="Invalid RSA Key format"
+ACTS="Check the RSA Key format"
+[/ERROR]
+
+[ERROR]
+CODE=EF31100
+DESC="Invalid parameter length"
+ACTS="Check if the parameter length is normal"
+[/ERROR]
+
+[ERROR]
+CODE=EF32A00
+DESC="Key usage mismatch"
+ACTS="Check the key usage"
+[/ERROR]
+
+[ERROR]
+CODE=EF35000
+DESC="Undefined RSA Key Type"
+ACTS="Check the firmware code"
+[/ERROR]
+
+[ERROR]
+CODE=EF35800
+DESC="The keyname is same with existing"
+DESC="symmetric keyname	"
+ACTS="Set the different keyname with existing"
+ACTS="symmetric keyname	"
+[/ERROR]
+
+[ERROR]
+CODE=EF36300
+DESC="Invalid RSA Key format"
+ACTS="Check the RSA Key format"
+[/ERROR]
+
+[ERROR]
+CODE=EF41100
+DESC="Invalid parameter length"
+ACTS="Check if the parameter length is normal"
+[/ERROR]
+
+[ERROR]
+CODE=EF45100
+DESC="Undefined Sign and SN Type"
+ACTS="Check the firmware code"
+[/ERROR]
+
+[ERROR]
+CODE=EF51100
+DESC="Invalid parameter length"
+ACTS="Check if the parameter length is normal"
+[/ERROR]
+
+[ERROR]
+CODE=EF55100
+DESC="Undefined Sign and SN Type"
+ACTS="Check the firmware code"
+[/ERROR]
+
+[ERROR]
+CODE=EF61100
+DESC="Invalid parameter length"
+ACTS="Check if the parameter length is normal"
+[/ERROR]
+
+[ERROR]
+CODE=EF65100
+DESC="Undefined Sign and SN Type"
+ACTS="Check the firmware code"
+[/ERROR]
+
+[ERROR]
+CODE=EG12300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=EG12B00
+DESC="Invalid keyname"
+ACTS="Check the keyname is normal string and"
+ACTS="less than 32 digits"
+[/ERROR]
+
+[ERROR]
+CODE=EG19000
+DESC="RSA encryption failure"
+ACTS="Check RSA Key format"
+[/ERROR]
+
+[ERROR]
+CODE=EG22300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=EG29100
+DESC="RSA decryption failure"
+ACTS="Check RSA Key format"
+[/ERROR]
+
+[ERROR]
+CODE=EG29400
+DESC="Invalid RSA Key length"
+ACTS="RSA Key length should be 2048 bits"
+[/ERROR]
+
+[ERROR]
+CODE=EG32300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=EG32B00
+DESC="Invalid keyname"
+ACTS="Check the keyname is normal string and"
+ACTS="less than 32 digits"
+[/ERROR]
+
+[ERROR]
+CODE=EG39200
+DESC="Signature generation failure"
+ACTS="Check RSA Key format"
+[/ERROR]
+
+[ERROR]
+CODE=EG42300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=EG42B00
+DESC="Invalid keyname"
+ACTS="Check the keyname is normal string and"
+ACTS="less than 32 digits"
+[/ERROR]
+
+[ERROR]
+CODE=EG49300
+DESC="Signature verification failure"
+ACTS="Check RSA Key format and signature value"
+[/ERROR]
+
+[ERROR]
+CODE=EH11100
+DESC="Invalid parameter length"
+ACTS="Check if the parameter length is normal"
+[/ERROR]
+
+[ERROR]
+CODE=EJ11300
+DESC="Password entry timeout"
+ACTS="Retry password entry from the beginning"
+[/ERROR]
+
+[ERROR]
+CODE=EJ17100
+DESC="Incorrect password"
+ACTS="Enter correct passwords"
+[/ERROR]
+
+[ERROR]
+CODE=EJ17400
+DESC="It is not in the sensitive mode"
+ACTS="Enter two sensitive passwords to be"
+ACTS="sensitive mode"
+[/ERROR]
+
+[ERROR]
+CODE=EJ21300
+DESC="Password entry timeout"
+ACTS="Retry password entry"
+[/ERROR]
+
+[ERROR]
+CODE=EJ27100
+DESC="Incorrect password"
+ACTS="Enter correct passwords"
+[/ERROR]
+
+[ERROR]
+CODE=EJ27400
+DESC="It is not in the sensitive mode"
+ACTS="Enter two sensitive passwords to be"
+ACTS="sensitive mode"
+[/ERROR]
+
+[ERROR]
+CODE=EL1FC00
+DESC="Log is not found"
+ACTS="Set installation state"
+[/ERROR]
+
+[ERROR]
+CODE=EL1FD11
+DESC="Log search failure"
+ACTS="Check the firmware code"
+[/ERROR]
+
+[ERROR]
+CODE=EM11100
+DESC="Invalid parameter length"
+ACTS="Check if the parameter length is normal"
+[/ERROR]
+
+[ERROR]
+CODE=EM11200
+DESC="Invalid parameter"
+ACTS="Check if the parameter is normal"
+[/ERROR]
+
+[ERROR]
+CODE=EM12300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=EM12A00
+DESC="Key usage mismatch"
+ACTS="Check the key usage"
+[/ERROR]
+
+[ERROR]
+CODE=EM12C00
+DESC="Failure of obtaining the key in the"
+DESC="keytable"
+ACTS="Check if the parent key is loaded status"
+[/ERROR]
+
+[ERROR]
+CODE=EM21100
+DESC="Invalid parameter length"
+ACTS="Check if the parameter length is normal"
+[/ERROR]
+
+[ERROR]
+CODE=EM21200
+DESC="Invalid parameter"
+ACTS="Check if the parameter is normal"
+[/ERROR]
+
+[ERROR]
+CODE=EM22300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=EM22A00
+DESC="Key usage mismatch"
+ACTS="Check the key usage"
+[/ERROR]
+
+[ERROR]
+CODE=EM22C00
+DESC="Failure of obtaining the key in the"
+DESC="keytable"
+ACTS="Check if the parent key is loaded status"
+[/ERROR]
+
+[ERROR]
+CODE=EM24900
+DESC="MAC verification failure"
+ACTS="Check the MAC value"
+[/ERROR]
+
+[ERROR]
+CODE=EP12300
+DESC="Key is not found"
+ACTS="Check if the key is loaded"
+[/ERROR]
+
+[ERROR]
+CODE=EP12A00
+DESC="Key usage mismatch"
+ACTS="Check the key usage"
+[/ERROR]
+
+[ERROR]
+CODE=EP12C00
+DESC="Failure of obtaining the key in the"
+DESC="keytable"
+ACTS="Check if the parent key is loaded status"
+[/ERROR]
+
+[ERROR]
+CODE=EP1A300
+DESC="There is no entered PIN"
+ACTS="Enter PIN and try it again"
+[/ERROR]
+
+[ERROR]
+CODE=EP2A100
+DESC="Failure of DUKPT PIN block encryption"
+ACTS="Check DUKPT PIN encryption count"
+[/ERROR]
+
+[ERROR]
+CODE=EP2A300
+DESC="There is no entered PIN"
+ACTS="Enter PIN and try it again"
+[/ERROR]
+
+[ERROR]
+CODE=ER25200
+DESC="There is no serial number"
+ACTS="Inject serial number"
+[/ERROR]
+
+[ERROR]
+CODE=ER25300
+DESC="There is no serial number signature"
+ACTS="Inject serial number signature"
+[/ERROR]
+
+[ERROR]
+CODE=ER35400
+DESC="There is no EPP public key"
+ACTS="Inject EPP public key"
+[/ERROR]
+
+[ERROR]
+CODE=ER35500
+DESC="There is no EPP public key signature"
+ACTS="Inject EPP public key signature"
+[/ERROR]
+
+[ERROR]
+CODE=ER41100
+DESC="Invalid parameter length"
+ACTS="Check if the parameter length is normal"
+[/ERROR]
+
+[ERROR]
+CODE=ER42A00
+DESC="Key usage mismatch"
+ACTS="Check the key usage"
+[/ERROR]
+
+[ERROR]
+CODE=ER45000
+DESC="Undefined RSA Key Type"
+ACTS="Check the firmware code"
+[/ERROR]
+
+[ERROR]
+CODE=ER45600
+DESC="There is no CA public key	"
+ACTS="Inject CA public key"
+[/ERROR]
+
+[ERROR]
+CODE=ER45700
+DESC="Failure of signature verification"
+ACTS="Check RSA Key format and signature value"
+[/ERROR]
+
+[ERROR]
+CODE=ER45800
+DESC="The keyname is same with existing"
+DESC="symmetric keyname	"
+ACTS="Set the different keyname with existing"
+ACTS="symmetric keyname	"
+[/ERROR]
+
+[ERROR]
+CODE=ER46300
+DESC="Invalid RSA Key format"
+ACTS="Check the RSA Key format"
+[/ERROR]
+
+[ERROR]
+CODE=ER55900
+DESC="Mutual authentication is not verified"
+ACTS="Try to load Host public key command"
+[/ERROR]
+
+[ERROR]
+CODE=ER55A00
+DESC="RKT 15 minutes timeout"
+ACTS="Execute RKT process from the beginning"
+[/ERROR]
+
+[ERROR]
+CODE=ER55B00
+DESC="Random number size exceeds 256"
+ACTS="Set the random number size less than 256"
+[/ERROR]
+
+[ERROR]
+CODE=ER65900
+DESC="Mutual authentication is not verified"
+ACTS="Try to load Host public key command and"
+ACTS="start key exchange command"
+[/ERROR]
+
+[ERROR]
+CODE=ER65A00
+DESC="RKT 15 minutes timeout"
+ACTS="Execute RKT process from the beginning"
+[/ERROR]
+
+[ERROR]
+CODE=ER65B00
+DESC="Random number size exceeds 256"
+ACTS="Set the random number size 16"
+[/ERROR]
+
+[ERROR]
+CODE=ER65C00
+DESC="There is no Host public key"
+ACTS="Try to load Host public key command"
+[/ERROR]
+
+[ERROR]
+CODE=ER65D00
+DESC="RSA encryption failure"
+ACTS="Check RSA Key format"
+[/ERROR]
+
+[ERROR]
+CODE=ER75900
+DESC="Mutual authentication is not verified"
+ACTS="Try to load Host public key command and"
+ACTS="start key exchange command"
+[/ERROR]
+
+[ERROR]
+CODE=ER75A00
+DESC="RKT 15 minutes timeout"
+ACTS="Execute RKT process from the beginning"
+[/ERROR]
+
+[ERROR]
+CODE=ER75B00
+DESC="Random number size exceeds 256"
+ACTS="Set the random number size less than 256"
+[/ERROR]
+
+[ERROR]
+CODE=ER75E00
+DESC="There is no EPP private key"
+ACTS="Inject EPP private key"
+[/ERROR]
+
+[ERROR]
+CODE=ER75F00
+DESC="RSA decryption failure"
+ACTS="Check RSA Key format"
+[/ERROR]
+
+[ERROR]
+CODE=ER76000
+DESC="Invalid Encoded Message format"
+ACTS="Check the encrypted message"
+[/ERROR]
+
+[ERROR]
+CODE=ER76100
+DESC="Failure of random number comparison"
+ACTS="Check the random number"
+[/ERROR]
+
+[ERROR]
+CODE=ER81200
+DESC="Invalid parameter"
+ACTS="Check if the parameter is normal"
+[/ERROR]
+
+[ERROR]
+CODE=ER82000
+DESC="Key Table is FULL"
+ACTS="Delete an existing key and try it again"
+ACTS="or set the existing keyname"
+[/ERROR]
+
+[ERROR]
+CODE=ER82100
+DESC="Key Table is FULL"
+ACTS="Delete an existing key and try it again"
+ACTS="or set the existing keyname"
+[/ERROR]
+
+[ERROR]
+CODE=ER82700
+DESC="The key usage is null"
+ACTS="Set the correct key usage"
+[/ERROR]
+
+[ERROR]
+CODE=ER82A00
+DESC="Key usage mismatch"
+ACTS="Check the key usage"
+[/ERROR]
+
+[ERROR]
+CODE=ER83800
+DESC="The left key is same with the right key"
+ACTS="Set the different key value"
+[/ERROR]
+
+[ERROR]
+CODE=ER83900
+DESC="The left key is weak key"
+ACTS="Set the left key which is not weak key"
+[/ERROR]
+
+[ERROR]
+CODE=ER83A00
+DESC="The right key is weak key"
+ACTS="Set the right key which is not weak key"
+[/ERROR]
+
+[ERROR]
+CODE=ER84400
+DESC="The parent key is not TR31 Master Key"
+ACTS="Set the parent key which of usage is"
+ACTS="TR31 Master Key"
+[/ERROR]
+
+[ERROR]
+CODE=ER85700
+DESC="Failure of signature verification"
+ACTS="Check RSA Key format and signature value"
+[/ERROR]
+
+[ERROR]
+CODE=ER85900
+DESC="Mutual authentication is not verified"
+ACTS="Try to load Host public key command and"
+ACTS="start key exchange command"
+[/ERROR]
+
+[ERROR]
+CODE=ER85A00
+DESC="RKT 15 minutes timeout"
+ACTS="Execute RKT process from the beginning"
+[/ERROR]
+
+[ERROR]
+CODE=ER85F00
+DESC="RSA decryption failure"
+ACTS="Check RSA Key format"
+[/ERROR]
+
+[ERROR]
+CODE=ER86000
+DESC="Invalid Encoded Message format"
+ACTS="Check the encrypted message"
+[/ERROR]
+
+[ERROR]
+CODE=ER86100
+DESC="Failure of random number comparison"
+ACTS="Check the random number"
+[/ERROR]
+
+[ERROR]
+CODE=ER86200
+DESC="The keyname is same with existing"
+DESC="asymmetric keyname"
+ACTS="Set the different keyname with existing"
+ACTS="asymmetric keyname"
+[/ERROR]
+
+[ERROR]
+CODE=ET11100
+DESC="Invalid parameter length"
+ACTS="Check if the parameter length is normal"
+[/ERROR]
+
+[ERROR]
+CODE=ET11200
+DESC="Invalid parameter"
+ACTS="Check if the parameter is normal"
+[/ERROR]
+
+[ERROR]
+CODE=ET12000
+DESC="Key Table is FULL"
+ACTS="Delete an existing key and try it again"
+ACTS="or set the existing keyname"
+[/ERROR]
+
+[ERROR]
+CODE=ET12100
+DESC="Key Table is FULL"
+ACTS="Delete an existing key and try it again"
+ACTS="or set the existing keyname"
+[/ERROR]
+
+[ERROR]
+CODE=ET12200
+DESC="The key usage is not Key Encryption Key"
+ACTS="Set the key which of usage is Key"
+ACTS="Encrytion Key"
+[/ERROR]
+
+[ERROR]
+CODE=ET12400
+DESC="WFS_PIN_USECONSTRUCT key usage cannot be"
+DESC="used as TMK"
+ACTS="Remove WFS_PIN_USECONSTRUCT key usage"
+[/ERROR]
+
+[ERROR]
+CODE=ET12500
+DESC="There is no entered component key	"
+ACTS="Enter component key and try it again"
+[/ERROR]
+
+[ERROR]
+CODE=ET12600
+DESC="Component key entry is not complete"
+ACTS="Enter component key all"
+[/ERROR]
+
+[ERROR]
+CODE=ET12700
+DESC="The key usage is null"
+ACTS="Set the correct key usage"
+[/ERROR]
+
+[ERROR]
+CODE=ET13800
+DESC="The left key is same with the right key"
+ACTS="Set the different key value"
+[/ERROR]
+
+[ERROR]
+CODE=ET13900
+DESC="The left key is weak key"
+ACTS="Set the left key which is not weak key"
+[/ERROR]
+
+[ERROR]
+CODE=ET13A00
+DESC="The right key is weak key"
+ACTS="Set the right key which is not weak key"
+[/ERROR]
+
+[ERROR]
+CODE=ET13B00
+DESC="Component key counts are less than 2"
+ACTS="Enter more than two component keys"
+[/ERROR]
+
+[ERROR]
+CODE=ET13C00
+DESC="key is imported without the component"
+DESC="key entry	"
+ACTS="Enter more than two component keys"
+[/ERROR]
+
+[ERROR]
+CODE=ET14000
+DESC="The key is not top level"
+ACTS="Set the top level key"
+[/ERROR]
+
+[ERROR]
+CODE=ET14400
+DESC="The parent key is not TR31 Master Key"
+ACTS="Set the parent key which of usage is"
+ACTS="TR31 Master Key"
+[/ERROR]
+
+[ERROR]
+CODE=ET16200
+DESC="The keyname is same with existing"
+DESC="asymmetric keyname"
+ACTS="Set the different keyname with existing"
+ACTS="asymmetric keyname"
+[/ERROR]
+
+[ERROR]
+CODE=ET17400
+DESC="It is not in the sensitive mode"
+ACTS="Enter two sensitive passwords to be"
+ACTS="sensitive mode"
+[/ERROR]
+
+[ERROR]
+CODE=EU18200
+DESC="Firmware update public key does not"
+DESC="exist"
+ACTS="Inject firmware update public key	"
+[/ERROR]
+
+[ERROR]
+CODE=EU21100
+DESC="Invalid parameter length"
+ACTS="Check if the parameter length is normal"
+[/ERROR]
+
+[ERROR]
+CODE=EU21200
+DESC="Invalid parameter"
+ACTS="Check if the parameter is normal"
+[/ERROR]
+
+[ERROR]
+CODE=EU28000
+DESC="Firmware update start command does not"
+DESC="executed	"
+ACTS="Execute firmware update start commnad"
+[/ERROR]
+
+[ERROR]
+CODE=EU28300
+DESC="Received firmware file does not have"
+DESC="version info"
+ACTS="Check firmware file"
+[/ERROR]
+
+[ERROR]
+CODE=EU31200
+DESC="Invalid parameter"
+ACTS="Check if the parameter is normal"
+[/ERROR]
+
+[ERROR]
+CODE=EU35700
+DESC="Failure of signature verification"
+ACTS="Check RSA Key format and signature value"
+[/ERROR]
+
+[ERROR]
+CODE=EU38000
+DESC="Firmware update start command does not"
+DESC="executed	"
+ACTS="Execute firmware update start commnad"
+[/ERROR]
+
+[ERROR]
+CODE=EU38100
+DESC="Check sum failure	"
+ACTS="Check firmware file"
+[/ERROR]
+
+[ERROR]
+CODE=EV2FB00
+DESC="Undefined State"
+ACTS="Check firmware source code"
+[/ERROR]
+
+[ERROR]
+CODE=EW11300
+DESC="ID and password entry timeout"
+ACTS="Retry ID and password entry from"
+ACTS="the beginning"
+[/ERROR]
+
+[ERROR]
+CODE=EW1FD02
+DESC="Incorrect IDs or passwords"
+ACTS="Enter correct IDs and passwords"
+[/ERROR]
+
+[ERROR]
+CODE=EW1FD03
+DESC="Incorrect default IDs or passwords"
+ACTS="Enter correct default IDs and passwords"
+[/ERROR]
+
+[ERROR]
+CODE=EW1FD04
+DESC="The two IDs are same"
+ACTS="Set the different two IDs	"
+[/ERROR]
+
+[ERROR]
+CODE=EW1FD05
+DESC="1ST ID is not verified"
+ACTS="Verify 1ST ID first"
+[/ERROR]
+
+[ERROR]
+CODE=EW21200
+DESC="Invalid parameter"
+ACTS="Check if the parameter is normal"
+[/ERROR]
+
+[ERROR]
+CODE=EW21300
+DESC="ID and password entry timeout"
+ACTS="Retry ID and password entry from"
+ACTS="the beginning"
+[/ERROR]
+
+[ERROR]
+CODE=EW2FD06
+DESC="Failure of entered password verification"
+ACTS="Enter correct password"
+[/ERROR]
+
+[ERROR]
+CODE=EW2FD07
+DESC="Failure of entered ID verification"
+ACTS="Enter correct ID"
+[/ERROR]
+
+[ERROR]
+CODE=EW2FD08
+DESC="ID is null"
+ACTS="Enter a ID that is not null"
+[/ERROR]
+
+[ERROR]
+CODE=EW2FD09
+DESC="Password is null"
+ACTS="Enter a password that is not null	"
+[/ERROR]
+
+[ERROR]
+CODE=EW2FD0A
+DESC="Same ID exists"
+ACTS="Enter a different ID with existing ID"
+[/ERROR]
+
+[ERROR]
+CODE=EW2FD0C
+DESC="Incorrect ID"
+ACTS="Enter correct ID"
+[/ERROR]
+
+[ERROR]
+CODE=EW2FD0D
+DESC="Full ID counts (20)"
+ACTS="Delete an existing ID and try it again"
+[/ERROR]
+
+[ERROR]
+CODE=EW2FD0E
+DESC="Entered ID is null"
+ACTS="Enter ID that is not null	"
+[/ERROR]
+
+[ERROR]
+CODE=EW2FD10
+DESC="It is not senstive mode for"
+DESC="removal detection	"
+ACTS="Enter two IDs and passwords to be"
+ACTS="sensitive mode for removal detection"
+[/ERROR]
+
+[ERROR]
+CODE=EW2FF0F
+DESC="ID is not found"
+ACTS="Set existing ID"
+[/ERROR]
+
+[ERROR]
+CODE=EW3FA00
+DESC="Undefined action"
+ACTS="Check firmware source code"
+[/ERROR]
+
+[ERROR]
+CODE=EW3FD01
+DESC="The count of ID/password that are not"
+DESC="default is less than two"
+ACTS="Enter more than two IDs and passwords"
+ACTS="that are not default"
+[/ERROR]
+
+[ERROR]
+CODE=EW3FD0E
+DESC="Entered ID is null"
+ACTS="Enter ID that is not null	"
+[/ERROR]
+
+[ERROR]
+CODE=EW3FD10
+DESC="It is not senstive mode for"
+DESC="removal detection	"
+ACTS="Enter two IDs and passwords to be"
+ACTS="sensitive mode for removal detection"
+[/ERROR]
+
+[ERROR]
+CODE=EW3FD12
+DESC="I2C write fails"
+ACTS="Check EPP hardware"
+[/ERROR]
+
+[ERROR]
+CODE=EW4FA00
+DESC="Undefined action"
+ACTS="Check firmware source code"
+[/ERROR]
+
+[ERROR]
+CODE=EW4FD01
+DESC="The count of ID/password that are not"
+DESC="default is less than two"
+ACTS="Enter more than two IDs and passwords"
+ACTS="that are not default"
+[/ERROR]
+
+[ERROR]
+CODE=EW4FD0E
+DESC="Entered ID is null"
+ACTS="Enter ID that is not null	"
+[/ERROR]
+
+[ERROR]
+CODE=EW4FD10
+DESC="It is not senstive mode for"
+DESC="removal detection	"
+ACTS="Enter two IDs and passwords to be"
+ACTS="sensitive mode for removal detection"
+[/ERROR]
+
+[ERROR]
+CODE=EW5FD0F
+DESC="Search ID count error"
+ACTS="Check firmware source code"
+[/ERROR]
+
+[ERROR]
+CODE=EW5FD10
+DESC="It is not senstive mode for"
+DESC="removal detection	"
+ACTS="Enter two IDs and passwords to be"
+ACTS="sensitive mode for removal detection"
+[/ERROR]
+
+[ERROR]
+CODE=EW5FF0F
+DESC="ID is not found"
+ACTS="Set existing ID"
+[/ERROR]
+
+[ERROR]
+CODE=EX1FF01
+DESC="Self Test Fail"
+ACTS="Exchange EPP"
+[/ERROR]
+
+[ERROR]
+CODE=EX1FF02
+DESC="Initial State"
+ACTS="Set Initialization State and"
+ACTS="Set installation state"
+[/ERROR]
+
+[ERROR]
+CODE=EX1FF03
+DESC="Initialization State"
+ACTS="Set installation state"
+[/ERROR]
+
+[ERROR]
+CODE=EX1FF04
+DESC="Authorized Removal State"
+ACTS="Set installation state"
+[/ERROR]
+
+[ERROR]
+CODE=EX1FF05
+DESC="Unauthorized Removal State"
+ACTS="Set Initial State, Set Initialization"
+ACTS="State and Set installation state"
+[/ERROR]
+
+[ERROR]
+CODE=E21FF03
+DESC="Initialization State"
+ACTS="Set installation state"
+[/ERROR]
+
+[ERROR]
+CODE=E21FF05
+DESC="Unauthorized Removal State"
+ACTS="Set Initial State, Set Initialization"
+ACTS="State and Set installation state"
+[/ERROR]
+
+[ERROR]
+CODE=D150200
+DESC="MoniAir Not Available"
+ACTS="Contact to technician support team."
+[/ERROR]
+
+[ERROR]
+CODE=D150300
+DESC="MoniAir Not Activated"
+ACTS="1. Perform MoniAir Activation."
+ACTS="2. Contact to technician support team."
+[/ERROR]
+
+[ERROR]
+CODE=D150400
+DESC="MoniAir Connection Failure"
+ACTS="Contact to technician support team."
+[/ERROR]
+
+[ERROR]
+CODE=9702012
+DESC="Failed to capture image"
+ACTS="Contact to technician support team."
+[/ERROR]
+
+[ERROR]
+CODE=9702014
+DESC="Camera communication error"
+ACTS="Contact to technician support team."
+[/ERROR]
+
+[ERROR]
+CODE=9702041
+DESC="Failed to capture image"
+ACTS="Contact to technician support team."
+[/ERROR]
+
+[ERROR]
+CODE=9702042
+DESC="Failed to capture image"
+ACTS="Contact to technician support team."
+[/ERROR]
+
+[ERROR]
+CODE=9702045
+DESC="Failed to capture image"
+ACTS="Contact to technician support team."
+[/ERROR]
+
+[ERROR]
+CODE=9702046
+DESC="Failed to capture image"
+ACTS="Contact to technician support team."
+[/ERROR]
+
+[ERROR]
+CODE=9702048
+DESC="Failed to capture image"
+ACTS="Contact to technician support team."
+[/ERROR]

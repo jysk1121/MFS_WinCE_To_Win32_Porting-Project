@@ -1,0 +1,908 @@
+;///////////////////////////////
+;       Remaining Balance
+;           399 Screen
+;///////////////////////////////
+[Screen]
+ID=399
+Back=199900
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=POS_TopLine
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=POS_Title
+Font=F_ApTitle
+Outline=1,C_ApOutline
+Name=APValue2
+TextSet=0,LEFT,C_ApTitle
+Icon=I_AP_ICON_QUESTION,64,64
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=POS_SubTitle
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; Disclaimer
+[TextBox]
+Pos=POS_CD399Disclaimer
+Font=F_CDSmallText
+Outline=1,C_ApOutline
+Name=APValue4
+TextSet=1,LEFT,C_ApSubTitle
+[/TextBox]
+
+; F2
+[Button]
+Act=FSCMD,N,YES
+ActKey=F2
+Font=F_ApButton
+TextID="Yes"
+Pos=POS_Button_F2
+Picture=I_AP_BUTTON_RIGHT
+TextSet=TS_CDButton
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,N,NO
+ActKey=F4
+Font=F_ApButton
+TextID="No"
+Pos=POS_Button_F4
+Picture=I_AP_BUTTON_RIGHT
+TextSet=TS_CDButton
+[/Button]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Font=F_ApButton
+TextSet=TS_CDCancelButton
+TextID="Exit"
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;       Provider Selection
+;           400 Screen
+;///////////////////////////////
+[Screen]
+ID=400
+Back=199900
+
+; Screen Title
+[TextBox]
+Pos=POS_CDScreenTitle
+Font=F_CDScreenTitle
+TextID=CDProviderSelectionScreenTitle
+TextSet=1,CENTER,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; F2, Provider 1
+[Button]
+Act=FSCMD,N,F2
+ActKey=F2
+Pos=POS_Button_F2
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+Name=APValue1
+TextSet=TS_CDButton
+[/Button]
+
+; F4, Provider 2
+[Button]
+Act=FSCMD,N,F4
+ActKey=F4
+Pos=POS_Button_F4
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+Name=APValue2
+TextSet=TS_CDButton
+[/Button]
+
+; F6, Provider 3
+[Button]
+Act=FSCMD,N,F6
+ActKey=F6
+Pos=POS_Button_F6
+Picture=I_AP_BUTTON_RIGHT
+Name=APValue3
+Font=F_ApButton
+TextSet=TS_CDButton
+[/Button]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_CDCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;          Phone Number
+;           402 Screen
+;///////////////////////////////
+[Screen]
+ID=402
+Back=199900
+
+; Screen Title
+[TextBox]
+Pos=POS_CDSubTitle
+Font=F_CDScreenTitle
+TextID=CDPhoneNumberScreenTitle
+TextSet=1,CENTER,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_CDCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[CustomEditBox]
+Act=FSCMD,N,
+ActKey=ENTER
+AFocus=1
+Font=F_ApTitle
+MaxInChar=10
+DispFormat=NNN-NNN-NNNN
+Pos=POS_CDInputBox
+TextSet=0,CENTER,C_CDInputText
+Picture=I_AP_INPUT_BOX
+[/CustomEditBox]
+
+; Under Guide
+[TextBox]
+Pos=POS_CDHelpText
+Name=APValue1
+Font=F_CDTextBold
+TextSet=1,CENTER,C_CDHelpText
+[/TextBox]
+
+[/Screen]
+
+;///////////////////////////////
+;          Confirm Code
+;           403 Screen
+;///////////////////////////////
+[Screen]
+ID=403
+Back=199900
+
+; Screen Title
+[TextBox]
+Pos=POS_CDSubTitle
+Font=F_CDScreenTitle
+TextID=CDEnterConfirmCode
+TextSet=1,CENTER,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_CDCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+; Input Box
+[EditBox]
+Act=FSCMD,N,
+ActKey=ENTER
+AFocus=1
+Font=F_ApTitle
+MaxInChar=6
+Pos=POS_CDInputBox
+TextSet=0,CENTER,C_CDInputText
+Picture=I_AP_INPUT_BOX
+Type=PASSWORD
+[/EditBox]
+
+[/Screen]
+
+;///////////////////////////////
+;            Message
+;           404 Screen
+;///////////////////////////////
+[Screen]
+ID=404
+Back=199900
+
+; Screen Title
+[TextBox]
+Pos=POS_CD404ScreenTitle
+Font=F_CDSubTitle
+TextSet=1,CENTER,C_ApText
+Name=APValue1
+Outline=1,C_ApOutline
+[/TextBox]
+
+; F8, CONTINUE
+[Button]
+Act=FSCMD,N,CONTINUE
+ActKey=F8,ENTER
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_CDButton
+TextID="Continue"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;          Accept Terms
+;           405 Screen
+;///////////////////////////////
+[Screen]
+ID=405
+Back=199900
+
+; Screen Title
+[TextBox]
+Pos=POS_CD405ScreenTitle
+Font=F_ApTitle
+Outline=1,C_ApOutline
+TextID=CDAcceptTermsScreenTitle
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=POS_CD405SubTitle
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+TextID=CDAcceptTermsSubtitle
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; Virtual Currency
+[TextBox]
+Pos=POS_CD405VirtualCurrency
+Font=F_CDSmallText
+Outline=1,C_ApOutline
+Name=APValue1
+TextSet=1,LEFT,C_ApSubTitle
+[/TextBox]
+
+; Fraud Disclosure Label
+[TextBox]
+Pos=POS_CD405FraudDisclosureLabel
+Font=F_CDSubTitle
+Outline=1,C_ApOutline
+TextID=CDAcceptTermsFraudDisclosureTitle
+TextSet=1,LEFT,C_ApSubTitle
+[/TextBox]
+
+; Fraud Disclosure Value
+[TextBox]
+Pos=POS_CD405FraudDisclosureValue
+Font=F_CDSmallText
+Outline=1,C_ApOutline
+TextID=CDAcceptTermsFraudDisclosure
+TextSet=1,LEFT,C_ApSubTitle
+[/TextBox]
+
+; F5, Prev
+[Button]
+Act=FSCMD,N,PREV
+ActKey=F5
+Pos=POS_Button_F5
+Picture=I_AP_BUTTON_LEFT
+Font=F_ApButton
+TextSet=TS_CDButtonLeft
+TextID=CDAcceptTermsF5
+[/Button]
+
+; F6, I Accept
+[Button]
+Act=FSCMD,N,ACCEPT
+ActKey=F6
+Pos=POS_Button_F6
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_CDButton
+TextID=CDAcceptTermsF6
+Name=APState1
+[/Button]
+
+; F7, Next
+[Button]
+Act=FSCMD,N,NEXT
+ActKey=F7
+Pos=POS_Button_F7
+Picture=I_AP_BUTTON_LEFT
+Font=F_ApButton
+TextSet=TS_CDButtonLeft
+TextID=CDAcceptTermsF7
+[/Button]
+
+; F8, I do not accept
+[Button]
+Act=FSCMD,N,NOACCEPT
+ActKey=F8
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_CDButtonMulti
+TextID=CDAcceptTermsF8
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;    Cryptocurrency Selection
+;           406 Screen
+;///////////////////////////////
+[Screen]
+ID=406
+Back=199900
+
+; Screen Title
+[TextBox]
+Pos=POS_CD406ScreenTitle
+Font=F_CDScreenTitle
+TextID=CDCryptoCurrencySelectionScreenTitle
+TextSet=1,CENTER,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; Remaining Daily Limit Label
+[TextBox]
+Pos=POS_SubTitle
+Font=F_CDSmallText
+Outline=1,C_ApOutline
+TextID=CDCryptoCurrencySelectionSubtitle
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; Remaining Daily Limit Value
+[TextBox]
+Pos=POS_CD406RemainingDailyLimitValue
+Font=F_CDSmallText
+Outline=1,C_ApOutline
+Name=APValue7
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; F1, Cryptocurrency 1
+[Button]
+Act=FSCMD,N,F1
+ActKey=F1
+Pos=POS_Button_F1
+Picture=I_AP_BUTTON_LEFT
+Font=F_ApButton
+Name=APValue1
+TextSet=TS_CDButtonLeft
+[/Button]
+
+; F2, Cryptocurrency 2
+[Button]
+Act=FSCMD,N,F2
+ActKey=F2
+Pos=POS_Button_F2
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+Name=APValue2
+TextSet=TS_CDButton
+[/Button]
+
+; F3, Cryptocurrency 3
+[Button]
+Act=FSCMD,N,F3
+ActKey=F3
+Pos=POS_Button_F3
+Picture=I_AP_BUTTON_LEFT
+Name=APValue3
+Font=F_ApButton
+TextSet=TS_CDButtonLeft
+[/Button]
+
+; F4, Cryptocurrency 4
+[Button]
+Act=FSCMD,N,F4
+ActKey=F4
+Pos=POS_Button_F4
+Picture=I_AP_BUTTON_RIGHT
+Name=APValue4
+Font=F_ApButton
+TextSet=TS_CDButton
+[/Button]
+
+; F5, Cryptocurrency 5
+[Button]
+Act=FSCMD,N,F5
+ActKey=F5
+Pos=POS_Button_F5
+Picture=I_AP_BUTTON_LEFT
+Name=APValue5
+Font=F_ApButton
+TextSet=TS_CDButtonLeft
+[/Button]
+
+; F6, Cryptocurrency 6
+[Button]
+Act=FSCMD,N,F6
+ActKey=F6
+Pos=POS_Button_F6
+Picture=I_AP_BUTTON_RIGHT
+Name=APValue6
+Font=F_ApButton
+TextSet=TS_CDButton
+[/Button]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_CDCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;          Enter Amount
+;           407 Screen
+;///////////////////////////////
+[Screen]
+ID=407
+Back=199900
+
+; Screen Title
+[TextBox]
+Pos=POS_CDScreenTitle
+Font=F_CDScreenTitle
+TextID=CDEnterAmountTitle
+TextSet=1,CENTER,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; Daily Limit Label
+[TextBox]
+Pos=POS_CD407DailyLimitLabel
+Font=F_CDText
+TextID=CDDailyLimitLabel
+TextSet=0,LEFT,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; Daily Limit Value
+[TextBox]
+Pos=POS_CD407DailyLimitValue
+Font=F_CDTextBold
+Name=APValue1
+TextSet=0,LEFT,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_CDCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[AmountBox]
+Act=FSCMD,N,
+ActKey=ENTER
+AFocus=1
+Font=F_ApTitle
+Pos=POS_CDInputBox
+SymbolName=APValue4
+AmountName=APValue5
+InputMinName=APValue10
+InputMaxName=APValue11
+AutoRunName=APValue12
+TextSet=0,CENTER,C_CDInputText
+Picture=I_AP_INPUT_BOX
+[/AmountBox]
+
+[/Screen]
+
+;///////////////////////////////
+;      Transaction Summary
+;           408 Screen
+;///////////////////////////////
+[Screen]
+ID=408
+Back=199900
+
+; Screen Title
+[TextBox]
+TextID=CDTransactionSummaryScreenTitle
+Pos=POS_CDScreenTitleAlignLeft
+Font=F_CDScreenTitle
+TextSet=1,LEFT,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; Exchange Label
+[TextBox]
+Name=APValue1
+Pos=POS_CDGrid2Line1Label
+Font=F_CDText
+TextSet=0,LEFT,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; Divider Line 1
+[TextBox]
+Picture=I_AP_CD_LINE_WHITE
+Pos=POS_CDGrid2Line1Divider
+[/TextBox]
+
+; Transaction Amount Label
+[TextBox]
+TextID=CDTransactionSummaryAmount
+Pos=POS_CDGrid2Line2Label
+Font=F_CDText
+TextSet=1,LEFT,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; Transaction Amount Value
+[TextBox]
+Name=APValue2
+Pos=POS_CDGrid2Line2Value
+Font=F_CDTextBold
+TextSet=0,RIGHT,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; Divider Line 2
+[TextBox]
+Picture=I_AP_CD_LINE_WHITE
+Pos=POS_CDGrid2Line2Divider
+[/TextBox]
+
+; Total Purchase Label
+[TextBox]
+Name=APValue3
+Pos=POS_CDGrid2Line3Label
+Font=F_CDText
+TextSet=0,LEFT,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; Divider Line 3
+[TextBox]
+Picture=I_AP_CD_LINE_WHITE
+Pos=POS_CDGrid2Line3Divider
+[/TextBox]
+
+; Deposit Wallet Address Label
+[TextBox]
+TextID=CDTransactionSummaryWalletAddress
+Pos=POS_CDGrid2Line4Label
+Font=F_CDText
+TextSet=0,LEFT,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; Deposit Wallet Address Value
+[TextBox]
+Name=APValue4
+Pos=POS_CDGrid2Line4Value
+Font=F_CDTextBold
+TextSet=0,RIGHT,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; F2, ENTER
+[Button]
+Act=FSCMD,N,CONFIRM
+ActKey=F2,ENTER
+Font=F_ApButton
+Pos=POS_Button_F2
+Picture=I_AP_BUTTON_RIGHT
+TextSet=TS_CDButton
+TextID="Confirm"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;          Insert Card
+;           409 Screen
+;///////////////////////////////
+[Screen]
+ID=409
+Back=199900
+
+; Screen Title
+[TextBox]
+Name=APValue1
+Pos=POS_CDScreenTitle
+Font=F_CDScreenTitle
+TextSet=1,CENTER,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; Screen Title
+[TextBox]
+Name=APValue11
+Pos=POS_CDScreenTitle
+Font=F_CDScreenTitle
+TextSet=1,CENTER,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; Screen Title
+[TextBox]
+Name=APValue2
+Pos=POS_CDScreenTitle
+Font=F_CDScreenTitle
+TextSet=1,CENTER,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+; Screen Title (PAI)
+[TextBox]
+Name=APValue12
+Pos=POS_CDScreenTitle
+Font=F_CDScreenTitle
+TextSet=1,CENTER,C_ApText
+Outline=1,C_ApOutline
+[/TextBox]
+
+;///////////////////////////////
+;    Insert Card Images Start
+;///////////////////////////////
+; APState2
+[AniBox]
+Pos=POS_CD409APState2
+Name=APState2
+Frame_800_600=10,\800_600\AP_Card_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_,PNG
+Frame_1024_768=8,\1024_768\AP_Card_,PNG
+[/AniBox]
+
+; APState3
+[AniBox]
+Pos=POS_CD409APState3
+Name=APState3
+Frame_800_600=10,\800_600\AP_Card_IC_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_IC_,PNG
+Frame_1024_768=9,\1024_768\AP_EMVCard_,PNG
+[/AniBox]
+
+; APState4
+[AniBox]
+Pos=POS_CD409APState4
+Name=APState4
+Frame_800_600=10,\800_600\AP_Card_Take_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_Take_,PNG
+Frame_1024_768=4,\1024_768\AP_Card_Take_,PNG
+[/AniBox]
+
+; Card Image - 4000W SWIPE
+[AniBox]
+Name=APState5
+Pos=212,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_,PNG
+[/AniBox]
+
+; Card Image - 4000W Insert and Don't Remove
+[AniBox]
+Name=APState6
+Pos=212,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_IC_,PNG
+[/AniBox]
+
+; Card Image - 4000W Remove
+[AniBox]
+Name=APState7
+Pos=212,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_TAKE_,PNG
+[/AniBox]
+
+; APState8
+[AniBox]
+Pos=POS_CD409APState8
+Name=APState8
+Frame_1024_600=10,\1024_600\AP_Card_,PNG
+Frame_1024_768=8,\1024_768\AP_Card_,PNG
+[/AniBox]
+
+; APState9
+[AniBox]
+Pos=POS_CD409APState9
+Name=APState9
+Frame_1024_600=10,\1024_600\AP_Card_IC_,PNG
+Frame_1024_768=9,\1024_768\AP_EMVCard_,PNG
+[/AniBox]
+
+; APState10
+[AniBox]
+Pos=POS_CD409APState10
+Name=APState10
+Frame_1024_600=6,\1024_600\AP_RFID_,PNG
+Frame_1024_768=6,\1024_768\AP_NFC_,PNG
+[/AniBox]
+
+; APState12
+[AniBox]
+Pos=POS_CD409APState12
+Name=APState12
+Frame_800_600=10,\800_600\AP_Card_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_,PNG
+Frame_1024_768=8,\1024_768\AP_Card_,PNG
+[/AniBox]
+
+; APState13
+[AniBox]
+Pos=POS_CD409APState13
+Name=APState13
+Frame_800_600=10,\800_600\AP_Card_IC_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_IC_,PNG
+Frame_1024_768=9,\1024_768\AP_EMVCard_,PNG
+[/AniBox]
+
+; APState14
+[AniBox]
+Pos=POS_CD409APState14
+Name=APState14
+Frame_800_600=10,\800_600\AP_Card_Take_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_Take_,PNG
+Frame_1024_768=4,\1024_768\AP_Card_Take_,PNG
+[/AniBox]
+
+; Card Image - 4000W SWIPE (PAI)
+[AniBox]
+Name=APState15
+Pos=107,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_,PNG
+[/AniBox]
+
+; Card Image - 4000W Insert and Don't Remove (PAI)
+[AniBox]
+Name=APState16
+Pos=107,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_IC_,PNG
+[/AniBox]
+
+; Card Image - 4000W Remove (PAI)
+[AniBox]
+Name=APState17
+Pos=107,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_TAKE_,PNG
+[/AniBox]
+
+; APState18
+[AniBox]
+Pos=POS_CD409APState18
+Name=APState18
+Frame_1024_600=10,\1024_600\AP_Card_,PNG
+Frame_1024_768=8,\1024_768\AP_Card_,PNG
+[/AniBox]
+
+; APState19
+[AniBox]
+Pos=POS_CD409APState19
+Name=APState19
+Frame_1024_600=10,\1024_600\AP_Card_IC_,PNG
+Frame_1024_768=9,\1024_768\AP_EMVCard_,PNG
+[/AniBox]
+
+; APState20
+[AniBox]
+Pos=POS_CD409APState20
+Name=APState20
+Frame_1024_600=6,\1024_600\AP_RFID_,PNG
+Frame_1024_768=6,\1024_768\AP_NFC_,PNG
+[/AniBox]
+;///////////////////////////////
+;     Insert Card Images End
+;///////////////////////////////
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_CDCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]

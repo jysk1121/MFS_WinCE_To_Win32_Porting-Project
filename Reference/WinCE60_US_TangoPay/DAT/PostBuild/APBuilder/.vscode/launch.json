@@ -1,0 +1,224 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "inputs": [
+    {
+      "id": "modelType",
+      "type": "pickString",
+      "description": "What ATM model do you want to use?",
+      "options": [
+        "1500SE",
+        "1800SE",
+        "2700SE",
+        "2700T",
+        "2800SE",
+        "2800T",
+        "5200SE",
+        ""
+      ],
+      "default": "" // combined build
+    },
+    {
+      "type": "pickString",
+      "id": "lineage",
+      "description": "Pick Lineage",
+      "options": [
+        "V",
+        "P",
+        "C"
+      ],
+      "default": "V"
+    },
+    {
+      "type": "pickString",
+      "id": "territory",
+      "description": "Pick Territory",
+      "options": [
+        "US",
+        "CA",
+        "MX",
+        "AU"
+      ],
+      "default": "US"
+    },
+    {
+      "type": "promptString",
+      "id": "versionNumber",
+      "description": "Version Number"
+    },
+    {
+      "type": "promptString",
+      "id": "hives",
+      "description": "Hives",
+      "default": "retail mx_test $territory $lineage $model"
+    },
+    {
+      "type": "promptString",
+      "id": "s3hives",
+      "description": "Hives",
+      "default": "QA retail SE60 $territory $lineage $model"
+    },
+    {
+      "type": "pickString",
+      "id": "repo_root",
+      "description": "Repository Root",
+      "options": [
+        "\\\\moniview\\Software Repo\\wwwroot_dev"
+      ],
+      "default": "\\\\moniview\\Software Repo\\wwwroot_dev"
+    }
+  ],
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Publish Version [File]",
+      "type": "python",
+      "request": "launch",
+      "program": "build.py",
+      "console": "integratedTerminal",
+      "args": [
+        "publish",
+        "-H",
+        "${input:hives}",
+        "-p",
+        "..\\..\\..\\UpdateFiles\\${input:modelType}",
+        "-r",
+        "${input:repo_root}",
+        "file"
+      ],
+    },
+    {
+      "name": "Publish Version [S3]",
+      "type": "python",
+      "request": "launch",
+      "program": "build.py",
+      "console": "integratedTerminal",
+      "args": [
+        "publish",
+        "-H",
+        "${input:s3hives}",
+        "-p",
+        "..\\..\\..\\UpdateFiles\\${input:modelType}",
+        "-l",
+        "s3",
+        "-b",
+        "nhasoftware"
+      ],
+    },
+    {
+      "name": "Build All SE",
+      "type": "python",
+      "request": "launch",
+      "program": "build.py",
+      "args": [
+        "build",
+        "-t",
+        "${input:territory}",
+        "-o",
+        "..\\..\\..\\UpdateFiles",
+        "-s",
+        "..\\..\\..\\",
+        "-f",
+        "..\\Master Files",
+        "-m",
+        "1800SE",
+        "-m",
+        "2700SE",
+        "-m",
+        "2700T",
+        "-m",
+        "2800SE",
+        "-m",
+        "2800T",
+        "-m",
+        "5200SE"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Build Model",
+      "type": "python",
+      "request": "launch",
+      "program": "build.py",
+      "args": [
+        "build",
+        "-t",
+        "${input:territory}",
+        "-o",
+        "..\\..\\..\\UpdateFiles",
+        "-s",
+        "..\\..\\..\\",
+        "-f",
+        "..\\Master Files",
+        "-m",
+        "${input:modelType}"
+      ],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Sign Model",
+      "type": "python",
+      "request": "launch",
+      "program": "build.py",
+      "console": "integratedTerminal",
+      "args": [
+        "sign",
+        "-o",
+        "..\\..\\..\\UpdateFiles\\${input:modelType}\\manifest.xml",
+        "-t",
+        "${input:territory}",
+        "-m",
+        "${input:modelType}",
+        "-S",
+        "1",
+        "-T",
+        "1",
+        "-d",
+        "rsa",
+        "-k",
+        "mxkey.pem",
+        "..\\..\\..\\UpdateFiles\\${input:modelType}"
+      ]
+    },
+    {
+      "name": "Sign Model (HSM)",
+      "type": "python",
+      "request": "launch",
+      "program": "build.py",
+      "console": "integratedTerminal",
+      "justMyCode": false,
+      "args": [
+        "sign",
+        "-o",
+        "..\\..\\..\\UpdateFiles\\${input:modelType}\\manifest.xml",
+        "-t",
+        "${input:territory}",
+        "-m",
+        "${input:modelType}",
+        "-S",
+        "1",
+        "-T",
+        "1",
+        "-d",
+        "nha_hsm",
+        "-k",
+        "mxkey.pem",
+        "-c",
+        "MyLabel",
+        "-v",
+        "1.1.0",
+        "-f",
+        ".\\certs",
+        "..\\..\\..\\UpdateFiles\\${input:modelType}"
+      ]
+    }
+  ]
+}

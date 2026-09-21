@@ -1,0 +1,251 @@
+[SUPPORT]
+US_ENG=1
+US_SPN=1
+US_FRN=1
+CA_ENG=1
+CA_SPN=1
+CA_FRN=1
+[/SUPPORT]
+
+##############
+# Default/WinCE 6.0 Resources
+##############
+[Resource]
+
+Font=F_ApBtn,Arial,12,1		; button
+Font=F_ApSmallText,Arial,12,1	; text 1
+Font=F_ApText,Arial,16,1	; text 1
+Font=F_ApTitle,Arial,25,1	; text 2
+
+# Default Color Scheme
+Brush=B_Black,0,0,0			; background
+Brush=B_White,255,255,255	; button background
+Brush=B_Background,0,0,0	; Background color (Black)
+Brush=B_White,255,255,255	; button background
+Brush=B_BtnBack,255,255,255
+
+Color=C_Title,255,255,0		; Title Text Color
+Color=C_Text,255,255,255	; Text Color
+Color=C_Accent,255,0,0		; Accent Color
+Color=C_Btn,0,0,0			; Button Color
+
+[/Resource]
+
+# WCE 7.0 specific colorings changes
+[LoadControl]
+On=OSTYPE_70
+
+##############
+# WinCE 7.0 Resources
+##############
+[Resource]
+
+Brush=B_Background,0,51,160		; Background color (Blue)
+
+Color=C_Title,241,241,241		; Title Text Color
+Color=C_Text,241,241,241	    ; Text Color
+Color=C_Accent,255,255,0		; Accent Color
+Color=C_Btn,0,0,0				; Button Color
+
+[/Resource]
+
+[LoadControl]
+Off=All
+
+;////////////////////////////
+;        OP Back Screen
+;////////////////////////////
+
+[Screen]
+ID=S_Back
+
+[TextBox]
+Brush=B_Background
+Pos=0,0,640,614
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;        Info
+;////////////////////////////
+
+[Screen]
+ID=S_Info
+Back=S_Back
+
+; Title
+[TextBox]
+Font=F_ApTitle
+Pos=0,40,640,60
+Text="Software Update"
+TextSet=0,CENTER,C_Title
+[/TextBox]
+
+[TextBox]
+Font=F_ApText
+Pos=0,0,640,616
+Name=APValue1
+TextSet=1,CENTER,C_Text
+[/TextBox]
+
+; Info
+[TextBox]
+Blink=1
+Font=F_ApText
+Pos=0,432,640,50
+Name=APValue2
+TextSet=1,CENTER,C_Accent
+[/TextBox]
+
+; Info
+[TextBox]
+Blink=1
+Font=F_ApText
+Pos=0,560,640,50
+Name=APValue3
+TextSet=1,CENTER,C_Accent
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;        S_YesNo
+;////////////////////////////
+
+[Screen]
+ID=S_YesNo
+Back=S_Back
+
+; Title
+[TextBox]
+Font=F_ApTitle
+Pos=0,40,640,60
+Text="Software Update"
+TextSet=0,CENTER,C_Title
+[/TextBox]
+
+[TextBox]
+Font=F_ApText
+Pos=32,0,576,480
+Name=APValue1
+TextSet=1,CENTER,C_Text
+[/TextBox]
+
+; F7
+[Button]
+Act=FSCMD,S_YSENO,EXIT
+ActKey=F5,F7
+Font=F_ApBtn
+Name=APState5
+Brush=B_BtnBack
+Pos=3,423,130,58
+Text="REBOOT"
+TextSet=1,CENTER,C_Btn
+[/Button]
+
+; F8
+[Button]
+Act=FSCMD,S_YSENO,UPDATE
+ActKey=F6,F8
+Font=F_ApBtn
+Name=APState6
+Brush=B_BtnBack
+Pos=506,423,130,58
+Text="S/W UPDATE"
+TextSet=0,CENTER,C_Btn
+[/Button]
+
+; Info
+[TextBox]
+Blink=1
+Font=F_ApText
+Pos=0,432,640,50
+Name=APValue2
+TextSet=1,CENTER,C_Accent
+[/TextBox]
+
+; Info
+[TextBox]
+Blink=1
+Font=F_ApText
+Pos=0,560,640,50
+Name=APValue3
+TextSet=1,CENTER,C_Accent
+[/TextBox]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;        FileCtrl
+;////////////////////////////
+
+[Screen]
+ID=S_FileCtrl
+Back=S_Back
+
+; Title
+[TextBox]
+Font=F_ApTitle
+Pos=0,40,640,60
+Text="Software Update"
+TextSet=0,CENTER,C_Title
+[/TextBox]
+
+; Update Name
+[TextBox]
+Font=F_ApText
+Pos=0,100,640,50
+Name=APValue1
+TextSet=1,CENTER,C_Title
+[/TextBox]
+
+; Text1
+[TextBox]
+Font=F_ApText
+Pos=30,200,600,50
+Name=APValue2
+TextSet=1,LEFT,C_Text
+[/TextBox]
+
+; Text2
+[TextBox]
+Font=F_ApText
+Pos=30,250,600,50
+Name=APValue3
+TextSet=1,LEFT,C_Text
+[/TextBox]
+
+; Text3
+[TextBox]
+Font=F_ApText
+Pos=30,300,600,50
+Name=APValue4
+TextSet=1,LEFT,C_Text
+[/TextBox]
+
+; Info
+[TextBox]
+Blink=1
+Font=F_ApText
+Pos=0,432,640,50
+Name=APValue5
+TextSet=1,CENTER,C_Accent
+[/TextBox]
+
+; Info
+[TextBox]
+Blink=1
+Font=F_ApText
+Pos=0,560,640,50
+Name=APValue6
+TextSet=1,CENTER,C_Accent
+[/TextBox]
+
+[/Screen]

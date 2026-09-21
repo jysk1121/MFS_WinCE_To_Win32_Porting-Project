@@ -1,0 +1,720 @@
+;///////////////////////////////
+;    Just.Cash Flow Selection
+;           500 Screen
+;///////////////////////////////
+[Screen]
+ID=500
+Back=199900
+
+; Screen Title
+[TextBox]
+Pos=POS_JCScreenTitle
+Font=F_JCScreenTitle
+TextID=JCFlowSelection
+TextSet=1,CENTER,C_JCText
+Outline=1,C_JCOutline
+[/TextBox]
+
+; F2, Bitcoin
+[Button]
+Act=FSCMD,N,BITCOIN
+ActKey=F2
+Pos=POS_Button_F2
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_JCButton
+TextID=JCDigitalCurrency
+[/Button]
+
+; F4, Cardless
+[Button]
+Act=FSCMD,N,CARDLESS
+ActKey=F4
+Pos=POS_Button_F4
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_JCButton
+TextID=JCCardlessTransaction
+[/Button]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_JCCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;  Just.Cash Payment Selection
+;           501 Screen
+;///////////////////////////////
+[Screen]
+ID=501
+Back=199900
+
+; Screen Title
+[TextBox]
+Name=APValue1
+Pos=POS_JCScreenTitle
+Font=F_JCScreenTitle
+TextSet=1,CENTER,C_JCText
+Outline=1,C_JCOutline
+[/TextBox]
+
+; F2, Debit
+[Button]
+Act=FSCMD,N,DEBIT
+ActKey=F2
+Pos=POS_Button_F2
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_JCButton
+TextID=JCDebit
+[/Button]
+
+; F4, Sidecar
+[Button]
+Act=FSCMD,N,CASH
+ActKey=F4
+Pos=POS_Button_F4
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_JCButton
+TextID=JCCash
+[/Button]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_JCCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;     Just.Cash Insert Card
+;           502 Screen
+;///////////////////////////////
+[Screen]
+ID=502
+Back=199900
+
+; Screen Title
+[TextBox]
+Name=APValue1
+Pos=POS_JCScreenTitle
+Font=F_JCScreenTitle
+TextSet=1,CENTER,C_JCText
+Outline=1,C_JCOutline
+[/TextBox]
+
+; Screen Title
+[TextBox]
+Name=APValue11
+Pos=POS_JCScreenTitle
+Font=F_JCScreenTitle
+TextSet=1,CENTER,C_JCText
+Outline=1,C_JCOutline
+[/TextBox]
+
+; Screen Title
+[TextBox]
+Name=APValue2
+Pos=POS_JCScreenTitle
+Font=F_JCScreenTitle
+TextSet=1,CENTER,C_JCText
+Outline=1,C_JCOutline
+[/TextBox]
+
+; Screen Title (PAI)
+[TextBox]
+Name=APValue12
+Pos=POS_JCScreenTitle
+Font=F_JCScreenTitle
+TextSet=1,CENTER,C_JCText
+Outline=1,C_JCOutline
+[/TextBox]
+
+;///////////////////////////////
+;    Insert Card Images Start
+;///////////////////////////////
+; APState2
+[AniBox]
+Pos=POS_JC502APState2
+Name=APState2
+Frame_800_600=10,\800_600\AP_Card_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_,PNG
+Frame_1024_768=8,\1024_768\AP_Card_,PNG
+[/AniBox]
+
+; APState3
+[AniBox]
+Pos=POS_JC502APState3
+Name=APState3
+Frame_800_600=10,\800_600\AP_Card_IC_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_IC_,PNG
+Frame_1024_768=9,\1024_768\AP_EMVCard_,PNG
+[/AniBox]
+
+; APState4
+[AniBox]
+Pos=POS_JC502APState4
+Name=APState4
+Frame_800_600=10,\800_600\AP_Card_Take_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_Take_,PNG
+Frame_1024_768=4,\1024_768\AP_Card_Take_,PNG
+[/AniBox]
+
+; Card Image - 4000W SWIPE
+[AniBox]
+Name=APState5
+Pos=212,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_,PNG
+[/AniBox]
+
+; Card Image - 4000W Insert and Don't Remove
+[AniBox]
+Name=APState6
+Pos=212,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_IC_,PNG
+[/AniBox]
+
+; Card Image - 4000W Remove
+[AniBox]
+Name=APState7
+Pos=212,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_TAKE_,PNG
+[/AniBox]
+
+; APState8
+[AniBox]
+Pos=POS_JC502APState8
+Name=APState8
+Frame_1024_600=10,\1024_600\AP_Card_,PNG
+Frame_1024_768=8,\1024_768\AP_Card_,PNG
+[/AniBox]
+
+; APState9
+[AniBox]
+Pos=POS_JC502APState9
+Name=APState9
+Frame_1024_600=10,\1024_600\AP_Card_IC_,PNG
+Frame_1024_768=9,\1024_768\AP_EMVCard_,PNG
+[/AniBox]
+
+; APState10
+[AniBox]
+Pos=POS_JC502APState10
+Name=APState10
+Frame_1024_600=6,\1024_600\AP_RFID_,PNG
+Frame_1024_768=6,\1024_768\AP_NFC_,PNG
+[/AniBox]
+
+; APState12
+[AniBox]
+Pos=POS_JC502APState12
+Name=APState12
+Frame_800_600=10,\800_600\AP_Card_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_,PNG
+Frame_1024_768=8,\1024_768\AP_Card_,PNG
+[/AniBox]
+
+; APState13
+[AniBox]
+Pos=POS_JC502APState13
+Name=APState13
+Frame_800_600=10,\800_600\AP_Card_IC_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_IC_,PNG
+Frame_1024_768=9,\1024_768\AP_EMVCard_,PNG
+[/AniBox]
+
+; APState14
+[AniBox]
+Pos=POS_JC502APState14
+Name=APState14
+Frame_800_600=10,\800_600\AP_Card_Take_,PNG
+Frame_1024_600=10,\1024_600\AP_Card_Take_,PNG
+Frame_1024_768=4,\1024_768\AP_Card_Take_,PNG
+[/AniBox]
+
+; Card Image - 4000W SWIPE (PAI)
+[AniBox]
+Name=APState15
+Pos=107,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_,PNG
+[/AniBox]
+
+; Card Image - 4000W Insert and Don't Remove (PAI)
+[AniBox]
+Name=APState16
+Pos=107,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_IC_,PNG
+[/AniBox]
+
+; Card Image - 4000W Remove (PAI)
+[AniBox]
+Name=APState17
+Pos=107,220,216,208
+Frame_800_600=10,\800_600\AP_4000W_Card_TAKE_,PNG
+[/AniBox]
+
+; APState18
+[AniBox]
+Pos=POS_JC502APState18
+Name=APState18
+Frame_1024_600=10,\1024_600\AP_Card_,PNG
+Frame_1024_768=8,\1024_768\AP_Card_,PNG
+[/AniBox]
+
+; APState19
+[AniBox]
+Pos=POS_JC502APState19
+Name=APState19
+Frame_1024_600=10,\1024_600\AP_Card_IC_,PNG
+Frame_1024_768=9,\1024_768\AP_EMVCard_,PNG
+[/AniBox]
+
+; APState20
+[AniBox]
+Pos=POS_JC502APState20
+Name=APState20
+Frame_1024_600=6,\1024_600\AP_RFID_,PNG
+Frame_1024_768=6,\1024_768\AP_NFC_,PNG
+[/AniBox]
+;///////////////////////////////
+;     Insert Card Images End
+;///////////////////////////////
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_JCCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;      Just.Cash Thank You
+;           503 Screen
+;///////////////////////////////
+[Screen]
+ID=503
+Back=199900
+
+; Box
+[TextBox]
+Picture=I_AP_THANKS_BOX     ; 1800SE, 2700
+Picture=I_AP_MESSAGE_BOX    ; 2800
+Pos=POS_JC503MessageBox
+[/TextBox]
+
+; Icon
+[TextBox]
+Picture=I_AP_ICON_JC_LOGO
+Pos=POS_JC503Icon
+[/TextBox]
+
+; Message
+[TextBox]
+Pos=POS_JC503Message
+Font=F_JC503Message
+Name=APValue1
+TextSet=1,CENTER,C_JC503Text
+[/TextBox]
+
+[/Screen]
+
+;///////////////////////////////
+;     Just.Cash Insert Cash
+;           504 Screen
+;///////////////////////////////
+[Screen]
+ID=504
+Back=199900
+
+; Screen Title
+[TextBox]
+Name=APValue1
+Pos=POS_JCScreenTitle
+Font=F_JCScreenTitle
+TextSet=1,CENTER,C_JCText
+Outline=1,C_JCOutline
+[/TextBox]
+
+; Max Total
+[TextBox]
+Name=APValue3
+Pos=POS_JC504MaxCashAllowed
+Font=F_ApUnderMsg
+TextSet=1,CENTER,C_JCText
+Outline=1,C_JCOutline
+[/TextBox]
+
+; Running Total
+[TextBox]
+Name=APValue2
+Pos=POS_JC504RunningTotal
+Font=F_ApUnderMsg
+TextSet=1,CENTER,C_JCText
+Outline=1,C_JCOutline
+[/TextBox]
+
+; F2, ENTER
+[Button]
+Name=APState1
+Act=FSCMD,N,DONE
+ActKey=F2,ENTER
+Pos=POS_Button_F2
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_JCButton
+TextID="Done"
+[/Button]
+
+; F1
+[Button]
+Name=APState3
+Act=FSCMD,N,F1
+ActKey=F1
+Pos=POS_Button_F1
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_JCButton
+TextID=5040F1
+[/Button]
+
+; F3
+[Button]
+Name=APState4
+Act=FSCMD,N,F3
+ActKey=F3
+Pos=POS_Button_F3
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_JCButton
+TextID=5040F3
+[/Button]
+
+; F5
+[Button]
+Name=APState5
+Act=FSCMD,N,F5
+ActKey=F5
+Pos=POS_Button_F5
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_JCButton
+TextID=5040F5
+[/Button]
+
+; F7
+[Button]
+Name=APState6
+Act=FSCMD,N,F7
+ActKey=F7
+Pos=POS_Button_F7
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_JCButton
+TextID=5040F7
+[/Button]
+
+; F4
+[Button]
+Name=APState7
+Act=FSCMD,N,F4
+ActKey=F4
+Pos=POS_Button_F4
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_JCButton
+TextID=5040F4
+[/Button]
+
+; F6
+[Button]
+Name=APState8
+Act=FSCMD,N,F6
+ActKey=F6
+Pos=POS_Button_F6
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=TS_JCButton
+TextID=5040F6
+[/Button]
+
+; F8, CANCEL
+[Button]
+Name=APState2
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_JCCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[AniBox]
+Pos=POS_JC504AniBox
+Frame_800_600=8,\800_600\AP_CASH_,PNG
+Frame_1024_600=8,\1024_600\AP_CASH_,PNG
+Frame_1024_768=8,\1024_768\AP_CashPaper_Insert_,PNG
+[/AniBox]
+
+; Under Guide
+[TextBox]
+Pos=POS_JC504UnderGuide
+Name=APValue4
+Font=F_JCTextBold
+TextSet=1,CENTER,C_JCHelpText
+[/TextBox]
+
+[/Screen]
+
+;///////////////////////////////
+;        Just.Cash Phone
+;           505 Screen
+;///////////////////////////////
+[Screen]
+ID=505
+Back=199900
+
+; Screen Title
+[TextBox]
+Pos=POS_JCScreenTitle
+Font=F_JCScreenTitle
+TextID=JCPhoneNumberScreenTitle
+TextSet=1,CENTER,C_JCText
+Outline=1,C_JCOutline
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=POS_JCSubTitle
+Font=F_JCSubTitle
+TextID=JCPhoneNumberSubtitle
+TextSet=1,CENTER,C_JCText
+Outline=1,C_JCOutline
+[/TextBox]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_JCCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[CustomEditBox]
+Act=FSCMD,N,
+ActKey=ENTER
+AFocus=1
+Font=F_ApTitle
+MaxInChar=10
+DispFormat=NNN-NNN-NNNN
+Pos=POS_JCInputBox
+TextSet=0,CENTER,C_JCInputText
+Picture=I_AP_INPUT_BOX
+[/CustomEditBox]
+
+[/Screen]
+
+;///////////////////////////////
+;     Just.Cash Confirm Code
+;           506 Screen
+;///////////////////////////////
+[Screen]
+ID=506
+Back=199900
+
+; Screen Title
+[TextBox]
+Pos=POS_JCScreenTitle
+Font=F_JCScreenTitle
+TextID=JCEnterConfirmCode
+TextSet=1,CENTER,C_JCText
+Outline=1,C_JCOutline
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=POS_JCSubTitle
+Font=F_JCSubTitle
+TextID=JCEnterConfirmCodeSubtitle
+TextSet=1,CENTER,C_JCText
+Outline=1,C_JCOutline
+[/TextBox]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_JCCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+; Input Box
+[EditBox]
+Act=FSCMD,N,
+ActKey=ENTER
+AFocus=1
+Font=F_ApTitle
+MaxInChar=6
+Pos=POS_JCInputBox
+TextSet=0,CENTER,C_JCInputText
+Picture=I_AP_INPUT_BOX
+Type=PASSWORD
+[/EditBox]
+
+[/Screen]
+
+;///////////////////////////////
+;        Just.Cash Error
+;           507 Screen
+;///////////////////////////////
+[Screen]
+ID=507
+Back=199900
+
+; Error Message (Via API)
+[TextBox]
+Name=APValue2
+Pos=POS_JCErrorScreen
+Font=F_JCTextBold
+TextSet=1,CENTER,C_JCText
+Outline=1,C_JCOutline
+[/TextBox]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;    Just.Cash Confirm Wallet
+;           508 Screen
+;///////////////////////////////
+[Screen]
+ID=508
+Back=199900
+
+; Screen Title
+[TextBox]
+Pos=POS_JC508ScreenTitle
+Font=F_JCScreenTitle
+TextID=JCConfirmWallet
+TextSet=1,LEFT,C_JCText
+Outline=1,C_JCOutline
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Name=APValue1
+Pos=POS_JC508SubTitle
+Font=F_JCSubTitle
+TextSet=1,LEFT,C_JCText
+Outline=1,C_JCOutline
+[/TextBox]
+
+; F2, ENTER
+[Button]
+Act=FSCMD,N,NEXT
+ActKey=F2,ENTER
+Font=F_ApButton
+TextID="Next"
+Pos=POS_Button_F2
+Picture=I_AP_BUTTON_RIGHT
+TextSet=TS_JCButton
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,N,REPRINT
+ActKey=F4
+Font=F_ApButton
+TextID="Reprint"
+Pos=POS_Button_F4
+Picture=I_AP_BUTTON_RIGHT
+TextSet=TS_JCButton
+[/Button]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=POS_Button_F8
+Picture=I_AP_BUTTON_RED_RIGHT
+Font=F_ApButton
+TextSet=TS_JCCancelButton
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]

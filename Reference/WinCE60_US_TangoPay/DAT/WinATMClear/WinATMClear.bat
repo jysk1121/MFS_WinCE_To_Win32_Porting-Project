@@ -1,0 +1,13 @@
+\ATM\Goma.exe WinATM.exe
+\ATM\Goma.exe NHDIP4WCE.exe
+\ATM\Goma.exe NHIDC4MTKWCE.exe
+\ATM\Goma.exe NHDIP4SANDIPCE.exe
+\ATM\Goma.exe NHIDC4RFCE.exe
+\ATM\Goma.exe MyPinPad.exe
+\ATM\Goma.exe NH_SIU.exe
+\ATM\Goma.exe NHCDM.exe
+\ATM\Goma.exe NW_KSPR.exe
+\ATM\Goma.exe NWTraceLogServer.exe
+\ATM\Goma.exe WatchDog.exe
+\ATM\Goma.exe UpdateLauncher.exe
+\ATM\Goma.exe Update.exe

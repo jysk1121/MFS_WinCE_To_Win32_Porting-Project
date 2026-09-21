@@ -1,0 +1,7 @@
+; CmnLib.def : Declares the module parameters for the DLL.
+
+LIBRARY      "CMNLIB"
+;DESCRIPTION  'CMNLIB Windows CE Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

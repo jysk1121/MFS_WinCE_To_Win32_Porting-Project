@@ -1,0 +1,9 @@
+; NHMWI.def : Declares the module parameters.
+
+LIBRARY      "NHMWI.OCX"
+
+EXPORTS
+	DllCanUnloadNow      PRIVATE
+	DllGetClassObject    PRIVATE
+	DllRegisterServer    PRIVATE
+	DllUnregisterServer  PRIVATE

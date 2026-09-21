@@ -1,0 +1,182 @@
+pipeline {
+    agent any
+    post {
+      failure {
+        updateGitlabCommitStatus name: 'build', state: 'failed'
+      }
+      success {
+        updateGitlabCommitStatus name: 'build', state: 'success'
+      }
+    }
+    environment {
+        scannerHome = tool 'Scanner'
+    }
+    options {
+      gitLabConnection('Gitlab - NHA')
+      disableConcurrentBuilds()
+    }
+    parameters {
+        choice(
+            choices: ['General' , 'PAI', 'Cardtronics', 'CIBC (Mex)', 'CashDepot', 'DYNAMICDCC'],
+            description: '',
+            name: 'CUSTOMER')
+        choice(
+            choices: ['US' , 'CA', 'AU', 'MX'],
+            description: '',
+            name: 'TERRITORY')
+        booleanParam(
+            name: "LATEST",
+            defaultValue: false,
+            description: "Tag the build as the latest repo version")
+        choice(
+            choices: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'],
+            description: '0 - Low, 9 - Highest',
+            name: 'SEVERITY')
+        choice(
+            choices: ['feature', 'bugfix', 'security'],
+            description: '',
+            name: 'TYPE')
+        choice(
+            choices: ['Error', 'Warn', 'Info', 'Debug'],
+            description: '',
+            name: 'LOGLEVEL')
+        booleanParam(
+            name: "LocalMode",
+            defaultValue: false,
+            description: "Build AP in local mode")
+    }
+
+    stages {
+        stage('Setup') {
+            steps {
+                dir("DAT\\PostBuild\\APBuilder") {
+                    bat """
+                    pip install --user -r requirements.txt
+                    """
+                }
+                powershell '''
+                    $path = "$HOME/.sonar/build-wrapper-win-x86.zip"
+                    rm build-wrapper-win-x86 -Recurse -Force -ErrorAction SilentlyContinue
+                    rm $HOME/.sonar -Recurse -Force -ErrorAction SilentlyContinue
+                    rm $path -Force -ErrorAction SilentlyContinue
+                    mkdir $HOME/.sonar
+                    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+                    (New-Object System.Net.WebClient).DownloadFile("https://sonarqube/static/cpp/build-wrapper-win-x86.zip", $path)
+                    Add-Type -AssemblyName System.IO.Compression.FileSystem
+                    [System.IO.Compression.ZipFile]::ExtractToDirectory($path, "$HOME/.sonar")
+                    '''
+                }
+        }
+        stage('Build') {
+            steps {
+                powershell """
+                 .\\Build-Atm.ps1 -LogLevel ${params.LOGLEVEL} -Customer "${params.CUSTOMER}" -Territory ${params.TERRITORY} -LocalMode:\$${params.LocalMode}
+                """
+            }
+        }
+        stage('Analysis') {
+            when {
+                anyOf{
+                    expression { env.BRANCH_NAME =~ /feature\// }
+                    expression { env.BRANCH_NAME =~ /stage/ }
+                }
+            }
+            steps {
+                withSonarQubeEnv("Scanner") {
+                   bat """
+                   \"${scannerHome}\\bin\\sonar-scanner\" -Dsonar.cfamily.build-wrapper-output=bw-output
+                   """
+                }
+            }
+        }
+        stage('Create Media') {
+            parallel {
+                stage('WinCE 6') {
+                    steps {
+                        withCredentials([string(credentialsId: 'hsm-user-pin', variable: 'HSM_CRYPTO_OP_PIN')]) {
+                            powershell """
+                            .\\Package-Atm.ps1 -OS 60 -Territory ${params.TERRITORY} -Severity ${params.SEVERITY} -ReleaseType ${params.TYPE} -Version ${env.BRANCH_NAME} -Sign -Build
+                            """
+                        }
+                    }
+                }
+                stage('WinCE 7') {
+                    steps {
+                        withCredentials([string(credentialsId: 'hsm-user-pin', variable: 'HSM_CRYPTO_OP_PIN')]) {
+                            powershell """
+                            .\\Package-Atm.ps1 -OS 70 -Territory ${params.TERRITORY} -Severity ${params.SEVERITY} -ReleaseType ${params.TYPE} -Version ${env.BRANCH_NAME} -Sign -Build
+                            """
+                        }
+                    }
+                }
+            }
+        }
+        stage('Deploy') {
+            parallel {
+                stage('Stage WinCE 6') {
+                    when {
+                        anyOf{
+                            expression { env.BRANCH_NAME =~ /feature\// }
+                            expression { env.BRANCH_NAME =~ /release\// }
+                            expression { env.BRANCH_NAME =~ /hotfix\// }
+                            expression { env.BRANCH_NAME =~ /stage/ }
+                        }
+                    }
+                    steps {
+                        withAWS(credentials: 'nhasoftware-creds') {
+                            powershell """
+                            .\\Publish-AtmQA.ps1 60 ${params.LATEST}
+                            """
+                        }
+                    }
+                }
+                stage('Production WinCE 6') {
+                    when {
+                        expression { env.TAG_NAME ==~ /[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}.*/ }
+                    }
+                    steps {
+                        withAWS(credentials: 'nhasoftware-creds') {
+                            powershell """
+                            .\\Publish-AtmProd.ps1 60 ${params.LATEST}
+                            """
+                        }
+                    }
+                }
+                stage('Stage WinCE 7') {
+                    when {
+                        anyOf{
+                            expression { env.BRANCH_NAME =~ /feature\// }
+                            expression { env.BRANCH_NAME =~ /release\// }
+                            expression { env.BRANCH_NAME =~ /hotfix\// }
+                            expression { env.BRANCH_NAME =~ /stage/ }
+                        }
+                    }
+                    steps {
+                        withAWS(credentials: 'nhasoftware-creds') {
+                            powershell """
+                            .\\Publish-AtmQA.ps1 70 ${params.LATEST}
+                            """
+                        }
+                    }
+                }
+                stage('Production WinCE 7') {
+                    when {
+                        expression { env.TAG_NAME ==~ /[0-9]{1,2}\.[0-9]{1,2}\.[0-9]{1,2}.*/ }
+                    }
+                    steps {
+                        withAWS(credentials: 'nhasoftware-creds') {
+                            powershell """
+                            .\\Publish-AtmProd.ps1 70 ${params.LATEST}
+                            """
+                        }
+                    }
+                }
+            }
+        }
+        stage('Archive') {
+            steps {
+                archiveArtifacts artifacts: "UpdateFiles\\**", fingerprint: true
+            }
+        }
+    }
+}

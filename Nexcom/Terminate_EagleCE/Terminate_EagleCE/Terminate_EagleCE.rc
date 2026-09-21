@@ -1,0 +1,165 @@
+//Microsoft Visual C++에서 생성한 리소스 스크립트입니다.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE 2 리소스에서 생성되었습니다.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 아이콘
+//
+
+// 응용 프로그램 아이콘이 모든 시스템에서 일관된 상태를 유지하도록 하기 위해
+// 가장 낮은 ID 값을 갖는 아이콘이 맨 처음 배치됩니다.
+
+IDI_TERMINATE_EAGLECE       ICON         "Terminate_EagleCE.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 메뉴
+//
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "파일(&F)"
+    BEGIN
+        MENUITEM "끝내기(&X)",                        IDM_FILE_EXIT
+    END
+    POPUP "도움말(&H)"
+    BEGIN
+        MENUITEM "정보(&A)",                       IDM_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 액셀러레이터 키
+//
+
+IDC_TERMINATE_EAGLECE ACCELERATORS
+BEGIN
+    "A",            IDM_HELP_ABOUT,         VIRTKEY, CONTROL, NOINVERT
+    "Q",            IDOK,          VIRTKEY, CONTROL, NOINVERT
+END
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 대화 상자
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 125, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CAPTIONOKBTN
+CAPTION "Terminate_EagleCE 정보"
+FONT 9, "MS Sans Serif"
+BEGIN
+    ICON         IDI_TERMINATE_EAGLECE,IDC_STATIC,11,17,20,20
+    LTEXT        "Terminate_EagleCE 버전 1.0",IDC_STATIC,38,10,70,8,SS_NOPREFIX
+    LTEXT        "Copyright (C) 2017",IDC_STATIC,38,25,70,8
+END
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 118
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 대화 상자
+//
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+1 TEXTINCLUDE  
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE  
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE  
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#include ""Terminate_EagleCE.rc2""  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 문자열 테이블
+//
+
+STRINGTABLE  
+BEGIN
+   IDC_TERMINATE_EAGLECE   "TERMINATE_EAGLECE"
+   IDS_APP_TITLE    "Terminate_EagleCE"
+   IDS_TOOLS "Tools"
+END
+
+#endif
+/////////////////////////////////////////////////////////////////////////////
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE 3 리소스에서 생성되었습니다.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE 18, 1
+#pragma code_page(949)
+#include "Terminate_EagleCE.rc2"  // Microsoft Visual C++ 이외의 다른 도구에서 편집한 리소스입니다.
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // APSTUDIO_INVOKED가 아닙니다.

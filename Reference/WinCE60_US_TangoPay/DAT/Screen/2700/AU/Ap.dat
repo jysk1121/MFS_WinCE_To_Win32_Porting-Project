@@ -1,0 +1,3134 @@
+[SUPPORT]
+US_ENG=1
+US_SPN=1
+US_FRN=1
+US_CHN=1
+US_KOR=1
+US_JPN=1
+
+AU_ENG=1
+AU_SPN=1
+AU_FRN=1
+AU_CHN=1
+AU_KOR=1
+AU_JPN=1
+[/SUPPORT]
+
+[Resource]
+ExtraFont=KOR,Gulim,\ATM2\Fonts\gulim_1_30.ttc
+ExtraFont=CHN,Simsun,\ATM2\Fonts\Simsun.ttc
+ExtraFont=JPN,Simsun,\ATM2\Fonts\Simsun.ttc
+
+Color=C_ApTitle,0,0,0		; Ap Title Color
+Color=C_ApSubTitle,0,0,0	; Ap Sub Title Color
+Color=C_ApText,0,0,0		; Ap Text Color
+Color=C_ApTextFee,255,255,255	;
+Color=C_ApTextAccent,189,231,20	;
+Color=C_ApTextInBox,255,255,255	;
+Color=C_ApInputText,0,0,0	; Ap Input Text Color
+Color=C_ApCancel,255,0,0	; Ap Cancel Text Color
+Color=C_ApButton,0,0,0		; Ap Button text Color
+Color=C_ApReceipt,0,0,0		; Ap Button text Color
+Color=C_ApError,0,0,0		;
+Color=C_ApWeather,255,255,255
+Color=C_ApNoticeTitle,249,100,0
+Color=C_ApNoticeMsg,0,0,0
+Color=C_ApOutline,255,255,255
+Color=C_ApAttackText,255,0,0
+
+[RES_1024_600]
+Font=F_ApButtonGulim,Gulim,14,1
+Font=F_ApButtonSimsun,Simsun,14,1
+
+Font=F_ApTitle,Arial,18,1
+Font=F_ApMainTitle,Arial,15,1
+Font=F_ApSubTitle,Arial,13,1
+Font=F_ApMsg,Arial,13,1
+Font=F_ApGuideMsg,Arial,11,1
+Font=F_ApUnderMsg,Arial,9,1
+Font=F_ApText,Arial,9,1
+Font=F_ApButton,Arial,14,1
+Font=F_ApButtonSml,Arial,11,1
+Font=F_ApTextFee,Arial,10,1
+Font=F_ApReceipt,FIXEDFONT,15,1
+Font=F_ApWeatherAccent,Arial,12,2
+Font=F_ApWeatherNormal,Arial,9,2
+Font=F_ApNoticeTitle,Arial,14,1
+Font=F_ApNoticeMsg,Arial,12,1
+Font=F_ApOutOfService,Arial,20,2	; [#2186]
+
+Picture=US_ENG,I_AP_BACK_BOX,\1024_600\AP_BackBox.png
+Picture=US_ENG,I_AP_BACK_BOX2,\1024_600\AP_BackBox2.png
+Picture=US_ENG,I_AP_BACK_GUIDE_BOX,\1024_600\AP_BackGuideBox.png
+Picture=US_ENG,I_AP_BACK_QRCODE,\1024_600\AP_DigitalReceipt_QR.png		; QR code Back Image
+Picture=US_ENG,I_AP_INFO_NO_RECEIPT,\1024_600\AP_Info_NoReceipt.png
+Picture=US_ENG,I_AP_INFO_NO_CASH,\1024_600\AP_Info_NoCash.png
+Picture=US_ENG,I_AP_INFO_EMV_ON,\1024_600\AP_Info_EMVReady.png
+Picture=US_ENG,I_AP_DISPENSE_CASH,\1024_600\AP_Cash_Dispense.png
+Picture=US_ENG,I_AP_TAKE_CASH,\1024_600\AP_Cash_Take.png
+Picture=US_ENG,I_AP_PRINT_RECEIPT,\1024_600\AP_Receipt_Print.png
+Picture=US_ENG,I_AP_TAKE_RECEIPT,\1024_600\AP_Receipt_Take.png
+Picture=US_ENG,I_AP_ICON_LANGUAGE,\1024_600\AP_TopIcon_Language.png		; AP Icon Language
+Picture=US_ENG,I_AP_ICON_SELECTION,\1024_600\AP_TopIcon_Selection.png		; AP Icon Selection
+Picture=US_ENG,I_AP_ICON_PIN,\1024_600\AP_TopIcon_Pin.png			; AP Icon Pin
+Picture=US_ENG,I_AP_ICON_FEE,\1024_600\AP_TopIcon_Fee.png			; AP Icon Receipt
+Picture=US_ENG,I_AP_ICON_RECEIPT,\1024_600\AP_TopIcon_Receipt.png		; AP Icon Receipt
+Picture=US_ENG,I_AP_ICON_RECEIPT_ERR,\1024_600\AP_TopIcon_Receipt_Err.png	; AP Icon Receipt err
+Picture=US_ENG,I_AP_ICON_QUESTION,\1024_600\AP_TopIcon_Question.png		; AP Icon Question
+Picture=US_ENG,I_AP_ICON_INFO,\1024_600\AP_TopIcon_Info.png			; AP Icon Infomation
+Picture=US_ENG,I_AP_ICON_AMOUNT,\1024_600\AP_TopIcon_Amount.png			; AP Icon Amount Input (FastCash, Other Amount)
+Picture=US_ENG,I_AP_ICON_THANKS,\1024_600\AP_TopIcon_Thanks.png			; AP Icon Thanks
+Picture=US_ENG,I_AP_ICON_ERR_INFO,\1024_600\AP_PopIcon_Info.png			; AP Icon Infomation
+Picture=US_ENG,I_AP_ICON_ERR_STOP,\1024_600\AP_PopIcon_Stop.png			; AP Icon Infomation
+Picture=US_ENG,I_AP_ICON_ERR_QUESTION,\1024_600\AP_PopIcon_Question.png		; AP Icon Infomation
+Picture=US_ENG,I_AP_ICON_ARROW,\1024_600\AP_BotIcon_Arrow.png			; AP Icon Arror
+Picture=US_ENG,I_AP_ICON_DIGITALRECEIPT,\1024_600\AP_TopIcon_DigitalReceipt.png			; AP Icon Digital Receipt
+Picture=US_ENG,I_AP_BUTTONICON_PAPERRECEIPT,\1024_600\AP_Receipt_BtnIcon_PaperReceipt.png				; AP Icon Digital Receipt
+Picture=US_ENG,I_AP_BUTTONICON_DIGITALRECEIPT,\1024_600\AP_Receipt_BtnIcon_DigitalReceipt.png		; AP Icon Digital Receipt
+Picture=US_ENG,I_AP_BUTTONICON_NORECEIPT,\1024_600\AP_Receipt_BtnIcon_NoReceipt.png							; AP Icon Digital Receipt
+Picture=US_ENG,I_AP_TOP_LINE,\1024_600\AP_TopLine.png				; AP Top Line
+Picture=US_ENG,I_AP_INPUT_BOX,\1024_600\AP_InputBox.png
+Picture=US_ENG,I_AP_HOSTADV_BOX,\1024_600\AP_HostAdvBox.png
+Picture=US_ENG,I_AP_NOTICE_BOX,\1024_600\AP_NoticeBox.png
+Picture=US_ENG,I_AP_RECEIPT_PAPER,\1024_600\AP_Receipt_Paper.png
+Picture=US_ENG,I_AP_ERROR_BOX,\1024_600\AP_Error_Box.png
+Picture=US_ENG,I_AP_THANKS_BOX,\1024_600\AP_Thanks_Box.png
+Picture=US_ENG,I_AP_GUIDE_SAVEPAPER,\1024_600\AP_Guide_SavePaper_US_ENG.jpg
+Picture=US_SPN,I_AP_GUIDE_SAVEPAPER,\1024_600\AP_Guide_SavePaper_US_SPN.jpg
+Picture=US_FRN,I_AP_GUIDE_SAVEPAPER,\1024_600\AP_Guide_SavePaper_US_FRN.jpg
+Picture=US_CHN,I_AP_GUIDE_SAVEPAPER,\1024_600\AP_Guide_SavePaper_US_CHN.jpg
+Picture=US_KOR,I_AP_GUIDE_SAVEPAPER,\1024_600\AP_Guide_SavePaper_US_KOR.jpg
+Picture=US_JPN,I_AP_GUIDE_SAVEPAPER,\1024_600\AP_Guide_SavePaper_US_JPN.jpg
+Picture=US_ENG,I_AP_GUIDE_SAVEPAPER_TREE,\1024_600\AP_Guide_SavePaper_Tree_US_ENG.jpg
+Picture=US_SPN,I_AP_GUIDE_SAVEPAPER_TREE,\1024_600\AP_Guide_SavePaper_Tree_US_SPN.jpg
+Picture=US_FRN,I_AP_GUIDE_SAVEPAPER_TREE,\1024_600\AP_Guide_SavePaper_Tree_US_FRN.jpg
+Picture=US_CHN,I_AP_GUIDE_SAVEPAPER_TREE,\1024_600\AP_Guide_SavePaper_Tree_US_CHN.jpg
+Picture=US_KOR,I_AP_GUIDE_SAVEPAPER_TREE,\1024_600\AP_Guide_SavePaper_Tree_US_KOR.jpg
+Picture=US_JPN,I_AP_GUIDE_SAVEPAPER_TREE,\1024_600\AP_Guide_SavePaper_Tree_US_JPN.jpg
+
+Picture=US_ENG,I_AP_OUT_OF_SERVICE,\1024_600\AP_OutOfService.png
+Picture=US_ENG,I_AP_ADMINISTRATOR,\1024_600\AP_Administrator.png
+Picture=US_ENG,I_AP_ADA,\1024_600\AP_AudioGuidence.png
+Picture=US_ENG,I_AP_ATTACK1,\1024_600\AP_Attack1.png
+Picture=US_ENG,I_AP_ATTACK2,\1024_600\AP_Attack2.png
+Picture=US_ENG,I_AP_WEATHER_BACK_C,\1024_600\AP_Weather_BG_C.png
+Picture=US_ENG,I_AP_WEATHER_BACK_F,\1024_600\AP_Weather_BG_F.png
+Picture=US_ENG,I_AP_WEATHER_0,\1024_600\AP_Weather_icon_storm.png
+Picture=US_ENG,I_AP_WEATHER_1,\1024_600\AP_Weather_Icon_Rainsnow.png
+Picture=US_ENG,I_AP_WEATHER_2,\1024_600\AP_Weather_Icon_Rain.png
+Picture=US_ENG,I_AP_WEATHER_3,\1024_600\AP_Weather_Icon_Snow.png
+Picture=US_ENG,I_AP_WEATHER_4,\1024_600\AP_Weather_Icon_Fog.png
+Picture=US_ENG,I_AP_WEATHER_5,\1024_600\AP_Weather_Icon_Windy.png
+Picture=US_ENG,I_AP_WEATHER_6,\1024_600\AP_Weather_Icon_Cold.png
+Picture=US_ENG,I_AP_WEATHER_7,\1024_600\AP_Weather_Icon_Cloud.png
+Picture=US_ENG,I_AP_WEATHER_8,\1024_600\AP_Weather_Icon_PartlyCloud.png
+Picture=US_ENG,I_AP_WEATHER_9,\1024_600\AP_Weather_Icon_Clear.png
+Picture=US_ENG,I_AP_BUTTON_RED,\1024_600\AP_Button_red.png
+[/RES_1024_600]
+
+[LoadControl]
+On=Function
+
+[RES_1024_600]
+Picture=US_ENG,I_AP_BUTTON_LEFT,\1024_600\AP_Button_Left.jpg
+Picture=US_ENG,I_AP_BUTTON_RIGHT,\1024_600\AP_Button_Right.jpg
+; language buttons
+Picture=US_ENG,I_AP_BUTTON_ENGLISH,\1024_600\AP_Button_English_US_ENG.jpg
+Picture=US_ENG,I_AP_BUTTON_SPANISH,\1024_600\AP_Button_Spanish_US_ENG.jpg
+Picture=US_ENG,I_AP_BUTTON_FRENCH,\1024_600\AP_Button_French_US_ENG.jpg
+Picture=US_ENG,I_AP_BUTTON_KOREAN,\1024_600\AP_Button_Korean_US_ENG.jpg
+Picture=US_ENG,I_AP_BUTTON_CHINESE,\1024_600\AP_Button_Chinese_US_ENG.jpg
+Picture=US_ENG,I_AP_BUTTON_JAPANESE,\1024_600\AP_Button_Japanese_US_ENG.jpg
+
+Picture=US_ENG,I_AP_BUTTON_EXIT,\1024_600\AP_Button_Exit_US_ENG.jpg
+Picture=US_SPN,I_AP_BUTTON_EXIT,\1024_600\AP_Button_Exit_US_SPN.jpg
+Picture=US_FRN,I_AP_BUTTON_EXIT,\1024_600\AP_Button_Exit_US_FRN.jpg
+Picture=US_CHN,I_AP_BUTTON_EXIT,\1024_600\AP_Button_Exit_US_CHN.jpg
+Picture=US_KOR,I_AP_BUTTON_EXIT,\1024_600\AP_Button_Exit_US_KOR.jpg
+Picture=US_JPN,I_AP_BUTTON_EXIT,\1024_600\AP_Button_Exit_US_JPN.jpg
+
+Picture=US_ENG,I_AP_BUTTON_WITHDRAWAL,\1024_600\AP_Button_Withdrawal_US_ENG.jpg
+Picture=US_SPN,I_AP_BUTTON_WITHDRAWAL,\1024_600\AP_Button_Withdrawal_US_SPN.jpg
+Picture=US_FRN,I_AP_BUTTON_WITHDRAWAL,\1024_600\AP_Button_Withdrawal_US_FRN.jpg
+Picture=US_CHN,I_AP_BUTTON_WITHDRAWAL,\1024_600\AP_Button_Withdrawal_US_CHN.jpg
+Picture=US_KOR,I_AP_BUTTON_WITHDRAWAL,\1024_600\AP_Button_Withdrawal_US_KOR.jpg
+Picture=US_JPN,I_AP_BUTTON_WITHDRAWAL,\1024_600\AP_Button_Withdrawal_US_JPN.jpg
+
+Picture=US_ENG,I_AP_BUTTON_BALANCE,\1024_600\AP_Button_Balance_US_ENG.jpg
+Picture=US_SPN,I_AP_BUTTON_BALANCE,\1024_600\AP_Button_Balance_US_SPN.jpg
+Picture=US_FRN,I_AP_BUTTON_BALANCE,\1024_600\AP_Button_Balance_US_FRN.jpg
+Picture=US_CHN,I_AP_BUTTON_BALANCE,\1024_600\AP_Button_Balance_US_CHN.jpg
+Picture=US_KOR,I_AP_BUTTON_BALANCE,\1024_600\AP_Button_Balance_US_KOR.jpg
+Picture=US_JPN,I_AP_BUTTON_BALANCE,\1024_600\AP_Button_Balance_US_JPN.jpg
+Picture=AU_ENG,I_AP_BUTTON_BALANCE,\1024_600\AP_Button_Balance_AU_ENG.jpg
+
+Picture=US_ENG,I_AP_BUTTON_CHECKING,\1024_600\AP_Button_Checking_US_ENG.jpg
+Picture=US_SPN,I_AP_BUTTON_CHECKING,\1024_600\AP_Button_Checking_US_SPN.jpg
+Picture=US_FRN,I_AP_BUTTON_CHECKING,\1024_600\AP_Button_Checking_US_FRN.jpg
+Picture=US_CHN,I_AP_BUTTON_CHECKING,\1024_600\AP_Button_Checking_US_CHN.jpg
+;Picture=US_KOR,I_AP_BUTTON_CHECKING,\1024_600\AP_Button_Checking_US_KOR.jpg
+Picture=US_JPN,I_AP_BUTTON_CHECKING,\1024_600\AP_Button_Checking_US_JPN.jpg
+Picture=AU_ENG,I_AP_BUTTON_CHECKING,\1024_600\AP_Button_Checking_AU_ENG.jpg
+
+Picture=US_ENG,I_AP_BUTTON_SAVINGS,\1024_600\AP_Button_Savings_US_ENG.jpg
+Picture=US_SPN,I_AP_BUTTON_SAVINGS,\1024_600\AP_Button_Savings_US_SPN.jpg
+Picture=US_FRN,I_AP_BUTTON_SAVINGS,\1024_600\AP_Button_Savings_US_FRN.jpg
+Picture=US_CHN,I_AP_BUTTON_SAVINGS,\1024_600\AP_Button_Savings_US_CHN.jpg
+;Picture=US_KOR,I_AP_BUTTON_SAVINGS,\1024_600\AP_Button_Savings_US_KOR.jpg
+Picture=US_JPN,I_AP_BUTTON_SAVINGS,\1024_600\AP_Button_Savings_US_JPN.jpg
+
+Picture=US_ENG,I_AP_BUTTON_CREDIT,\1024_600\AP_Button_CreditCard_US_ENG.jpg
+Picture=US_SPN,I_AP_BUTTON_CREDIT,\1024_600\AP_Button_CreditCard_US_SPN.jpg
+Picture=US_FRN,I_AP_BUTTON_CREDIT,\1024_600\AP_Button_CreditCard_US_FRN.jpg
+Picture=US_CHN,I_AP_BUTTON_CREDIT,\1024_600\AP_Button_CreditCard_US_CHN.jpg
+;Picture=US_KOR,I_AP_BUTTON_CREDIT,\1024_600\AP_Button_CreditCard_US_KOR.jpg
+Picture=US_JPN,I_AP_BUTTON_CREDIT,\1024_600\AP_Button_CreditCard_US_JPN.jpg
+
+Picture=US_ENG,I_AP_BUTTON_YES,\1024_600\AP_Button_Yes_US_ENG.jpg
+Picture=US_SPN,I_AP_BUTTON_YES,\1024_600\AP_Button_Yes_US_SPN.jpg
+Picture=US_FRN,I_AP_BUTTON_YES,\1024_600\AP_Button_Yes_US_FRN.jpg
+Picture=US_CHN,I_AP_BUTTON_YES,\1024_600\AP_Button_Yes_US_CHN.jpg
+Picture=US_KOR,I_AP_BUTTON_YES,\1024_600\AP_Button_Yes_US_KOR.jpg
+Picture=US_JPN,I_AP_BUTTON_YES,\1024_600\AP_Button_Yes_US_JPN.jpg
+
+Picture=US_ENG,I_AP_BUTTON_YES_LEFT,\1024_600\AP_Button_Yes_US_ENG_Left.jpg
+Picture=US_SPN,I_AP_BUTTON_YES_LEFT,\1024_600\AP_Button_Yes_US_SPN_Left.jpg
+Picture=US_FRN,I_AP_BUTTON_YES_LEFT,\1024_600\AP_Button_Yes_US_FRN_Left.jpg
+Picture=US_CHN,I_AP_BUTTON_YES_LEFT,\1024_600\AP_Button_Yes_US_CHN_Left.jpg
+Picture=US_KOR,I_AP_BUTTON_YES_LEFT,\1024_600\AP_Button_Yes_US_KOR_Left.jpg
+Picture=US_JPN,I_AP_BUTTON_YES_LEFT,\1024_600\AP_Button_Yes_US_JPN_Left.jpg
+
+Picture=US_ENG,I_AP_BUTTON_NO,\1024_600\AP_Button_No_US_ENG.jpg
+Picture=US_SPN,I_AP_BUTTON_NO,\1024_600\AP_Button_No_US_SPN.jpg
+Picture=US_FRN,I_AP_BUTTON_NO,\1024_600\AP_Button_No_US_FRN.jpg
+Picture=US_CHN,I_AP_BUTTON_NO,\1024_600\AP_Button_No_US_CHN.jpg
+Picture=US_KOR,I_AP_BUTTON_NO,\1024_600\AP_Button_No_US_KOR.jpg
+Picture=US_JPN,I_AP_BUTTON_NO,\1024_600\AP_Button_No_US_JPN.jpg
+
+Picture=US_ENG,I_AP_BUTTON_OTHER,\1024_600\AP_Button_Other_US_ENG.jpg
+Picture=US_SPN,I_AP_BUTTON_OTHER,\1024_600\AP_Button_Other_US_SPN.jpg
+Picture=US_FRN,I_AP_BUTTON_OTHER,\1024_600\AP_Button_Other_US_FRN.jpg
+Picture=US_CHN,I_AP_BUTTON_OTHER,\1024_600\AP_Button_Other_US_CHN.jpg
+Picture=US_KOR,I_AP_BUTTON_OTHER,\1024_600\AP_Button_Other_US_KOR.jpg
+Picture=US_JPN,I_AP_BUTTON_OTHER,\1024_600\AP_Button_Other_US_JPN.jpg
+
+Picture=US_ENG,I_AP_BUTTON_OK,\1024_600\AP_Button_OK_US_ENG.jpg
+Picture=US_SPN,I_AP_BUTTON_OK,\1024_600\AP_Button_OK_US_SPN.jpg
+Picture=US_FRN,I_AP_BUTTON_OK,\1024_600\AP_Button_OK_US_FRN.jpg
+Picture=US_CHN,I_AP_BUTTON_OK,\1024_600\AP_Button_OK_US_CHN.jpg
+Picture=US_KOR,I_AP_BUTTON_OK,\1024_600\AP_Button_OK_US_KOR.jpg
+Picture=US_JPN,I_AP_BUTTON_OK,\1024_600\AP_Button_OK_US_JPN.jpg
+
+Picture=AU_ENG,I_AP_BUTTON_CANCEL,\1024_600\AP_Button_Cancel_AU_ENG.jpg
+Picture=AU_SPN,I_AP_BUTTON_CANCEL,\1024_600\AP_Button_Cancel_AU_SPN.jpg
+Picture=AU_FRN,I_AP_BUTTON_CANCEL,\1024_600\AP_Button_Cancel_AU_FRN.jpg
+Picture=AU_CHN,I_AP_BUTTON_CANCEL,\1024_600\AP_Button_Cancel_AU_CHN.jpg
+Picture=AU_KOR,I_AP_BUTTON_CANCEL,\1024_600\AP_Button_Cancel_AU_KOR.jpg
+Picture=AU_JPN,I_AP_BUTTON_CANCEL,\1024_600\AP_Button_Cancel_AU_JPN.jpg
+
+Picture=AU_ENG,I_AP_BUTTON_CONTINUE,\1024_600\AP_Button_Continue_AU_ENG.jpg
+Picture=AU_SPN,I_AP_BUTTON_CONTINUE,\1024_600\AP_Button_Continue_AU_SPN.jpg
+Picture=AU_FRN,I_AP_BUTTON_CONTINUE,\1024_600\AP_Button_Continue_AU_FRN.jpg
+Picture=AU_CHN,I_AP_BUTTON_CONTINUE,\1024_600\AP_Button_Continue_AU_CHN.jpg
+Picture=AU_KOR,I_AP_BUTTON_CONTINUE,\1024_600\AP_Button_Continue_AU_KOR.jpg
+Picture=AU_JPN,I_AP_BUTTON_CONTINUE,\1024_600\AP_Button_Continue_AU_JPN.jpg
+
+Picture=AU_ENG,I_AP_BUTTON_CONFIRM,\1024_600\AP_Button_Confirm_AU_ENG.jpg
+Picture=AU_SPN,I_AP_BUTTON_CONFIRM,\1024_600\AP_Button_Confirm_AU_SPN.jpg
+Picture=AU_FRN,I_AP_BUTTON_CONFIRM,\1024_600\AP_Button_Confirm_AU_FRN.jpg
+Picture=AU_CHN,I_AP_BUTTON_CONFIRM,\1024_600\AP_Button_Confirm_AU_CHN.jpg
+Picture=AU_KOR,I_AP_BUTTON_CONFIRM,\1024_600\AP_Button_Confirm_AU_KOR.jpg
+Picture=AU_JPN,I_AP_BUTTON_CONFIRM,\1024_600\AP_Button_Confirm_AU_JPN.jpg
+[/RES_1024_600]
+
+[LoadControl]
+Off=All
+
+
+[/Resource]
+
+;////////////////////////////
+;        AP Background I
+;////////////////////////////
+
+[Screen]
+ID=199900
+
+[AdvBox]
+Name=APValue1
+Pos=0,0,640,480
+[/AdvBox]
+
+[/Screen]
+
+;////////////////////////////
+;        AP Background II
+;////////////////////////////
+
+[Screen]
+ID=199901
+Back=199900
+
+[TextBox]
+Picture=I_AP_BACK_BOX
+Pos=133,180,375,239
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;        AP Background III
+;////////////////////////////
+
+[Screen]
+ID=199902
+Back=199900
+
+[TextBox]
+Picture=I_AP_BACK_GUIDE_BOX
+Pos=31,180,400,275
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;        AP Background IV
+;////////////////////////////
+
+[Screen]
+ID=199903
+Back=199900
+
+[TextBox]
+Picture=I_AP_BACK_GUIDE_BOX
+Pos=120,140,400,275
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;        AP Background V
+;////////////////////////////
+
+[Screen]
+ID=199904
+Back=199900
+
+[TextBox]
+Picture=I_AP_BACK_BOX2
+Pos=32,156,578,256
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;        INIT Screen
+;////////////////////////////
+
+[Screen]
+ID=INIT
+Back=199900
+
+[TextBox]
+Pos=0,12,640,468
+Font=F_ApTitle
+TextID=INITMSG
+Outline=1,C_ApOutline
+TextSet=0,CENTER,C_ApTitle
+[/TextBox]
+
+[/Screen]
+
+; Initialize.....
+;////////////////////////////
+;        001 Screen
+;////////////////////////////
+
+[Screen]
+ID=001
+Back=199900
+
+[TextBox]
+Pos=0,12,640,468
+Font=F_ApTitle
+Outline=1,C_ApOutline
+TextID=001001
+TextSet=0,CENTER,C_ApTitle
+[/TextBox]
+
+; initialzing device
+[TextBox]
+Pos=0,30,640,480
+Outline=1,C_ApOutline
+Font=F_ApUnderMsg
+Name=APValue3
+TextSet=1,CENTER,C_ApText
+[/TextBox]
+
+[AniBox]
+Pos=120,315,405,56
+Frame_1024_600=10,\1024_600\AP_Initialize_,PNG
+[/AniBox]
+
+[/Screen]
+
+; Out of Service ...
+;////////////////////////////
+;        002 Screen
+;////////////////////////////
+
+[Screen]
+ID=002
+Back=199900
+
+[TextBox]
+Pos=145,180,60,80
+Picture=I_AP_OUT_OF_SERVICE
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=220,184,420,40
+Outline=1,C_ApOutline
+Font=F_ApOutOfService
+TextID=002001
+TextSet=1,LEFT,C_ApOutofService
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=220,224,420,28
+Outline=1,C_ApOutline
+Font=F_ApMsg
+TextID=002002
+TextSet=1,LEFT,C_ApError
+[/TextBox]
+
+; Error Code
+[TextBox]
+Pos=145,274,350,40
+Outline=1,C_ApOutline
+Font=F_ApMsg
+Name=APValue3
+TextSet=1,CENTER,C_ApError
+[/TextBox]
+
+; Error Description
+[TextBox]
+Pos=145,324,350,40
+Outline=1,C_ApOutline
+Font=F_ApMsg
+Name=APValue4
+TextSet=1,CENTER,C_ApError
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;        003 Screen
+;////////////////////////////
+
+[Screen]
+ID=003
+Back=199900
+
+[TextBox]
+Pos=256,84,134,144
+Picture=I_AP_ADMINISTRATOR
+[/TextBox]
+
+[TextBox]
+Pos=0,12,640,468
+Font=F_ApTitle
+Outline=1,C_ApOutline
+TextID=003001
+TextSet=0,CENTER,C_ApTitle
+[/TextBox]
+
+[/Screen]
+
+; ADA Processing
+;////////////////////////////
+;        004 Screen
+;////////////////////////////
+
+[Screen]
+ID=004
+Back=199900
+
+[TextBox]
+Pos=258,84,130,148
+Picture=I_AP_ADA
+[/TextBox]
+
+[TextBox]
+Pos=0,248,640,40
+Font=F_ApTitle
+Outline=1,C_ApOutline
+TextID=004001
+TextSet=0,CENTER,C_ApTitle
+[/TextBox]
+
+[AniBox]
+Pos=120,315,405,56
+Frame_1024_600=10,\1024_600\AP_Waiting_,PNG
+[/AniBox]
+
+[KeyListBox]
+ListSet=1
+ListSet=2
+ListSet=3
+ListSet=4
+ListSet=5
+ListSet=6
+ListSet=7
+ListSet=8
+ListSet=9
+ListSet=0
+ListSet=ENTER
+ListSet=CANCEL
+ListSet=CLEAR
+[/KeyListBox]
+
+[/Screen]
+
+; RMS Processing
+;////////////////////////////
+;        005 Screen
+;////////////////////////////
+
+[Screen]
+ID=005
+Back=199900
+
+[TextBox]
+Pos=0,12,640,468
+Font=F_ApTitle
+Outline=1,C_ApOutline
+TextID=005001
+TextSet=0,CENTER,C_ApTitle
+[/TextBox]
+
+[AniBox]
+Pos=120,315,405,56
+Frame_1024_600=10,\1024_600\AP_Initialize_,PNG
+[/AniBox]
+
+[/Screen]
+
+; Stop Attacking
+;////////////////////////////
+;        006 Screen
+;////////////////////////////
+
+[Screen]
+ID=006
+Back=199900
+
+[TextBox]
+Pos=291,80,70,108
+Picture=I_AP_ATTACK1
+[/TextBox]
+
+[TextBox]
+Pos=125,208,60,72
+Picture=I_AP_ATTACK2
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=191,208,449,40
+Outline=1,C_ApOutline
+Font=F_ApOutOfService
+TextID=006001
+TextSet=1,LEFT,C_ApAttack
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=191,248,449,28
+Outline=1,C_ApOutline
+Font=F_ApTextFee
+TextID=006002
+TextSet=1,LEFT,C_ApError
+[/TextBox]
+
+[AniBox]
+Pos=120,315,405,56
+Frame_1024_600=10,\1024_600\AP_Waiting_,PNG
+[/AniBox]
+
+[/Screen]
+
+; Out of Service with QR Image
+;////////////////////////////
+;        007 Screen
+;////////////////////////////
+
+[Screen]
+ID=007
+Back=199900
+
+[TextBox]
+Pos=145,30,60,80
+Picture=I_AP_OUT_OF_SERVICE
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=220,34,420,40
+Outline=1,C_ApOutline
+Font=F_ApOutOfService
+TextID=002001
+TextSet=1,LEFT,C_ApOutofService
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=220,74,420,28
+Outline=1,C_ApOutline
+Font=F_ApMsg
+TextID=002002
+TextSet=1,LEFT,C_ApError
+[/TextBox]
+
+; Error Code
+[TextBox]
+Pos=145,120,350,40
+Outline=1,C_ApOutline
+Font=F_ApMsg
+Name=APValue3
+TextSet=1,CENTER,C_ApError
+[/TextBox]
+
+; Error Description
+[TextBox]
+Pos=145,170,350,40
+Outline=1,C_ApOutline
+Font=F_ApMsg
+Name=APValue4
+TextSet=1,CENTER,C_ApError
+[/TextBox]
+
+; Back Image
+[TextBox]
+Picture=I_AP_BACK_QRCODE
+Pos=235,242,173,225
+[/TextBox]
+
+; QR Code
+[TranAdvBox]
+Pos=240,250,160,200
+[/TranAdvBox]
+
+[/Screen]
+
+;////////////////////////////
+;        008 Screen
+;////////////////////////////
+
+[Screen]
+ID=008
+Back=199900
+[/Screen]
+
+;////////////////////////////
+;       101 Screen
+;////////////////////////////
+
+[Screen]
+ID=101
+Back=199900
+
+; WeatherBox
+;[WeatherBox]
+;BackPos=0,0,640,84
+;TitlePos=0,27,31,104,26
+;TitlePos=1,336,31,104,26
+;DatePos=0,27,58,104,22
+;DatePos=1,336,58,104,22
+;WeatherPos=0,131,11,85,84
+;WeatherPos=1,440,11,85,84
+;TemperPos=0,195,32,34,48
+;TemperPos=1,252,32,34,48
+;TemperPos=2,504,32,34,48
+;TemperPos=3,562,32,34,48
+;NormalSet=F_ApWeatherNormal,C_ApWeather
+;AccentSet=F_ApWeatherAccent,C_ApWeather
+;BackImg=C,I_AP_WEATHER_BACK_C
+;BackImg=F,I_AP_WEATHER_BACK_F
+;WeatherImg=0,I_AP_WEATHER_0
+;WeatherImg=1,I_AP_WEATHER_1
+;WeatherImg=2,I_AP_WEATHER_2
+;WeatherImg=3,I_AP_WEATHER_3
+;WeatherImg=4,I_AP_WEATHER_4
+;WeatherImg=5,I_AP_WEATHER_5
+;WeatherImg=6,I_AP_WEATHER_6
+;WeatherImg=7,I_AP_WEATHER_7
+;WeatherImg=8,I_AP_WEATHER_8
+;WeatherImg=9,I_AP_WEATHER_9
+;[/WeatherBox]
+
+; Val 6. Surcharge Notice Msg
+[TextBox]
+Name=APValue6
+Pos=29,0,583,84
+Outline=1,C_ApOutline
+Font=F_ApText
+TextSet=1,CENTER,C_ApText
+[/TextBox]
+
+; Val 1. Normal Msg / Welcome
+[TextBox]
+Name=APValue1
+Pos=29,85,583,93
+Outline=1,C_ApOutline
+Font=F_ApMainTitle
+TextSet=1,CENTER,C_ApText
+[/TextBox]
+
+; Val 2. Short Guide Msg
+[TextBox]
+Name=APValue2
+Pos=29,185,583,27
+Outline=1,C_ApOutline
+Font=F_ApSubTitle
+TextSet=0,CENTER,C_ApText
+[/TextBox]
+
+; Card Image
+[AniBox]
+Pos=235,220,170,208
+Name=APState2
+Frame_1024_600=10,\1024_600\AP_Card_,PNG
+[/AniBox]
+
+; Card Image
+[AniBox]
+Pos=235,220,170,208
+Name=APState3
+Frame_1024_600=10,\1024_600\AP_Card_IC_,PNG
+[/AniBox]
+
+; Card Image
+[AniBox]
+Pos=235,220,170,208
+Name=APState4
+Frame_1024_600=10,\1024_600\AP_Card_Take_,PNG
+[/AniBox]
+
+;[LoadControl]
+;On=Function
+
+;[LoadControl]
+;Off=All
+
+; Val 3. [device status]
+[ImageListBox]
+Name=APValue3
+Pos=450,284,140,48
+ListSet=RECEIPT_NO,I_AP_INFO_NO_RECEIPT
+ListSet=CASH_NO,I_AP_INFO_NO_CASH
+[/ImageListBox]
+
+; Val 4. [device status]
+[ImageListBox]
+Name=APValue4
+Pos=450,352,140,48
+ListSet=RECEIPT_NO,I_AP_INFO_NO_RECEIPT
+ListSet=CASH_NO,I_AP_INFO_NO_CASH
+[/ImageListBox]
+
+; Val 5. [EMV READY]
+;[ImageListBox]
+;Pos=450,330,55,70
+;Name=APValue5
+;ListSet=EMV_ON,I_AP_INFO_EMV_ON
+;[/ImageListBox]
+
+[/Screen]
+
+;////////////////////////////
+;       102 Screen
+;////////////////////////////
+
+[Screen]
+ID=102
+Back=199900
+
+; Icon - Language
+[TextBox]
+Picture=I_AP_ICON_LANGUAGE
+Pos=35,12,50,64
+[/TextBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=32,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+Name=APValue2
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=45,97,550,70
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; F1 (CHINESE)
+[Button]
+Name=APValue7
+Act=FSCMD,N,F1
+ActKey=F1
+Pos=7,180,181,53
+Picture=I_AP_BUTTON_LEFT
+Font=F_ApButtonSimsun
+TextSet=0,CENTER,C_ApText
+[/Button]
+
+; F2 (ENGLISH)
+[Button]
+Name=APValue4
+Act=FSCMD,N,F2
+ActKey=F2
+Pos=460,180,181,53
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=0,CENTER,C_ApText
+[/Button]
+
+; F3 (KOREAN)
+[Button]
+Name=APValue8
+Act=FSCMD,N,F3
+ActKey=F3
+Pos=7,266,181,53
+Picture=I_AP_BUTTON_LEFT
+Font=F_ApButtonGulim
+TextSet=0,CENTER,C_ApText
+[/Button]
+
+; F4 (SPANISH)
+[Button]
+Name=APValue5
+Act=FSCMD,N,F4
+ActKey=F4
+Pos=460,266,181,53
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=0,CENTER,C_ApText
+[/Button]
+
+; F5 (JAPANESE)
+[Button]
+Name=APValue9
+Act=FSCMD,N,F5
+ActKey=F5
+Pos=7,349,181,53
+Picture=I_AP_BUTTON_LEFT
+Font=F_ApButtonSimsun
+TextSet=0,CENTER,C_ApText
+[/Button]
+
+; F6 (FRENCH)
+[Button]
+Name=APValue6
+Act=FSCMD,N,F6
+ActKey=F6
+Pos=460,349,181,53
+Picture=I_AP_BUTTON_RIGHT
+Font=F_ApButton
+TextSet=0,CENTER,C_ApText
+[/Button]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Pos=460,425,181,53
+Picture=I_AP_BUTTON_RED
+Font=F_ApButton
+TextSet=0,CENTER,C_ApTextInBox
+TextID="Exit"
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       103 Screen
+;////////////////////////////
+
+[Screen]
+ID=103
+Back=199901
+
+; Icon - PIN
+[TextBox]
+Picture=I_AP_ICON_PIN
+Pos=35,12,50,64
+[/TextBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=32,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+Name=APValue2
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=45,97,550,70
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; Under Guide
+[TextBox]
+Pos=155,198,330,60
+Font=F_ApUnderMsg
+Name=APValue4
+TextSet=1,CENTER,C_ApTextFee
+[/TextBox]
+
+; Attack Guide
+[TextBox]
+Pos=155,310,330,60
+Font=F_ApUnderMsg
+Name=APValue5
+TextSet=1,CENTER,C_ApAttackText
+[/TextBox]
+
+[LoadControl]
+On=Function
+
+; CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=CANCEL
+[/Button]
+
+; Invalid PIN length
+[Button]
+Act=FSCMD,N,PINRETRY
+ActKey=PINRETRY
+[/Button]
+
+; Invalid PIN length
+[Button]
+Act=FSCMD,N,FIRSTUSERINPUT
+ActKey=FIRSTUSERINPUT
+[/Button]
+
+[LoadControl]
+Off=All
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+; PASSWORD
+[EditBox]
+ActKey=ENTER
+Act=FSCMD,N,PIN
+AutoRun=1
+AFocus=1
+Font=F_ApTitle
+MaxInChar=12
+TextSet=0,CENTER,C_ApInputText
+Picture=I_AP_INPUT_BOX
+Pos=185,253,278,52
+Type=PASSWORD
+[/EditBox]
+
+; Bottom Arrow
+[TextBox]
+Pos=310,376,20,24
+Picture=I_AP_ICON_ARROW
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;       105 Screen
+;////////////////////////////
+
+[Screen]
+ID=105
+Back=199900
+
+; Icon - Selection
+[TextBox]
+Picture=I_AP_ICON_SELECTION
+Pos=35,12,50,64
+[/TextBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=32,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+Name=APValue2
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=49,97,543,70
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+[LoadControl]
+On=Function
+
+; F2
+[ButtonImageListBox]
+Act=FSCMD,N
+ActKey=F2,5
+Name=APValue4
+Pos=460,180,181,53
+ListSet=WITHDRAWAL,I_AP_BUTTON_WITHDRAWAL
+ListSet=BALANCE,I_AP_BUTTON_BALANCE
+[/ButtonImageListBox]
+
+; F4
+[ButtonImageListBox]
+Act=FSCMD,N
+ActKey=F4,6
+Name=APValue5
+Pos=460,266,181,53
+ListSet=WITHDRAWAL,I_AP_BUTTON_WITHDRAWAL
+ListSet=BALANCE,I_AP_BUTTON_BALANCE
+[/ButtonImageListBox]
+
+; CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=CANCEL
+[/Button]
+
+[LoadControl]
+Off=All
+
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       106 Screen
+;////////////////////////////
+
+[Screen]
+ID=106
+Back=199902
+
+; Icon - RECEIPT
+[TextBox]
+Picture=I_AP_ICON_RECEIPT
+Pos=35,12,50,64
+[/TextBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=32,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+TextID=106001
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=45,97,550,70
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue4
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+;[TextBox]
+;Picture=I_AP_GUIDE_SAVEPAPER
+;Pos=45,220,365,200
+;[/TextBox]
+
+[ImageListBox]
+Name=APValue7
+Pos=45,220,365,200
+ListSet=SAVEPAPER_DRECEIPT,I_AP_GUIDE_SAVEPAPER
+ListSet=SAVEPAPER_TREE,I_AP_GUIDE_SAVEPAPER_TREE
+[/ImageListBox]
+
+; F2
+[Button]
+Act=FSCMD,N,YES
+ActKey=F2,5
+Name=APValue1
+Font=F_ApButton
+Outline=1,C_ApOutline
+Picture=I_AP_BUTTON_RIGHT
+Pos=460,180,181,53
+TextSet=1,CENTER,C_ApButton
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,N,QRCODE
+ActKey=F4,6
+Name=APValue2
+Font=F_ApButton
+Outline=1,C_ApOutline
+Picture=I_AP_BUTTON_RIGHT
+Pos=460,266,181,53
+TextSet=1,CENTER,C_ApButton
+[/Button]
+
+; F6
+[Button]
+Act=FSCMD,N,NO
+ActKey=F6,7
+Name=APValue3
+Font=F_ApButton
+Outline=1,C_ApOutline
+Picture=I_AP_BUTTON_RIGHT
+Pos=460,352,181,53
+TextSet=1,CENTER,C_ApButton
+[/Button]
+
+; CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=CANCEL
+[/Button]
+
+; F2 Button Icon
+[Button]
+Picture=I_AP_BUTTONICON_PAPERRECEIPT
+Name=APState4
+Pos=462,186,31,40
+[/Button]
+
+; F4 Button Icon
+[Button]
+Picture=I_AP_BUTTONICON_DIGITALRECEIPT
+Name=APState5
+Pos=462,272,31,40
+[/Button]
+
+; F6 Button Icon
+[Button]
+Picture=I_AP_BUTTONICON_NORECEIPT
+Name=APState6
+Pos=462,358,31,40
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       107 Screen
+;////////////////////////////
+
+[Screen]
+ID=107
+Back=199900
+
+; Icon - List
+[ImageListBox]
+Name=APValue1
+Pos=35,12,50,64
+ListSet=RECEIPT,I_AP_ICON_RECEIPT
+ListSet=RECEIPT_ERR,I_AP_ICON_RECEIPT_ERR
+ListSet=QUESTION,I_AP_ICON_QUESTION
+ListSet=INFO,I_AP_ICON_INFO
+[/ImageListBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=32,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+Name=APValue2
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=49,97,543,70
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; F2
+[Button]
+Act=FSCMD,N,YES
+ActKey=F2,5
+Picture=I_AP_BUTTON_YES
+Pos=460,180,181,53
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,N,NO
+ActKey=F4,6
+Picture=I_AP_BUTTON_NO
+Pos=460,266,181,53
+[/Button]
+
+; CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=CANCEL
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       108 Screen
+;////////////////////////////
+
+[Screen]
+ID=108
+Back=199900
+
+; Icon - List
+[ImageListBox]
+Name=APValue1
+Pos=35,12,50,64
+ListSet=RECEIPT,I_AP_ICON_RECEIPT
+ListSet=RECEIPT_ERR,I_AP_ICON_RECEIPT_ERR
+ListSet=QUESTION,I_AP_ICON_QUESTION
+ListSet=INFO,I_AP_ICON_INFO
+[/ImageListBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=32,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+Name=APValue2
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=49,97,543,70
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; F2
+[Button]
+Act=FSCMD,N,YES
+ActKey=F2,5
+Picture=I_AP_BUTTON_YES
+Pos=460,180,181,53
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,N,NO
+ActKey=F4,6
+Picture=I_AP_BUTTON_NO
+Pos=460,266,181,53
+[/Button]
+
+; CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=CANCEL
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       109 Screen
+;////////////////////////////
+
+[Screen]
+ID=109
+Back=199903
+
+; Icon - Selection
+[TextBox]
+Picture=I_AP_ICON_FEE
+Pos=35,12,50,64
+[/TextBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=31,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+Name=APValue2
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=49,92,543,40
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; Guide
+[TextBox]
+Pos=130,164,360,25
+Font=F_ApTextFee
+Name=APValue4
+TextSet=1,CENTER,C_ApTextFee
+[/TextBox]
+
+; Fee
+[TextBox]
+Pos=130,189,360,25
+Font=F_ApTextFee
+Name=APValue5
+TextSet=1,CENTER,C_ApTextAccent
+[/TextBox]
+
+; Guide
+[TextBox]
+Pos=130,219,360,25
+Font=F_ApTextFee
+Name=APValue6
+TextSet=1,CENTER,C_ApTextFee
+[/TextBox]
+
+; Owner
+[TextBox]
+Pos=130,244,360,25
+Font=F_ApTextFee
+Name=APValue7
+TextSet=1,CENTER,C_ApTextAccent
+[/TextBox]
+
+; Contact Info1
+[TextBox]
+Pos=130,274,360,20
+Font=F_ApText
+Name=APValue8
+TextSet=1,CENTER,C_ApTextAccent
+[/TextBox]
+
+; Contact Info2
+[TextBox]
+Pos=130,294,360,20
+Font=F_ApText
+Name=APValue9
+TextSet=1,CENTER,C_ApTextAccent
+[/TextBox]
+
+; Contact Info3
+[TextBox]
+Pos=130,314,360,20
+Font=F_ApText
+Name=APValue10
+TextSet=1,CENTER,C_ApTextAccent
+[/TextBox]
+
+; Guide
+[TextBox]
+Pos=130,344,360,50
+Font=F_ApTextFee
+Name=APValue11
+TextSet=1,CENTER,C_ApTextFee
+[/TextBox]
+
+; F7, NO
+[Button]
+Act=FSCMD,N,NO
+ActKey=F7,4,CANCEL
+Picture=I_AP_BUTTON_CANCEL
+Pos=0,425,181,53
+[/Button]
+
+; F8, YES
+[Button]
+Act=FSCMD,N,YES
+ActKey=F8,8
+Picture=I_AP_BUTTON_CONTINUE
+Pos=460,425,181,53
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       110 Screen
+;////////////////////////////
+
+[Screen]
+ID=110
+Back=199903
+
+;Icon - Selection
+[TextBox]
+Picture=I_AP_ICON_FEE
+Pos=35,12,50,64
+[/TextBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=31,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+Name=APValue2
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=49,92,543,40
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; Guide
+[TextBox]
+Pos=130,214,360,52
+Font=F_ApTextFee
+Name=APValue4
+TextSet=1,CENTER,C_ApTextFee
+[/TextBox]
+
+; Fee
+[TextBox]
+Pos=130,258,360,24
+Font=F_ApTextFee
+Name=APValue5
+TextSet=1,CENTER,C_ApTextAccent
+[/TextBox]
+
+; Guide
+[TextBox]
+Pos=130,282,360,52
+Font=F_ApTextFee
+Name=APValue6
+TextSet=1,CENTER,C_ApTextFee
+[/TextBox]
+
+; F7, NO
+[Button]
+Act=FSCMD,N,NO
+ActKey=F7,4,CANCEL
+Picture=I_AP_BUTTON_CANCEL
+Pos=0,425,181,53
+[/Button]
+
+; F8, YES
+[Button]
+Act=FSCMD,N,YES
+ActKey=F8,8
+Picture=I_AP_BUTTON_CONTINUE
+Pos=460,425,181,53
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       111 Screen
+;////////////////////////////
+
+[Screen]
+ID=111
+Back=199900
+
+; Icon - Selection
+[TextBox]
+Picture=I_AP_ICON_SELECTION
+Pos=35,12,50,64
+[/TextBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=31,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+Name=APValue2
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=49,97,543,70
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; F2
+[Button]
+Act=FSCMD,N,F2
+ActKey=F2
+Font=F_ApButton
+Name=APValue4
+Pos=460,180,181,53
+Picture=I_AP_BUTTON_RIGHT
+TextSet=1,CENTER,C_ApButton
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,N,F4
+ActKey=F4
+Font=F_ApButton
+Name=APValue5
+Pos=460,266,181,53
+Picture=I_AP_BUTTON_RIGHT
+TextSet=0,CENTER,C_ApButton
+[/Button]
+
+; F6
+[Button]
+Act=FSCMD,N,F6
+ActKey=F6
+Font=F_ApButton
+Name=APValue6
+Pos=460,349,181,53
+Picture=I_AP_BUTTON_RIGHT
+TextSet=0,CENTER,C_ApButton
+[/Button]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL
+Font=F_ApButton
+TextSet=0,CENTER,C_ApTextInBox
+TextID="Exit"
+Pos=460,425,181,53
+Picture=I_AP_BUTTON_RED
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       112 Screen
+;////////////////////////////
+
+[Screen]
+ID=112
+Back=199900
+
+; Icon - Amount
+[TextBox]
+Picture=I_AP_ICON_AMOUNT
+Pos=35,12,50,64
+[/TextBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=31,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+Name=APValue2
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=49,97,543,70
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; F1
+[Button]
+Act=FSCMD,N
+ActKey=F1,1
+Font=F_ApButton
+Name=APValue4
+Pos=0,180,181,53
+Picture=I_AP_BUTTON_LEFT
+TextSet=0,RIGHT,C_ApButton
+[/Button]
+
+; F2
+[Button]
+Act=FSCMD,N
+ActKey=F2,5
+Font=F_ApButton
+Name=APValue5
+Pos=460,180,181,53
+Picture=I_AP_BUTTON_RIGHT
+TextSet=0,LEFT,C_ApButton
+[/Button]
+
+; F3
+[Button]
+Act=FSCMD,N
+ActKey=F3,2
+Font=F_ApButton
+Name=APValue6
+Pos=0,266,181,53
+Picture=I_AP_BUTTON_LEFT
+TextSet=0,RIGHT,C_ApButton
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,N
+ActKey=F4,6
+Font=F_ApButton
+Name=APValue7
+Pos=460,266,181,53
+Picture=I_AP_BUTTON_RIGHT
+TextSet=0,LEFT,C_ApButton
+[/Button]
+
+; F5
+[Button]
+Act=FSCMD,N
+ActKey=F5,3
+Font=F_ApButton
+Name=APValue8
+Pos=0,349,181,53
+Picture=I_AP_BUTTON_LEFT
+TextSet=0,RIGHT,C_ApButton
+[/Button]
+
+; F6
+[Button]
+Act=FSCMD,N
+ActKey=F6,7
+Font=F_ApButton
+Name=APValue9
+Pos=460,349,181,53
+Picture=I_AP_BUTTON_RIGHT
+TextSet=0,LEFT,C_ApButton
+[/Button]
+
+; F7, OTHER
+[Button]
+Act=FSCMD,N,OTHER
+ActKey=F7,4
+Picture=I_AP_BUTTON_OTHER
+Pos=0,425,181,53
+[/Button]
+
+; CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=CANCEL
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       113 Screen
+;////////////////////////////
+
+[Screen]
+ID=113
+Back=199901
+
+; Icon - Amount
+[TextBox]
+Picture=I_AP_ICON_AMOUNT
+Pos=35,12,50,64
+[/TextBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=31,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+Name=APValue2
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=49,97,543,70
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; Guide 1
+[TextBox]
+Pos=185,199,160,33
+Font=F_ApGuideMsg
+Name=APValue6
+TextSet=0,LEFT,C_ApTextInBox
+[/TextBox]
+
+; Amount 1
+[TextBox]
+Pos=345,199,120,33
+Font=F_ApGuideMsg
+Name=APValue7
+TextSet=0,LEFT,C_ApTextInBox
+[/TextBox]
+
+; Guide 2
+[TextBox]
+Pos=185,232,160,33
+Font=F_ApGuideMsg
+Name=APValue8
+TextSet=0,LEFT,C_ApTextInBox
+[/TextBox]
+
+; Amount 2
+[TextBox]
+Pos=345,232,120,33
+Font=F_ApGuideMsg
+Name=APValue9
+TextSet=0,LEFT,C_ApTextInBox
+[/TextBox]
+
+; CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=CANCEL
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[AmountBox]
+Act=FSCMD,N,
+ActKey=ENTER
+AFocus=1
+Font=F_ApTitle
+Pos=185,273,278,52
+SymbolName=APValue4
+AmountName=APValue5
+InputMaxName=APValue11
+InputMinName=APValue10
+AutoRunName=APValue12
+TextSet=0,CENTER,C_ApInputText
+Picture=I_AP_INPUT_BOX
+[/AmountBox]
+
+[/Screen]
+
+;////////////////////////////
+;       114 Screen
+;////////////////////////////
+
+[Screen]
+ID=114
+Back=199900
+
+;Icon - Selection
+[TextBox]
+Picture=I_AP_ICON_SELECTION
+Pos=35,12,50,64
+[/TextBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=31,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+Name=APValue2
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=49,97,543,70
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; F2
+[Button]
+Act=FSCMD,N,F2
+ActKey=F2
+Font=F_ApButton
+Name=APValue4
+Pos=460,180,181,53
+Picture=I_AP_BUTTON_RIGHT
+TextSet=1,CENTER,C_ApButton
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,N,F4
+ActKey=F4
+Font=F_ApButton
+Name=APValue5
+Pos=460,266,181,53
+Picture=I_AP_BUTTON_RIGHT
+TextSet=0,CENTER,C_ApButton
+[/Button]
+
+; F6
+[Button]
+Act=FSCMD,N,F6
+ActKey=F6
+Font=F_ApButton
+Name=APValue6
+Pos=460,349,181,53
+Picture=I_AP_BUTTON_RIGHT
+TextSet=0,CENTER,C_ApButton
+[/Button]
+
+; CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=CANCEL
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       115 Screen
+;////////////////////////////
+
+[Screen]
+ID=115
+Back=199900
+
+; Icon - Selection
+[TextBox]
+Picture=I_AP_ICON_SELECTION
+Pos=35,12,50,64
+[/TextBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=31,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+Name=APValue2
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=49,97,543,70
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; F2
+[Button]
+Act=FSCMD,N,F2
+ActKey=F2
+Font=F_ApButton
+Name=APValue7
+Pos=460,180,181,53
+Picture=I_AP_BUTTON_RIGHT
+TextSet=1,CENTER,C_ApButton
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,N,F4
+ActKey=F4
+Font=F_ApButton
+Name=APValue8
+Pos=460,266,181,53
+Picture=I_AP_BUTTON_RIGHT
+TextSet=0,CENTER,C_ApButton
+[/Button]
+
+; F6
+[Button]
+Act=FSCMD,N,F6
+ActKey=F6
+Font=F_ApButton
+Name=APValue9
+Pos=460,349,181,53
+Picture=I_AP_BUTTON_RIGHT
+TextSet=0,CENTER,C_ApButton
+[/Button]
+
+; CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=CANCEL
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       116 Screen
+;////////////////////////////
+
+[Screen]
+ID=116
+Back=199900
+
+; Sub Title
+[TextBox]
+Pos=45,52,550,56
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+[AniBox]
+Name=APState1
+Pos=95,148,455,216
+Frame_1024_600=6,\1024_600\AP_Host_,PNG
+[/AniBox]
+
+[Button]
+Name=APState2
+Picture=I_AP_HOSTADV_BOX
+Pos=72,112,498,292
+[/Button]
+
+[TranAdvBox]
+Pos=85,141,471,180
+[/TranAdvBox]
+
+[AniBox]
+Name=APState3
+Pos=85,322,471,56
+Frame_1024_600=6,\1024_600\AP_Host_Adv_,JPG
+[/AniBox]
+
+; Under
+[TextBox]
+Pos=45,404,550,56
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue5
+TextSet=1,CENTER,C_ApText
+[/TextBox]
+
+[/Screen]
+
+
+;////////////////////////////
+;       117 Screen
+;////////////////////////////
+
+[Screen]
+ID=117
+Back=199900
+
+; Sub Title
+[TextBox]
+Pos=45,107,550,56
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; Dispense
+[TextBox]
+Picture=I_AP_DISPENSE_CASH
+Pos=130,188,375,224
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;       118 Screen
+;////////////////////////////
+
+[Screen]
+ID=118
+Back=199900
+
+; Sub Title
+[TextBox]
+Pos=45,107,550,56
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; Take a Cash
+[TextBox]
+Picture=I_AP_TAKE_CASH
+Pos=130,188,375,224
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;       119 Screen
+;////////////////////////////
+
+[Screen]
+ID=119
+Back=199900
+
+; Sub Title
+[TextBox]
+Pos=45,107,550,56
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; Print
+[TextBox]
+Picture=I_AP_PRINT_RECEIPT
+Pos=225,196,195,212
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;       120 Screen
+;////////////////////////////
+
+[Screen]
+ID=120
+Back=199900
+
+; Sub Title
+[TextBox]
+Pos=45,107,550,56
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; Take
+[TextBox]
+Picture=I_AP_TAKE_RECEIPT
+Pos=225,196,195,212
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;       121 Screen
+;////////////////////////////
+
+[Screen]
+ID=121
+Back=199900
+
+; Receipt Paper
+[TextBox]
+Picture=I_AP_RECEIPT_PAPER
+Pos=135,4,370,416
+[/TextBox]
+
+; Line 1
+[TextBox]
+Pos=155,110,340,22
+Font=F_ApReceipt
+Name=APValue1
+TextSet=0,LEFT,C_ApReceipt
+[/TextBox]
+
+; Line 2
+[TextBox]
+Pos=155,132,340,22
+Font=F_ApReceipt
+Name=APValue2
+TextSet=0,LEFT,C_ApReceipt
+[/TextBox]
+
+; Line 3
+[TextBox]
+Pos=155,154,340,22
+Font=F_ApReceipt
+Name=APValue3
+TextSet=0,LEFT,C_ApReceipt
+[/TextBox]
+
+; Line 4
+[TextBox]
+Pos=155,176,340,22
+Font=F_ApReceipt
+Name=APValue4
+TextSet=0,LEFT,C_ApReceipt
+[/TextBox]
+
+; Line 5
+[TextBox]
+Pos=155,198,340,22
+Font=F_ApReceipt
+Name=APValue5
+TextSet=0,LEFT,C_ApReceipt
+[/TextBox]
+
+; Line 6
+[TextBox]
+Pos=155,220,340,22
+Font=F_ApReceipt
+Name=APValue6
+TextSet=0,LEFT,C_ApReceipt
+[/TextBox]
+
+; Line 7
+[TextBox]
+Pos=155,242,340,22
+Font=F_ApReceipt
+Name=APValue7
+TextSet=0,LEFT,C_ApReceipt
+[/TextBox]
+
+; Line 8
+[TextBox]
+Pos=155,264,340,22
+Font=F_ApReceipt
+Name=APValue8
+TextSet=0,LEFT,C_ApReceipt
+[/TextBox]
+
+; Line 9
+[TextBox]
+Pos=155,286,340,22
+Font=F_ApReceipt
+Name=APValue9
+TextSet=0,LEFT,C_ApReceipt
+[/TextBox]
+
+; Line 10
+[TextBox]
+Pos=155,308,340,22
+Font=F_ApReceipt
+Name=APValue10
+TextSet=0,LEFT,C_ApReceipt
+[/TextBox]
+
+; Line 11
+[TextBox]
+Pos=155,330,340,22
+Font=F_ApReceipt
+Name=APValue11
+TextSet=0,LEFT,C_ApReceipt
+[/TextBox]
+
+; Line 12
+[TextBox]
+Pos=155,352,340,22
+Font=F_ApReceipt
+Name=APValue12
+TextSet=0,LEFT,C_ApReceipt
+[/TextBox]
+
+; Line 13
+[TextBox]
+Pos=155,374,340,22
+Font=F_ApReceipt
+Name=APValue13
+TextSet=0,LEFT,C_ApReceipt
+[/TextBox]
+
+; F8, OK
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL,ENTER,4
+Font=F_ApButton
+Outline=1,C_ApOutline
+TextID=121F8
+Picture=I_AP_BUTTON_RIGHT
+TextSet=0,CENTER,C_ApButton
+Pos=460,425,181,53
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       122 Screen
+;////////////////////////////
+
+[Screen]
+ID=122
+
+; Box - Error Box
+[TextBox]
+Picture=I_AP_ERROR_BOX
+Pos=75,140,490,216
+[/TextBox]
+
+; Icon - Info
+[TextBox]
+Picture=I_AP_ICON_INFO
+
+[/TextBox]
+[ImageListBox]
+Name=APValue1
+Pos=100,192,75,112
+ListSet=INFO,I_AP_ICON_ERR_INFO
+ListSet=STOP,I_AP_ICON_ERR_STOP
+ListSet=QUESTION,I_AP_ICON_ERR_QUESTION
+[/ImageListBox]
+
+; Message
+[TextBox]
+Pos=180,192,370,112
+Font=F_ApSubTitle
+Name=APValue4
+TextSet=1,LEFT,C_ApTextInBox
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;       123 Screen
+;////////////////////////////
+
+[Screen]
+ID=123
+Back=199900
+
+; Box - Thanks Box
+[TextBox]
+Picture=I_AP_THANKS_BOX
+Pos=75,140,490,216
+[/TextBox]
+
+; Icon - Thanks
+[TextBox]
+Picture=I_AP_ICON_THANKS
+Pos=285,150,65,96
+[/TextBox]
+
+; Message
+[TextBox]
+Pos=100,240,445,80
+Font=F_ApSubTitle
+Name=APValue4
+TextSet=1,CENTER,C_ApTextInBox
+[/TextBox]
+
+[/Screen]
+
+;////////////////////////////
+;       124 Screen
+;////////////////////////////
+
+[Screen]
+ID=124
+Back=199900
+
+; Sub Title
+[TextBox]
+Pos=45,107,550,90
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; insert card
+[AniBox]
+Pos=235,220,170,208
+Frame_1024_600=10,\1024_600\AP_Card_IC_,PNG
+[/AniBox]
+
+; CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=CANCEL
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       125 Screen
+;////////////////////////////
+
+[Screen]
+ID=125
+Back=199900
+
+; Sub Title
+[TextBox]
+Pos=45,107,550,60
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; IC Processing
+[AniBox]
+Pos=190,194,259,163
+Frame_1024_600=9,\1024_600\AP_Card_IC_Proc_,PNG
+[/AniBox]
+
+[/Screen]
+
+;////////////////////////////
+;       126 Screen
+;////////////////////////////
+
+[Screen]
+ID=126
+Back=199900
+
+; Icon
+[TextBox]
+Picture=I_AP_ICON_INFO
+Pos=35,12,50,64
+[/TextBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=31,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+Name=APValue2
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=49,97,543,70
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; F1
+[Button]
+Act=FSCMD,N,1
+ActKey=F1,1
+Font=F_ApButton
+Name=APValue4
+Pos=0,180,181,53
+Picture=I_AP_BUTTON_LEFT
+TextSet=0,CENTER,C_ApButton
+[/Button]
+
+; F2
+[Button]
+Act=FSCMD,N,2
+ActKey=F2,5
+Font=F_ApButton
+Name=APValue5
+Pos=460,180,181,53
+Picture=I_AP_BUTTON_RIGHT
+TextSet=0,CENTER,C_ApButton
+[/Button]
+
+; F3
+[Button]
+Act=FSCMD,N,3
+ActKey=F3,2
+Font=F_ApButton
+Name=APValue6
+Pos=0,266,181,53
+Picture=I_AP_BUTTON_LEFT
+TextSet=0,CENTER,C_ApButton
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,N,4
+ActKey=F4,6
+Font=F_ApButton
+Name=APValue7
+Pos=460,266,181,53
+Picture=I_AP_BUTTON_RIGHT
+TextSet=0,CENTER,C_ApButton
+[/Button]
+
+; F5
+[Button]
+Act=FSCMD,N,5
+ActKey=F5,3
+Font=F_ApButton
+Name=APValue8
+Pos=0,349,181,53
+Picture=I_AP_BUTTON_LEFT
+TextSet=0,CENTER,C_ApButton
+[/Button]
+
+; F6
+[Button]
+Act=FSCMD,N,6
+ActKey=F6,7
+Font=F_ApButton
+Name=APValue9
+Pos=460,349,181,53
+Picture=I_AP_BUTTON_RIGHT
+TextSet=0,CENTER,C_ApButton
+[/Button]
+
+; F7
+[Button]
+Act=FSCMD,N,7
+ActKey=F7,4
+Font=F_ApButton
+Name=APValue10
+Pos=0,425,181,53
+Picture=I_AP_BUTTON_LEFT
+TextSet=0,CENTER,C_ApButton
+[/Button]
+
+; CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=CANCEL
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       127 Screen
+;////////////////////////////
+
+[Screen]
+ID=127
+Back=199900
+
+; Sub Title
+[TextBox]
+Pos=45,107,550,60
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; Remove Your Card
+[AniBox]
+Pos=235,220,170,208
+Frame_1024_600=10,\1024_600\AP_Card_Take_,PNG
+[/AniBox]
+
+; CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=CANCEL
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       128 Screen
+;////////////////////////////
+
+[Screen]
+ID=128
+Back=199900
+
+; Box - Error Box
+[TextBox]
+Picture=I_AP_ERROR_BOX
+Pos=75,140,490,216
+[/TextBox]
+
+; Message
+[TextBox]
+Pos=140,192,390,112
+Font=F_ApSubTitle
+Name=APValue4
+TextSet=1,LEFT,C_ApTextInBox
+[/TextBox]
+
+; F7
+[Button]
+Act=FSCMD,N,YES
+ActKey=F7,4
+Picture=I_AP_BUTTON_YES_LEFT
+Pos=0,425,181,53
+[/Button]
+
+; F8
+[Button]
+Act=FSCMD,N,NO
+ActKey=F8,CANCEL,8
+Picture=I_AP_BUTTON_EXIT
+Pos=460,425,181,53
+TextSet=0,LEFT,C_ApBtn
+[/Button]
+
+[/Screen]
+
+
+; DCC - Selecting "currency - Local / Home" Screen
+;////////////////////////////
+;       135 Screen
+;////////////////////////////
+
+[Screen]
+ID=135
+Back=199904
+
+; Icon - Selection
+[TextBox]
+Picture=I_AP_ICON_FEE
+Pos=35,12,50,64
+[/TextBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=31,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApMainTitle
+Outline=1,C_ApOutline
+Name=APValue1
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=5,97,630,70
+Font=F_ApSubTitleSmall
+Outline=1,C_ApOutline
+Name=APValue2
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; 'Requested Amount'
+[TextBox]
+Pos=150,180,300,40
+Font=F_ApTextFee
+Name=APValue3
+TextSet=0,LEFT,C_ApTextFee
+[/TextBox]
+
+; Local Requested Amount - Value
+[TextBox]
+Pos=420,180,100,40
+Font=F_ApTextFee
+Name=APValue4
+TextSet=0,RIGHT,C_ApTextFee
+[/TextBox]
+
+; 'Surcharge Fee'
+[TextBox]
+Pos=150,210,300,40
+Font=F_ApTextFee
+Name=APValue5
+TextSet=0,LEFT,C_ApTextFee
+[/TextBox]
+
+; Local Surcharge Amount - Value
+[TextBox]
+Pos=420,210,100,40
+Font=F_ApTextFee
+Name=APValue6
+TextSet=0,RIGHT,C_ApTextFee
+[/TextBox]
+
+; 'Total Amount'
+[TextBox]
+Pos=150,240,300,40
+Font=F_ApTextFee
+Name=APValue7
+TextSet=0,LEFT,C_ApTextFee
+[/TextBox]
+
+; Local Total Amount - Value
+[TextBox]
+Pos=420,240,100,40
+Font=F_ApTextFee
+Name=APValue8
+TextSet=0,RIGHT,C_ApTextFee
+[/TextBox]
+
+; 'Exchange Rate'
+[TextBox]
+Pos=150,310,150,40
+Font=F_ApTextFee
+Name=APValue9
+TextSet=0,LEFT,C_ApTextFee
+[/TextBox]
+
+; Exchange Rate - Value
+[TextBox]
+Pos=320,310,200,40
+Font=F_ApTextFee
+Name=APValue10
+TextSet=0,RIGHT,C_ApTextFee
+[/TextBox]
+
+; 'Account Charge'
+[TextBox]
+Pos=150,340,160,40
+Font=F_ApTextFee
+Name=APValue11
+TextSet=0,LEFT,C_ApTextFee
+[/TextBox]
+
+; Account Charge(Home Currency) - Value
+[TextBox]
+Pos=320,340,200,40
+Font=F_ApTextFee
+Name=APValue12
+TextSet=0,RIGHT,C_ApTextFee
+[/TextBox]
+
+; F7
+[Button]
+Act=FSCMD,N,LOCALCURRENCY
+ActKey=F7,4
+Font=F_ApButtonSml
+Name=APValue17
+Pos=0,425,181,53
+Picture=I_AP_BUTTON_LEFT
+TextSet=1,CENTER,C_ApButton
+[/Button]
+
+; F8
+[Button]
+Act=FSCMD,N,HOMECURRENCY
+Font=F_ApButtonSml
+ActKey=F8,8
+Name=APValue18
+Pos=460,425,181,53
+Picture=I_AP_BUTTON_RIGHT
+TextSet=1,CENTER,C_ApButton
+[/Button]
+
+; CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=CANCEL
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+; Digital Receipt
+;////////////////////////////
+;       137 Screen
+;////////////////////////////
+
+[Screen]
+ID=137
+Back=199900
+
+; Back Image
+[TextBox]
+Picture=I_AP_BACK_QRCODE
+Pos=228,176,185,228
+[/TextBox]
+
+; QR Code
+[TranAdvBox]
+Pos=239,187,160,200
+[/TranAdvBox]
+
+; Icon
+[TextBox]
+Picture=I_AP_ICON_DIGITALRECEIPT
+Pos=35,12,50,64
+[/TextBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=31,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+TextID=137001
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=49,97,543,70
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+TextID=137002
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; F8, OK
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=F8,CANCEL,ENTER,4
+Font=F_ApButton
+Outline=1,C_ApOutline
+TextID=137F7
+Picture=I_AP_BUTTON_RIGHT
+Pos=460,425,181,53
+TextSet=0,CENTER,C_ApButton
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       138 Screen
+;////////////////////////////
+
+[Screen]
+ID=138
+Back=199900
+
+; Icon - List
+[ImageListBox]
+Name=APValue1
+Pos=35,12,50,64
+ListSet=RECEIPT,I_AP_ICON_RECEIPT
+ListSet=RECEIPT_ERR,I_AP_ICON_RECEIPT_ERR
+ListSet=QUESTION,I_AP_ICON_QUESTION
+ListSet=INFO,I_AP_ICON_INFO
+[/ImageListBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=32,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+Name=APValue2
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=49,97,543,70
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+Name=APValue3
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; F2
+[Button]
+Act=FSCMD,N,QRCODE
+ActKey=F2,5
+Name=APValue4
+Font=F_ApButton
+Outline=1,C_ApOutline
+Picture=I_AP_BUTTON_RIGHT
+Pos=460,180,181,53
+TextSet=1,CENTER,C_ApButton
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,N,YES
+ActKey=F4,6
+Name=APValue5
+Font=F_ApButton
+Outline=1,C_ApOutline
+Picture=I_AP_BUTTON_RIGHT
+Pos=460,266,181,53
+TextSet=1,CENTER,C_ApButton
+[/Button]
+
+; F8, CANCEL
+[Button]
+Act=FSCMD,N,EXIT
+ActKey=CANCEL
+[/Button]
+
+; F2 Button Icon
+[Button]
+Name=APState5
+Picture=I_AP_BUTTONICON_DIGITALRECEIPT
+Pos=460,186,31,40
+[/Button]
+
+; F4 Button Icon
+[Button]
+Picture=I_AP_BUTTONICON_NORECEIPT
+Pos=460,272,31,40
+[/Button]
+
+; Timeover
+[Button]
+Act=FSCMD,N,TIMEOVER
+ActKey=TIMEOVER
+[/Button]
+
+[/Screen]
+
+;////////////////////////////
+;       200 Screen
+;////////////////////////////
+
+[Screen]
+ID=200
+Back=199900
+
+; Icon - Question
+[TextBox]
+Picture=I_AP_ICON_QUESTION
+Pos=35,12,50,64
+[/TextBox]
+
+; Line
+[TextBox]
+Picture=I_AP_TOP_LINE
+Pos=31,79,575,1
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=86,38,522,42
+Font=F_ApTitle
+Outline=1,C_ApOutline
+TextID=200001
+TextSet=0,LEFT,C_ApTitle
+[/TextBox]
+
+; Sub Title
+[TextBox]
+Pos=49,180,409,140
+Font=F_ApSubTitle
+Outline=1,C_ApOutline
+TextID=200002
+TextSet=1,CENTER,C_ApSubTitle
+[/TextBox]
+
+; F2
+[Button]
+Act=FSCMD,N,YES
+ActKey=F2,5
+Picture=I_AP_BUTTON_YES
+Pos=460,180,181,53
+[/Button]
+
+; F4
+[Button]
+Act=FSCMD,N,NO
+ActKey=F4,6
+Picture=I_AP_BUTTON_NO
+Pos=460,266,181,53
+[/Button]
+
+[/Screen]
+
+;///////////////////////////////
+;   ADVERTISEMENT SCREEN #1
+;        30011 Screen
+;//////////////////////////////
+
+[Screen]
+ID=30011
+
+[AdvBox]
+Pos=0,0,640,480
+Name=APValue1
+[/AdvBox]
+
+[/Screen]
+
+;///////////////////////////////
+;   ADVERTISEMENT SCREEN #2
+;        30012 Screen
+;//////////////////////////////
+
+[Screen]
+ID=30012
+
+[AdvBox]
+Pos=0,0,640,480
+Name=APValue1
+[/AdvBox]
+
+[/Screen]
+
+;///////////////////////////////
+;   ADVERTISEMENT SCREEN #3
+;        30013 Screen
+;//////////////////////////////
+
+[Screen]
+ID=30013
+
+[AdvBox]
+Pos=0,0,640,480
+Name=APValue1
+[/AdvBox]
+
+[/Screen]
+
+;///////////////////////////////
+;   ADVERTISEMENT SCREEN #4
+;        30014 Screen
+;//////////////////////////////
+
+[Screen]
+ID=30014
+
+[AdvBox]
+Pos=0,0,640,480
+Name=APValue1
+[/AdvBox]
+
+[/Screen]
+
+;///////////////////////////////
+;   ADVERTISEMENT SCREEN #5
+;        30015 Screen
+;//////////////////////////////
+
+[Screen]
+ID=30015
+
+[AdvBox]
+Pos=0,0,640,480
+Name=APValue1
+[/AdvBox]
+
+[/Screen]
+
+;///////////////////////////////
+;   ADVERTISEMENT SCREEN #6
+;        30016 Screen
+;//////////////////////////////
+
+[Screen]
+ID=30016
+
+[AdvBox]
+Pos=0,0,640,480
+Name=APValue1
+[/AdvBox]
+
+[/Screen]
+
+;///////////////////////////////
+;   NOTICE SCREEN
+;   30101 Screen
+;//////////////////////////////
+
+[Screen]
+ID=30101
+Back=199900
+
+; Box - Notice Box
+[TextBox]
+Picture=I_AP_NOTICE_BOX
+Pos=6,53,627,372
+[/TextBox]
+
+; Title
+[TextBox]
+Pos=78,92,531,30
+Font=F_ApNoticeTitle
+Name=APValue1
+TextSet=0,LEFT,C_ApNoticeTitle
+[/TextBox]
+
+; Message
+[TextBox]
+Pos=25,222,587,91
+Font=F_ApNoticeMsg
+Name=APValue2
+TextSet=1,LEFT,C_ApNoticeMsg
+[/TextBox]
+
+[AdvBox]
+Pos=0,0,640,480
+Name=APValue1
+[/AdvBox]
+
+[/Screen]
