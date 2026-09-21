@@ -4,6 +4,20 @@
 정리한 것입니다. 새 세션을 시작할 때 이 파일을 먼저 읽으면 이전 세션에서 어떤 작업이
 있었는지, 어떤 규칙을 지켜야 하는지 알 수 있습니다.
 
+## 0. 최근 세션 인계 사항 (Handoff)
+
+- **로컬 PC / 클라우드 세션 작업 환경**은 `WORKSPACE.md`에 정리되어 있다. 새 세션을
+  시작하면 이 파일도 함께 읽을 것. 요지:
+  - 로컬 PC 작업 경로: `E:\01_SK.Kim\01.Claude_Project\WinCE_Software_Win32Support`
+  - 클라우드 세션은 매번 새로 clone되는 별도의 임시 컨테이너이며, **로컬 PC 파일 시스템에
+    직접 접근할 수 없다.** 로컬 PC와 클라우드 세션은 오직 git 원격(origin, GitHub)을 통해서만
+    동기화된다 — 한쪽에서 작업한 내용은 반드시 push해야 다른 쪽에서 받아볼 수 있다.
+- **열려 있는 PR**: [#1 Add WORKSPACE.md documenting shared local PC / cloud repo layout](https://github.com/jysk1121/MFS_WinCE_To_Win32_Porting-Project/pull/1)
+  — 브랜치 `claude/apply-claude-md-mm4gfe` → `main`, `WORKSPACE.md` 추가만 포함(`mergeable_state: clean`).
+  새 세션에서 이어갈 때 이 PR의 CI/리뷰 상태를 먼저 확인할 것.
+- 코드 변경(기능 구현)은 이번 세션에서 진행하지 않았다. 다음에 착수할 작업은 5절 참고
+  (특히 5.1 TDL/DCC는 "전체 구현 vs. 단계적 구현" 결정이 선행되어야 함).
+
 ## 1. 프로젝트 개요
 
 - **코드베이스**: Nexcom/Eagle ATM 펌웨어. C++/MFC, **WinCE 6.0**(ICM_3011, ARMv4I 실장비)과
@@ -71,6 +85,8 @@
 8. **한글 주석 대규모 복원**: 여러 파일에서 인코딩 오판으로 깨졌던 한글 주석을 참고 트리와의
    diff로 복원. 일부(약 100여 자)는 원본과 다르게 수정된 라인이라 영구 복구 불가하여 `?`로
    남아있음.
+9. **`WORKSPACE.md` 추가**: 로컬 PC와 클라우드 세션이 동일 git 원격을 공유하는 구조와 각
+   환경의 경로를 문서화. PR #1로 오픈됨 (0절 참고).
 
 ## 5. 미해결 / 진행 중인 작업
 
