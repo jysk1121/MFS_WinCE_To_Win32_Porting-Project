@@ -108,8 +108,8 @@ UTF-8 가정 도구로 건드리면 한글 주석이 깨집니다(U+FFFD).
     - `core.autocrlf=false`로 커밋하여 CP949/CRLF 소스를 바이트 그대로 저장.
     - `Reference/`의 개인키·`.pfx`를 포함해 공개 저장소에 올라갔음(사용자 결정). 실제 운영 키라면
       폐기·재발급 필요.
-    - 원격에 `workspace-full-sync`(= `main`과 같은 스냅샷, 중복)와 `claude/apply-claude-md-mm4gfe`(옛
-      구조 기준 PR #1) 브랜치가 남아 있음.
+    - 통합 중 임시로 올렸던 `workspace-full-sync` 브랜치(= `main`과 같은 스냅샷)는 삭제함. 원격에는
+      `main`과 `claude/apply-claude-md-mm4gfe`(옛 구조 기준 PR #1)만 남아 있음.
     - 루트 `CLAUDE.md` 추가 및 이 문서의 경로/구조 설명 갱신.
 
 ## 4. 미해결 / 보류 중인 작업
@@ -132,7 +132,7 @@ UTF-8 가정 도구로 건드리면 한글 주석이 깨집니다(U+FFFD).
 - prebuilt DLL을 git 히스토리에서 빼고 GitHub Releases 등으로 옮기는 것 — 제안만 했고
   아직 실행 안 함 (curl 버전 업그레이드 시점에 같이 고려하기로 함).
 - 공개 저장소에 포함된 개인키/인증서(`Nexcom/`, `Reference/`)의 폐기·재발급 여부 — 사용자 판단 대기.
-- 원격의 중복 브랜치 `workspace-full-sync` 정리, PR #1(옛 구조 기준) 처리 — 미결정.
+- PR #1(`claude/apply-claude-md-mm4gfe`, 옛 구조 기준) 처리 — 미결정.
 
 ## 5. 핵심 파일 위치 요약
 

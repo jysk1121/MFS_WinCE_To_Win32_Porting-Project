@@ -42,8 +42,7 @@
 - `main`의 히스토리는 `0e108c2`, `ce77312`(옛 구조: Nexcom 내용이 루트) → `a382f82`(현재 구조:
   `Nexcom/`, `Reference/`, `PROJECT_CONTEXT.md`가 루트)로 이어집니다. 옛 커밋의 경로는 루트 기준이므로
   옛 파일 이력을 볼 때는 `git log --follow`를 사용하세요.
-- 원격에 `workspace-full-sync`(현재 `main`과 같은 스냅샷)와 `claude/apply-claude-md-mm4gfe`(옛 구조 기준
-  PR #1) 브랜치가 남아 있습니다.
+- 원격에는 `main` 외에 `claude/apply-claude-md-mm4gfe`(옛 구조 기준 PR #1) 브랜치만 남아 있습니다.
 - 개인키/인증서(`*.pem`, `*.pfx`)가 `Nexcom/`과 `Reference/` 양쪽에 **사용자 지시로 의도적으로 포함**돼
   있습니다. 새로 추가하거나 다른 곳에 옮기지 말고, 실제 운영 키라면 폐기·재발급을 사용자에게 권합니다.
 - 로컬 작업 폴더에는 예전 Nexcom 독립 저장소의 백업(`_backup_Nexcom_git/`)이 있지만 git에는 올라가지 않습니다.
