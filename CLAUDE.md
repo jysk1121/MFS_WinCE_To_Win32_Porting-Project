@@ -68,6 +68,27 @@ Claude(Claude Code, Claude 웹)가 새 세션에서 작업을 이어갈 때 이 
 | ARM(WinCE) prebuilt DLL (canonical) | `Nexcom/DLL_CE/` |
 | 빌드 후처리 스크립트 | `Nexcom/BuildFiles/PostBuild_Win32.cmd`, `BuildScript.bat`, `BuildScript_here.bat` |
 
+### 빌드 검증 상태 (2026-09-21 기준)
+
+VS 2008(9.0)로 `Nexcom/EagleCE_ATM/EagleCE_ATM.sln`을 전체 재빌드(`/Rebuild`)한 결과입니다.
+
+| 구성 | 결과 |
+|---|---|
+| Win32 Debug / Win32 Release | 성공 (오류 0, 경고 0). `SW_Monitor`, `Terminate_EagleCE`, `SoftwareUpdate`는 Win32 구성 대상이 아니라 생략됨 |
+| ARM(`ICM_3011 (ARMv4I)`) Release | 성공 (9개 프로젝트, 코드 서명 후처리 포함. 경고는 LNK4221·D9002만) |
+| ARM(`ICM_3011 (ARMv4I)`) Debug | **기존부터 빌드 실패이며 사용하지 않는다. 고치지 않는다** |
+
+- 검증 명령 예: `devenv.com EagleCE_ATM.sln /Rebuild "Debug|Win32" /Out build.log`
+  (`C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\devenv.com`, 로그는 한글).
+- Win32 후처리(`PostBuild_Win32.cmd`)는 출력 폴더 안에서만 복사하므로 저장소를 더럽히지 않습니다.
+- ⚠️ **ARM Release 후처리(`BuildScript.bat`)는 `Nexcom/SoftwarePackage/`를 만들고 `MFS_CA_CERT.pfx`로 코드
+  서명합니다.** 저장소를 어지럽히지 않으려면 작업 폴더가 아닌 복사본에서 빌드하세요.
+- ARM Debug 실패 원인(참고용, 수정 불필요): `EagleCE_Screen`은 Debug 구성에서 프리컴파일 헤더가 꺼져
+  있어(`UsePrecompiledHeader=0`) `Template\ReadiniFile.cpp`가 `stdafx.h`를 못 찾고(C1083),
+  `MFS_EJL_WEC7`은 `atlconv.h`에서 `ATL::lstrlenW`를 못 찾습니다(C2039). `SoftwareUpdate`와
+  `EagleCE_ATM`의 링크 오류(LNK1181)는 이 둘의 `.lib`가 없어서 생긴 연쇄 오류입니다.
+- 컴파일·링크만 확인했으며, 시뮬레이터를 실제로 실행해 동작을 확인한 것은 아닙니다.
+
 ## 4. 완료한 작업 이력
 
 이전 로컬 Claude Code 세션들에서 완료한 작업입니다.
