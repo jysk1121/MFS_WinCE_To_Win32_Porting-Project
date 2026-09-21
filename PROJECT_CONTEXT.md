@@ -1,12 +1,15 @@
 # Nexcom / Eagle ATM — WinCE → Win32 Porting 작업 컨텍스트
 
-이 문서는 Claude Code(터미널/로컬 세션)에서 진행한 작업 내용을 Claude 웹(claude.ai)에서
-이어서 진행할 수 있도록 정리한 것입니다. 새 대화 맨 위에 이 파일 내용을 붙여넣고 시작하세요.
+이 문서는 Claude Code(터미널/로컬 세션)에서 진행한 작업 내용의 요약본입니다. 다른 세션(Claude 웹
+포함)에서 맥락을 다시 설명하지 않고 이어가기 위한 참고 자료입니다.
 
-> 주의: 이 세션은 로컬 파일시스템(`D:\01_Works\103_Claude_Tool\Win32_Software`)에 직접
-> 접근하는 로컬 세션이라 Claude 웹으로 "그대로 이어가기"는 불가능합니다. 이 문서는 그 대안으로,
-> 웹에서 새로 대화를 시작할 때 맥락을 다시 설명하지 않아도 되도록 만든 요약본입니다.
-> 실제 코드를 다시 편집하려면 결국 로컬 파일에 접근 가능한 Claude Code 세션이 필요합니다.
+> 이 저장소의 **현재 구조와 작업 규칙은 루트 `CLAUDE.md`(및 `Nexcom/CLAUDE.md`)가 기준**입니다.
+> 이 문서는 작업 이력과 미해결 과제를 담은 보조 자료이며, 둘이 충돌하면 `CLAUDE.md`를 따르세요.
+>
+> - claude.ai/code에서 이 GitHub 저장소를 연결하면 `CLAUDE.md`가 자동으로 로드되어, 코드 편집을
+>   포함한 작업을 그대로 이어갈 수 있습니다.
+> - 저장소 접근이 없는 일반 claude.ai 채팅에서는 `CLAUDE.md`와 이 문서의 내용을 대화 맨 위에
+>   붙여넣고 시작하세요. 이 경우 코드는 직접 편집할 수 없습니다.
 
 ---
 
@@ -16,11 +19,14 @@
   **Win32 데스크톱 시뮬레이터**를 동시에 지원하는 듀얼 타깃 빌드.
 - 타깃 분기는 `_WIN32_WCE` 매크로와 `Eagle_Common_Define.h`의 `EMULATION_xxx_DEVICE` 계열
   매크로로 제어됨.
-- 저장소 루트: `D:\01_Works\103_Claude_Tool\Win32_Software\Nexcom`
-- 참고(비교용, git에는 미포함) 소스 트리:
+- **저장소 루트**: `WinCE_Software_Win32Support/` (원격
+  `https://github.com/jysk1121/MFS_WinCE_To_Win32_Porting-Project.git`, 기본 브랜치 `main`).
+  - `Nexcom/` — 작업 대상 소스 전체. 아래 문서의 `Nexcom/...` 경로는 저장소 루트 기준입니다.
+  - `Reference/WinCE60_US_TangoPay/` — TDL/DCC 기능 분석 시 참고한 별도 구현체(읽기 전용, git에 포함됨).
+  - `CLAUDE.md`, `PROJECT_CONTEXT.md` — 세션 인수인계용 문서.
+- git에 **포함되지 않은** 옛 참고 트리(로컬에만 존재했음):
   - `WinCE_Software/Nexcom` — 예전 원본 참고 트리
   - `Nexcom_org` — 한글 주석 복원 시 사용한 "손상되지 않은" 기준 트리
-  - `WinCE60_US_TangoPay` — TDL/DCC 기능 분석 시 참고한 별도 구현체
 
 ## 2. ⚠️ 최우선 규칙 — 소스 인코딩 (CP949)
 
@@ -84,21 +90,33 @@ UTF-8 가정 도구로 건드리면 한글 주석이 깨집니다(U+FFFD).
     올바른 CP949 한글 필터명으로 복원.
 13. **Nexcom 전체 소스의 한글 주석 대규모 복원** — `Nexcom_org` 기준 트리와 diff하여 22개 파일,
     약 19,883자 복원(약 150자는 코드가 함께 바뀐 부분이라 영구 복구 불가, `?`로 대체).
-14. **Git 저장소 초기화 및 업로드**:
-    - `Nexcom` 폴더만 대상으로 git init (`WinCE_Software`, `Nexcom_org` 등 참고 트리는 제외).
+14. **Git 저장소 초기화 및 업로드** (초기 구조, 커밋 `0e108c2`·`ce77312`):
+    - 처음에는 `Nexcom` 폴더만 대상으로 git init (당시 저장소 루트 = Nexcom 내용, 참고 트리는 제외).
     - `.gitignore` 작성 (`.claude/`, 빌드 산출물, IDE 상태 파일 등 제외; **개인키/인증서는
-      사용자 지시에 따라 그대로 포함**).
-    - 최초 업로드: `https://github.com/jysk1121/MFS.git`
-    - 이후 원격지를 교체: **현재 origin = `https://github.com/jysk1121/MFS_WinCE_To_Win32_Porting-Project.git`**
+      사용자 지시에 따라 그대로 포함**). 현재는 `Nexcom/.gitignore`로 위치가 바뀜.
+    - 최초 업로드: `https://github.com/jysk1121/MFS.git` → 이후 원격지를 교체하여
+      **현재 origin = `https://github.com/jysk1121/MFS_WinCE_To_Win32_Porting-Project.git`**
       (사용자가 "origin을 이 저장소로 교체" 옵션 선택, 완료됨). MFS.git 쪽 저장소 이름이
       바뀐 것처럼 보였던 것은 실제 rename이 아니라 다른 URL/탭을 보고 있었을 가능성이 높음
       (git 명령으로는 원격 저장소 이름을 바꿀 수 없음 — GitHub 소유자가 UI/API로만 가능).
+15. **워크스페이스 전체를 하나의 저장소로 통합** (커밋 `a382f82`, 이후 `5051663`):
+    - 상위 폴더(`WinCE_Software_Win32Support`)를 저장소 루트로 삼아 `Nexcom/`, `Reference/`,
+      `PROJECT_CONTEXT.md`를 함께 추적. Nexcom 안의 독립 `.git`은 로컬 `_backup_Nexcom_git/`으로
+      옮겨 보관(git 미포함).
+    - 기존 `main` 히스토리를 보존하는 fast-forward 커밋으로 구조를 변경(강제 push 없음). 옛 커밋의
+      경로는 루트 기준이므로 옛 파일 이력은 `git log --follow`로 추적.
+    - `core.autocrlf=false`로 커밋하여 CP949/CRLF 소스를 바이트 그대로 저장.
+    - `Reference/`의 개인키·`.pfx`를 포함해 공개 저장소에 올라갔음(사용자 결정). 실제 운영 키라면
+      폐기·재발급 필요.
+    - 원격에 `workspace-full-sync`(= `main`과 같은 스냅샷, 중복)와 `claude/apply-claude-md-mm4gfe`(옛
+      구조 기준 PR #1) 브랜치가 남아 있음.
+    - 루트 `CLAUDE.md` 추가 및 이 문서의 경로/구조 설명 갱신.
 
 ## 4. 미해결 / 보류 중인 작업
 
 ### 4.1 TDL(Triton Data Link) 기반 DCC(Dynamic Currency Conversion) 거래 지원
 - **분석만 완료, 코드는 전혀 작성하지 않음.**
-- `WinCE60_US_TangoPay`의 TDL 구현을 참고. Triton STD3 프로토콜의 `q` 접두 FID
+- `Reference/WinCE60_US_TangoPay`의 TDL 구현을 참고. Triton STD3 프로토콜의 `q` 접두 FID
   (`qa`=TIR surcharge, `qc`=DCC)를 사용한 중첩 TLV 블록 처리가 필요.
 - 사용자에게 확인 필요한 사항:
   1. 전체 기능을 한번에 구현할지(약 2,300줄, 1.5~2주), 단계적으로 할지
@@ -113,6 +131,8 @@ UTF-8 가정 도구로 건드리면 한글 주석이 깨집니다(U+FFFD).
 - curl 최신 버전 업그레이드 — 보류 중(사용자 요청).
 - prebuilt DLL을 git 히스토리에서 빼고 GitHub Releases 등으로 옮기는 것 — 제안만 했고
   아직 실행 안 함 (curl 버전 업그레이드 시점에 같이 고려하기로 함).
+- 공개 저장소에 포함된 개인키/인증서(`Nexcom/`, `Reference/`)의 폐기·재발급 여부 — 사용자 판단 대기.
+- 원격의 중복 브랜치 `workspace-full-sync` 정리, PR #1(옛 구조 기준) 처리 — 미결정.
 
 ## 5. 핵심 파일 위치 요약
 
@@ -137,6 +157,6 @@ UTF-8 가정 도구로 건드리면 한글 주석이 깨집니다(U+FFFD).
 - 위험하거나 되돌리기 어려운 git 작업(강제 push, 원격 교체 등)은 사전에 확인받고 진행.
 
 ---
-*이 문서는 로컬 Claude Code 세션에서 자동 생성되었습니다. 최신 상태는 git 저장소
-(`https://github.com/jysk1121/MFS_WinCE_To_Win32_Porting-Project.git`)와 로컬 소스 트리를
-기준으로 하며, 이 문서 자체는 요약본이므로 세부 구현은 실제 코드를 참조하세요.*
+*이 문서는 로컬 Claude Code 세션에서 작성·갱신한 요약본입니다. 최신 상태는 git 저장소
+(`https://github.com/jysk1121/MFS_WinCE_To_Win32_Porting-Project.git`, `main`)를 기준으로 하며,
+세부 구현은 실제 코드를, 현재 구조와 규칙은 루트 `CLAUDE.md`를 참조하세요.*
